@@ -1,0 +1,23 @@
+media_queries:
+  mobile: 'max-width: 576px'
+  tablet: 'min-width: 576px'
+  laptop: 'min-width: 992px'
+  desktop: 'min-width: 1200px'
+
+presets:
+  default:
+    formats: [webp, original] # Order matters!
+    widths: [375, 576, 640, 750, 768, 1080, 1152, 1200, 1366, 1440, 1536, 1920]
+    dimension_attributes: true
+
+  thumb:
+    formats: [webp, original] # Order matters!
+    widths: [334, 349, 454, 634, 668, 698, 908, 1268]
+    dimension_attributes: true
+    sizes:
+      mobile: calc(100vw - 24px - 2px)
+      tablet: calc(50vw - 24px - 2px)
+      desktop: 634px
+    crop: '2:1'
+    attributes:
+      img: 'class="img-fluid" alt="" loading="lazy"'

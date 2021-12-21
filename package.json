@@ -1,0 +1,21 @@
+{
+  "name": "bordeauxmontaigne-iut",
+  "version": "1.0.0",
+  "repository": "https://github.com/noesya/bordeauxmontaigne-iut",
+  "author": "noesya",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack --watch --mode=development",
+    "build": "./node_modules/.bin/webpack | JEKYLL_ENV=production bundle exec jekyll build",
+    "start": "./node_modules/.bin/webpack --watch --mode=development | bundle exec jekyll serve --livereload"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

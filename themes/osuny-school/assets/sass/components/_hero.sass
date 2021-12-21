@@ -1,0 +1,41 @@
+.hero
+    align-items: flex-end
+    background-color: var(--color)
+    background-image: url(/assets/images/glyph.svg)
+    background-position: right
+    background-repeat: no-repeat
+    background-size: auto 100%
+    color: $white
+    display: flex
+    height: 450px
+    margin-bottom: $grid-gutter-width * 2.5
+    overflow: hidden
+    padding-bottom: $grid-gutter-width * 2.5
+    position: relative
+    &__image
+        filter: blur(16px)
+        height: 100%
+        left: 0
+        object-fit: cover
+        opacity: .2
+        position: absolute
+        top: 0
+        width: 100%
+        .layout-home &
+            filter: none
+    &__nav
+        align-items: flex-start
+        display: flex
+        flex-direction: column
+        @include media-breakpoint-down(md)
+            nav
+                margin-left: -$grid-gutter-width/2
+                width: calc(100% + #{$grid-gutter-width})
+            .btn
+                margin-top: $grid-gutter-width
+        @include media-breakpoint-up(md)
+            align-items: baseline
+            flex-direction: row
+            justify-content: space-between
+    .container
+        position: relative

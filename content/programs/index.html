@@ -1,0 +1,43 @@
+---
+layout: default
+permalink: /programmes
+color: "#CA0051"
+title: L’offre de formation
+description: >
+  Découvrez toute l’offre de formation de l’IUT
+---
+
+<div class="container">
+  {% assign programs = site.programs | where_exp: "item", "item.parent != nil" | where: "parent", "" | sort: "position" %}
+  {% include programs.html programs=programs level=1 %}
+</div>
+
+{% comment %}
+{% assign parent = "" %}
+<div class="container">
+  {% for program in programs %}
+    {% assign parent = program.parent | strip %}
+
+    {% if parent != "" %}
+      {% if forloop.index0 != 0  %}
+        </div>
+      {% endif %}
+      <h2><a href="{{ program.url }}">{{ program.title }}</a></h2>
+      <div class="row row-cols-1 row-cols-md-2">
+    {% else %}
+      <div class="col">
+        {% include article.html
+            url = program.permalink
+            title = program.title
+            description = program.description
+            %}
+      </div>
+    {% endif %}
+
+    {% if forloop.last  %}
+      </div>
+    {% endif %}
+
+  {% endfor %}
+</div>
+{% endcomment %}

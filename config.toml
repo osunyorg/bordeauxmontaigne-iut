@@ -1,0 +1,4 @@
+baseURL = 'https://www.iut.u-bordeaux-montaigne.fr/'
+languageCode = 'fr-FR'
+title = "IUT Bordeaux Montaigne"
+theme = "osuny-school"
