@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{- partial "hero.html" . -}}
+  <div class="container">
+    {% assign programs = site.programs | where_exp: "item", "item.parent != nil" | where: "parent", "" | sort: "position" %}
+    {% include programs.html programs=programs level=1 %}
+  </div>
+{{ end }}
