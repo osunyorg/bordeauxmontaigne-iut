@@ -18,7 +18,25 @@
             {{ end }}
           </div>
         {{ else }}
-          {{ partial "articles.html" .children }}
+          <div class="row row-cols-1 row-cols-md-2">
+            {{ range .children }}
+              {{ if and .target (not (eq .kind "url")) }}
+                {{ $page := "" }}
+                {{ $target := .target }}
+                {{ range site.Pages }}
+                  {{ $pageTarget := strings.TrimSuffix "/" .RelPermalink }}
+                  {{ if eq $pageTarget $target }}
+                    {{ $page = . }}
+                  {{ end }}
+                {{ end }}
+                {{ if $page }}
+                  <div class="col">
+                    {{ partial "article.html" $page }}
+                  </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
         {{ end }}
       </section>
     {{ end }}

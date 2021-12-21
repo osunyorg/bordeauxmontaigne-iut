@@ -40,7 +40,7 @@
     kind: page
     children: []
 - title: Offre de formation
-  target: 
+  target:
   kind: blank
   children:
   - title: Bachelor Universitaire de Technologie (B.U.T.)
@@ -84,7 +84,7 @@
       kind: programs
       children: []
   - title: Diplômes Universitaires (DU)
-    target: 
+    target:
     kind: blank
     children:
     - title: Gestion et animation de ludothèque
@@ -97,7 +97,7 @@
       children: []
   - title: Licences professionnelles
     target: "/offre-de-formation/licences-pro"
-    kind: 
+    kind:
     children:
     - title: Communication éditoriale et digitale
       target: "/offre-de-formation/licences-pro/licence-pro-communication-editoriale-et-digitale"
@@ -129,7 +129,7 @@
       children: []
   - title: Masters professionnels
     target: "/offre-de-formation/master"
-    kind: 
+    kind:
     children:
     - title: Inénierie de l'animation territoriale
       target: "/offre-de-formation/master/master-pro-ingenierie-de-lanimation-territoriale"
