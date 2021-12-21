@@ -4,7 +4,6 @@
       {{ $page := site.GetPage .target }}
       {{ if $page }}
         <div class="col">
-          {{ $page.title }}
           {{ partial "article.html" $page }}
         </div>
       {{ end }}
