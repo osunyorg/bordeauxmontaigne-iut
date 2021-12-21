@@ -1,4 +1,3 @@
-baseURL = 'https://www.iut.u-bordeaux-montaigne.fr/'
-languageCode = 'fr-FR'
 title = "IUT Bordeaux Montaigne"
+languageCode = 'fr-FR'
 theme = "osuny-school"
