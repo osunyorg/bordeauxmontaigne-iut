@@ -2,5 +2,6 @@ title: "IUT Bordeaux Montaigne"
 languageCode: 'fr-FR'
 theme: "osuny-school"
 
+paginate: 12
 permalinks:
   posts: /actualites/:year/:month/:day/:slug/
