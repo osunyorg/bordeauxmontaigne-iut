@@ -1,5 +1,26 @@
 {{ define "main" }}
-<div id="home-jumbotron" class="jumbotron text-center">
-  <h1 class="title">{{ .Site.Title }}</h1>
-</div>
+  {{ partial "hero.html" . }}
+  <div class="container">
+    {{- range site.Data.menus.primary -}}
+      <section class="mb-6">
+        <div class="top">
+          <h2><a href="{{ .target }}">{{ .title }}</a></h2>
+          {{ if or (eq .kind "news") (eq .kind "programs") }}
+            <a href="{{ .target }}" class="link link--more">En savoir plus</a>
+          {{ end }}
+        </div>
+        {{ if eq .kind "news" }}
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
+            {{ range (where site.RegularPages "Type" "posts" | first 6) }}
+              <div class="col">
+                {{ partial "post.html" . }}
+              </div>
+            {{ end }}
+          </div>
+        {{ else }}
+          {{ partial "articles.html" .children }}
+        {{ end }}
+      </section>
+    {{ end }}
+  </div>
 {{ end }}

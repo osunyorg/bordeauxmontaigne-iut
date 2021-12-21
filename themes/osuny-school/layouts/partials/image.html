@@ -1,0 +1,9 @@
+{{ if .image }}
+  {{ $directory := slicestr .image 0 2 }}
+  {{ $image := index (index site.Data.media $directory) .image }}
+  {{ if $image }}
+    <picture>
+      <img src="{{ $image.url }}" class="{{ .class }}">
+    </picture>
+  {{ end }}
+{{ end }}

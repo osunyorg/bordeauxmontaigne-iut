@@ -1,4 +1,4 @@
 <!-- CSS -->
-{{ $cssOpts := (dict "targetPath" "styles/main.css" "enableSourceMap" true ) }}
+{{ $cssOpts := (dict "targetPath" "assets/css/main.css" "enableSourceMap" true ) }}
 {{ $styles := resources.Get "sass/main.sass" | toCSS $cssOpts | postCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
