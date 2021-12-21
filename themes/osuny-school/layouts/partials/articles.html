@@ -1,0 +1,13 @@
+<div class="row row-cols-1 row-cols-md-2">
+  {{ range . }}
+    {{ if and .target (not (eq .kind "url")) }}
+      {{ $page := site.GetPage .target }}
+      {{ if $page }}
+        <div class="col">
+          {{ $page.title }}
+          {{ partial "article.html" $page }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
