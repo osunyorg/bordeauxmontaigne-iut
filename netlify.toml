@@ -3,4 +3,6 @@
   publish = "public"
 
 [build.environment]
+  NODE_VERSION = "16.13.1"
+  YARN_VERSION = "1.22.17"
   HUGO_VERSION = "0.91.0"
