@@ -147,14 +147,19 @@ biography: >
 
 Le rendu se fait avec les layouts authors/list.html et authors/term.html.
 
+## Formations
+
+
+
 ## SEO
 
 Attention, à l'heure actuelle on utilise l'image originale pour le SEO, il faut utiliser une image redimensionnée.
 
 ## Breadcrumb
 
-Rien à signaler
+Rien à signaler, tout fonctionne avec un partial.
 
 ## Menu
 
-Mettre des trailing slashs partout.
+Attention, mettre des trailing slashs partout.
+Si les liens sont externes, mettre un target blank.
