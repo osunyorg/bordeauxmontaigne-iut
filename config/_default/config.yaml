@@ -4,5 +4,7 @@ theme: "osuny-school"
 paginate: 18
 permalinks:
   posts: /actualites/:year/:month/:day/:slug/
-  persons: /equipe/:slug/
+  authors: /auteurs/:slug/
   categories: /actualites/categories/:slug/
+taxonomies:
+  author: "authors"

@@ -6,12 +6,11 @@
           "context" .
         ) -}}
   <div class="container">
-    <h2>Enseignants</h2>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
     {{ range .Pages }}
       <div class="col">
         <div class="card mb-5">
-          <h3 class="mb-2">{{ .Params.first_name }} {{ .Params.last_name }}</h3>
+          <h2 class="mb-2">{{ .Params.first_name }} {{ .Params.last_name }}</h2>
           {{ if .Params.biography }}
             <p class="mb-2">{{ truncate 50 .Params.biography }}</p>
           {{ end }}

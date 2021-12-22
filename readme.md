@@ -114,12 +114,41 @@ description: >
 
 Quid des catégories nested? A tester.
 
+## Auteurs
+
+Les auteurs sont déclarés comme une taxonomie dans le fichier de config :
+
+
+Les contenus sont organisés comme les catégories :
+```
+content
+└───authors
+│   │   _index.html
+│   └───justin-puyo/_index.html
+│   ...
+```
+
+Chaque auteur est défini de cette façon, attention à mettre le prénom avant le nom :
+```
+---
+title: "Justin Puyo"
+slug: "justin-puyo"
+first_name: "Justin"
+last_name: "Puyo"
+biography: >
+  Lorem ipsum dolor sit amet
+---
+```
+
+Le rendu se fait avec les layouts authors/list.html et authors/term.html.
 
 ## SEO
 
 Attention, à l'heure actuelle on utilise l'image originale pour le SEO, il faut utiliser une image redimensionnée.
 
 ## Breadcrumb
+
+Rien à signaler
 
 ## Menu
 
