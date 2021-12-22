@@ -149,7 +149,49 @@ Le rendu se fait avec les layouts authors/list.html et authors/term.html.
 
 ## Formations
 
+Les formations sont gérées en sections Hugo, ce qui permet de les lister en arbre.
+```
+content
+└───programs/_index.html
+│   └───bachelor-universitaire-de-technologie/_index.html
+│       └───carrieres-sociales/_index.html
+│           └───parcours-animation-sociale-et-socioculturelle/_index.html
+```
 
+La position est maintenue dans le frontmatter, pour trier les formations d'un même niveau.
+
+```
+---
+title: "BUT Animation sociale et socioculturelle"
+url: /programmes/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/
+continuing: false
+level: bachelor
+ects:
+position: 1
+accessibility: >
+
+contacts: >
+   <strong>Responsable pédagogique : </strong><br>Francesca Lynn...
+duration: >
+
+evaluation: >
+
+objectives: >
+  Le parcours « Animation sociale et socioculturelle » forme des futurs professionnels ...
+opportunities: >
+  Le B.U.T. peut déboucher sur une insertion professionnelle ou sur une poursuite ...
+other: >
+
+pedagogy: >
+  Les 3 années du programme national comportent 1800 heures de formation sur 6 semestres, ...
+prerequisites: >
+   La formation est ouverte aux élèves de terminale (toutes spécialités), aux titulaires ...
+pricing: >
+
+registration: >
+
+---
+```
 
 ## SEO
 

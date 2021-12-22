@@ -1,11 +1,11 @@
-title: "IUT Bordeaux Montaigne"
-languageCode: "fr-FR"
-theme: "osuny-school"
+title: IUT Bordeaux Montaigne
+languageCode: fr-FR
+theme: osuny-school
 paginate: 18
 permalinks:
-  posts: /actualites/:year/:month/:day/:slug/
   authors: /auteurs/:slug/
   categories: /actualites/categories/:slug/
+  posts: /actualites/:year/:month/:day/:slug/
 taxonomies:
   category: categories
   author: authors
