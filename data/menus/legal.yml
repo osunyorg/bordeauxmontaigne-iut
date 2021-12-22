@@ -1,5 +1,5 @@
 ---
 - title: Mentions légales
-  target: "/mentions-legales"
+  target: "/mentions-legales/"
   kind: page
   children: []

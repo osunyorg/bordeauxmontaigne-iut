@@ -18,10 +18,11 @@ content
 |   _index.html
 ```
 
-Il faut remettre la description sans HTML, pour le SEO, mettre le contenu HTML dans le corps du fichier, par souci de cohérence.
+Il faut remettre la description sans HTML, pour le SEO, mettre le contenu HTML dans le corps du fichier, par souci de cohérence. Le breadcrumb_title permet de gérer le breadcrumb de façon unifiée.
 ```markdown
 ---
 title: L’IUT Bordeaux Montaigne, le plus court chemin pour aller loin
+breadcrumb_title: Accueil
 image: "29f2e051-1298-48d4-9e21-5badbd606d30"
 description: >
   L'Institut Universitaire de Technologie Bordeaux Montaigne, le plus court chemin pour aller loin
@@ -119,3 +120,7 @@ Quid des catégories nested? A tester.
 Attention, à l'heure actuelle on utilise l'image originale pour le SEO, il faut utiliser une image redimensionnée.
 
 ## Breadcrumb
+
+## Menu
+
+Mettre des trailing slashs partout.

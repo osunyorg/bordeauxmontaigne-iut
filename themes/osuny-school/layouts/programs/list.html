@@ -3,6 +3,7 @@
         (dict
           "title" .Title
           "image" .Params.image
+          "context" .
         ) -}}
   <div class="container">
     {% assign programs = site.programs | where_exp: "item", "item.parent != nil" | where: "parent", "" | sort: "position" %}
