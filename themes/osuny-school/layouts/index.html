@@ -1,5 +1,9 @@
 {{ define "main" }}
-  {{ partial "hero.html" . }}
+  {{ partial "hero.html"
+        (dict
+          "title" .Content
+          "image" .Params.image
+        )}}
   <div class="container">
     {{- range site.Data.menus.primary -}}
       <section class="mb-6">
@@ -13,7 +17,7 @@
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4">
             {{ range (where site.RegularPages "Type" "posts" | first 6) }}
               <div class="col">
-                {{ partial "post.html" . }}
+                {{ partial "posts/post.html" . }}
               </div>
             {{ end }}
           </div>
@@ -31,7 +35,7 @@
                 {{ end }}
                 {{ if $page }}
                   <div class="col">
-                    {{ partial "article.html" $page }}
+                    {{ partial "pages/page.html" $page }}
                   </div>
                 {{ end }}
               {{ end }}

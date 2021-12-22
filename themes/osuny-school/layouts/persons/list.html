@@ -1,5 +1,9 @@
 {{ define "main" }}
-  {{- partial "hero.html" . -}}
+  {{- partial "hero.html"
+        (dict
+          "title" .Title
+          "image" .Params.image
+        ) -}}
   <div class="container">
     <h2>Enseignants</h2>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">

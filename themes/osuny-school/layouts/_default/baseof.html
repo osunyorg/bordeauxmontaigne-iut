@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{- partial "head/css.html" -}}
-    {{- partial "head/seo.html" -}}
+    {{- partial "head/seo.html" . -}}
     {{- partial "head/ga.html" -}}
   </head>
-  <body>
-    {{- partial "nav-accessibility.html" -}}
+  <body class="{{ .Type }}__{{ .Kind }}">
+    {{- partial "accessibility.html" -}}
     {{- partial "header.html" -}}
     <main class="main" id="main" aria-label="Content">
       {{- block "main" . }}{{- end }}

@@ -1,6 +1,5 @@
 {{ if .image }}
-  {{ $directory := slicestr .image 0 2 }}
-  {{ $image := index (index site.Data.media $directory) .image }}
+  {{ $image := partial "utils/GetMedia.html" .image }}
   {{ if $image }}
     <picture>
       <img src="{{ $image.url }}" class="{{ .class }}">

@@ -1,10 +1,14 @@
 {{ define "main" }}
-  {{- partial "hero.html" . -}}
+  {{- partial "hero.html"
+        (dict
+          "title" .Title
+          "image" .Params.image
+        ) -}}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
       {{ range .Paginator.Pages }}
         <div class="col">
-          {{ partial "post.html" . }}
+          {{ partial "posts/post.html" . }}
         </div>
       {{ end }}
     </div>
