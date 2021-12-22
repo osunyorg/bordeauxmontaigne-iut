@@ -1,6 +1,6 @@
-{{ $seoTitle := site.Title }}
+{{ $seoTitle := htmlUnescape site.Title }}
 {{ if .Title }}
-  {{ $seoTitle = printf "%s | %s" .Title $seoTitle }}
+  {{ $seoTitle = printf "%s | %s" (htmlUnescape .Title) $seoTitle }}
 {{ end }}
 {{ $seoDescription := .Params.description | chomp }}
 {{ $seoImage := "/assets/images/share.png" }}

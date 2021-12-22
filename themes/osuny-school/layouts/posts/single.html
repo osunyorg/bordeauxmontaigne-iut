@@ -15,6 +15,28 @@
               <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "02 Jan 2006" }}</time>
             </td>
           </tr>
+          {{ if .Params.persons }}
+            {% assign author = site.data.authors | where: 'identifier', page.author %}
+            <tr>
+              <th scope="row" class="ps-0">TODO</th>
+              <td class="p-author pe-0" itemscope itemtype="https://schema.org/Person" itemprop="author">
+                <a href="TODO" itemprop="url">
+                  <span itemprop="name">TODO</span>
+                </a>
+              </td>
+            </tr>
+          {{ end }}
+          {{ if .Params.categories }}
+            <tr>
+              <th scope="row" class="ps-0">Catégories</th>
+              <td class="p-category pe-0">
+                {{ range .Params.categories }}
+                  {{ $category := site.GetPage "categories" . }}
+                  <a href="{{ $category.Permalink }}" itemtype="https://schema.org/articleSection">{{ $category.Title }}</a>
+                {{ end }}
+              </td>
+            </tr>
+        {{ end }}
           <tr>
             <th scope="row" class="ps-0">Partager</th>
             <td class="pe-0">

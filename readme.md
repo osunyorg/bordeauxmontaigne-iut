@@ -80,13 +80,9 @@ title: "Une bourse ? Un logement ? Constituez dès maintenant votre dossier soci
 date: 2021-01-25 15:02:00 +0100 UTC
 slug: "constituez-votre-dossier-social-etudiant"
 pinned: false
-author: "329f1e94-d90c-4db9-a529-7e0b3ff511b2"
+author: "hbeneyrol"
 categories:
-  - "58a6d2a5-92a9-493f-bd07-07b28d6a2a32"
-  - "6bbdb43b-a264-41e5-91a0-187609185738"
-  - "934867a2-5141-4537-8ab1-05bd4b8ca17d"
-tags:
-  - "329f1e94-d90c-4db9-a529-7e0b3ff511b2"
+  - "a-la-une"
 image: "d97ed0d8-27f6-4c29-8bc3-aac021e6308a"
 description: >
   N’attendez pas les résultats de vos examens ou votre affectation sur Parcoursup...
@@ -94,6 +90,32 @@ description: >
 <img width="480" height="230" src="https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2021/01/Demande_DSE_2021.png"> N’attendez pas les résultats de vos examens ou votre affectation sur Parcoursup ...
 ```
 
+## Catégories
+
+Il faut changer l'architecture vers un système de feuilles :
+```
+content
+└───categories
+│   │   _index.html
+│   └───a-la-une/_index.html
+│   ...
+```
+
+Les catégories ressemblent à ça :
+```
+---
+title: "À la une"
+slug: "a-la-une"-
+description: >
+  Flash info publiés sur la page d'accueil
+---
+```
+
+Quid des catégories nested? A tester.
+
+
 ## SEO
 
 Attention, à l'heure actuelle on utilise l'image originale pour le SEO, il faut utiliser une image redimensionnée.
+
+## Breadcrumb

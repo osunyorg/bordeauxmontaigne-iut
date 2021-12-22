@@ -12,7 +12,7 @@
         <div class="card mb-5">
           <h3 class="mb-2">{{ .Params.first_name }} {{ .Params.last_name }}</h3>
           {{ if .Params.biography }}
-          <p class="mb-2">{{ truncate 50 .Params.biography }}</p>
+            <p class="mb-2">{{ truncate 50 .Params.biography }}</p>
           {{ end }}
           <a href="{{ .Permalink }}" class="stretched-link link link--more">En savoir plus</a>
         </div>
