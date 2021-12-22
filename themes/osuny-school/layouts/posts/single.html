@@ -33,7 +33,7 @@
                 <a href="{{ .Permalink }}" itemtype="https://schema.org/articleSection">{{ .Title }}</a>
               </td>
             </tr>
-        {{ end }}
+          {{ end }}
           <tr>
             <th scope="row" class="ps-0">Partager sur</th>
             <td class="pe-0">
@@ -60,7 +60,7 @@
       <div itemprop="articleBody">
         {{ safeHTML .Params.text }}
       </div>
-      {{ partial "posts/pagination.html" . }}
+      {{ partial "posts/prevnext.html" . }}
     </div>
   </div>
 </div>

@@ -55,18 +55,18 @@ Il serait préférable de remettre le text dans le corps des documents et pas da
 ---
 title: "Plan d’accès et contact"
 url: "/notre-institut/plan-dacces-et-contact/"
-identifier: "ea93ebfd-4769-4ea6-bb42-a7e057b4f742"
-parent: "75e9814e-7127-4bed-bd83-630cbb67da07"
-related_category: ""
-position: 5
+child_pages:
+  - "/notre-institut/presentation-de-liut/"
+  - "/notre-institut/consignes-de-securite/"
+categories:
+  - "a-la-une"
 description: >
   Où sommes nous ? ATTENTION : nous ne sommes pas sur le site du Campus
 ---
 Où sommes nous ?<br><br>  <strong>ATTENTION : nous ne sommes pas sur
 ```
 
-
-L'identifier, le parent et la position permettent d'organiser les données et de les retrouver en respectant l'arbre réel de contenu, et pas l'arbre du menu. Ce besoin n'est pas certain, il est possible qu'on puisse simplement supprimer ces champs.
+Suppression d'identifier, parent et position, pas nécessaires, remplacés par child_pages avec les urls des pages enfants, dans le bon ordre.
 
 ## Posts
 
@@ -80,8 +80,9 @@ Les fichiers doivent être harmonisés,
 title: "Une bourse ? Un logement ? Constituez dès maintenant votre dossier social étudiant (DSE)"
 date: 2021-01-25 15:02:00 +0100 UTC
 slug: "constituez-votre-dossier-social-etudiant"
-pinned: false
-author: "hbeneyrol"
+weight: 1
+authors:
+  - "hbeneyrol"
 categories:
   - "a-la-une"
 image: "d97ed0d8-27f6-4c29-8bc3-aac021e6308a"
@@ -90,6 +91,10 @@ description: >
 ---
 <img width="480" height="230" src="https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2021/01/Demande_DSE_2021.png"> N’attendez pas les résultats de vos examens ou votre affectation sur Parcoursup ...
 ```
+
+Weight est utilisé pour épingler les articles, à 0 l'article est dans le flux normal, à 1 il est mis en avant.
+
+TODO gestion du suivant / précédent.
 
 ## Catégories
 
