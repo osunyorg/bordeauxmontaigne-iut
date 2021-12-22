@@ -7,4 +7,5 @@ permalinks:
   authors: /auteurs/:slug/
   categories: /actualites/categories/:slug/
 taxonomies:
-  author: "authors"
+  category: categories
+  author: authors

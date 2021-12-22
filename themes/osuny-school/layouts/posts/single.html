@@ -16,26 +16,21 @@
               <time datetime="{{ .Date.Format "2006-01-02T15:04" }}">{{ .Date.Format "02 Jan 2006" }}</time>
             </td>
           </tr>
-          {{ if .Params.authors }}
-            {{ $first := index .Params.authors 0 }}
-            {{ $author := site.GetPage "authors" $first }}
+          {{ range .GetTerms "authors" }}
             <tr>
               <th scope="row" class="ps-0">Auteur·rice</th>
               <td class="p-author pe-0" itemscope itemtype="https://schema.org/Person" itemprop="author">
-                <a href="{{ $author.Permalink }}" itemprop="url">
-                  <span itemprop="name">{{ $author.Title }}</span>
+                <a href="{{ .Permalink }}" itemprop="url">
+                  <span itemprop="name">{{ .Title }}</span>
                 </a>
               </td>
             </tr>
           {{ end }}
-          {{ if .Params.categories }}
+          {{ range .GetTerms "categories" }}
             <tr>
-              <th scope="row" class="ps-0">Catégories</th>
+              <th scope="row" class="ps-0">Catégorie</th>
               <td class="p-category pe-0">
-                {{ range .Params.categories }}
-                  {{ $category := site.GetPage "categories" . }}
-                  <a href="{{ $category.Permalink }}" itemtype="https://schema.org/articleSection">{{ $category.Title }}</a>
-                {{ end }}
+                <a href="{{ .Permalink }}" itemtype="https://schema.org/articleSection">{{ .Title }}</a>
               </td>
             </tr>
         {{ end }}

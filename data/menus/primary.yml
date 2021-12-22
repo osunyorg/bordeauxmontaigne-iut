@@ -212,11 +212,11 @@
     kind: page
     children: []
 - title: Vie étudiante
-  target: "/vie-etudiante"
+  target: "/vie-etudiante/"
   kind: page
   children:
   - title: Scolarité
-    target: "/vie-etudiante/scolarite"
+    target: "/vie-etudiante/scolarite/"
     kind: page
     children:
     - title: Être candidat·e
