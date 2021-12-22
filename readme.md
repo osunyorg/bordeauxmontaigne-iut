@@ -205,3 +205,7 @@ Rien à signaler, tout fonctionne avec un partial.
 
 Attention, mettre des trailing slashs partout.
 Si les liens sont externes, mettre un target blank.
+
+## Medias
+
+Je n'ai pas reconstitué les src-set, il faut le faire, avec la syntaxe d'Osuny
