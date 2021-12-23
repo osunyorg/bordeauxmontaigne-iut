@@ -7,7 +7,7 @@
     {{- $currentPath := "" -}}
     {{- range $index, $crumb := $crumbs -}}
     {{- $currentPath = printf "%s%s/" $currentPath $crumb -}}
-    {{- $page := partial "utils/GetPageByUrl" $currentPath -}}
+    {{- $page := partial "GetPageByUrl" $currentPath -}}
     {{- if $page -}}
       {{- $title := or $page.Params.breadcrumb_title $page.Title -}}
       {{- $linked := not (eq $page.RelPermalink $permalink) }}

@@ -2,14 +2,14 @@
   <ul class="pagination justify-content-between">
     {{with .Site.RegularPages.Prev . }}
       <li class="page-item">
-        <a class="page-link" href="{{.RelPermalink}}" title="{{escapeHtml .Title}}">
+        <a class="page-link" href="{{.RelPermalink}}" title="{{htmlEscape .Title}}">
           Article précédent
         </a>
       </li>
     {{end}}
     {{with .Site.RegularPages.Next . }}
       <li class="page-item">
-        <a class="page-link" href="{{.RelPermalink}}" title="{{escapeHtml .Title}}">
+        <a class="page-link" href="{{.RelPermalink}}" title="{{htmlEscape .Title}}">
           Article suivant
         </a>
       </li>

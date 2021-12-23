@@ -1,7 +1,7 @@
 {{- $level := .level -}}
-{{- $dropdown := .dropdown -}}
+{{- $dropdown := .dropdown }}
 <ul class="{{ .class }}{{ if $level }} nav-level-{{ $level }}{{ end }}">
-  {{ range .items }}
+  {{ range .items -}}
     {{- $slug := urlize .title -}}
     {{- $itemClass := "nav-item" -}}
     {{- $linkClass := "nav-link" -}}
@@ -19,12 +19,20 @@
       {{- else -}}
         <span class="{{ $linkClass }}{{ if gt .level 1 }} disabled{{ end }}"{{ safeHTMLAttr $attr }}>{{ .title }}</span>
       {{- end -}}
-      {{ if $hasDropdown }}<div class="dropdown-menu" aria-labelledby="dropdown-{{ $slug }}">{{ end }}
-      {{ if gt (len .children) 0 }}
-        {{ $nextLevel := add $level 1 }}
-        {{ partial "commons/menu.html" (dict "items" .children "level" $nextLevel) }}
-      {{ end }}
-      {{ if $hasDropdown }}</div>{{ end }}
+      {{- if $hasDropdown }}
+        <div class="dropdown-menu" aria-labelledby="dropdown-{{ $slug }}">
+      {{- end -}}
+      {{- if gt (len .children) 0 -}}
+        {{- $nextLevel := add $level 1 -}}
+        {{- partial "commons/menu.html"
+              (dict
+                "items" .children
+                "level" $nextLevel
+              ) -}}
+      {{- end -}}
+      {{- if $hasDropdown -}}
+        </div>
+      {{ end -}}
     </li>
-  {{ end }}
+  {{ end -}}
 </ul>

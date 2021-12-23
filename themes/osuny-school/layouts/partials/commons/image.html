@@ -1,8 +1,17 @@
-{{ if .image }}
-  {{ $image := partial "utils/GetMedia.html" .image }}
-  {{ if $image }}
+{{- if .image }}
+  {{- $image := partial "GetMedia" .image -}}
+  {{- if $image -}}
+    {{- $lazy := true -}}
+    {{- if .no_lazy }}{{ $lazy = false }}{{ end -}}
+    {{- $alt := or .alt "" -}}
+    {{- $width := $image.width -}}
+    {{- $height := $image.height -}}
     <picture>
-      <img src="{{ $image.url }}" class="{{ .class }}">
+      <img  src="{{ $image.url }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}"
+            {{- if .class }} class="{{ .class }}"{{- end -}}
+            {{- if $lazy }} loading="lazy"{{- end -}}
+            {{- if .itemprop }} itemprop="image"{{- end -}}
+            >
     </picture>
-  {{ end }}
-{{ end }}
+  {{- end -}}
+{{ end -}}

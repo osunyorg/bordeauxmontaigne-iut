@@ -26,7 +26,7 @@
           <div class="row row-cols-1 row-cols-md-2">
             {{ range .children }}
               {{ if and .target (not (eq .kind "url")) }}
-                {{ $page := partial "utils/GetPageByUrl.html" .target }}
+                {{ $page := partial "GetPageByUrl" .target }}
                 {{ if $page }}
                   <div class="col">
                     {{ partial "pages/page.html" $page }}

@@ -1,5 +1,5 @@
 <header class="hero">
-  {{ if .image }}
+  {{- if .image }}
     {{ partial "commons/image.html"
         (dict
           "image"         .image
@@ -9,7 +9,7 @@
           "no_lazy"       true
           "class"         "hero__image"
         ) }}
-  {{ end }}
+  {{ end -}}
   <div class="container">
     <div class="row">
       <div class="col-md-9">
