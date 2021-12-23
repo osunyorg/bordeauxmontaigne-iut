@@ -106,6 +106,8 @@ Dans les 3 cas, il faut spécifier les urls dans le frontmatter des contenus.
 D'après mes tests, on ne peut pas s'appuyer sur une génération de permalinks récursifs à partir des slugs.
 Les sections utilisent toujours les noms de fichiers si elles n'ont pas d'url spécifiée, on ne peut pas leur attribuer de format de permalink dans la config.
 Les permalinks ne fonctionnent que pour les pages.
+
+
 La logique de branche est plus native pour lister les enfants, elle utilise l'objet .Pages, et on ajoute la position pour gérer l'ordre.
 Elle implique que les objets sont tous rendus par le template list, les feuilles étant considérées comme des listes vides, ce qui est curieux mais pas très grave.
 La logique de feuille avec child_pages utilise un partial maison (utils/GetPageByUrl), qui itère sur l'ensemble des pages.
@@ -114,7 +116,10 @@ C'est certainement sous-optimal en termes de performance.
 
 Le choix pur feuilles paraît sans bénéfice.
 Le choix pur branches est simple en termes de génération, avec un manque d'élégance.
-Le choix hybride est le plus compliqué à générer et le plus élégant.
+Le choix hybride est le plus compliqué à générer et le plus élégant du point de vue d'Hugo.
+
+
+En attente de décision définitive, tout branches.
 
 ## Pages
 
@@ -122,13 +127,9 @@ Il faut changer l'architecture vers un système de feuilles :
 ```
 content
 └───pages
-│   │   notre-institut.html
-│   │   ...
-│   └───notre-institut
-│       │   consignes-de-securite.html
-│       │   equipe-pedagogique.html
-│       │   ...
-│   ...
+│   └───notre-institut/_index.html
+│       └───consignes-de-securite/_index.html
+│       └───equipe-pedagogique/_index.html
 ```
 
 Il faut aussi des slashs finaux aux URLS, c'est la pratique adoptée par Hugo (https://discourse.gohugo.io/t/hugo-support-for-urls-without-a-trailing-slash/6763)
@@ -185,8 +186,7 @@ Weight est utilisé pour épingler les articles, à 0 l'article est dans le flux
 Il faut changer l'architecture vers un système de feuilles :
 ```
 content
-└───categories
-│   │   _index.html
+└───categories/_index.html
 │   └───a-la-une/_index.html
 │   ...
 ```
