@@ -123,7 +123,7 @@ En attente de décision définitive, tout branches.
 
 ## Pages
 
-Il faut changer l'architecture vers un système de feuilles :
+Il faut changer l'architecture vers un système de branches :
 ```
 content
 └───pages
@@ -142,9 +142,7 @@ Il serait préférable de remettre le text dans le corps des documents et pas da
 ---
 title: "Plan d’accès et contact"
 url: "/notre-institut/plan-dacces-et-contact/"
-child_pages:
-  - "/notre-institut/presentation-de-liut/"
-  - "/notre-institut/consignes-de-securite/"
+position: 1
 categories:
   - "a-la-une"
 description: >
@@ -153,7 +151,8 @@ description: >
 Où sommes nous ?<br><br>  <strong>ATTENTION : nous ne sommes pas sur
 ```
 
-Suppression d'identifier, parent et position, pas nécessaires, remplacés par child_pages avec les urls des pages enfants, dans le bon ordre.
+Suppression d'identifier et parent qui ne sont pas nécessaires.
+On garde position pour mettre les pages enfants dans le bon ordre.
 
 ## Posts
 
