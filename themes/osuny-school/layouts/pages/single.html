@@ -22,12 +22,12 @@
       {{ if .Params.image }}
         {{ partial "commons/image.html"
               (dict
-                "image"         .Params.image
-                "size_mobile"   "351x168"
-                "size_tablet"   "456x219"
-                "size_desktop"  "856x410"
-                "class"         "img-fluid mb-4"
-                "itemprop"      true
+                "image"    .Params.image
+                "class"    "img-fluid mb-4"
+                "mobile"   "351x168"
+                "tablet"   "456x219"
+                "desktop"  "856x410"
+                "itemprop" true
               )}}
       {{ end }}
       <div itemprop="articleBody" id="page-informations">

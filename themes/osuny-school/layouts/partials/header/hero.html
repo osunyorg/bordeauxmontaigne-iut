@@ -2,12 +2,12 @@
   {{- if .image }}
     {{ partial "commons/image.html"
         (dict
-          "image"         .image
-          "size_mobile"   "375x450"
-          "size_tablet"   "768x450"
-          "size_desktop"  "x450"
-          "no_lazy"       true
-          "class"         "hero__image"
+          "image"    .image
+          "class"    "hero__image"
+          "mobile"   "375x450"
+          "tablet"   "768x450"
+          "desktop"  "x450"
+          "lazy"     false
         ) }}
   {{ end -}}
   <div class="container">

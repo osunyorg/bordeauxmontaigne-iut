@@ -3,11 +3,11 @@
     {{- if .Params.image -}}
       {{- partial "commons/image.html"
             (dict
-              "image"         .Params.image
-              "size_mobile"   "375x450"
-              "size_tablet"   "334x167"
-              "size_desktop"  "634x317"
-              "alt"           .Title
+              "image"    .Params.image
+              "alt"      .Title
+              "mobile"   "375x450"
+              "tablet"   "334x167"
+              "desktop"  "634x317"
             ) -}}
     {{- else -}}
       <img src="/assets/images/default.jpg" alt="">
