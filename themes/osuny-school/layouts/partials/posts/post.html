@@ -10,7 +10,9 @@
               "desktop"  "634x317"
             ) -}}
     {{- else -}}
-      <img src="/assets/images/default.jpg" alt="">
+      <picture>
+        <img class="img-fluid" alt="" loading="lazy" src="/assets/images/default.jpg" width="1004" height="502">
+      </picture>
     {{- end -}}
   </div>
   <div class="card-body">
