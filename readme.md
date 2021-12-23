@@ -30,6 +30,92 @@ description: >
 L’IUT Bordeaux Montaigne,<br><em>le plus court chemin pour aller loin</em>
 ```
 
+## Branches ou feuilles ?
+
+Il y a 2 façons de structurer les contenus : en branches (ou sections) et en feuilles (ou pages).
+
+### Branches
+Avec des fichiers _index.html:
+```
+content
+└───programs/_index.html
+│   └───bachelor-universitaire-de-technologie/_index.html
+│       └───carrieres-sociales/_index.html
+│           └───parcours-animation-sociale-et-socioculturelle/_index.html
+```
+Les branches sont pensées pour structurer des contenus, et sont donc rendues avec le template "list.html".
+
+
+L'affichage des enfants dans l'ordre se fait comme cela :
+```
+{{ range sort .Pages ".Params.position"  }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+```
+
+### Feuilles
+Avec des fichiers nommés:
+```
+content
+└───pages
+│   │   notre-institut.html
+│   └───notre-institut
+│       │   consignes-de-securite.html
+│       │   equipe-pedagogique.html
+```
+Les feuilles sont des objets indépendants, rendues avec le template "single.html"
+
+Pour afficher les enfants, il faut ajouter une propriété child_pages (le nom est arbitraire):
+```markdown
+---
+...
+child_pages:
+  - "/notre-institut/presentation-de-liut/"
+  - "/notre-institut/consignes-de-securite/"
+...
+---
+```
+
+L'affichage se fait comme cela :
+```
+  {{ range .Params.child_pages }}
+    {{ $page := partial "utils/GetPageByUrl.html" . }}
+    <div class="col">
+      <a href="{{ $page.Permalink }}">{{ htmlUnescape $page.Title }}</a>
+    </div>
+  {{ end }}
+```
+
+### Hybride
+Dans l'idée de départ de Hugo, on fait des branches quand on veut grouper des feuilles, et donc on mélange les deux.
+On peut le faire, ce qui est très idiomatique, mais cela oblige à ranger différemment les objets qui ont des enfants et ceux qui n'en ont pas, ce qui rend l'algorithme d'export plus compliqué :
+```
+content
+└───pages/
+│   └───notre-institut/_index.html
+│       │   consignes-de-securite.html
+│       │   equipe-pedagogique.html
+└───programs/_index.html
+│   └───bachelor-universitaire-de-technologie/_index.html
+│       └───carrieres-sociales/_index.html
+│           │   parcours-animation-sociale-et-socioculturelle.html
+```
+
+### Arbitrage
+Dans les 3 cas, il faut spécifier les urls dans le frontmatter des contenus.
+D'après mes tests, on ne peut pas s'appuyer sur une génération de permalinks récursifs à partir des slugs.
+Les sections utilisent toujours les noms de fichiers si elles n'ont pas d'url spécifiée, on ne peut pas leur attribuer de format de permalink dans la config.
+Les permalinks ne fonctionnent que pour les pages.
+La logique de branche est plus native pour lister les enfants, elle utilise l'objet .Pages, et on ajoute la position pour gérer l'ordre.
+Elle implique que les objets sont tous rendus par le template list, les feuilles étant considérées comme des listes vides, ce qui est curieux mais pas très grave.
+La logique de feuille avec child_pages utilise un partial maison (utils/GetPageByUrl), qui itère sur l'ensemble des pages.
+C'est certainement sous-optimal en termes de performance.
+
+
+Le choix pur feuilles paraît sans bénéfice.
+Le choix pur branches est simple en termes de génération, avec un manque d'élégance.
+Le choix hybride est le plus compliqué à générer et le plus élégant.
+
 ## Pages
 
 Il faut changer l'architecture vers un système de feuilles :
