@@ -47,7 +47,7 @@
   {{ $fileExtension = path.Ext $filename }}
 {{ end }}
 
-{{ $resultSlice := slice $parsedUrl.Scheme "://" $parsedUrl.Host $joinedPath $fileExtension }}
+{{ $resultSlice := slice $parsedUrl.Scheme "://" $parsedUrl.Host "/" $joinedPath $fileExtension }}
 {{ $result := delimit $resultSlice "" }}
 
 {{ return $result }}
