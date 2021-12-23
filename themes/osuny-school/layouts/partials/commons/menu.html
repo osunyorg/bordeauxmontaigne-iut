@@ -22,7 +22,7 @@
       {{ if $hasDropdown }}<div class="dropdown-menu" aria-labelledby="dropdown-{{ $slug }}">{{ end }}
       {{ if gt (len .children) 0 }}
         {{ $nextLevel := add $level 1 }}
-        {{ partial "menu.html" (dict "items" .children "level" $nextLevel) }}
+        {{ partial "commons/menu.html" (dict "items" .children "level" $nextLevel) }}
       {{ end }}
       {{ if $hasDropdown }}</div>{{ end }}
     </li>

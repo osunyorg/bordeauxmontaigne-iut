@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- partial "hero.html"
+  {{- partial "header/hero.html"
         (dict
           "title" .Title
           "image" .Params.image
@@ -47,7 +47,7 @@
       </div>
       <div class="col-md-8 offset-lg-1">
         {{ if .Params.image }}
-          {{ partial "image.html"
+          {{ partial "commons/image.html"
                 (dict
                   "image"         .Params.image
                   "size_mobile"   "351x168"
@@ -58,6 +58,7 @@
                 )}}
         {{ end }}
         <div itemprop="articleBody">
+          {{ .Content }}
           {{ safeHTML .Params.text }}
         </div>
         {{ partial "posts/prevnext.html" . }}

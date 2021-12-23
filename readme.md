@@ -180,8 +180,6 @@ description: >
 
 Weight est utilisé pour épingler les articles, à 0 l'article est dans le flux normal, à 1 il est mis en avant.
 
-TODO gestion du suivant / précédent.
-
 ## Catégories
 
 Il faut changer l'architecture vers un système de feuilles :

@@ -7,7 +7,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        {{ partial "menu.html" (dict "items" site.Data.menus.primary "class" "navbar-nav" "dropdown" true "level" 1) }}
+        {{ partial "commons/menu.html"
+              (dict
+                "items" site.Data.menus.primary
+                "class" "navbar-nav"
+                "dropdown" true
+                "level" 1
+              )}}
       </div>
     </div>
   </nav>
