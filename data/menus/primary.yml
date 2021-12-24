@@ -12,8 +12,8 @@
     kind:
     children:
     - title: Métiers du multimédia et de l’internet
-      target: "/diplomes/but/metiers-du-multimedia-et-de-linternet/"
-      kind:
+      target: "/programs/bachelor-universitaire-de-technologie-metiers-du-multimedia-et-de-l-internet/"
+      kind: program
       children: []
     - title: Publicité
       target: "/diplomes/but/publicite/"
