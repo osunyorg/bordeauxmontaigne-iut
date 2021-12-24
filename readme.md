@@ -222,9 +222,8 @@ title: "Justin Puyo"
 slug: "justin-puyo"
 first_name: "Justin"
 last_name: "Puyo"
-biography: >
-  Lorem ipsum dolor sit amet
 ---
+Lorem ipsum dolor sit amet
 ```
 
 Le rendu se fait avec les layouts authors/list.html et authors/term.html.

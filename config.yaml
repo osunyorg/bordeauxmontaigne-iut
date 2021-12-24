@@ -4,8 +4,10 @@ theme: osuny-school
 paginate: 18
 permalinks:
   authors: /auteurs/:slug/
+  teachers: /enseignants/:slug/
   categories: /actualites/:sections/:slug/
   posts: /actualites/:year/:month/:day/:slug/
 taxonomies:
   category: categories
   author: authors
+  teacher: teachers
