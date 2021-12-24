@@ -40,27 +40,27 @@
     kind: page
     children: []
 - title: Offre de formation
-  target: "/programmes/"
+  target: "/offre-de-formation/"
   kind: programs
   children:
   - title: Bachelor Universitaire de Technologie (B.U.T.)
-    target: "/programmes/bachelor-universitaire-de-technologie/"
+    target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
     kind: program
     children:
     - title: Animation sociale et socioculturelle
-      target: "/programmes/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/"
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/"
       kind: program
       children: []
   - title: Diplômes Universitaires (DU)
-    target: "/programmes/diplome-d-universite/"
+    target: "/offre-de-formation/diplome-d-universite/"
     kind: program
     children: []
   - title: Licences professionnelles
-    target: "/programmes/licence-professionnelle/"
+    target: "/offre-de-formation/licence-professionnelle/"
     kind: program
     children: []
   - title: Masters professionnels
-    target: "/programmes/master-professionnel/"
+    target: "/offre-de-formation/master-professionnel/"
     kind: program
     children: []
   - title: Apprentissage
