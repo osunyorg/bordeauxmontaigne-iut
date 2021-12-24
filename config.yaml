@@ -3,11 +3,15 @@ languageCode: fr-FR
 theme: osuny-school
 paginate: 18
 permalinks:
-  authors: /auteurs/:slug/
-  teachers: /enseignants/:slug/
+  administrators: /administration/:slug/
+  authors: /auteures/:slug/
   categories: /actualites/:sections/:slug/
   posts: /actualites/:year/:month/:day/:slug/
+  researchers: /chercheuses/:slug/
+  teachers: /enseignantes/:slug/
 taxonomies:
-  category: categories
+  administrator: administrators
   author: authors
+  category: categories
+  researcher: researchers
   teacher: teachers

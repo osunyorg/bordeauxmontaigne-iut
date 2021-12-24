@@ -249,6 +249,10 @@ continuing: false
 level: bachelor
 ects:
 position: 1
+teachers:
+  - marlene-dulaurans
+administrators:
+  - quentin-bessiere
 accessibility: >
 
 contacts: >
