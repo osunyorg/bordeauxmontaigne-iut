@@ -38,7 +38,7 @@
                       {{ partial "GetImageUrl" (dict "url" $url "size" . "scale" 2) }} 2x">
       {{- end }}
 
-      <img src="{{ $url }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}"
+      <img src="{{ $url }}" alt="{{ chomp (plainify $alt) }}" width="{{ $width }}" height="{{ $height }}"
            {{- if .class }} class="{{ .class }}"{{- end -}}
            {{- if $lazy }} loading="lazy"{{- end -}}
            {{- if .itemprop }} itemprop="image"{{- end -}}
