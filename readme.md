@@ -282,7 +282,7 @@ Attention, à l'heure actuelle on utilise l'image originale pour le SEO, il faut
 
 ## Breadcrumb
 
-Rien à signaler, tout fonctionne avec un partial.
+Tout fonctionne avec le partial header/breadcrumbs.
 
 ## Menu
 
@@ -291,4 +291,11 @@ Si les liens sont externes, mettre un target blank.
 
 ## Medias
 
-Je n'ai pas reconstitué les src-set, il faut le faire, avec la syntaxe d'Osuny
+GetMedia permet de récupérer les données relatives au media dans les data.
+
+
+GetImageUrl transforme une URL de média Osuny pour y ajouter des demandes de transformation (taille, format...).
+Il faudrait peut-être le renommer GetOsunyImageUrl.
+
+
+Le partial commons/image génère une balise picture et des src-set, équivalent à [Kamifusen](https://rubygems.org/gems/kamifusen), mais sur la base d'un media. Il faudrait peut-être le renommer imageFromOsuny.
