@@ -1,0 +1,157 @@
+---
+- title: Actualites
+  target: "/actualites"
+  kind: news
+  children: []
+- title: Notre institut
+  target: "/notre-institut"
+  kind: page
+  children:
+  - title: Présentation de l'IUT
+    target: "/notre-institut/presentation-de-liut"
+    kind: page
+    children: []
+  - title: Les atouts des IUT
+    target: "/notre-institut/les-atouts-des-iut"
+    kind: page
+    children: []
+  - title: Équipe pédagogique (-)
+    target: "/notre-institut/equipe-pedagogique"
+    kind: page
+    children: []
+  - title: Équipe pédagogique
+    target: "/equipe"
+    kind: staff
+    children: []
+  - title: Ressources
+    target: "/notre-institut/ressources-techniques"
+    kind: page
+    children: []
+  - title: Plan d’accès et contact
+    target: "/notre-institut/plan-dacces-et-contact"
+    kind: page
+    children: []
+  - title: Consignes de sécurité
+    target: https://www.u-bordeaux-montaigne.fr/fr/actualites/vie-institutionnelle/vigipirate-consignes-de-securite.html
+    kind: url
+    children: []
+  - title: Relations avec les entreprises
+    target: "/notre-institut/relations-avec-les-entreprises"
+    kind: page
+    children: []
+- title: Offre de formation
+  target: "/programmes"
+  kind: programs
+  children:
+  - title: Bachelor Universitaire de Technologie (B.U.T.)
+    target: "/programmes/bachelor-universitaire-de-technologie"
+    kind: program
+    children:
+    - title: Animation sociale et socioculturelle
+      target: "/programmes/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle"
+      kind: program
+      children: []
+  - title: Diplômes Universitaires (DU)
+    target: "/programmes/diplome-d-universite"
+    kind: program
+    children: []
+  - title: Licences professionnelles
+    target: "/programmes/licence-professionnelle"
+    kind: program
+    children: []
+  - title: Masters professionnels
+    target: "/programmes/master-professionnel"
+    kind: program
+    children: []
+  - title: Apprentissage
+    target: "/offre-de-formation/apprentissage"
+    kind: page
+    children: []
+  - title: Formation continue
+    target: "/offre-de-formation/formation-continue"
+    kind: page
+    children: []
+- title: Vie étudiante
+  target: "/vie-etudiante"
+  kind: page
+  children:
+  - title: Scolarité
+    target: "/vie-etudiante/scolarite"
+    kind: page
+    children:
+    - title: Être candidat·e
+      target: "/vie-etudiante/scolarite/etre-candidat"
+      kind: page
+      children: []
+    - title: Inscription administrative
+      target: "/vie-etudiante/scolarite/inscription-administrative"
+      kind: page
+      children: []
+    - title: Frais d'inscription
+      target: "/vie-etudiante/scolarite/frais-dinscription"
+      kind: page
+      children: []
+    - title: Accessibilité et handicap
+      target: https://www.u-bordeaux-montaigne.fr/fr/campus/accessibilite-et-handicap.html
+      kind: url
+      children: []
+    - title: Sportifs de haut et bon niveau
+      target: https://etu.u-bordeaux-montaigne.fr/fr/culture-et-vie-etudiante/sport/sportifs-de-haut-et-bon-niveau.html
+      kind: url
+      children: []
+    - title: Validation des acquis (VAE/VAPP)
+      target: https://www.u-bordeaux-montaigne.fr/fr/formations/admission-inscription/validations_d_acquis.html
+      kind: url
+      children: []
+    - title: Attention au plagiat
+      target: https://etu.u-bordeaux-montaigne.fr/fr/etudes-et-scolarite/examens/plagiat.html
+      kind: url
+      children: []
+    - title: Statistiques
+      target: "/vie-etudiante/scolarite/statistiques"
+      kind: page
+      children: []
+  - title: Centre de ressources Montaigne
+    target: "/vie-etudiante/centre-de-ressources-montaigne"
+    kind: page
+    children:
+    - title: Présentation du CRM
+      target: "/vie-etudiante/centre-de-ressources-montaigne/presentation-crm"
+      kind: page
+      children: []
+    - title: Consulter et emprunter
+      target: "/vie-etudiante/centre-de-ressources-montaigne/consulter-et-emprunter"
+      kind: page
+      children: []
+    - title: L'équipe qui vous accueille
+      target: "/vie-etudiante/centre-de-ressources-montaigne/equipe"
+      kind: page
+      children: []
+  - title: Aide & entraide
+    target: "/vie-etudiante/aide-entraide"
+    kind: page
+    children:
+    - title: Contacter un médiateur
+      target: "/vie-etudiante/aide-entraide/contacter-un-mediateur"
+      kind: page
+      children: []
+  - title: Services numériques
+    target: "/vie-etudiante/services-numeriques"
+    kind: page
+    children:
+    - title: Aquipass
+      target: "/vie-etudiante/services-numeriques/aquipass"
+      kind: page
+      children: []
+    - title: Service d'impression
+      target: "/vie-etudiante/services-numeriques/service-dimpression"
+      kind: page
+      children: []
+    - title: Outils pédagogiques
+      target: "/vie-etudiante/services-numeriques/outils-pedagogiques"
+      kind: page
+      children: []
+- title: Intranet
+  target: "/intranet"
+  kind: page
+  children: []
