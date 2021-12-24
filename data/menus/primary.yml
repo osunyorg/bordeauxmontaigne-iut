@@ -1,37 +1,37 @@
 ---
 - title: Présentation de l'IUT
-  target: true
+  target: "/presentation-de-liut/"
   kind:
   children: []
 - title: Offre de formation
-  target: true
+  target: "/formation-continue/offre-de-formation/"
   kind:
   children:
   - title: Bachelor Universitaire de Technologie (B.U.T.)
-    target: true
+    target: "/diplomes/but/"
     kind:
     children:
     - title: Métiers du multimédia et de l’internet
-      target: true
+      target: "/diplomes/but/metiers-du-multimedia-et-de-linternet/"
       kind:
       children: []
     - title: Publicité
-      target: true
+      target: "/diplomes/but/publicite/"
       kind:
       children: []
   - title: Diplômes Universitaires de Technologie (DUT)
-    target: true
+    target: "/diplomes/dut/"
     kind:
     children: []
   - title: Licences professionnelles
-    target: true
+    target: "/diplomes/licences-pro/"
     kind:
     children: []
   - title: Masters professionnels
-    target: true
+    target: "/diplomes/master/"
     kind:
     children: []
   - title: Diplômes Universitaires (DU)
-    target: true
+    target: "/diplomes/diplomes-universitaires/"
     kind:
     children: []
