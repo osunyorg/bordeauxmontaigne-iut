@@ -9,7 +9,11 @@
     {{- range site.Data.menus.primary -}}
       <section class="mb-6">
         <div class="top">
-          <h2><a href="{{ .target }}">{{ .title }}</a></h2>
+          <h2>
+            {{ if .target }}<a href="{{ .target }}">{{ end }}
+              {{ safeHTML .title }}
+            {{ if .target }}</a>{{ end }}
+          </h2>
           {{ if or (eq .kind "news") (eq .kind "programs") }}
             <a href="{{ .target }}" class="link link--more">En savoir plus</a>
           {{ end }}
