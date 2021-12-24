@@ -22,7 +22,7 @@
                 )}}
         {{ end }}
         <div itemprop="articleBody">
-          {{ .Content }}
+          {{ safeHTML (partial "CorrectPunctuation" .Content) }}
         </div>
       </div>
     </div>

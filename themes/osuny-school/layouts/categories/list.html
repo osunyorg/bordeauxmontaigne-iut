@@ -10,7 +10,7 @@
         <div class="col">
           <article class="card">
             <div class="card-body">
-              <p class="card-title">{{ htmlUnescape .Title }}</p>
+              <p class="card-title">{{ safeHTML (partial "CorrectPunctuation" .Title) }}</p>
               <a href="{{ .Permalink }}" class="stretched-link link link--more">Voir les {{ len .Pages }} articles</a>
             </div>
           </article>

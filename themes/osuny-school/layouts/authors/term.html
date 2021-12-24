@@ -8,7 +8,7 @@
     {{ if .Params.biography }}
     <div class="row mb-5">
       <div class="col-md-8">
-        <p>{{ .Params.biography }}</p>
+        <p>{{ safeHTML (partial "CorrectPunctuation" .Params.biography) }}</p>
       </div>
     </div>
     {{ end }}

@@ -36,20 +36,20 @@
         {{ end }}
         <div itemprop="articleBody">
           <h2 id="page-informations">Informations</h2>
-          {{ safeHTML .Params.opportunities }}
-          {{ safeHTML .Params.other }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.opportunities) }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.other) }}
 
           <h2 id="page-contacts">Contacts</h2>
-          {{ safeHTML .Params.contacts }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.contacts) }}
 
           <h2 id="page-pedagogy">Pédagogie</h2>
-          {{ safeHTML .Params.pricing }}
-          {{ safeHTML .Params.registration }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.pricing) }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.registration) }}
 
           <h2 id="page-candidates">Candidature</h2>
-          {{ safeHTML .Params.evaluation }}
-          {{ safeHTML .Params.objectives }}
-          {{ safeHTML .Params.prerequisites }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.evaluation) }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.objectives) }}
+          {{ safeHTML (partial "CorrectPunctuation" .Params.prerequisites) }}
 
           {{ if .Pages }}
           <hr class="my-5">
@@ -59,7 +59,7 @@
           <div class="row row-cols-md-2 g-3">
             {{ range sort .Pages ".Params.position" }}
             <div class="col">
-              <a href="{{ .Permalink }}">{{ htmlUnescape .Title }}</a>
+              <a href="{{ .Permalink }}">{{ safeHTML (partial "CorrectPunctuation" .Title) }}</a>
             </div>
             {{ end }}
           </div>
@@ -78,7 +78,7 @@
             <div class="card card--program">
               <div class="card-body">
                 <h2 class="card-title ">
-                  <a href="{{ .Permalink }}">{{ htmlUnescape .Title }}</a>
+                  <a href="{{ .Permalink }}">{{ safeHTML (partial "CorrectPunctuation" .Title) }}</a>
                 </h2>
               </div>
             </div>
@@ -88,7 +88,7 @@
             <div class="card card--program">
               <div class="card-body">
                 <p class="card-title ">
-                  <a href="{{ .Permalink }}" class="link link--more">{{ htmlUnescape .Title }}</a>
+                  <a href="{{ .Permalink }}" class="link link--more">{{ safeHTML (partial "CorrectPunctuation" .Title) }}</a>
                 </p>
                 <p class="card-text"></p>
               </div>
