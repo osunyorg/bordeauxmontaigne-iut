@@ -194,10 +194,9 @@ Les catégories ressemblent à ça :
 ```
 ---
 title: "À la une"
-slug: "a-la-une"-
-description: >
-  Flash info publiés sur la page d'accueil
+slug: "a-la-une"
 ---
+Flash info publiés sur la page d'accueil
 ```
 
 Quid des catégories nested? A tester.

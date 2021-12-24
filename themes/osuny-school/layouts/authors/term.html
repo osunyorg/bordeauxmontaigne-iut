@@ -6,11 +6,11 @@
         ) -}}
   <div class="container">
     {{ if .Params.biography }}
-    <div class="row mb-5">
-      <div class="col-md-8">
-        <p>{{ safeHTML (partial "CorrectPunctuation" .Params.biography) }}</p>
+      <div class="row mb-5">
+        <div class="col-md-8">
+          {{ safeHTML (partial "CorrectPunctuation" .Params.biography) }}
+        </div>
       </div>
-    </div>
     {{ end }}
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5">
       {{ range .Paginator.Pages }}
