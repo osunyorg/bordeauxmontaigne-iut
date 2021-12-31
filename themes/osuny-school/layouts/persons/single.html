@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{- partial "header/hero.html"
+        (dict
+          "title" "Actualités"
+          "context" .
+        ) -}}
+  <div class="container">
+    {{ if .Content }}
+      <div class="row mb-5">
+        <div class="col-md-8">
+          {{ safeHTML (partial "CorrectPunctuation" .Content) }}
+        </div>
+      </div>
+    {{ end }}
+
+    <a href="actualites/">Actualités</a>
+    <a href="formations/">Missions pédagogiques</a>
+    <a href="administration/">Missions administratives</a>
+    <a href="publications/">Publications scientifiques</a>
+  </div>
+{{ end }}
