@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{- partial "header/hero.html"
         (dict
-          "title" "Actualités"
+          "title" .Title
           "context" .
         ) -}}
   <div class="container">
