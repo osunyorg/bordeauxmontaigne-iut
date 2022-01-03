@@ -21,7 +21,7 @@
                 <th scope="row" class="ps-0">Auteur·rice</th>
                 <td class="p-author pe-0" itemscope itemtype="https://schema.org/Person" itemprop="author">
                   <a href="{{ .Permalink }}" itemprop="url">
-                    <span itemprop="name">{{ .Title }}</span>
+                    <span itemprop="name">{{ .Params.person }}</span>
                   </a>
                 </td>
               </tr>
