@@ -201,10 +201,59 @@ Flash info publiés sur la page d'accueil
 
 Quid des catégories nested? A tester.
 
-## Auteurs
+## Personnes
 
-Les auteurs sont déclarés comme une taxonomie dans le fichier de config :
+Chaque personne peut avoir 4 rôles :
+- enseignement (teacher)
+- administration (administrator)
+- écriture (author)
+- recherche (researcher)
 
+
+Pour bénéficier du système de taxonomie natif d'Hugo, nous devons créer 5 sections de contenus, dont 4 en taxonomies :
+- persons (pas une taxo, liste les personnes avec tous leurs rôles)
+- teachers (taxo)
+- administrators (taxo)
+- authors (taxo)
+- researchers (taxo)
+
+
+Les permalinks de ces objets sont définis dans le fichier config.yml
+```
+permalinks:
+  persons:        /equipe/:slug/
+  authors:        /equipe/:slug/actualites/
+  administrators: /equipe/:slug/administration/
+  researchers:    /equipe/:slug/publications/
+  teachers:       /equipe/:slug/formations/
+taxonomies:
+  administrator:  administrators
+  author:         authors
+  researcher:     researchers
+  teacher:        teachers
+```
+
+
+L'objet personne se définit comme cela :
+```
+---
+title: >
+  Justin Puyo
+slug: "justin-puyo"
+first_name: "Justin"
+last_name: "Puyo"
+phone: ""
+email: "justin.puyo@iut.u-bordeaux-montaigne.fr"
+roles:
+  - author
+  - administrator
+---
+Lorem ipsum
+```
+
+Le rendu se fait avec les layouts persons/list.html et persons/single.html.
+
+### Auteurs
 
 Les contenus sont organisés comme les catégories :
 ```
@@ -218,15 +267,22 @@ content
 Chaque auteur est défini de cette façon, attention à mettre le prénom avant le nom :
 ```
 ---
-title: "Justin Puyo"
+title: >
+  Actualités de Justin Puyo
+person: >
+  Justin Puyo
 slug: "justin-puyo"
-first_name: "Justin"
-last_name: "Puyo"
 ---
-Lorem ipsum dolor sit amet
 ```
 
 Le rendu se fait avec les layouts authors/list.html et authors/term.html.
+
+### Chercheurs, administrateurs et enseignants
+
+Idem auteurs, avec le title différent :
+- Publications de Justin Puyo
+- Responsabilités de Justin Puyo
+- Enseignements de Justin Puyo
 
 ## Formations
 
