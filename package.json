@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "watch": "hugo server",
     "build": "hugo --minify"
   }
 }
