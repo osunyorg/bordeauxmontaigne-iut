@@ -10,5 +10,9 @@
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "watch": "hugo server",
+    "build": "hugo --minify"
+  }
 }
