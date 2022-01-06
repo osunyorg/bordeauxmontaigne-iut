@@ -79,6 +79,10 @@
     target: "/offre-de-formation/formation-continue/"
     kind: page
     children: []
+  - title: Publicité
+    target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
+    kind: program
+    children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
