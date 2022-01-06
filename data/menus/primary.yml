@@ -51,12 +51,12 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/"
       kind: program
       children: []
-    - title: Communication des organisations
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
-      kind: program
-      children: []
     - title: Villes et territoires durables
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-villes-et-territoires-durables/"
+      kind: program
+      children: []
+    - title: Communication des organisations
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
       kind: program
       children: []
   - title: Diplômes Universitaires (DU)
