@@ -10,6 +10,10 @@ brew upgrade hugo
 ```
 
 
+Pour cloner avec le thème
+```
+git clone git@github.com:noesya/bordeauxmontaigne-iut.git --recurse-submodules
+```
 Pour récupérer le thème
 ```
 git pull --recurse-submodules
