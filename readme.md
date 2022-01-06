@@ -25,3 +25,13 @@ Pour lancer le site
 yarn
 hugo server
 ```
+
+
+## Migration
+
+Objectifs de la formation -> débouchés
+Publics visés -> prérequis
+Compétences développées -> objectifs
+Déroulement de la formation, planning -> méthode mobilisée
+Contenus de la formation -> contenus
+Modalités de recrutement -> modalités et délais
