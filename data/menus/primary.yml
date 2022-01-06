@@ -67,6 +67,10 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-metiers-du-livre-et-du-patrimoine/"
       kind: program
       children: []
+    - title: Information numérique dans les organisations
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-information-numerique-dans-les-organisations/"
+      kind: program
+      children: []
   - title: Diplômes Universitaires (DU)
     target: "/offre-de-formation/diplome-d-universite/"
     kind: program
