@@ -12,8 +12,7 @@ brew upgrade hugo
 
 Pour récupérer le thème
 ```
-git submodule init
-git submodule update
+git pull --recurse-submodules
 ```
 
 
