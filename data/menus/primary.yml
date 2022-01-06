@@ -59,6 +59,10 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
       kind: program
       children: []
+    - title: Publicité
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
+      kind: program
+      children: []
   - title: Diplômes Universitaires (DU)
     target: "/offre-de-formation/diplome-d-universite/"
     kind: program
@@ -78,10 +82,6 @@
   - title: Formation continue
     target: "/offre-de-formation/formation-continue/"
     kind: page
-    children: []
-  - title: Publicité
-    target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
-    kind: program
     children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
