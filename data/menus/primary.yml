@@ -43,6 +43,10 @@
   target: "/offre-de-formation/"
   kind: programs
   children:
+  - title: Toute l'offre de formation
+    target: "/offre-de-formation/"
+    kind: programs
+    children: []
   - title: Bachelor Universitaire de Technologie (B.U.T.)
     target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
     kind: program
@@ -130,10 +134,6 @@
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
-    children: []
-  - title: Toute l'offre de formation
-    target: "/offre-de-formation/"
-    kind: programs
     children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
