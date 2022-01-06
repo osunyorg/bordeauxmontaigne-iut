@@ -124,7 +124,7 @@
     kind: program
     children:
     - title: Ingénierie de l’animation territoriale
-      target: "/offre-de-formation/master-professionnel/gestion-des-territoires-et-developpement-local/ingenierie-de-l-animation-territoriale/"
+      target: "/offre-de-formation/master-professionnel/ingenierie-de-l-animation-territoriale/"
       kind: program
       children: []
   - title: Apprentissage
