@@ -71,6 +71,10 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-information-numerique-dans-les-organisations/"
       kind: program
       children: []
+    - title: Métiers du Multimédia et de l'Internet
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/metiers-du-multimedia-et-de-l-internet/"
+      kind: program
+      children: []
   - title: Diplômes Universitaires (DU)
     target: "/offre-de-formation/diplome-d-universite/"
     kind: program
