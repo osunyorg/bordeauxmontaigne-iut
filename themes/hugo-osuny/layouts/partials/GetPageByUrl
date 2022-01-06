@@ -1,9 +1,0 @@
-{{ $target := . }}
-{{ $page := "" }}
-{{ range site.Pages }}
-  {{ $pageTarget := .RelPermalink }}
-  {{ if eq $pageTarget $target }}
-    {{ $page = . }}
-  {{ end }}
-{{ end }}
-{{ return $page }}
