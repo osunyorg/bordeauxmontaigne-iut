@@ -19,7 +19,7 @@
     target: "/notre-institut/equipe-pedagogique/"
     kind: page
     children: []
-  - title: Équipe administrative
+  - title: Équipe
     target: "/administration/"
     kind: staff
     children: []
