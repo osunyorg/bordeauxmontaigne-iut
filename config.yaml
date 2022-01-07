@@ -1,5 +1,8 @@
-title: IUT Bordeaux Montaigne
-languageCode: fr-FR
+languageCode: fr
+defaultContentLanguage: fr
+languages:
+  fr:
+    title: IUT Bordeaux Montaigne
 theme: hugo-osuny
 paginate: 18
 permalinks:
