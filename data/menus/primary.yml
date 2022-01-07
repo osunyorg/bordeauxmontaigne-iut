@@ -20,7 +20,7 @@
     kind: page
     children: []
   - title: Équipe
-    target: "/administration/"
+    target: "/equipe/"
     kind: staff
     children: []
   - title: Ressources
