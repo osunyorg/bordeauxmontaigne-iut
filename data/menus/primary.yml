@@ -195,6 +195,10 @@
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
+    - title: Aides, santé et prévention
+      target: "/vie-etudiante/aide-entraide/aides-sante-et-prevention/"
+      kind: page
+      children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
