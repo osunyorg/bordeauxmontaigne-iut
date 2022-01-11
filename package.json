@@ -4,6 +4,9 @@
   "repository": "https://github.com/noesya/bordeauxmontaigne-iut",
   "author": "noesya",
   "license": "MIT",
+  "dependencies": {
+    "hugo-osuny": "./themes/hugo-osuny"
+  },
   "scripts": {
     "watch": "hugo server",
     "build": "hugo --minify"
