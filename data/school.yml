@@ -11,4 +11,9 @@ country: >
   France
 phone: >
   +33 5 57 12 20 44
+administrators:
+  - "quentin-bessiere"
+administrators_description:
+  "quentin-bessiere": >
+    Secrétariat PUB MMI
 ---
