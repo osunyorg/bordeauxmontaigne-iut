@@ -15,10 +15,6 @@
     target: "/notre-institut/les-atouts-des-iut/"
     kind: page
     children: []
-  - title: Équipe pédagogique (-)
-    target: "/notre-institut/equipe-pedagogique/"
-    kind: page
-    children: []
   - title: Équipe
     target: "/equipe/"
     kind: staff
@@ -197,6 +193,10 @@
     children:
     - title: Contacter un médiateur
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
+      kind: page
+      children: []
+    - title: Aides, santé et prévention
+      target: "/vie-etudiante/aide-entraide/aides-sante-et-prevention/"
       kind: page
       children: []
   - title: Services numériques
