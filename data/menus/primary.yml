@@ -43,7 +43,7 @@
     target: "/offre-de-formation/"
     kind: programs
     children: []
-  - title: Bachelor Universitaire de Technologie (B.U.T.)
+  - title: Bachelor Universitaire de Technologie
     target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
     kind: program
     children:
@@ -107,7 +107,7 @@
       target: "/offre-de-formation/licence-professionnelle/metiers-du-livre-edition-et-commerce-du-livre/libraire/"
       kind: program
       children: []
-  - title: Diplômes d'Université (DU)
+  - title: Diplômes d'Université
     target: "/offre-de-formation/diplome-d-universite/"
     kind: program
     children:
