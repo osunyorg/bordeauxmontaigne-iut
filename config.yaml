@@ -1,5 +1,6 @@
 languageCode: fr
 defaultContentLanguage: fr
+baseURL: https://bordeauxmontaigne-iut.netlify.app/
 languages:
   fr:
     title: IUT Bordeaux Montaigne
