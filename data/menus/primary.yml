@@ -43,7 +43,7 @@
     target: "/offre-de-formation/"
     kind: programs
     children: []
-  - title: Bachelor Universitaire de Technologie (B.U.T.)
+  - title: Bachelor Universitaire de Technologie
     target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
     kind: program
     children:
