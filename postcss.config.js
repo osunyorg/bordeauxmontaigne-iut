@@ -10,6 +10,9 @@ module.exports = {
                 'show',
                 'active',
                 'collapsed',
+                'nav-level-1',
+                'nav-level-2',
+                'nav-level-3',
                 /^is-/,
                 /^has-/,
                 /^js-/
