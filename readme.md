@@ -1,5 +1,7 @@
 # IUT Bordeaux Montaigne
 
+## hugo
+
 Pour installer Hugo
 ```
 brew install hugo
@@ -10,6 +12,9 @@ brew upgrade hugo
 ```
 
 
+## Theme
+https://github.com/noesya/osuny-hugo-theme
+
 Pour cloner avec le thème
 ```
 git clone git@github.com:noesya/bordeauxmontaigne-iut.git --recurse-submodules
@@ -19,6 +24,7 @@ Pour récupérer le thème
 git pull --recurse-submodules
 ```
 
+## Commands
 
 Pour lancer le site
 ```
