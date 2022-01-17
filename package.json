@@ -5,7 +5,7 @@
   "author": "noesya",
   "license": "MIT",
   "dependencies": {
-    "hugo-osuny": "./themes/hugo-osuny"
+    "osuny-hugo-theme": "./themes/osuny-hugo-theme"
   },
   "scripts": {
     "watch": "hugo server",
