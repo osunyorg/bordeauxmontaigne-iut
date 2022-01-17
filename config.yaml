@@ -6,7 +6,7 @@ baseURL: https://bordeauxmontaigne-iut.netlify.app/
 languages:
   fr:
     title: IUT Bordeaux Montaigne
-theme: hugo-osuny
+theme: osuny-hugo-theme
 paginate: 18
 permalinks:
   posts:          /actualites/:year/:month/:day/:slug/
