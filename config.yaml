@@ -1,7 +1,6 @@
 languageCode: fr
 params:
   cookie_page: https://gdpr.eu/cookies/
-  default_image: /assets/images/default.jpg
 defaultContentLanguage: fr
 baseURL: https://bordeauxmontaigne-iut.netlify.app/
 languages:

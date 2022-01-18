@@ -1,2 +1,6 @@
+default_image: /assets/images/default.jpg
+logo: /assets/images/logo.svg
+seo:
+  image: /assets/images/share.png
 title: >
   IUT Bordeaux Montaigne
