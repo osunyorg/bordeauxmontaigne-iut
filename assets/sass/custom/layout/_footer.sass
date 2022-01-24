@@ -4,8 +4,11 @@ footer[role="contentinfo"]
     .nav--levels > li
         & > a,
         & > span
-            @extend .h2
             border-bottom: 1px solid $border-color
+            display: block
+            font-size: $h2-font-size
+            line-height: px2rem(36)
+            padding-bottom: px2rem(10)
         .nav-level-2 > li
             & > a,
             & > span
