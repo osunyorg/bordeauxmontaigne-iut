@@ -19,7 +19,8 @@ module.exports = {
                 /^js-/
               ],
               greedy: [
-                /toc/
+                /toc/,
+                /hero/
               ]
             }
         },
