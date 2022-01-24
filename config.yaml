@@ -1,5 +1,6 @@
 params:
   cookie_page: https://gdpr.eu/cookies/
+  cdnURL: https://bdxmontaigneosuny-1b4da.kxcdn.com/
 baseURL: https://bordeauxmontaigne-iut.netlify.app/
 defaultContentLanguage: fr
 languageCode: fr
