@@ -6,7 +6,8 @@ module.exports = {
                 './themes/**/*.html',
                 'layouts/**/*.html'
             ],
-            safelist: [
+            safelist: {
+              standard: [
                 'show',
                 'active',
                 'collapsed',
@@ -16,7 +17,11 @@ module.exports = {
                 /^is-/,
                 /^has-/,
                 /^js-/
-            ]
+              ],
+              greedy: [
+                /toc/
+              ]
+            }
         },
         autoprefixer: {},
         cssnano: {
