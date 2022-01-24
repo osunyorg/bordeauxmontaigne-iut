@@ -11,16 +11,20 @@ module.exports = {
                 'show',
                 'active',
                 'collapsed',
-                'nav-level-1',
-                'nav-level-2',
-                'nav-level-3',
+                /^nav-level-/,
                 /^is-/,
                 /^has-/,
                 /^js-/
               ],
               greedy: [
-                /toc/,
-                /hero/
+                /administrators__/,
+                /authors__/,
+                /categories__/,
+                /page__/,
+                /pages__/,
+                /posts__/,
+                /programs__/,
+                /teachers__/
               ]
             }
         },
