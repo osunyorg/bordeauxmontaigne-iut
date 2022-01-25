@@ -1,1 +1,3 @@
-<a href="/"><img src="/assets/images/logo-glyph.svg" alt="{{site.Title}}" width="257" height="158" loading="lazy"></a>
+{{ if site.Data.theme.logo_footer }}
+  <a href="/"><img src="{{ site.Data.theme.logo_footer }}" alt="{{site.Title}}" width="257" height="158" loading="lazy"></a>
+{{ end }}
