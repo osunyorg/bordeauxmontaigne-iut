@@ -12,14 +12,14 @@ country: >
 phone: >
   +33 5 57 12 20 44
 administrators:
+  - "karine-dubois"
   - "quentin-bessiere"
   - "melisse-debes"
-  - "karine-dubois"
 administrators_description:
-  "quentin-bessiere": >
-    Secrétariat PUB MMI
-  "melisse-debes": >
-    Secrétariat Carrières Sociales
   "karine-dubois": >
-    Secrétariat Carrières Sociales
+    
+  "quentin-bessiere": >
+    
+  "melisse-debes": >
+    
 ---
