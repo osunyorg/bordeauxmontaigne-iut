@@ -23,6 +23,7 @@ module.exports = {
                 /categories__/,
                 /page__/,
                 /pages__/,
+                /persons__/,
                 /posts__/,
                 /programs__/,
                 /teachers__/
