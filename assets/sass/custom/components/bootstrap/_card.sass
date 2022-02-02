@@ -1,8 +1,9 @@
 .card
     &-media
         border: 1px solid $border-color
-
-    &--person
-        .card
-            &-text
-                font-style: italic
+    .stretched-link
+        &::after
+            transition: background .3s ease
+        &:hover
+            &::after
+                background-color: rgba(white, .2)
