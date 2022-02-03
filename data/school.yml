@@ -11,15 +11,14 @@ country: >
   France
 phone: >
   +33 5 57 12 20 44
-administrators:
-  - "karine-dubois"
-  - "quentin-bessiere"
-  - "melisse-debes"
-administrators_description:
-  "karine-dubois": >
-    
-  "quentin-bessiere": >
-    
-  "melisse-debes": >
-    
+roles:
+  - title: >
+      Gestionnaires administratives
+    persons:
+      - "karine-dubois"
+      - "melisse-debes"
+  - title: >
+      Secrétariat PUB MMI
+    persons:
+      - "quentin-bessiere"
 ---
