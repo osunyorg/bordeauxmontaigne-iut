@@ -1,2 +1,7 @@
-defaults
-not IE 11
+Chrome >= 29
+Firefox >= 5
+Edge >= 16
+Opera >= 11
+Safari >= 9
+not Explorer <= 11
+iOS >= 9
