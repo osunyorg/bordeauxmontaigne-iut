@@ -5,6 +5,12 @@ footer[role="contentinfo"]
         margin-top: -5px
         img
             height: 160px
+
+    .container > nav
+        margin-left: 0
+        .nav-levels > li
+            margin-left: -1rem
+
     nav
         a
             line-height: px2rem(22)
@@ -16,8 +22,16 @@ footer[role="contentinfo"]
                 font-size: $h2-font-size
                 line-height: px2rem(36)
                 padding-bottom: px2rem(10)
+            a
+                text-decoration-color: transparent
+                &:hover
+                    text-decoration-color: $link-color
             .nav-level-2 > li
                 & > a,
                 & > span
                     font-size: px2rem(18)
                     line-height: px2rem(26)
+
+    .credit
+        font-family: $font-family-sans-serif
+        font-size: px2rem(14)
