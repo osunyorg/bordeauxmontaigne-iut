@@ -13,7 +13,6 @@ phone: >
   +33 5 57 12 20 44
 administrators:
   - "quentin-bessiere"
-  - "quentin-bessiere"
   - "nassima-choltus"
   - "melisse-debes"
   - "karine-dubois"
@@ -22,8 +21,6 @@ administrators:
 administrators_description:
   "quentin-bessiere": >
     Secrétariat PUB - MMI
-  "quentin-bessiere": >
-    Secrétariat Information - Communication
   "nassima-choltus": >
     Secrétariat Information - Communication
   "melisse-debes": >
@@ -50,5 +47,4 @@ roles:
       - "camille-seguin"
       - "corine-videau"
       - "nassima-choltus"
-      - "quentin-bessiere"
 ---
