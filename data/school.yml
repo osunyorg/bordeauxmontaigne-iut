@@ -17,6 +17,7 @@ administrators:
   - "melisse-debes"
   - "karine-dubois"
   - "catherine-lecart"
+  - "kmerahi"
   - "camille-seguin"
   - "corine-videau"
 administrators_description:
@@ -29,6 +30,8 @@ administrators_description:
   "karine-dubois": >
     Secrétariat Carrières sociales
   "catherine-lecart": >
+    Pôle Formation continue
+  "kmerahi": >
     Pôle Formation continue
   "camille-seguin": >
     Secrétariat Information - Communication
@@ -54,4 +57,5 @@ roles:
       Pôle Formation continue
     persons:
       - "catherine-lecart"
+      - "kmerahi"
 ---
