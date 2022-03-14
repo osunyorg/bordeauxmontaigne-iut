@@ -12,7 +12,6 @@ country: >
 phone: >
   +33 5 57 12 20 44
 administrators:
-  - "hbeneyrol"
   - "quentin-bessiere"
   - "nassima-choltus"
   - "melisse-debes"
@@ -28,8 +27,6 @@ administrators:
   - "cviron"
   - "mzaquithorea"
 administrators_description:
-  "hbeneyrol": >
-    Centre de Ressources Montaigne
   "quentin-bessiere": >
     Secrétariat PUB - MMI
   "nassima-choltus": >
@@ -94,5 +91,4 @@ roles:
       - "gsuchestow"
       - "mzaquithorea"
       - "cviron"
-      - "hbeneyrol"
 ---
