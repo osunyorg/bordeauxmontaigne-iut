@@ -18,7 +18,9 @@ administrators:
   - "karine-dubois"
   - "catherine-lecart"
   - "kmerahi"
+  - "hmonneriesor"
   - "camille-seguin"
+  - "laurianne-seran"
   - "corine-videau"
 administrators_description:
   "quentin-bessiere": >
@@ -33,8 +35,12 @@ administrators_description:
     Pôle Formation continue
   "kmerahi": >
     Pôle Formation continue
+  "hmonneriesor": >
+    Scolarité
   "camille-seguin": >
     Secrétariat Information - Communication
+  "laurianne-seran": >
+    Scolarité
   "corine-videau": >
     Secrétariat Information - Communication
 roles:
@@ -51,11 +57,16 @@ roles:
       Secrétariat Information - Communication
     persons:
       - "camille-seguin"
-      - "corine-videau"
       - "nassima-choltus"
+      - "corine-videau"
   - title: >
       Pôle Formation continue
     persons:
-      - "catherine-lecart"
       - "kmerahi"
+      - "catherine-lecart"
+  - title: >
+      Scolarité
+    persons:
+      - "hmonneriesor"
+      - "laurianne-seran"
 ---
