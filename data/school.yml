@@ -16,6 +16,7 @@ administrators:
   - "nassima-choltus"
   - "melisse-debes"
   - "karine-dubois"
+  - "catherine-lecart"
   - "camille-seguin"
   - "corine-videau"
 administrators_description:
@@ -27,6 +28,8 @@ administrators_description:
     Secrétariat Carrières sociales
   "karine-dubois": >
     Secrétariat Carrières sociales
+  "catherine-lecart": >
+    Pôle Formation continue
   "camille-seguin": >
     Secrétariat Information - Communication
   "corine-videau": >
@@ -47,4 +50,8 @@ roles:
       - "camille-seguin"
       - "corine-videau"
       - "nassima-choltus"
+  - title: >
+      Pôle Formation continue
+    persons:
+      - "catherine-lecart"
 ---
