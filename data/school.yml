@@ -19,6 +19,7 @@ administrators:
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
+  - "justin-puyo"
   - "camille-seguin"
   - "laurianne-seran"
   - "corine-videau"
@@ -37,6 +38,8 @@ administrators_description:
     Pôle Formation continue
   "hmonneriesor": >
     Scolarité
+  "justin-puyo": >
+    Service Informatique
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
@@ -69,4 +72,8 @@ roles:
     persons:
       - "hmonneriesor"
       - "laurianne-seran"
+  - title: >
+      Service Informatique
+    persons:
+      - "justin-puyo"
 ---
