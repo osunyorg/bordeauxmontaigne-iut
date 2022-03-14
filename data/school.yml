@@ -15,21 +15,28 @@ administrators:
   - "quentin-bessiere"
   - "melisse-debes"
   - "karine-dubois"
+  - "camille-seguin"
 administrators_description:
   "quentin-bessiere": >
-    Secrétariat PUB MMI
+    Secrétariat PUB - MMI
   "melisse-debes": >
-    Gestionnaires administratives
+    Secrétariat Carrières sociales
   "karine-dubois": >
-    Gestionnaires administratives
+    Secrétariat Carrières sociales
+  "camille-seguin": >
+    Secrétariat Information - Communication
 roles:
   - title: >
-      Gestionnaires administratives
+      Secrétariat Carrières sociales
     persons:
       - "karine-dubois"
       - "melisse-debes"
   - title: >
-      Secrétariat PUB MMI
+      Secrétariat PUB - MMI
     persons:
       - "quentin-bessiere"
+  - title: >
+      Secrétariat Information - Communication
+    persons:
+      - "camille-seguin"
 ---
