@@ -13,23 +13,49 @@ phone: >
   +33 5 57 12 20 44
 administrators:
   - "quentin-bessiere"
+  - "nassima-choltus"
   - "melisse-debes"
   - "karine-dubois"
+  - "catherine-lecart"
+  - "kmerahi"
+  - "camille-seguin"
+  - "corine-videau"
 administrators_description:
   "quentin-bessiere": >
-    Secrétariat PUB MMI
+    Secrétariat PUB - MMI
+  "nassima-choltus": >
+    Secrétariat Information - Communication
   "melisse-debes": >
-    Gestionnaires administratives
+    Secrétariat Carrières sociales
   "karine-dubois": >
-    Gestionnaires administratives
+    Secrétariat Carrières sociales
+  "catherine-lecart": >
+    Pôle Formation continue
+  "kmerahi": >
+    Pôle Formation continue
+  "camille-seguin": >
+    Secrétariat Information - Communication
+  "corine-videau": >
+    Secrétariat Information - Communication
 roles:
   - title: >
-      Gestionnaires administratives
+      Secrétariat Carrières sociales
     persons:
       - "karine-dubois"
       - "melisse-debes"
   - title: >
-      Secrétariat PUB MMI
+      Secrétariat PUB - MMI
     persons:
       - "quentin-bessiere"
+  - title: >
+      Secrétariat Information - Communication
+    persons:
+      - "camille-seguin"
+      - "corine-videau"
+      - "nassima-choltus"
+  - title: >
+      Pôle Formation continue
+    persons:
+      - "catherine-lecart"
+      - "kmerahi"
 ---
