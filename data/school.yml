@@ -62,8 +62,8 @@ roles:
   - title: >
       Pôle Formation continue
     persons:
-      - "catherine-lecart"
       - "kmerahi"
+      - "catherine-lecart"
   - title: >
       Scolarité
     persons:
