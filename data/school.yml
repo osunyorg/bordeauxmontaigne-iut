@@ -19,9 +19,13 @@ administrators:
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
+  - "justin-puyo"
   - "camille-seguin"
   - "laurianne-seran"
+  - "gsuchestow"
   - "corine-videau"
+  - "cviron"
+  - "mzaquithorea"
 administrators_description:
   "quentin-bessiere": >
     Secrétariat PUB - MMI
@@ -37,12 +41,20 @@ administrators_description:
     Pôle Formation continue
   "hmonneriesor": >
     Scolarité
+  "justin-puyo": >
+    Service Informatique
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
     Scolarité
+  "gsuchestow": >
+    Centre de Ressources Montaigne
   "corine-videau": >
     Secrétariat Information - Communication
+  "cviron": >
+    Centre de Ressources Montaigne
+  "mzaquithorea": >
+    Centre de Ressources Montaigne
 roles:
   - title: >
       Secrétariat Carrières sociales
@@ -69,4 +81,14 @@ roles:
     persons:
       - "hmonneriesor"
       - "laurianne-seran"
+  - title: >
+      Service Informatique
+    persons:
+      - "justin-puyo"
+  - title: >
+      Centre de Ressources Montaigne
+    persons:
+      - "gsuchestow"
+      - "mzaquithorea"
+      - "cviron"
 ---
