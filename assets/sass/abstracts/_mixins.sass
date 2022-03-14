@@ -1,0 +1,24 @@
+@mixin link
+    text-decoration-color: rgba($link-color, 0.3)
+    text-decoration-line: underline
+    text-decoration-thickness: 1px
+    text-underline-offset: 3px
+    transition: text-decoration-color .3s ease
+    &:hover
+        text-decoration-color: rgba($link-color, 1)
+        text-decoration-thickness: 1px
+
+@mixin table-persons
+    td
+        font-size: px2rem(16)
+        text-align: left
+    @include media-breakpoint-up(md)
+        th
+            width: calc(100% / 3)
+    @include media-breakpoint-down(md)
+        border: 0
+        tr
+            margin-bottom: 1rem
+        td
+            border: 0
+            padding-top: 0

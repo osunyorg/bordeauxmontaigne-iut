@@ -1,0 +1,19 @@
+<table class="table-resume">
+  <tbody>
+    {{ $persons := .Pages.ByParam "last_name" }}
+    {{ range (.Paginate $persons).Pages }}
+    <tr>
+      <th>
+        <a href="{{ .Permalink }}" aria-label="{{ i18n "commons.more_aria" (dict "Title" .Title) }}">
+          {{- safeHTML .Title -}}
+        </a>
+      </th>
+      <td>
+        {{ if (partial "GetTextFromHTML" .Content) }}
+          {{- truncate 120 (safeHTML (plainify .Content)) -}}
+        {{ end }}
+      </td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

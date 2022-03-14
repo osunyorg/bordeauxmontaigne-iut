@@ -1,0 +1,21 @@
+<table class="table-resume">
+  <tbody>
+    {{ range .Paginator.Pages.ByParam "last_name" }}
+      {{ $person := site.GetPage (printf "/persons/%s" .Slug) }}
+      {{ if $person }}
+        <tr>
+          <th>
+            <a href="{{ .Permalink }}" aria-label="{{ i18n "commons.more_aria" (dict "Title" $person.Title) }}">
+              {{- safeHTML $person.Title -}}
+            </a>
+          </th>
+          <td>
+            {{ if (partial "GetTextFromHTML" $person.Content) }}
+              {{- truncate 120 (safeHTML (plainify $person.Content)) -}}
+            {{ end }}
+          </td>
+        </tr>
+      {{ end }}
+    {{ end }}
+  </tbody>
+</table>
