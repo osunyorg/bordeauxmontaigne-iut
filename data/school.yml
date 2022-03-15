@@ -66,6 +66,9 @@ administrators_description:
     Centre de Ressources Montaigne
 roles:
   - title: >
+      Gestion administrative et financière
+    persons:
+  - title: >
       Scolarité
     persons:
       - "hmonneriesor"
