@@ -66,6 +66,9 @@ administrators_description:
     Centre de Ressources Montaigne
 roles:
   - title: >
+      Accueil
+    persons:
+  - title: >
       Direction
     persons:
   - title: >
@@ -109,4 +112,7 @@ roles:
       - "stephane-colnay"
       - "herve-panhaleux"
       - "julien-muzard"
+  - title: >
+      Service Patrimoine logistique et maintenance
+    persons:
 ---
