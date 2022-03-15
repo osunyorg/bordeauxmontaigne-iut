@@ -66,6 +66,11 @@ administrators_description:
     Centre de Ressources Montaigne
 roles:
   - title: >
+      Scolarité
+    persons:
+      - "hmonneriesor"
+      - "laurianne-seran"
+  - title: >
       Secrétariat Carrières sociales
     persons:
       - "karine-dubois"
@@ -85,11 +90,6 @@ roles:
     persons:
       - "kmerahi"
       - "catherine-lecart"
-  - title: >
-      Scolarité
-    persons:
-      - "hmonneriesor"
-      - "laurianne-seran"
   - title: >
       Service Informatique
     persons:
