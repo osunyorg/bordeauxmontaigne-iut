@@ -139,6 +139,10 @@
       target: "/formation-continue/modes-de-financement/"
       kind: page
       children: []
+    - title: Codes utiles
+      target: "/formation-continue/codes-utiles/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
