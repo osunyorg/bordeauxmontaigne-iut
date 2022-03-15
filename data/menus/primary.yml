@@ -135,6 +135,10 @@
       target: "/formation-continue/organisation-du-service/"
       kind: page
       children: []
+    - title: Offre de formation
+      target: "/formation-continue/offre-de-formation-fc/"
+      kind: page
+      children: []
     - title: Modes de financement
       target: "/formation-continue/modes-de-financement/"
       kind: page
@@ -145,10 +149,6 @@
       children: []
     - title: Médiation
       target: "/formation-continue/mediation/"
-      kind: page
-      children: []
-    - title: Offre de formation
-      target: "/formation-continue/offre-de-formation-fc/"
       kind: page
       children: []
 - title: Vie étudiante
