@@ -147,6 +147,10 @@
       target: "/formation-continue/mediation/"
       kind: page
       children: []
+    - title: Offre de formation
+      target: "/formation-continue/offre-de-formation-fc/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
