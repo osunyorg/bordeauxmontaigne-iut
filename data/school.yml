@@ -14,11 +14,14 @@ phone: >
 administrators:
   - "quentin-bessiere"
   - "nassima-choltus"
+  - "stephane-colnay"
   - "melisse-debes"
   - "karine-dubois"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
+  - "julien-muzard"
+  - "herve-panhaleux"
   - "justin-puyo"
   - "camille-seguin"
   - "laurianne-seran"
@@ -31,6 +34,8 @@ administrators_description:
     Secrétariat PUB - MMI
   "nassima-choltus": >
     Secrétariat Information - Communication
+  "stephane-colnay": >
+    Service Informatique
   "melisse-debes": >
     Secrétariat Carrières sociales
   "karine-dubois": >
@@ -41,6 +46,10 @@ administrators_description:
     Pôle Formation continue
   "hmonneriesor": >
     Scolarité
+  "julien-muzard": >
+    Service Informatique
+  "herve-panhaleux": >
+    Service Informatique
   "justin-puyo": >
     Service Informatique
   "camille-seguin": >
@@ -56,6 +65,20 @@ administrators_description:
   "mzaquithorea": >
     Centre de Ressources Montaigne
 roles:
+  - title: >
+      Accueil
+    persons:
+  - title: >
+      Direction
+    persons:
+  - title: >
+      Gestion administrative et financière
+    persons:
+  - title: >
+      Scolarité
+    persons:
+      - "hmonneriesor"
+      - "laurianne-seran"
   - title: >
       Secrétariat Carrières sociales
     persons:
@@ -77,18 +100,19 @@ roles:
       - "kmerahi"
       - "catherine-lecart"
   - title: >
-      Scolarité
-    persons:
-      - "hmonneriesor"
-      - "laurianne-seran"
-  - title: >
-      Service Informatique
-    persons:
-      - "justin-puyo"
-  - title: >
       Centre de Ressources Montaigne
     persons:
       - "gsuchestow"
       - "mzaquithorea"
       - "cviron"
+  - title: >
+      Service Informatique
+    persons:
+      - "justin-puyo"
+      - "stephane-colnay"
+      - "herve-panhaleux"
+      - "julien-muzard"
+  - title: >
+      Service Patrimoine logistique et maintenance
+    persons:
 ---
