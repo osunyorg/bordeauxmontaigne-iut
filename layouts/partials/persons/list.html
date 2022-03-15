@@ -3,7 +3,7 @@
     {{ $persons := .Pages.ByParam "last_name" }}
     {{ range (.Paginate $persons).Pages }}
     <tr>
-      <th>
+      <th scope="row">
         <a href="{{ .Permalink }}" aria-label="{{ i18n "commons.more_aria" (dict "Title" .Title) }}">
           {{- safeHTML .Title -}}
         </a>
