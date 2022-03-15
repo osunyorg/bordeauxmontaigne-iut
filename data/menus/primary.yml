@@ -130,7 +130,11 @@
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
-    children: []
+    children:
+    - title: Organisation du service
+      target: "/formation-continue/organisation-du-service/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
