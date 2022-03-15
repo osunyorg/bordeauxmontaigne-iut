@@ -14,11 +14,14 @@ phone: >
 administrators:
   - "quentin-bessiere"
   - "nassima-choltus"
+  - "stephane-colnay"
   - "melisse-debes"
   - "karine-dubois"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
+  - "julien-muzard"
+  - "herve-panhaleux"
   - "justin-puyo"
   - "camille-seguin"
   - "laurianne-seran"
@@ -31,6 +34,8 @@ administrators_description:
     Secrétariat PUB - MMI
   "nassima-choltus": >
     Secrétariat Information - Communication
+  "stephane-colnay": >
+    Service Informatique
   "melisse-debes": >
     Secrétariat Carrières sociales
   "karine-dubois": >
@@ -41,6 +46,10 @@ administrators_description:
     Pôle Formation continue
   "hmonneriesor": >
     Scolarité
+  "julien-muzard": >
+    Service Informatique
+  "herve-panhaleux": >
+    Service Informatique
   "justin-puyo": >
     Service Informatique
   "camille-seguin": >
@@ -85,6 +94,9 @@ roles:
       Service Informatique
     persons:
       - "justin-puyo"
+      - "stephane-colnay"
+      - "herve-panhaleux"
+      - "julien-muzard"
   - title: >
       Centre de Ressources Montaigne
     persons:
