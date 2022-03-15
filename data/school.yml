@@ -91,16 +91,16 @@ roles:
       - "kmerahi"
       - "catherine-lecart"
   - title: >
+      Centre de Ressources Montaigne
+    persons:
+      - "gsuchestow"
+      - "mzaquithorea"
+      - "cviron"
+  - title: >
       Service Informatique
     persons:
       - "justin-puyo"
       - "stephane-colnay"
       - "herve-panhaleux"
       - "julien-muzard"
-  - title: >
-      Centre de Ressources Montaigne
-    persons:
-      - "gsuchestow"
-      - "mzaquithorea"
-      - "cviron"
 ---
