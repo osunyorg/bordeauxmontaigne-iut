@@ -6,31 +6,26 @@ footer[role="contentinfo"]
         img
             height: 160px
 
-    .container > nav
-        margin-left: 0
-        .nav-levels > li
-            margin-left: -1rem
-
     nav
-        a
-            line-height: px2rem(22)
-        .nav-levels > li
-            & > a,
-            & > span
-                border-bottom: 1px solid $border-color
-                display: block
-                font-size: $h2-font-size
-                line-height: px2rem(36)
-                padding-bottom: px2rem(10)
-            a
-                text-decoration-color: transparent
-                &:hover
-                    text-decoration-color: $link-color
-            .nav-level-2 > li
+        @extend .footer-nav-expand
+
+        .nav-levels
+            > li
                 & > a,
                 & > span
-                    font-size: px2rem(18)
-                    line-height: px2rem(26)
+                    display: block
+                    font-size: $h2-font-size
+                    line-height: px2rem(36)
+                    margin-bottom: px2rem(10)
+                    position: relative
+                    &::after
+                        background-color: $border-color
+                        bottom: 0
+                        content: ''
+                        height: 1px
+                        left: $nav-link-padding-x
+                        position: absolute
+                        right: 0
 
     .credit
         font-family: $font-family-sans-serif
