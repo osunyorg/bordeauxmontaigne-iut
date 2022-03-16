@@ -24,6 +24,7 @@ administrators:
   - "julien-muzard"
   - "herve-panhaleux"
   - "justin-puyo"
+  - "mathilde-rollin"
   - "camille-seguin"
   - "laurianne-seran"
   - "gsuchestow"
@@ -55,6 +56,8 @@ administrators_description:
     Service Informatique
   "justin-puyo": >
     Service Informatique
+  "mathilde-rollin": >
+    Accueil
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
@@ -71,9 +74,7 @@ roles:
   - title: >
       Accueil
     persons:
-  - title: >
-      Direction
-    persons:
+      - "mathilde-rollin"
   - title: >
       Gestion administrative et financière
     persons:
