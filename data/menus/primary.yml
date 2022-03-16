@@ -159,6 +159,10 @@
       target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2019/07/CGV-UBM.pdf/
       kind: url
       children: []
+    - title: Validation des acquis (VAE/VAPP)
+      target: https://www.u-bordeaux-montaigne.fr/fr/formations/formation_continue/validation-des-acquis.html/
+      kind: url
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
