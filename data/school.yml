@@ -17,12 +17,14 @@ administrators:
   - "stephane-colnay"
   - "melisse-debes"
   - "karine-dubois"
+  - "helene-ertle"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
   - "julien-muzard"
   - "herve-panhaleux"
   - "justin-puyo"
+  - "mathilde-rollin"
   - "camille-seguin"
   - "laurianne-seran"
   - "gsuchestow"
@@ -40,6 +42,8 @@ administrators_description:
     Secrétariat Carrières sociales
   "karine-dubois": >
     Secrétariat Carrières sociales
+  "helene-ertle": >
+    Gestion administrative et financière
   "catherine-lecart": >
     Pôle Formation continue
   "kmerahi": >
@@ -52,6 +56,8 @@ administrators_description:
     Service Informatique
   "justin-puyo": >
     Service Informatique
+  "mathilde-rollin": >
+    Accueil
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
@@ -68,12 +74,11 @@ roles:
   - title: >
       Accueil
     persons:
-  - title: >
-      Direction
-    persons:
+      - "mathilde-rollin"
   - title: >
       Gestion administrative et financière
     persons:
+      - "helene-ertle"
   - title: >
       Scolarité
     persons:
