@@ -17,6 +17,7 @@ administrators:
   - "stephane-colnay"
   - "melisse-debes"
   - "karine-dubois"
+  - "helene-ertle"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
@@ -40,6 +41,8 @@ administrators_description:
     Secrétariat Carrières sociales
   "karine-dubois": >
     Secrétariat Carrières sociales
+  "helene-ertle": >
+    Gestion administrative et financière
   "catherine-lecart": >
     Pôle Formation continue
   "kmerahi": >
@@ -74,6 +77,7 @@ roles:
   - title: >
       Gestion administrative et financière
     persons:
+      - "helene-ertle"
   - title: >
       Scolarité
     persons:
