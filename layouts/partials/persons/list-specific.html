@@ -1,4 +1,5 @@
-<table class="table-resume">
+<table class="table-persons">
+  <caption></caption>
   <tbody>
     {{ range .Paginator.Pages.ByParam "last_name" }}
       {{ $person := site.GetPage (printf "/persons/%s" .Slug) }}

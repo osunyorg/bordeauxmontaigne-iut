@@ -1,4 +1,5 @@
-<table class="table-resume">
+<table class="table-persons">
+  <caption>{{ .Title }}</caption>
   <tbody>
     {{ $persons := .Pages.ByParam "last_name" }}
     {{ range (.Paginate $persons).Pages }}
