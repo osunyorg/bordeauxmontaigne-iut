@@ -159,13 +159,13 @@
       target: "/formation-continue/codes-utiles/"
       kind: page
       children: []
-    - title: Médiation
-      target: "/formation-continue/mediation/"
-      kind: page
-      children: []
     - title: Validation des acquis (VAE/VAPP)
       target: https://www.u-bordeaux-montaigne.fr/fr/formations/formation_continue/validation-des-acquis.html/
       kind: url
+      children: []
+    - title: Médiation
+      target: "/formation-continue/mediation/"
+      kind: page
       children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
