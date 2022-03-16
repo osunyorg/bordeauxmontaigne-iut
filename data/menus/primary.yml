@@ -147,6 +147,10 @@
       target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2018/06/RI-formation-continue.pdf/
       kind: url
       children: []
+    - title: Conditions générales de vente
+      target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2019/07/CGV-UBM.pdf/
+      kind: url
+      children: []
     - title: Codes utiles
       target: "/formation-continue/codes-utiles/"
       kind: page
@@ -154,10 +158,6 @@
     - title: Médiation
       target: "/formation-continue/mediation/"
       kind: page
-      children: []
-    - title: Conditions générales de vente
-      target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2019/07/CGV-UBM.pdf/
-      kind: url
       children: []
     - title: Validation des acquis (VAE/VAPP)
       target: https://www.u-bordeaux-montaigne.fr/fr/formations/formation_continue/validation-des-acquis.html/
