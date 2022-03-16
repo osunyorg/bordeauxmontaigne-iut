@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "fr" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ partial "head/css.html" }}
+    {{ partial "head/seo.html" . }}
+    {{ partial "head/rss.html" . }}
+  </head>
+  <body class="{{ .Type }}__{{ .Kind }}"{{ if eq .Kind "section" }} data-bs-spy="scroll" data-bs-offset="91" data-bs-target="#nav-toc" data-bs-offset="5"{{ end }}>
+    {{- partial "header/accessibility.html" -}}
+    {{- partial "header/header.html" -}}
+    <main id="main" role="main" tabindex="-1">
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer/footer.html" . -}}
+    {{- partial "footer/cookie-banner.html" . -}}
+    {{- partial "footer/js.html" . -}}
+  </body>
+</html>
