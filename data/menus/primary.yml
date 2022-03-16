@@ -155,6 +155,10 @@
       target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2018/06/RI-formation-continue.pdf/
       kind: url
       children: []
+    - title: Conditions générales de vente
+      target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2019/07/CGV-UBM.pdf/
+      kind: url
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
