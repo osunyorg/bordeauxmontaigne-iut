@@ -151,6 +151,10 @@
       target: "/formation-continue/mediation/"
       kind: page
       children: []
+    - title: Réglement intérieur
+      target: https://www.iut.u-bordeaux-montaigne.fr/wp-content/uploads/2018/06/RI-formation-continue.pdf/
+      kind: url
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
