@@ -3,6 +3,38 @@
   target: "/actualites/"
   kind: news
   children: []
+- title: Notre institut
+  target: "/notre-institut/"
+  kind: page
+  children:
+  - title: Présentation de l'IUT
+    target: "/notre-institut/presentation-de-liut/"
+    kind: page
+    children: []
+  - title: Les atouts des IUT
+    target: "/notre-institut/les-atouts-des-iut/"
+    kind: page
+    children: []
+  - title: Équipe
+    target: "/equipe/"
+    kind: staff
+    children: []
+  - title: Ressources
+    target: "/notre-institut/ressources-techniques/"
+    kind: page
+    children: []
+  - title: Plan d’accès et contact
+    target: "/notre-institut/plan-dacces-et-contact/"
+    kind: page
+    children: []
+  - title: Consignes de sécurité
+    target: https://www.u-bordeaux-montaigne.fr/fr/actualites/vie-institutionnelle/vigipirate-consignes-de-securite.html/
+    kind: url
+    children: []
+  - title: Relations avec les entreprises
+    target: "/notre-institut/relations-avec-les-entreprises/"
+    kind: page
+    children: []
 - title: Offre de formation
   target: "/offre-de-formation/"
   kind: programs
