@@ -3,16 +3,16 @@
   target: https://www.linkedin.com/school/iut-bordeaux-montaigne/
   kind: url
   children: []
-- title: Twitter
-  target: https://twitter.com/iutmontaigne/
-  kind: url
-  children: []
 - title: Facebook
   target: https://www.facebook.com/iutmontaigne/
   kind: url
   children: []
 - title: Instagram
   target: https://www.instagram.com/iutmontaigne/
+  kind: url
+  children: []
+- title: Twitter
+  target: https://twitter.com/iutmontaigne/
   kind: url
   children: []
 
