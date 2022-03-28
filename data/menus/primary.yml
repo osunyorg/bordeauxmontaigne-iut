@@ -247,10 +247,6 @@
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
-    - title: Aides, santé et prévention
-      target: "/intranet/aides-sante-et-prevention/"
-      kind: page
-      children: []
 - title: Intranet
   target: "/intranet/"
   kind: page
