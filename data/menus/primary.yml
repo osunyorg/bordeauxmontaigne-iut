@@ -248,7 +248,7 @@
       kind: page
       children: []
     - title: Aides, santé et prévention
-      target: "/vie-etudiante/aide-entraide/aides-sante-et-prevention/"
+      target: "/intranet/aides-sante-et-prevention/"
       kind: page
       children: []
 - title: Intranet
