@@ -42,11 +42,11 @@
   - title: Toute l'offre de formation
     target: "/offre-de-formation/"
     kind: programs
-    children: []
-  - title: Formation initiale
-    target: "/formation-initiale/"
-    kind: page
-    children: []
+    children:
+    - title: Formation initiale
+      target: "/formation-initiale/"
+      kind: page
+      children: []
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
