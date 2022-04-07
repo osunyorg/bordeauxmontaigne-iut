@@ -172,19 +172,19 @@
   kind: page
   children:
   - title: Scolarité
-    target: "/vie-etudiante/scolarite/"
+    target: "/scolarite/"
     kind: page
     children:
     - title: Être candidat·e
-      target: "/vie-etudiante/scolarite/etre-candidat/"
+      target: "/etre-candidat/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/vie-etudiante/scolarite/inscription-administrative/"
+      target: "/scolarite/inscription-administrative/"
       kind: page
       children: []
     - title: Frais d'inscription
-      target: "/vie-etudiante/scolarite/frais-dinscription/"
+      target: "/scolarite/frais-dinscription/"
       kind: page
       children: []
     - title: Accessibilité et handicap
@@ -204,7 +204,7 @@
       kind: url
       children: []
     - title: Statistiques
-      target: "/vie-etudiante/scolarite/statistiques/"
+      target: "/scolarite/statistiques/"
       kind: page
       children: []
   - title: Centre de ressources Montaigne
