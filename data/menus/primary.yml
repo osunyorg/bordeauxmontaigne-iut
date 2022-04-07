@@ -40,8 +40,8 @@
   kind: blank
   children:
   - title: Offre de formation
-    target: "/offre-de-formation-1/"
-    kind: page
+    target: "/offre-de-formation/"
+    kind: programs
     children:
     - title: Bachelors Universitaires de Technologie
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
