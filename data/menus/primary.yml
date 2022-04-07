@@ -147,10 +147,6 @@
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
     children:
-    - title: Présentation du CRM
-      target: "/vie-etudiante/centre-de-ressources-montaigne/presentation-crm/"
-      kind: page
-      children: []
     - title: Consulter et emprunter
       target: "/vie-etudiante/centre-de-ressources-montaigne/consulter-et-emprunter/"
       kind: page
