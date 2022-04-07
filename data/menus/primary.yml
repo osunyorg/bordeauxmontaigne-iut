@@ -94,11 +94,7 @@
     - title: Masters professionnels
       target: "/offre-de-formation/master-professionnel/"
       kind: program
-      children:
-      - title: Ingénierie de l’animation territoriale
-        target: "/offre-de-formation/master-professionnel/ingenierie-de-l-animation-territoriale/"
-        kind: program
-        children: []
+      children: []
   - title: Apprentissage
     target: "/apprentissage/"
     kind: page
