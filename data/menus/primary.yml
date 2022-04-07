@@ -36,8 +36,8 @@
     kind: page
     children: []
 - title: Formation
-  target: "/offre-de-formation/"
-  kind: programs
+  target: "/"
+  kind: blank
   children:
   - title: Toute l'offre de formation
     target: "/offre-de-formation/"
