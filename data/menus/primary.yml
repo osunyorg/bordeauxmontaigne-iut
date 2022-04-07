@@ -39,6 +39,10 @@
   target: "/"
   kind: blank
   children:
+  - title: Être candidat·e
+    target: "/etre-candidat/"
+    kind: page
+    children: []
   - title: Offre de formation
     target: "/offre-de-formation-1/"
     kind: page
@@ -59,10 +63,6 @@
       target: "/offre-de-formation/master-professionnel/"
       kind: program
       children: []
-  - title: Être candidat·e
-    target: "/etre-candidat/"
-    kind: page
-    children: []
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
