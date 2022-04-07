@@ -39,6 +39,26 @@
   target: "/"
   kind: blank
   children:
+  - title: Offre de formation
+    target: "/offre-de-formation-1/"
+    kind: page
+    children:
+    - title: Bachelor Universitaire de Technologie
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
+      kind: program
+      children: []
+    - title: Licences professionnelles
+      target: "/offre-de-formation/licence-professionnelle/"
+      kind: program
+      children: []
+    - title: Diplômes d'Université
+      target: "/offre-de-formation/diplome-d-universite/"
+      kind: program
+      children: []
+    - title: Masters professionnels
+      target: "/offre-de-formation/master-professionnel/"
+      kind: program
+      children: []
   - title: Être candidat·e
     target: "/etre-candidat/"
     kind: page
@@ -74,26 +94,6 @@
     - title: Statistiques
       target: "/scolarite/statistiques/"
       kind: page
-      children: []
-  - title: Offre de formation
-    target: "/offre-de-formation-1/"
-    kind: page
-    children:
-    - title: Bachelor Universitaire de Technologie
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
-      kind: program
-      children: []
-    - title: Licences professionnelles
-      target: "/offre-de-formation/licence-professionnelle/"
-      kind: program
-      children: []
-    - title: Diplômes d'Université
-      target: "/offre-de-formation/diplome-d-universite/"
-      kind: program
-      children: []
-    - title: Masters professionnels
-      target: "/offre-de-formation/master-professionnel/"
-      kind: program
       children: []
   - title: Apprentissage
     target: "/apprentissage/"
