@@ -75,9 +75,9 @@
       target: "/scolarite/statistiques/"
       kind: page
       children: []
-  - title: Toute l'offre de formation
-    target: "/offre-de-formation/"
-    kind: programs
+  - title: Offre de formation
+    target: "/offre-de-formation-1/"
+    kind: page
     children:
     - title: Apprentissage
       target: "/apprentissage/"
