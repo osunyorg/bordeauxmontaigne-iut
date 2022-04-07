@@ -35,7 +35,7 @@
     target: "/notre-institut/relations-avec-les-entreprises/"
     kind: page
     children: []
-- title: Offre de formation
+- title: Formation
   target: "/offre-de-formation/"
   kind: programs
   children:
