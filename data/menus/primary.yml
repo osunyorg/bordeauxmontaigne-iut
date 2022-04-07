@@ -90,11 +90,7 @@
     - title: Diplômes d'Université
       target: "/offre-de-formation/diplome-d-universite/"
       kind: program
-      children:
-      - title: Gestion et animation de ludothèques
-        target: "/offre-de-formation/diplome-d-universite/gestion-et-animation-de-ludotheques/"
-        kind: program
-        children: []
+      children: []
     - title: Masters professionnels
       target: "/offre-de-formation/master-professionnel/"
       kind: program
