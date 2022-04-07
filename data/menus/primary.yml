@@ -63,10 +63,6 @@
     target: "/etre-candidat/"
     kind: page
     children: []
-  - title: Apprentissage
-    target: "/apprentissage/"
-    kind: page
-    children: []
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
@@ -107,6 +103,10 @@
       target: "/formation-continue/mediation/"
       kind: page
       children: []
+  - title: Apprentissage
+    target: "/apprentissage/"
+    kind: page
+    children: []
   - title: Scolarité
     target: "/scolarite/"
     kind: page
