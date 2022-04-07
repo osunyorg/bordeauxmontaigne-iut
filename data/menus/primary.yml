@@ -40,7 +40,7 @@
   kind: blank
   children:
   - title: Être candidat·e
-    target: "/etre-candidat/"
+    target: "/scolarite/etre-candidat/"
     kind: page
     children: []
   - title: Offre de formation
