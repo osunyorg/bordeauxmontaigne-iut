@@ -78,11 +78,11 @@
   - title: Offre de formation
     target: "/offre-de-formation-1/"
     kind: page
-    children:
-    - title: Apprentissage
-      target: "/apprentissage/"
-      kind: page
-      children: []
+    children: []
+  - title: Apprentissage
+    target: "/apprentissage/"
+    kind: page
+    children: []
   - title: Formation continue
     target: "/formation-continue/"
     kind: page
