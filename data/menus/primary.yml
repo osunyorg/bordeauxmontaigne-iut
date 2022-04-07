@@ -78,7 +78,39 @@
   - title: Offre de formation
     target: "/offre-de-formation-1/"
     kind: page
-    children: []
+    children:
+    - title: Bachelor Universitaire de Technologie
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
+      kind: program
+      children:
+      - title: Animation sociale et socioculturelle
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/"
+        kind: program
+        children: []
+      - title: Villes et territoires durables
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-villes-et-territoires-durables/"
+        kind: program
+        children: []
+      - title: Communication des organisations
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
+        kind: program
+        children: []
+      - title: Publicité
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
+        kind: program
+        children: []
+      - title: Métiers du livre et du patrimoine
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-metiers-du-livre-et-du-patrimoine/"
+        kind: program
+        children: []
+      - title: Information numérique dans les organisations
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-information-numerique-dans-les-organisations/"
+        kind: program
+        children: []
+      - title: Métiers du Multimédia et de l'Internet
+        target: "/offre-de-formation/bachelor-universitaire-de-technologie/metiers-du-multimedia-et-de-l-internet/"
+        kind: program
+        children: []
   - title: Apprentissage
     target: "/apprentissage/"
     kind: page
@@ -122,38 +154,6 @@
     - title: Médiation
       target: "/formation-continue/mediation/"
       kind: page
-      children: []
-  - title: Bachelor Universitaire de Technologie
-    target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
-    kind: program
-    children:
-    - title: Animation sociale et socioculturelle
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-animation-sociale-et-socioculturelle/"
-      kind: program
-      children: []
-    - title: Villes et territoires durables
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/carrieres-sociales/parcours-villes-et-territoires-durables/"
-      kind: program
-      children: []
-    - title: Communication des organisations
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
-      kind: program
-      children: []
-    - title: Publicité
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
-      kind: program
-      children: []
-    - title: Métiers du livre et du patrimoine
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-metiers-du-livre-et-du-patrimoine/"
-      kind: program
-      children: []
-    - title: Information numérique dans les organisations
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-information-numerique-dans-les-organisations/"
-      kind: program
-      children: []
-    - title: Métiers du Multimédia et de l'Internet
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/metiers-du-multimedia-et-de-l-internet/"
-      kind: program
       children: []
   - title: Licences professionnelles
     target: "/offre-de-formation/licence-professionnelle/"
