@@ -82,11 +82,7 @@
     - title: Bachelor Universitaire de Technologie
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
       kind: program
-      children:
-      - title: Métiers du Multimédia et de l'Internet
-        target: "/offre-de-formation/bachelor-universitaire-de-technologie/metiers-du-multimedia-et-de-l-internet/"
-        kind: program
-        children: []
+      children: []
     - title: Licences professionnelles
       target: "/offre-de-formation/licence-professionnelle/"
       kind: program
