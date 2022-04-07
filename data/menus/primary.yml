@@ -131,6 +131,10 @@
       target: "/scolarite/statistiques/"
       kind: page
       children: []
+    - title: Être candidat·e
+      target: "/scolarite/etre-candidat/"
+      kind: page
+      children: []
   - title: Être candidat·e
     target: "/scolarite/etre-candidat/"
     kind: page
