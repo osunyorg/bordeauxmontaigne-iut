@@ -43,7 +43,7 @@
     target: "/offre-de-formation-1/"
     kind: page
     children:
-    - title: Bachelor Universitaire de Technologie
+    - title: Bachelors Universitaires de Technologie
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
       kind: program
       children: []
