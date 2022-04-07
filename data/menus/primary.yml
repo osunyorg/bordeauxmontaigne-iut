@@ -39,14 +39,14 @@
   target: "/"
   kind: blank
   children:
+  - title: Être candidat·e
+    target: "/etre-candidat/"
+    kind: page
+    children: []
   - title: Scolarité
     target: "/scolarite/"
     kind: page
     children:
-    - title: Être candidat·e
-      target: "/etre-candidat/"
-      kind: page
-      children: []
     - title: Inscription administrative
       target: "/scolarite/inscription-administrative/"
       kind: page
