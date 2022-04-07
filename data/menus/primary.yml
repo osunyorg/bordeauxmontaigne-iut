@@ -83,10 +83,6 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
       kind: program
       children:
-      - title: Publicité
-        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
-        kind: program
-        children: []
       - title: Métiers du livre et du patrimoine
         target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-metiers-du-livre-et-du-patrimoine/"
         kind: program
