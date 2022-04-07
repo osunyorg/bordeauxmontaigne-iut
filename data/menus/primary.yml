@@ -83,10 +83,6 @@
       target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
       kind: program
       children:
-      - title: Communication des organisations
-        target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-communication-des-organisations/"
-        kind: program
-        children: []
       - title: Publicité
         target: "/offre-de-formation/bachelor-universitaire-de-technologie/information-communication/parcours-publicite/"
         kind: program
