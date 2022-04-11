@@ -110,10 +110,10 @@ roles:
   - title: >
       Centre de Ressources Montaigne
     persons:
+      - "crm-iutijba"
       - "gsuchestow"
       - "mzaquithorea"
       - "cviron"
-      - "crm-iutijba"
   - title: >
       Service Informatique
     persons:
