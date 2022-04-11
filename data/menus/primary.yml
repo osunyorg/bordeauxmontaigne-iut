@@ -16,7 +16,7 @@
     kind: page
     children: []
   - title: Équipe
-    target: "/equipe-1/"
+    target: "/equipe/"
     kind: staff
     children: []
   - title: Ressources
