@@ -60,19 +60,19 @@
       kind: program
       children: []
   - title: Formation continue
-    target: "/formation-continue/"
+    target: "/formation/formation-continue/"
     kind: page
     children:
     - title: Organisation du service
-      target: "/formation-continue/organisation-du-service/"
+      target: "/formation/formation-continue/organisation-du-service/"
       kind: page
       children: []
     - title: Offre de formation
-      target: "/formation-continue/offre-de-formation-fc/"
+      target: "/formation/formation-continue/offre-de-formation-fc/"
       kind: page
       children: []
     - title: Modes de financement
-      target: "/formation-continue/modes-de-financement/"
+      target: "/formation/formation-continue/modes-de-financement/"
       kind: page
       children: []
     - title: Réglement intérieur
@@ -88,7 +88,7 @@
       kind: page
       children: []
     - title: Codes utiles
-      target: "/formation-continue/codes-utiles/"
+      target: "/formation/formation-continue/codes-utiles/"
       kind: page
       children: []
     - title: Validation des acquis (VAE/VAPP)
@@ -96,23 +96,23 @@
       kind: url
       children: []
     - title: Médiation
-      target: "/formation-continue/mediation/"
+      target: "/formation/formation-continue/mediation/"
       kind: page
       children: []
   - title: Scolarité
-    target: "/scolarite/"
+    target: "/formation/scolarite/"
     kind: page
     children:
     - title: Être candidat·e
-      target: "/scolarite/etre-candidat/"
+      target: "/formation/scolarite/etre-candidat/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/scolarite/inscription-administrative/"
+      target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
     - title: Frais d'inscription
-      target: "/scolarite/frais-dinscription/"
+      target: "/formation/scolarite/frais-dinscription/"
       kind: page
       children: []
     - title: Accessibilité et handicap
@@ -132,15 +132,15 @@
       kind: url
       children: []
     - title: Statistiques
-      target: "/scolarite/statistiques/"
+      target: "/formation/scolarite/statistiques/"
       kind: page
       children: []
   - title: Être candidat·e
-    target: "/scolarite/etre-candidat/"
+    target: "/formation/scolarite/etre-candidat/"
     kind: page
     children: []
   - title: Apprentissage
-    target: "/apprentissage/"
+    target: "/formation/apprentissage/"
     kind: page
     children: []
 - title: Vie étudiante
