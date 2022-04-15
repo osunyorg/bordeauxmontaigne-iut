@@ -19,7 +19,7 @@
     target: "/equipe/"
     kind: staff
     children: []
-  - title: Ressources
+  - title: Ressources et équipements
     target: "/notre-institut/ressources-techniques/"
     kind: page
     children: []
