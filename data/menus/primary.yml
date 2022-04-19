@@ -1,6 +1,6 @@
 ---
 - title: Actualités
-  target: "/actualites/"
+  target: "/notre-institut/actualites/"
   kind: news
   children: []
 - title: Notre institut
