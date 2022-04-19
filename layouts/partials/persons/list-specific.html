@@ -1,25 +1,24 @@
 <table class="table-persons">
   <caption></caption>
   <tbody>
-    {{ range .Paginator.Pages.ByParam "last_name" }}
-      {{ $person := site.GetPage (printf "/persons/%s" .Slug) }}
-      {{ if $person }}
+    {{- range .Paginator.Pages.ByParam "last_name" -}}
+      {{- $person := site.GetPage (printf "/persons/%s" .Slug) -}}
+      {{ with $person }}
         <tr>
           <th scope="row">
-            {{ $title := trim $person.Title "\n " }}
-            {{ $title = safeHTML (partial "CorrectPunctuation" $title) }}
-            <a href="{{ .Permalink }}" aria-label="{{ i18n "commons.more_aria" (dict "Title" $title) }}">
+            {{ $title := partial "PrepareHTML" .Title -}}
+            <a href="{{ .Permalink }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" $title)) }}">
               {{- $title -}}
             </a>
           </th>
           <td>
-            {{ if (partial "GetTextFromHTML" $person.Content) }}
-              {{- truncate 120 (safeHTML (plainify $person.Content)) -}}
-            {{ end }}
+            {{- if (partial "GetTextFromHTML" .Content) -}}
+              {{- partial "GetTruncateContent" .Content -}}
+            {{- end -}}
           </td>
         </tr>
       {{ end }}
-    {{ end }}
+    {{- end -}}
   </tbody>
 </table>
 {{ partial "commons/pagination.html" . }}

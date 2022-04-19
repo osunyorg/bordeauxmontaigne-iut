@@ -1,19 +1,18 @@
 <table class="table-persons">
   <caption>{{ .Title }}</caption>
   <tbody>
-    {{ $persons := .Pages.ByParam "last_name" }}
+    {{- $persons := .Pages.ByParam "last_name" }}
     {{ range (.Paginate $persons).Pages }}
     <tr>
       <th scope="row">
-        {{ $title := trim .Title "\n " }}
-        {{ $title = safeHTML (partial "CorrectPunctuation" $title) }}
-        <a href="{{ .Permalink }}" aria-label="{{- i18n "commons.more_aria" (dict "Title" $title) -}}">
+        {{ $title := partial "PrepareHTML" .Title -}}
+        <a href="{{ .Permalink }}" title="{{- safeHTML (i18n "commons.more_aria" (dict "Title" $title)) -}}">
           {{- $title -}}
         </a>
       </th>
       <td>
         {{ if (partial "GetTextFromHTML" .Content) }}
-          {{- truncate 120 (safeHTML (plainify .Content)) -}}
+          {{- partial "GetTruncateContent" .Content -}}
         {{ end }}
       </td>
     </tr>
