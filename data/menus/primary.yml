@@ -56,8 +56,8 @@
       kind: program
       children: []
     - title: Masters professionnels
-      target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/master-professionnel/
-      kind: url
+      target: "/offre-de-formation/master-professionnel/"
+      kind: program
       children: []
   - title: Formation continue
     target: "/formation/formation-continue/"
