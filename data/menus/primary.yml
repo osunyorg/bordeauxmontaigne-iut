@@ -4,8 +4,8 @@
   kind: news
   children: []
 - title: Notre institut
-  target: "/notre-institut/"
-  kind: page
+  target: "/"
+  kind: blank
   children:
   - title: Présentation de l'IUT
     target: "/notre-institut/presentation-de-liut/"
