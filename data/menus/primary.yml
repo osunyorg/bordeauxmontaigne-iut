@@ -48,8 +48,8 @@
       kind: url
       children: []
     - title: Licences professionnelles
-      target: "/formation/offre-de-formation/licence-professionnelle/"
-      kind: program
+      target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/licence-professionnelle/
+      kind: url
       children: []
     - title: Diplômes d'Université
       target: "/formation/offre-de-formation/diplome-d-universite/"
