@@ -52,8 +52,8 @@
       kind: program
       children: []
     - title: Diplômes d'Université
-      target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/diplome-d-universite/
-      kind: url
+      target: "/offre-de-formation/diplome-d-universite/"
+      kind: program
       children: []
     - title: Masters professionnels
       target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/master-professionnel/
