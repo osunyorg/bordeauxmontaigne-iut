@@ -16,7 +16,7 @@
     kind: page
     children: []
   - title: Équipe
-    target: "/equipe/"
+    target: "/notre-institut/equipe/"
     kind: staff
     children: []
   - title: Ressources et équipements
