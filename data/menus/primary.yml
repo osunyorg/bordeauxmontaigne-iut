@@ -44,8 +44,8 @@
     kind: programs
     children:
     - title: Bachelors Universitaires de Technologie
-      target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/bachelor-universitaire-de-technologie/
-      kind: url
+      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
+      kind: program
       children: []
     - title: Licences professionnelles
       target: https://bordeauxmontaigne-iut.netlify.app/offre-de-formation/licence-professionnelle/
