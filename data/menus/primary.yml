@@ -100,19 +100,19 @@
       kind: page
       children: []
   - title: Scolarité
-    target: "/formationscolarite/"
+    target: "/formation/scolarite/"
     kind: page
     children:
     - title: Être candidat·e
-      target: "/formationscolarite/etre-candidat/"
+      target: "/formation/scolarite/etre-candidat/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/formationscolarite/inscription-administrative/"
+      target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
     - title: Frais d'inscription
-      target: "/formationscolarite/frais-dinscription/"
+      target: "/formation/scolarite/frais-dinscription/"
       kind: page
       children: []
     - title: Accessibilité et handicap
@@ -132,15 +132,15 @@
       kind: url
       children: []
     - title: Statistiques
-      target: "/formationscolarite/statistiques/"
+      target: "/formation/scolarite/statistiques/"
       kind: page
       children: []
   - title: Être candidat·e
-    target: "/formationscolarite/etre-candidat/"
+    target: "/formation/scolarite/etre-candidat/"
     kind: page
     children: []
   - title: Apprentissage
-    target: "/formationapprentissage/"
+    target: "/formation/apprentissage/"
     kind: page
     children: []
 - title: Vie étudiante
@@ -148,15 +148,15 @@
   kind: page
   children:
   - title: Centre de ressources Montaigne
-    target: "/vie-etudiantecentre-de-ressources-montaigne/"
+    target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
     children:
     - title: Consulter et emprunter
-      target: "/vie-etudiantecentre-de-ressources-montaigne/consulter-et-emprunter/"
+      target: "/vie-etudiante/centre-de-ressources-montaigne/consulter-et-emprunter/"
       kind: page
       children: []
     - title: L'équipe qui vous accueille
-      target: "/vie-etudiantecentre-de-ressources-montaigne/equipe-qui-vous-accueille/"
+      target: "/vie-etudiante/centre-de-ressources-montaigne/equipe-qui-vous-accueille/"
       kind: page
       children: []
   - title: Services numériques
