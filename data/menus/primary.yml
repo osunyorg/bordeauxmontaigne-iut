@@ -16,7 +16,7 @@
     kind: page
     children: []
   - title: Équipe
-    target: "/notre-institut/equipe/"
+    target: "/notre-institutequipe/"
     kind: staff
     children: []
   - title: Ressources et équipements
@@ -100,19 +100,19 @@
       kind: page
       children: []
   - title: Scolarité
-    target: "/formation/scolarite/"
+    target: "/formationscolarite/"
     kind: page
     children:
     - title: Être candidat·e
-      target: "/formation/scolarite/etre-candidat/"
+      target: "/formationscolarite/etre-candidat/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/formation/scolarite/inscription-administrative/"
+      target: "/formationscolarite/inscription-administrative/"
       kind: page
       children: []
     - title: Frais d'inscription
-      target: "/formation/scolarite/frais-dinscription/"
+      target: "/formationscolarite/frais-dinscription/"
       kind: page
       children: []
     - title: Accessibilité et handicap
@@ -132,11 +132,11 @@
       kind: url
       children: []
     - title: Statistiques
-      target: "/formation/scolarite/statistiques/"
+      target: "/formationscolarite/statistiques/"
       kind: page
       children: []
   - title: Être candidat·e
-    target: "/formation/scolarite/etre-candidat/"
+    target: "/formationscolarite/etre-candidat/"
     kind: page
     children: []
   - title: Apprentissage
@@ -148,15 +148,15 @@
   kind: page
   children:
   - title: Centre de ressources Montaigne
-    target: "/vie-etudiante/centre-de-ressources-montaigne/"
+    target: "/vie-etudiantecentre-de-ressources-montaigne/"
     kind: page
     children:
     - title: Consulter et emprunter
-      target: "/vie-etudiante/centre-de-ressources-montaigne/consulter-et-emprunter/"
+      target: "/vie-etudiantecentre-de-ressources-montaigne/consulter-et-emprunter/"
       kind: page
       children: []
     - title: L'équipe qui vous accueille
-      target: "/vie-etudiante/centre-de-ressources-montaigne/equipe-qui-vous-accueille/"
+      target: "/vie-etudiantecentre-de-ressources-montaigne/equipe-qui-vous-accueille/"
       kind: page
       children: []
   - title: Services numériques
