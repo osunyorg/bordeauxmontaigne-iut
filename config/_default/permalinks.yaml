@@ -1,6 +1,7 @@
 posts:          /actualites/:year/:month/:day/:slug/
 categories:     /actualites/:slug/
-persons:        /equipe/:slug/
-authors:        /equipe/:slug/actualites/
-administrators: /equipe/:slug/roles/
-teachers:       /equipe/:slug/programs/
+persons:        /notre-institut/equipe/:slug/
+authors:        /notre-institut/equipe/:slug/actualites/
+administrators: /notre-institut/equipe/:slug/roles/
+teachers:       /notre-institut/equipe/:slug/programs/
+researchers:    /notre-institut/equipe/:slug/articles/
