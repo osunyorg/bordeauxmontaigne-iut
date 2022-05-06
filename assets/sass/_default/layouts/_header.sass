@@ -3,9 +3,17 @@ header[role="banner"]
     position: sticky
     top: 0
     z-index: 10
-    
+
     .logo
         img
             height: 42px
             @include media-breakpoint-down(lg)
                 height: 30px
+
+    @include media-breakpoint-up(lg)
+        .nav-level-1
+            & > li
+                & > a,
+                & > span
+                    padding-left: 1rem
+                    padding-right: 1rem
