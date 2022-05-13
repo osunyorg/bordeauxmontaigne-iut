@@ -3,3 +3,19 @@
     color: white
     padding-bottom: px2rem(64)
     padding-top: px2rem(64)
+    .splide
+        display: flex
+        flex-direction: column
+        &__arrows
+            filter: invert(1)
+            order: 2
+        &__arrow
+            &--prev,
+            &--next
+                height: 48px
+                padding: 0
+                position: static
+                width: 48px
+                svg
+                    // transform: scale(.4)
+                    width: 100%

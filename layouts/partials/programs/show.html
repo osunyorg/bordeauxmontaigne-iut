@@ -24,9 +24,9 @@
 
   <div class="container">
     {{ if .Params.main_information }}
-      <div class="lead">
+      <h2>
         {{- partial "PrepareHTML" .Params.main_information -}}
-      </div>
+      </h2>
     {{ end }}
     {{- partial "programs/abstract.html" .Params.presentation -}}
     {{- partial "programs/programs.html" .Pages -}}

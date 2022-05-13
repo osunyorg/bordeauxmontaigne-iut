@@ -1,0 +1,61 @@
+{{- $position := .position -}}
+{{- $title := .title -}}
+{{- $is_carousel := false -}}
+
+{{- with .data -}}
+  {{ if gt (len .images) 1 }}
+    {{- $is_carousel = true -}}
+  {{ end }}
+  <section class="block-gallery" id="block-{{ $position }}">
+    <div class="container">
+      <div class="block-content">
+
+        {{- if $title }}
+          <div class="top">
+            <h2>{{ partial "PrepareHTML" $title }}</h2>
+          </div>
+        {{ end -}}
+
+        {{- if $is_carousel }}
+        <div class="splide" data-splide='{"arrows":true,"pagination":false,"autoplay":false}'>
+          <div class="splide__track">
+            <div class="splide__list">
+        {{ end -}}
+
+          {{ range .images }}
+            {{ if .file }}
+              {{- $image := partial "GetMedia" .file -}}
+              {{- if $image -}}
+                {{- $url := $image.url -}}
+                {{- if site.Params.keycdn -}}
+                  {{- $url = $image.direct_url -}}
+                {{- end -}}
+                {{- $default := "1280x2560" -}}
+                <figure{{ if $is_carousel }} class="splide__slide"{{ end }}>
+                  <a class="glightbox"
+                    data-glightbox="type: image;{{ if .text }} title:{{ partial "GetTextFromHTML" .alt }}; description:{{ partial "GetTextFromHTML" .text }};{{ end }}"
+                    href="{{ partial "GetImageUrl" (dict "url" $url "size" $default ) }}">
+                    {{ partial "commons/image.html"
+                      (dict
+                        "image"    .file
+                        "alt"      .alt
+                        "mobile"   "164"
+                        "tablet"   "336"
+                        "desktop"  "967x679"
+                      )}}
+                  </a>
+                  <figcaption>{{ partial "PrepareHTML" .alt }}</figcaption>
+                </figure>
+              {{- end -}}
+            {{ end }}
+          {{ end }}
+
+        {{- if $is_carousel }}
+          </div>
+        </div>
+        {{ end -}}
+
+      </div>
+    </div>
+  </section>
+{{- end -}}
