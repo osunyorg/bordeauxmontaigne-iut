@@ -1,5 +1,27 @@
 h1
-    @include media-breakpoint-down(md)
-        font-size: px2rem(28)
+    font-weight: 600
+    @include media-breakpoint-up(md)
+        font-size: px2rem(60)
+        line-height: px2rem(72)
+h2
+    @include media-breakpoint-up(md)
+        font-size: px2rem(60)
+        line-height: px2rem(66)
 h3
-    margin-top: $grid-gutter-width
+    // margin-top: $grid-gutter-width
+    @include media-breakpoint-up(md)
+        font-size: px2rem(40)
+        line-height: px2rem(44)
+h4
+    @include media-breakpoint-up(md)
+        font-size: px2rem(28)
+        line-height: px2rem(36)
+h5
+    @include media-breakpoint-up(md)
+        font-size: px2rem(24)
+        line-height: px2rem(31)
+
+p, li
+    @include media-breakpoint-up(md)
+        font-size: px2rem(22)
+        line-height: px2rem(30)
