@@ -2,11 +2,7 @@
     align-items: flex-start
     background-color: $site-color
 
-
-    > picture
-        img
-            filter: blur(16px) grayscale(100%)
-            mix-blend-mode: overlay
-
     h1
-        font-weight: 400
+        margin-top: $grid-gutter-width
+        @include media-breakpoint-up(md)
+            margin-top: px2rem(120)

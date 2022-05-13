@@ -7,6 +7,8 @@ $post-color: #4926AF
 $program-color: #26AF5D
 
 $header-height: 102px
+$hero-height: calc(800px - #{$header-height})
+$hero-height-sm: 300px
 
 $menu-background-color: white
 
@@ -22,7 +24,8 @@ $border-radius: 0
 $border-radius-lg: 0
 $border-radius-sm: 0
 
-$grid-gutter-width: 1.5rem
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1504px )
+$grid-gutter-width: 4rem
 
 $font-family-sans-serif: 'Basier Circle', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 $font-size-base: 1rem
@@ -48,6 +51,7 @@ $breadcrumb-divider-color: rgba($white, .5)
 $breadcrumb-divider: quote(">")
 $breadcrumb-font-size: px2rem(18)
 $breadcrumb-link-color: rgba($white, .5)
+$breadcrumb-item-padding-x: px2rem(18)
 //
 // $card-title-spacer-y: 0
 //
@@ -57,11 +61,11 @@ $breadcrumb-link-color: rgba($white, .5)
 // $dropdown-item-padding-x: .75rem
 //
 // $blockquote-font-size: px2rem(22)
-//
-// $input-btn-font-family: $font-family-sans-serif
-//
-// $modal-backdrop-opacity: .9
-//
+
+$input-btn-font-family: $font-family-sans-serif
+
+$modal-backdrop-opacity: .9
+
 // $nav-link-font-size: px2rem(22)
 // $nav-link-padding-y: 0
 // $nav-link-padding-x: .75rem
@@ -70,12 +74,12 @@ $breadcrumb-link-color: rgba($white, .5)
 // $navbar-brand-margin-end: 0
 // $navbar-padding-y: $grid-gutter-width
 // $navbar-nav-link-padding-x: 1rem
-//
-// $pagination-border-width: 0
-// $pagination-active-bg: transparent
-// $pagination-active-color: rgba(black, .65)
-// $pagination-disabled-color: #DADADA
-//
+
+$pagination-border-width: 0
+$pagination-active-bg: transparent
+$pagination-active-color: rgba(black, .65)
+$pagination-disabled-color: #DADADA
+
 // $spacer: 1rem
 // $spacers: (0: 0, 1: $spacer / 2, 2: $spacer, 3: $spacer * 2, 4: $spacer * 3, 5: $spacer * 6)
 //
