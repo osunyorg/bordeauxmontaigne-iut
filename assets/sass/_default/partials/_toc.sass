@@ -1,3 +1,9 @@
 .toc
+    ol > li
+        &:not(:last-child)
+            margin-bottom: 0
+        > a
+            @extend .tabtitle
+            color: $gray-500
     .active
-        color: $site-color
+        color: black
