@@ -4,6 +4,17 @@
     header[role="banner"],
     .hero
         background-color: $program-color
+        table
+            font-size: px2rem(18)
+            tr
+                th, td
+                    padding-bottom: px2rem(12)
+                    padding-top: px2rem(12)
+            th
+                font-weight: $font-weight-normal
+                opacity: .7
+            caption
+                @extend .visually-hidden
     .toc
         .active
             color: $program-color

@@ -1,0 +1,38 @@
+{{- $title := or .Params.header_text .Title -}}
+<header class="hero">
+  <div class="container">
+    {{- if .Params.breadcrumb | default true -}}
+      {{ partial "header/breadcrumbs.html" . }}
+    {{- end -}}
+    <div>
+      <p class="surtitle">Sur titre</p>
+      <h1>{{ partial "PrepareHTML" $title }}</h1>
+    </div>
+  </div>
+  <div>
+    <div class="container">
+      <table>
+        <caption></caption>
+        <tbody>
+          <tr>
+            <th>Diplôme</th>
+            <td>Bachelor Universitaire de Technologie</td>
+          </tr>
+          <tr>
+            <th>Niveau</th>
+            <td>Bac +3 - Licence / Bachelor</td>
+          </tr>
+          <tr>
+            <th>Durée</th>
+            <td>3 ans</td>
+          </tr>
+          <tr>
+            <th>Crédits ECTS</th>
+            <td>180</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {{ partial "programs/aside.html" . }}
+</header>

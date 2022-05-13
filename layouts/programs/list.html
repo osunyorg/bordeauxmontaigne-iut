@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ if .Params.level }}
+    {{ partial "programs/hero-single.html" . }}
+    {{ partial "programs/show.html" . }}
+  {{ else }}
+    {{ partial "programs/hero.html" . }}
+    {{ partial "programs/index.html" . }}
+  {{ end }}
+{{ end }}

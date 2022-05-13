@@ -1,8 +1,37 @@
 .hero
-    align-items: flex-start
+    align-items: normal
     background-color: $site-color
+    flex-direction: column
+    padding-bottom: 0
+    padding-top: px2rem(32)
 
-    h1
-        margin-top: $grid-gutter-width
-        @include media-breakpoint-up(md)
-            margin-top: px2rem(120)
+    p
+        margin-bottom: 0
+
+    aside
+        background: rgba(black, .1)
+        margin-top: auto
+
+    .toc ol
+        margin-top: 0
+        a
+            color: white
+
+    > div:first-of-type
+        div
+            margin-top: $grid-gutter-width
+            @include media-breakpoint-up(md)
+                margin-top: px2rem(120)
+    > div + div
+        margin-top: auto
+        .container
+            padding-bottom: px2rem(12)
+            padding-top: px2rem(12)
+        &::before
+            background-color: rgba(white, .2)
+            content: ''
+            display: block
+            height: 1px
+            width: 100%
+        & + aside
+            margin-top: 0
