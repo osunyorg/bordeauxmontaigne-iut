@@ -19,16 +19,6 @@ header[role="banner"]
             @include media-breakpoint-down(lg)
                 height: 30px
 
-    .nav-level-1
-        & > li
-            & > a,
-            & > span
-                color: white
-
-    @include media-breakpoint-up(lg)
-        .nav-level-1
-            & > li
-                & > a,
-                & > span
-                    padding-left: 1rem
-                    padding-right: 1rem
+    nav[role="navigation"]
+        button[type="button"]
+            color: white

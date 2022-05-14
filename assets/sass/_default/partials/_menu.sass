@@ -1,5 +1,12 @@
 .menu
     @extend .menu-expand
+
     .nav-level-1
         > li
             margin-left: px2rem(10)
+            > a,
+            > span
+                color: white
+                @include media-breakpoint-up(lg)
+                    padding-left: 1rem
+                    padding-right: 1rem
