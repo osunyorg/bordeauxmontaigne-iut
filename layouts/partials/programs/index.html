@@ -5,6 +5,10 @@
   <table class="programs">
     {{ range $index, $programs := sort .Pages ".Params.position" }}
       <tbody>
+        <tr>
+          <th>{{ .Title }}</th>
+          <td></td>
+        </tr>
         {{ range sort .Pages ".Params.position"  }}
           <tr>
             <th>
