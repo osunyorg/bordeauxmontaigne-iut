@@ -2,12 +2,17 @@
     .hero
         overflow: visible
         .container
-            min-height: $hero-height
+            @include media-breakpoint-up(md)
+                min-height: $hero-height
             > div:first-of-type:not(.title-avatar)
                 @include media-breakpoint-up(md)
                     max-width: 39%
         picture
-            @include media-breakpoint-up(md)
+            @include media-breakpoint-down(xl)
+                aspect-ratio: 8/6
+                display: block
+                margin-bottom: calc(#{$grid-gutter-width} / -2)
+            @include media-breakpoint-up(xl)
                 bottom: - $grid-gutter-width
                 // temp
                 left: 43.8%

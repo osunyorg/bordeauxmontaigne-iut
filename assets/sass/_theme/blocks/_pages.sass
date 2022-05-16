@@ -1,12 +1,12 @@
 .block-pages
     .block-content
-        @include media-breakpoint-up(md)
+        @include media-breakpoint-up(lg)
             align-items: flex-start
             display: flex
             > *
                 flex: 1
     .main-page
-        @include media-breakpoint-up(md)
+        @include media-breakpoint-up(lg)
             > div:first-child
                 padding-right: $grid-gutter-width
         .title + p
@@ -22,7 +22,7 @@
                     content: none
     .pages
         --bs-gutter-y: 0
-        @include media-breakpoint-up(md)
+        @include media-breakpoint-up(lg)
             margin-top: 4.5rem
         > *
             margin-top: px2rem(10)
