@@ -7,22 +7,40 @@
     .hero
         background-color: $program-color
         table
+            display: block
             font-size: px2rem(18)
+            &,
+            tbody
+                display: block
             tr
-                th, td
-                    padding-bottom: px2rem(12)
-                    padding-top: px2rem(12)
+                @extend .row
+                padding-bottom: px2rem(12)
+                padding-top: px2rem(12)
             th
+                @extend .col-md-3
                 font-weight: $font-weight-normal
-                opacity: .7
-                width: 42.5%
+                opacity: .8
+            td
+                @extend .col-md-9
             caption
                 @extend .visually-hidden
-    .toc
-        padding-bottom: px2rem(10)
-        padding-top: px2rem(10)
-        .active
-            color: $program-color
+
+        .toc
+            overflow: auto
+            padding-bottom: px2rem(10)
+            padding-top: px2rem(10)
+            @include media-breakpoint-down(md)
+                margin-left: px2rem(-15)
+                padding-left: px2rem(15)
+                padding-right: px2rem(15)
+                width: calc(100% + 1.875rem)
+            .active
+                color: white
+            ol
+                flex-wrap: nowrap
+                margin-right: -$nav-link-padding-x
+            li
+                flex-shrink: 0
 
     main
         .content
