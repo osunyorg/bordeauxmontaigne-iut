@@ -5,6 +5,9 @@
             > *
                 flex: 1
     .main-page
+        @include media-breakpoint-up(md)
+            > div:first-child
+                padding-right: $grid-gutter-width
         .title + p
             @extend .h3
             margin-top: calc(#{$spacer} * 2)
