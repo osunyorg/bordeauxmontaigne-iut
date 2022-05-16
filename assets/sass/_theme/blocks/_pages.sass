@@ -1,0 +1,34 @@
+.block-pages
+    .block-content
+        @include media-breakpoint-up(md)
+            display: flex
+            > *
+                flex: 1
+    .main-page
+        .title + p
+            @extend .h3
+            margin-top: calc(#{$spacer} * 2)
+        .title
+            @extend .surtitle
+            font-weight: 600
+            a
+                font-size: inherit
+                &::after,
+                &::before
+                    content: none
+    .pages
+        --bs-gutter-y: 0
+        @include media-breakpoint-up(md)
+            margin-top: 4.5rem
+        > *
+            margin-top: px2rem(10)
+            width: 100%
+    .page
+        > div
+            padding: 0
+        .title
+            margin-bottom: 0
+            a
+                font-size: px2rem(18)
+                &::after
+                    content: none
