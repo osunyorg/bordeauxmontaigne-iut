@@ -58,3 +58,11 @@
         margin-bottom: px2rem(32)
         @include media-breakpoint-up(md)
             margin-bottom: px2rem(128)
+
+    article > section:not(:first-of-type)
+        .container::before
+            border-top: 1px solid black
+            content: ''
+            display: block
+            margin-top: $grid-gutter-width
+            padding-top: $spacer
