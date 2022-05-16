@@ -1,33 +1,29 @@
 footer[role="contentinfo"]
+    background-color: black
+    color: white
+    padding-bottom: px2rem(60)
+    padding-top: px2rem(60)
     .logo
-        display: inline-block
-        margin-left: -12px
-        margin-top: -5px
         img
-            height: 160px
+            height: 42px
 
-    nav
-        @extend .footer-nav-expand
-
-        .nav-levels
-            > li
-                & > a,
-                & > span
-                    display: block
-                    font-size: $h2-font-size
-                    font-weight: $headings-font-weight
-                    line-height: px2rem(36)
-                    margin-bottom: px2rem(10)
-                    position: relative
-                    &::after
-                        background-color: $border-color
-                        bottom: 0
-                        content: ''
-                        height: 1px
-                        left: $nav-link-padding-x
-                        position: absolute
-                        right: 0
+    .content
+        @include media-breakpoint-up(md)
+            > div
+                width: 50%
+            > div:nth-child(2)
+                text-align: right
+        > div:nth-child(3)
+            display: none
 
     .credit
         font-family: $font-family-sans-serif
         font-size: px2rem(14)
+
+    .nav-level-1,
+    &
+        a
+            color: white
+            text-decoration-color: rgba(white, .3)
+            &:hover
+                text-decoration-color: white
