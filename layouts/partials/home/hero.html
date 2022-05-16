@@ -1,7 +1,8 @@
+{{- $title := or .Params.header_text .Title -}}
 <header class="hero">
   <div class="container">
     <div>
-      <h1>{{ partial "PrepareHTML" .Title }}</h1>
+      <h1>{{ partial "PrepareHTML" $title }}</h1>
     </div>
     {{- if .Params.image }}
       {{ partial "commons/image.html"

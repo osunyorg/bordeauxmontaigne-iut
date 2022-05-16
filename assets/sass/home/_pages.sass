@@ -4,7 +4,8 @@
         .container
             min-height: $hero-height
             > div:first-of-type:not(.title-avatar)
-                max-width: col(5)
+                @include media-breakpoint-up(md)
+                    max-width: 39%
         picture
             @include media-breakpoint-up(md)
                 bottom: - $grid-gutter-width

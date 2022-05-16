@@ -4,33 +4,50 @@
 
     > div:first-of-type
         @extend .card-body
+        padding-bottom: 0
         padding-left: 0
         padding-right: 0
 
     .media
-        --bs-aspect-ratio: 50%
-        @extend .card-media
+        img
+            height: auto
+            width: 100%
 
     .title
         @extend .card-title
-        font-weight: $headings-font-weight
+        @extend .h4
         a
             @extend .stretched-link
 
-    .author,
-    .post-categories
-        @extend .card-text
-        @extend .small
-        &,
-        a
-            color: $gray-700
+    .title + p + time
+        margin-top: px2rem(10)
+
+    time
+        font-size: 18px
+        line-height: 120%
 
 .posts
-    --bs-gutter-y: 3rem
-    @extend .row
-    > *
-        @extend .col-md-6
-        @extend .col-lg-4
+    > div
+        border-bottom: 1px solid $border-color
+        margin-bottom: $grid-gutter-width
+        padding-bottom: $grid-gutter-width
+    .post
+        @include media-breakpoint-up(md)
+            display: grid
+            grid-gap: $grid-gutter-width
+            grid-template-columns: repeat(12, 1fr)
+            > div:not(.media)
+                grid-column: 4 / 13
+                padding: 0
+                > *
+                    max-width: calc(100% / 3 * 2)
+            time
+                position: absolute
+                right: 0
+                top: 0
+            .media
+                grid-column: 1 / 4
+
 
 .post-categories
     list-style: none
