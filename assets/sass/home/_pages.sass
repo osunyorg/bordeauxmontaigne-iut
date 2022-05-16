@@ -1,0 +1,19 @@
+.page__home
+    .hero
+        overflow: visible
+        .container
+            min-height: $hero-height
+            > div:first-of-type:not(.title-avatar)
+                max-width: col(5)
+        picture
+            @include media-breakpoint-up(md)
+                bottom: - $grid-gutter-width
+                // temp
+                left: 43.8%
+                position: absolute
+                right: calc(#{$grid-gutter-width} / 2)
+                top: px2rem(135)
+            img
+                height: 100%
+                object-fit: cover
+                width: 100%
