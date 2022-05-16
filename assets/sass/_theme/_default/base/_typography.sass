@@ -16,8 +16,13 @@ h4
         font-size: px2rem(28)
         line-height: 130%
 h5
+    letter-spacing: -0.01em
     @include media-breakpoint-up(md)
         font-size: px2rem(24)
+        line-height: 130%
+h6
+    @include media-breakpoint-up(md)
+        font-size: px2rem(22)
         line-height: 130%
 
 p, li
@@ -39,6 +44,14 @@ p, li
     line-height: 130%
     text-transform: uppercase
 
+.lead
+    @extend .h3
+    margin-bottom: calc(#{$spacer} * 2)
+
 [itemprop="articleBody"]
     h2
         @extend .h4
+    h3
+        @extend .h5
+    h4
+        @extend .h6

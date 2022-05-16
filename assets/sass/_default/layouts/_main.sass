@@ -3,3 +3,11 @@ main
     section,
     h2
         scroll-margin-top: $header-height
+
+main
+    [itemprop="articleBody"]
+        h2
+            margin-top: $grid-gutter-width
+            // If a h2 directly follows the beginning of the article, no top margin
+            > h2:first-of-type
+                margin-top: 0

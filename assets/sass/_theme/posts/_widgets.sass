@@ -1,0 +1,47 @@
+.post
+    @extend .card
+    border: 0
+
+    > div:first-of-type
+        @extend .card-body
+        padding-left: 0
+        padding-right: 0
+
+    .media
+        --bs-aspect-ratio: 50%
+        @extend .card-media
+
+    .title
+        @extend .card-title
+        font-weight: $headings-font-weight
+        a
+            @extend .stretched-link
+
+    .author,
+    .post-categories
+        @extend .card-text
+        @extend .small
+        &,
+        a
+            color: $gray-700
+
+.posts
+    --bs-gutter-y: 3rem
+    @extend .row
+    > *
+        @extend .col-md-6
+        @extend .col-lg-4
+
+.post-categories
+    list-style: none
+    margin: 0 0 $spacer
+    padding: 0
+    li
+        font-size: px2rem(18)
+        line-height: 120%
+        margin-bottom: px2rem(15)
+    a
+        color: $post-color
+        text-decoration-color: rgba($post-color, .3)
+        &:hover
+            text-decoration-color: $post-color
