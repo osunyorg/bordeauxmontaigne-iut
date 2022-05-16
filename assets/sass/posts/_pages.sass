@@ -22,3 +22,11 @@
     aside
         p
             @extend .h5
+        .post-categories
+            margin-bottom: calc(#{$spacer} * 2)
+        div + div
+            border-top: 1px solid $border-color
+        div:not([itemprop="articleSection"])
+            display: flex
+            justify-content: space-between
+            padding-top: $spacer
