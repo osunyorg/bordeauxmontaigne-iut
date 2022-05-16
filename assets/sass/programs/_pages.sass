@@ -1,4 +1,6 @@
 .programs__section,
+.diplomas__taxonomy,
+.diplomas__term,
 .teachers__taxonomy,
 .teachers__term
     header[role="banner"],
@@ -13,6 +15,7 @@
             th
                 font-weight: $font-weight-normal
                 opacity: .7
+                width: 42.5%
             caption
                 @extend .visually-hidden
     .toc
@@ -20,3 +23,14 @@
         padding-top: px2rem(10)
         .active
             color: $program-color
+
+    main
+        .content
+            > div
+                @extend .col-md-7
+            > div:first-of-type
+                @extend .col-md-5
+            h2
+                @extend .surtitle
+            h3
+                @extend .h4

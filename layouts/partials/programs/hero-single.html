@@ -12,24 +12,35 @@
   <div>
     <div class="container">
       <table>
-        <caption></caption>
+        <caption>{{ i18n "programs.toc.essential" }}</caption>
         <tbody>
+          {{- with .Params.diploma -}}
+            {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
+            <tr>
+              <th>{{ i18n "programs.diploma" }}</th>
+              <td>
+                {{- with $diploma -}}
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  {{- end -}}
+              </td>
+            </tr>
+          {{- end -}}
           <tr>
-            <th>Diplôme</th>
-            <td>Bachelor Universitaire de Technologie</td>
-          </tr>
-          <tr>
-            <th>Niveau</th>
+            <th>{{ i18n "programs.level" }}</th>
             <td>Bac +3 - Licence / Bachelor</td>
           </tr>
-          <tr>
-            <th>Durée</th>
-            <td>3 ans</td>
-          </tr>
-          <tr>
-            <th>Crédits ECTS</th>
-            <td>180</td>
-          </tr>
+          {{- with .Params.duration -}}
+            <tr>
+              <th>{{ i18n "programs.duration" }}</th>
+              <td>{{ partial "PrepareHTML" . }}</td>
+            </tr>
+          {{- end -}}
+          {{- with .Params.ects -}}
+            <tr>
+              <th>{{ i18n "programs.ects_credits" }}</th>
+              <td>{{ . }}</td>
+            </tr>
+          {{- end -}}
         </tbody>
       </table>
     </div>
