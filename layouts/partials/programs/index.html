@@ -13,7 +13,14 @@
                 {{- $title -}}
               </a>
             </th>
-            <td>BUT</td>
+            <td>
+              {{- with .Params.diploma -}}
+                {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
+                {{- with $diploma -}}
+                  <span title="{{ partial "PrepareHTML" .Title }}">{{ partial "PrepareHTML" .Params.short_name }}</span>
+                {{- end -}}
+              {{- end -}}
+            </td>
           </tr>
         {{ end }}
       </tbody>
