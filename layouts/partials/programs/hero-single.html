@@ -15,30 +15,32 @@
         <tbody>
           {{- with .Params.diploma -}}
             {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
-            <tr>
-              <th>{{ i18n "programs.diploma" }}</th>
-              <td>
-                {{- with $diploma -}}
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                  {{- end -}}
-              </td>
-            </tr>
-          {{- end -}}
-          <tr>
-            <th>{{ i18n "programs.level" }}</th>
-            <td>Bac +3 - Licence / Bachelor</td>
-          </tr>
-          {{- with .Params.duration -}}
-            <tr>
-              <th>{{ i18n "programs.duration" }}</th>
-              <td>{{ partial "PrepareHTML" . }}</td>
-            </tr>
-          {{- end -}}
-          {{- with .Params.ects -}}
-            <tr>
-              <th>{{ i18n "programs.ects_credits" }}</th>
-              <td>{{ . }}</td>
-            </tr>
+            {{- with $diploma -}}
+              <tr>
+                <th>{{ i18n "programs.diploma" }}</th>
+                <td>
+                    <a href="{{ .Permalink }}">{{ partial "PrepareHTML" .Title }}</a>
+                </td>
+              </tr>
+              {{- if .Params.level -}}
+              <tr>
+                <th>{{ i18n "programs.level" }}</th>
+                <td>{{ partial "PrepareHTML" .Params.level }}</td>
+              </tr>
+              {{- end -}}
+              {{- if .Params.duration -}}
+              <tr>
+                <th>{{ i18n "programs.duration" }}</th>
+                <td>{{ partial "PrepareHTML" .Params.duration }}</td>
+              </tr>
+              {{- end -}}
+              {{- if .Params.ects -}}
+              <tr>
+                <th>{{ i18n "programs.ects_credits" }}</th>
+                <td>{{ .Params.ects }}</td>
+              </tr>
+              {{- end -}}
+            {{- end -}}
           {{- end -}}
         </tbody>
       </table>
