@@ -2,3 +2,23 @@
     .title
         .highlighted &
             font-weight: $headings-font-weight
+
+table.programs
+    @extend .table
+    display: table
+    margin: 0
+    tr
+        position: relative
+    th, td
+        padding-bottom: $spacer
+        padding-top: $spacer
+    th
+        @extend .h4
+        padding-left: 0
+    td
+        font-size: 22px
+        line-height: 140%
+        padding-right: 0
+        text-align: right
+    > :not(:first-child)
+        border-top-width: 1px

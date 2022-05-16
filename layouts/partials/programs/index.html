@@ -1,0 +1,24 @@
+<div class="container">
+  {{/* }}
+  {{ partial "programs/program.html" . }}
+  {{ */}}
+  <table class="programs">
+    {{ range $index, $programs := sort .Pages ".Params.position" }}
+      <tbody>
+        {{ range sort .Pages ".Params.position"  }}
+          <tr>
+            <th>
+              {{- $title := partial "PrepareHTML" .Title -}}
+              <a href="{{ .Permalink }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" $title)) }}">
+                {{- $title -}}
+              </a>
+            </th>
+            <td>BUT</td>
+          </tr>
+        {{ end }}
+      </tbody>
+    {{ end }}
+  </table>
+</div>
+
+{{ partial "blocks/list.html" .Params.blocks }}
