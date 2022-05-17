@@ -25,7 +25,7 @@
                 color: white
 
     > div:first-of-type
-        div
+        > div
             margin-top: $grid-gutter-width
             @include media-breakpoint-up(md)
                 margin-top: px2rem(120)
@@ -43,3 +43,10 @@
             width: 100%
         & + aside
             margin-top: 0
+
+    .container .title-avatar
+        align-items: flex-start
+        > h1
+            @extend .col-8
+        > div
+            @extend .col-4
