@@ -1,0 +1,25 @@
+.menu-expand
+
+    .item-institute
+        .dropdown-menu
+            background-color: $institute-color
+            color: white
+            .dropdown-item,
+            li a,
+            li span
+                color: white
+
+    .dropdown-menu
+        > p
+            @extend .container
+            @extend .h1
+        // > ul
+        //     max-width: map-get($container-max-widths, 'xxl')
+
+
+    @include media-breakpoint-up(lg)
+        .dropdown-menu
+            padding-bottom: $grid-gutter-width
+            padding-top: $spacer
+            > ul
+                grid-gap: $spacer $grid-gutter-width
