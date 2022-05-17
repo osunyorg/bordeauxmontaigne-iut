@@ -48,15 +48,15 @@
       kind: program
       children: []
     - title: Licences professionnelles
-      target: "/offre-de-formation/please-delete/licence-professionnelle/"
+      target: "/offre-de-formation/licence-professionnelle/"
       kind: program
       children: []
     - title: Diplômes d'Université
-      target: "/offre-de-formation/please-delete/diplome-d-universite/"
+      target: "/offre-de-formation/diplome-d-universite/"
       kind: program
       children: []
     - title: Masters professionnels
-      target: "/offre-de-formation/please-delete/master-professionnel/"
+      target: "/offre-de-formation/master-professionnel/"
       kind: program
       children: []
   - title: Formation continue
