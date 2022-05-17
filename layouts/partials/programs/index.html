@@ -3,7 +3,7 @@
   {{ partial "programs/program.html" . }}
   {{ */}}
   <table class="programs">
-    {{ range $index, $programs := sort .Pages ".Params.position" }}
+    {{ range .Pages }}
       <tbody>
         <tr>
           <th>
