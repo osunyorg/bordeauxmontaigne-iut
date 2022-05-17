@@ -1,0 +1,17 @@
+{{ $sort_by := .sort_by | default "Title" }}
+{{ $page := .page }}
+{{ $sorted_pages := .sorted_pages | default slice }}
+
+{{ range $page.Pages }}
+  {{ $sorted_pages = $sorted_pages | append . }}
+  {{ if .Pages }}
+    {{ $sorted_pages = partial "SortPages" (dict 
+        "page" .
+        "sort_by" $sort_by
+        "sorted_pages" $sorted_pages
+      )}}
+  {{ end }}
+{{ end }}
+
+{{ $sorted_pages = sort $sorted_pages $sort_by }}
+{{ return $sorted_pages }}

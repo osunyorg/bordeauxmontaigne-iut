@@ -1,5 +1,6 @@
 <div class="container">
-  {{ partial "programs/programs-list.html" .Pages }}
+  {{ $sorted_pages := partial "SortPages" (dict "page" .) }}
+  {{ partial "programs/programs-list.html" $sorted_pages }}
 </div>
 
 {{ partial "blocks/list.html" .Params.blocks }}
