@@ -1,8 +1,6 @@
 .programs__section,
 .diplomas__taxonomy,
-.diplomas__term,
-.teachers__taxonomy,
-.teachers__term
+.diplomas__term
     header[role="banner"],
     .hero
         background-color: $program-color
@@ -52,12 +50,6 @@
                 @extend .surtitle
             h3
                 @extend .h4
-
-    .lead
-        @extend .h2
-        margin-bottom: px2rem(32)
-        @include media-breakpoint-up(md)
-            margin-bottom: px2rem(128)
 
     article > section:not(:first-of-type)
         .container::before

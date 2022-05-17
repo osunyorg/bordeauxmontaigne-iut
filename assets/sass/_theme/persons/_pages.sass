@@ -1,3 +1,20 @@
+.persons__page,
+.persons__section,
+.administrators__taxonomy,
+.administrators__term,
+.authors__taxonomy,
+.authors__term,
+.researchers__taxonomy,
+.researchers__term,
+.teachers__taxonomy,
+.teachers__term
+    header[role="banner"],
+    .hero
+        background-color: $institute-color
+    .toc
+        .active
+            color: $institute-color
+
 .persons__page
     main
         .content
@@ -10,15 +27,10 @@
                     @include make-col-offset(0)
                     margin-top: 0
                     text-align: right
-        .lead
-            p:last-child
-                margin-bottom: 0
         section
             @extend .mt-5
 
 .persons__section
-    .lead
-        width: col(7)
     .lead + .taxonomies
         margin-top: map-get($spacers, 4)
     .taxonomies

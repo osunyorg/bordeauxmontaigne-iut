@@ -47,8 +47,20 @@ p, li
     text-transform: uppercase
 
 .lead
-    @extend .h3
-    margin-bottom: calc(#{$spacer} * 2)
+    margin-bottom: px2rem(32)
+    width: 100%
+    &,
+    p
+        @extend .h2
+    p:last-child
+        margin-bottom: 0
+    @include media-breakpoint-up(md)
+        margin-bottom: px2rem(128)
+    @include in-page-with-aside
+        &,
+        p
+            @extend .h3
+        margin-bottom: calc(#{$spacer} * 2)
 
 [itemprop="articleBody"]
     h2
