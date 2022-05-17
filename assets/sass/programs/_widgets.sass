@@ -3,22 +3,12 @@
         .highlighted &
             font-weight: $headings-font-weight
 
-table.programs
-    @extend .table
-    display: table
-    margin: 0
-    tr
-        position: relative
-    th, td
-        padding-bottom: $spacer
-        padding-top: $spacer
-    th
-        @extend .h4
-        padding-left: 0
-    td
-        font-size: 22px
-        line-height: 140%
-        padding-right: 0
-        text-align: right
-    > :not(:first-child)
-        border-top-width: 1px
+ol.programs
+    li
+        a:first-of-type
+            @extend .h3
+            margin-bottom: 0
+        a + a
+            @include media-breakpoint-up(md)
+                font-size: px2rem(22)
+                line-height: 140%
