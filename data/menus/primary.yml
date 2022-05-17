@@ -56,7 +56,7 @@
       kind: program
       children: []
     - title: Masters professionnels
-      target: "/offre-de-formation/master-professionnel/"
+      target: "/offre-de-formation/please-delete/master-professionnel/"
       kind: program
       children: []
   - title: Formation continue
