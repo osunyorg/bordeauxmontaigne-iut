@@ -39,10 +39,6 @@
   target: "/"
   kind: blank
   children:
-  - title: Être candidat·e
-    target: "/formation/scolarite/etre-candidat/"
-    kind: page
-    children: []
   - title: Apprentissage
     target: "/formation/apprentissage/"
     kind: page
@@ -147,6 +143,10 @@
       target: "/formation/scolarite/statistiques/"
       kind: page
       children: []
+  - title: Être candidat·e
+    target: "/formation/scolarite/etre-candidat/"
+    kind: page
+    children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
