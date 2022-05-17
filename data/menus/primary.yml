@@ -44,7 +44,7 @@
     kind: programs
     children:
     - title: Bachelors Universitaires de Technologie
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
+      target: "/offre-de-formation/please-delete/bachelor-universitaire-de-technologie/"
       kind: program
       children: []
     - title: Licences professionnelles
