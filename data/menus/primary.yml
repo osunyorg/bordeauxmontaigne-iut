@@ -38,11 +38,7 @@
 - title: Formation
   target: "/"
   kind: blank
-  children:
-  - title: Apprentissage
-    target: "/formation/apprentissage/"
-    kind: page
-    children: []
+  children: []
 - title: Formation
   target: "/offre-de-formation/"
   kind: programs
@@ -145,6 +141,10 @@
       children: []
   - title: Être candidat·e
     target: "/formation/scolarite/etre-candidat/"
+    kind: page
+    children: []
+  - title: Apprentissage
+    target: "/formation/apprentissage/"
     kind: page
     children: []
 - title: Vie étudiante
