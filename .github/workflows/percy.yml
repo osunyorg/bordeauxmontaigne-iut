@@ -3,8 +3,6 @@
 name: Percy.io Visual Diff
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
