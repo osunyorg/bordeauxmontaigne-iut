@@ -48,7 +48,7 @@
       kind: program
       children: []
     - title: Licences professionnelles
-      target: "/offre-de-formation/licence-professionnelle/"
+      target: "/offre-de-formation/please-delete/licence-professionnelle/"
       kind: program
       children: []
     - title: Diplômes d'Université
