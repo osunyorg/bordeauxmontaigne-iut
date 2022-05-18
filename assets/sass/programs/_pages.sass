@@ -1,44 +1,24 @@
-.programs__section,
-.diplomas__taxonomy,
-.diplomas__term
+.programs__section
     header[role="banner"],
     .hero
         background-color: $program-color
-        table
-            display: block
-            font-size: px2rem(18)
-            &,
-            tbody
-                display: block
-            tr
-                @extend .row
-                padding-bottom: px2rem(12)
-                padding-top: px2rem(12)
-            th
-                @extend .col-md-3
-                font-weight: $font-weight-normal
-                opacity: .8
-            td
-                @extend .col-md-9
-            caption
-                @extend .visually-hidden
+    aside
+        background-color: darken($program-color, 3)
 
-        .toc
-            overflow: auto
-            padding-bottom: px2rem(10)
-            padding-top: px2rem(10)
-            @include media-breakpoint-down(md)
-                margin-left: px2rem(-15)
-                padding-left: px2rem(15)
-                padding-right: px2rem(15)
-                width: calc(100% + 1.875rem)
-            .active
-                color: white
-            ol
-                flex-wrap: nowrap
-                margin-right: -$nav-link-padding-x
-            li
-                flex-shrink: 0
+    section
+        scroll-margin-top: calc(#{$header-height} + #{$toc-height})
+
+    .hero
+        margin-bottom: - $toc-height
+        padding-bottom: $toc-height
+
+    aside
+        position: sticky
+        top: 0
+        top: $header-height
+        z-index: 1
+        @include media-breakpoint-up(md)
+            margin-bottom: px2rem(128)
 
     main
         .content
@@ -58,3 +38,20 @@
             display: block
             margin-top: $grid-gutter-width
             padding-top: $spacer
+
+    .table-persons
+        border: 0
+        > :not(caption) > * > *
+            border: 0
+            padding-bottom: 1rem
+            padding-top: 1rem
+        th, td
+            font-weight: 400
+            line-height: 140%
+            @include media-breakpoint-up(md)
+                font-size: 22px
+        th
+            padding-right: 0
+            width: calc(100% / 7 * 3)
+        td
+            padding-left: calc(#{$grid-gutter-width} / 2)

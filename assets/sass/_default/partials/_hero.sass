@@ -10,20 +10,6 @@
     p
         margin-bottom: 0
 
-    aside
-        background: rgba(black, .1)
-        margin-top: auto
-
-    .toc
-        ol
-            flex-direction: row
-            justify-content: space-between
-            margin-top: 0
-            li
-                margin-bottom: 0
-            a
-                color: white
-
     > div:first-of-type
         > div
             margin-top: $grid-gutter-width
@@ -50,3 +36,47 @@
             @extend .col-8
         > div
             @extend .col-4
+
+    table
+        display: block
+        font-size: px2rem(18)
+        &,
+        tbody
+            display: block
+        tr
+            @extend .row
+            padding-bottom: px2rem(12)
+            padding-top: px2rem(12)
+        th
+            @extend .col-md-3
+            font-weight: $font-weight-normal
+            opacity: .8
+        td
+            @extend .col-md-9
+        caption
+            @extend .visually-hidden
+
+    & + aside
+        .toc
+            overflow: auto
+            padding-bottom: px2rem(10)
+            padding-top: px2rem(10)
+            @include media-breakpoint-down(md)
+                margin-left: px2rem(-15)
+                padding-left: px2rem(15)
+                padding-right: px2rem(15)
+                width: calc(100% + 1.875rem)
+            ol
+                flex-direction: row
+                flex-wrap: nowrap
+                justify-content: space-between
+                margin-top: 0
+                @include media-breakpoint-down(md)
+                    margin-right: -$nav-link-padding-x
+                li
+                    flex-shrink: 0
+                    margin-bottom: 0
+                a
+                    color: white
+            .active
+                color: white

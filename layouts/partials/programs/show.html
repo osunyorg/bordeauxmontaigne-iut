@@ -1,21 +1,3 @@
-{{- $category := site.GetPage (printf "/categories%s" .Params.category) -}}
-{{- $chapters := slice
-                "objectives"
-                "opportunities"
-                "results"
-                "informations"
-                "accessibility"
-                "duration"
-                "pricing"
-                "content"
-                "pedagogy"
-                "evaluation"
-                "prerequisites"
-                "registration"
-                "other"
-                "contacts"
-                "teachers"
-                -}}
 <article itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
   <meta itemprop="name" content="{{ partial "PrepareHTML" .Title }}">
   <meta itemprop="url" content="{{ .Permalink }}">
@@ -24,83 +6,10 @@
     {{- partial "programs/abstract.html" .Params.presentation -}}
   </div>
 
-  <section id="presentation">
-    {{ if .Params.objectives }}
-      <div class="container">
-        <div class="content">
-          <div>
-            <h2>{{ i18n "programs.toc.presentation" }}</h2>
-          </div>
-          <div>
-            {{- partial "PrepareHTML" .Params.objectives -}}
-          </div>
-        </div>
-      </div>
-    {{ end }}
-    {{- partial "blocks/list.html" .Params.blocks -}}
-  </section>
-
-
-  <section id="pedagogy">
-    <div class="container">
-      <div class="content">
-        <div>
-          <h2>{{ i18n "programs.toc.pedagogy" }}</h2>
-        </div>
-        <div>
-          {{- partial "PrepareHTML" .Params.content -}}
-          {{- partial "PrepareHTML" .Params.pedagogy -}}
-          {{- partial "PrepareHTML" .Params.evaluation -}}
-          {{ $title := i18n "programs._teachers" -}}
-          <h3>{{ $title }}</h3>
-          {{- partial "programs/teachers.html"
-                        (dict
-                          "title" $title
-                          "teachers" .Params.teachers
-                          "descriptions" .Params.teachers_description
-                        ) -}}
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="results">
-    <div class="container">
-      <div class="content">
-        <div>
-          <h2>{{ i18n "programs.toc.results" }}</h2>
-        </div>
-        <div>
-          {{- partial "PrepareHTML" .Params.opportunities -}}
-          {{- partial "PrepareHTML" .Params.results -}}
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="admission">
-    <div class="container">
-      <div class="content">
-        <div>
-          <h2>{{ i18n "programs.toc.admission" }}</h2>
-        </div>
-        <div>
-          {{- partial "PrepareHTML" .Params.prerequisites -}}
-          <h3>{{ i18n "programs._pricing" }}</h3>
-          {{- partial "PrepareHTML" .Params.pricing -}}
-          <h3>{{ i18n "programs._accessibility" }}</h3>
-          {{- partial "PrepareHTML" .Params.accessibility -}}
-          <h3>{{ i18n "programs._registration" }}</h3>
-          {{- partial "PrepareHTML" .Params.registration -}}
-          <h3>{{ i18n "programs._other" }}</h3>
-          {{- partial "PrepareHTML" .Params.other -}}
-          <h3>{{ i18n "programs._contacts" }}</h3>
-          {{- partial "PrepareHTML" .Params.contacts -}}
-        </div>
-      </div>
-    </div>
-  </section>
+  {{- partial "programs/presentation.html" . -}}
+  {{- partial "blocks/list.html" .Params.blocks -}}
+  {{- partial "programs/pedagogy.html" . -}}
+  {{- partial "programs/results.html" . -}}
+  {{- partial "programs/admission.html" . -}}
 
 </article>
