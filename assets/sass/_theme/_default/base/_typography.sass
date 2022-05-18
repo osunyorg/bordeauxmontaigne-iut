@@ -1,54 +1,59 @@
 h1
     font-weight: 600
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(60)
         line-height: 120%
 h2
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(60)
         line-height: 130%
 h3
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(40)
         line-height: 110%
 h4
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(28)
         line-height: 130%
 h5
     letter-spacing: -0.01em
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(24)
         line-height: 130%
 h6
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(22)
         line-height: 130%
 
 p, li
     font-size: px2rem(16)
     line-height: 140%
-    @include media-breakpoint-up(md)
+    @include media-breakpoint-up(lg)
         font-size: px2rem(22)
 
 .surtitle
     font-family: $headings-font-family
-    font-size: px2rem(24)
+    font-size: 1rem
     font-weight: 600
     line-height: 130%
     text-transform: uppercase
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(24)
 
 .tabtitle
     font-family: $headings-font-family
-    font-size: px2rem(20)
+    font-size: 1rem
     font-weight: 600
     letter-spacing: -0.01em
     line-height: 130%
     text-transform: uppercase
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(20)
 
 .lead
-    margin-bottom: px2rem(32)
     width: 100%
+    @include media-breakpoint-up(lg)
+        margin-bottom: px2rem(32)
     &,
     p
         @extend .h2
