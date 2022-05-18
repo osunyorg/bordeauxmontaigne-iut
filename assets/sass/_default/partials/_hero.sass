@@ -56,28 +56,3 @@
         caption
             @extend .visually-hidden
 
-
-    // aside sticky under hero
-    & + aside
-        .toc
-            padding-bottom: px2rem(10)
-            padding-top: px2rem(10)
-            @include media-breakpoint-down(md)
-                margin-left: px2rem(-15)
-                overflow: auto
-                padding-left: px2rem(15)
-                padding-right: px2rem(15)
-                width: calc(100% + 1.875rem)
-            ol
-                flex-direction: row
-                flex-wrap: nowrap
-                justify-content: space-between
-                margin-right: -$nav-link-padding-x
-                margin-top: 0
-                li
-                    flex-shrink: 0
-                    margin-bottom: 0
-                a
-                    color: white
-            .active
-                color: white
