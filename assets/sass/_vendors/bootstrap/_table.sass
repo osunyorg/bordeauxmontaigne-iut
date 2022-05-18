@@ -1,5 +1,10 @@
 .table
-    &-persons
+    &-persons,
+    &-resume
         > :not(caption) > * > *
             padding-bottom: $spacer
             padding-top: $spacer
+        > tbody > tr:hover > *
+            --bs-table-accent-bg: transparent
+        tr
+            vertical-align: baseline
