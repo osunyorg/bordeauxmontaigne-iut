@@ -22,6 +22,10 @@
                 display: inline-block
                 margin-left: 0
                 padding: 0
+        > ul
+            @include media-breakpoint-up(lg)
+                padding-left: $grid-gutter-width
+                padding-right: $grid-gutter-width
 
     @include media-breakpoint-up(lg)
         .dropdown-menu
