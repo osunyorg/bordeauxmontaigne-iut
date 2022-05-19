@@ -1,8 +1,8 @@
 posts:          /actualites/:year/:month/:day/:slug/
 categories:     /actualites/:slug/
-#diplomas:       /diplomes/:slug/
 persons:        /notre-institut/equipe/:slug/
 authors:        /notre-institut/equipe/:slug/actualites/
+diplomas:       /diplomes/:slug/
 administrators: /notre-institut/equipe/:slug/roles/
 teachers:       /notre-institut/equipe/:slug/programs/
 researchers:    /notre-institut/equipe/:slug/articles/
