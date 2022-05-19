@@ -1,3 +1,8 @@
+.programs__section:not(.page-program)
+    .hero
+        margin-bottom: - $toc-height
+        padding-bottom: $toc-height
+
 .programs__section
     header[role="banner"],
     .hero
@@ -7,10 +12,6 @@
 
     section
         scroll-margin-top: calc(#{$header-height} + #{$toc-height})
-
-    .hero
-        margin-bottom: - $toc-height
-        padding-bottom: $toc-height
 
     aside
         position: sticky
