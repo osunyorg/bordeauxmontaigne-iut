@@ -16,11 +16,10 @@
                 margin-bottom: calc(#{$grid-gutter-width} / -2)
             @include media-breakpoint-up(xl)
                 bottom: - $grid-gutter-width
-                // temp
-                left: 43.8%
                 position: absolute
-                right: calc(#{$grid-gutter-width} / 2)
+                right: $grid-gutter-width
                 top: px2rem(135)
+                width: calc(50% - #{$grid-gutter-width} / 2)
             img
                 height: 100%
                 object-fit: cover
