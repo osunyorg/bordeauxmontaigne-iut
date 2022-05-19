@@ -39,7 +39,6 @@
                     &::after
                         content: none
 
-.block-pages
     &--cards
         background-color: $light
         padding-bottom: $grid-gutter-width
@@ -56,19 +55,21 @@
             .title + p
                 @extend .h3
         .pages
-            --bs-gutter-y: #{$grid-gutter-width}
+            --bs-gutter-y: 2rem
+            @include media-breakpoint-up(lg)
+                --bs-gutter-y: #{$grid-gutter-width}
             > *
                 @extend .col-lg-4
                 position: relative
-                // @include media-breakpoint-only(md)
-                //     &::nth-child(odd)::after
-                //         background-color: $border-color
-                //         content: ''
-                //         height: 100%
-                //         position: absolute
-                //         right: 0
-                //         top: 0
-                //         width: 1px
+                @include media-breakpoint-only(md)
+                    &:nth-child(odd)::after
+                        background-color: $border-color
+                        content: ''
+                        height: 100%
+                        position: absolute
+                        right: 0
+                        top: 0
+                        width: 1px
                 @include media-breakpoint-up(lg)
                     &:not(:nth-child(3n))::after
                         background-color: $border-color
@@ -78,6 +79,8 @@
                         right: 0
                         top: 0
                         width: 1px
+                &:last-child::after
+                    content: none
             .page
                 aspect-ratio: 1
                 background-color: white
