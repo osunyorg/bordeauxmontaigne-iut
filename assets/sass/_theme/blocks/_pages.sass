@@ -3,17 +3,19 @@
         @include media-breakpoint-up(lg)
             > div:first-child
                 padding-right: $grid-gutter-width
-        .title + p
-            @extend .h3
-            margin-top: calc(#{$spacer} * 2)
         .title
             @extend .surtitle
             font-weight: 600
             a
                 font-size: inherit
+                line-height: inherit
                 &::after,
                 &::before
                     content: none
+        .title + p
+            @extend .h3
+            margin-top: calc(#{$spacer} * 2)
+
 
     &--list
         .block-content
@@ -29,15 +31,15 @@
             > *
                 margin-top: px2rem(10)
                 width: 100%
+
+            .page
+                .title
+                    a
+                        font-size: px2rem(18)
         .page
             > div
                 padding: 0
-            .title
-                margin-bottom: 0
-                a
-                    font-size: px2rem(18)
-                    &::after
-                        content: none
+
 
     &--cards
         background-color: $light
@@ -46,14 +48,6 @@
         @include media-breakpoint-up(lg)
             padding-bottom: px2rem(128)
             padding-top: px2rem(128)
-        .main-page
-            .title
-                @extend .surtitle
-                a
-                    &::before
-                        content: none
-            .title + p
-                @extend .h3
         .pages
             --bs-gutter-y: 2rem
             @include media-breakpoint-up(lg)
@@ -82,11 +76,15 @@
                 &:last-child::after
                     content: none
             .page
-                aspect-ratio: 1
+                aspect-ratio: 0.887
                 background-color: white
                 transition: background .3s, color .3s
+                > div:first-child
+                    display: flex
+                    flex-direction: column
                 .title
                     @extend .h4
+                    margin-bottom: 0
                 a
                     font-family: inherit
                     font-size: inherit
@@ -98,7 +96,8 @@
                 &:hover
                     background-color: $site-color
                     &,
-                    a
+                    a,
+                    .more
                         color: white
                         text-decoration-color: white
                 > div:first-of-type

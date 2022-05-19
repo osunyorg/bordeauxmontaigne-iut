@@ -1,0 +1,11 @@
+.blocks
+    > *:not(.block-chapter)
+        .top
+            h2
+                @extend .surtitle
+
+    @include in-page-without-aside
+        .block-chapter
+            .top
+                h2
+                    @extend .surtitle
