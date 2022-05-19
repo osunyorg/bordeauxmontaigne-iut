@@ -1,0 +1,102 @@
+{{- $position := .position -}}
+{{- $title := .title -}}
+{{- $layout_class := "block-pages--list" -}}
+{{- with .data -}}
+
+  {{- $show_main_page := false -}}
+  {{- $show_main_description := .show_main_description -}}
+  {{- $show_descriptions := .show_descriptions -}}
+  {{- $show_images := .show_images -}}
+
+  {{/* LEGACY */}}
+  {{- with .show_description -}}
+    {{- $show_descriptions = . -}}
+  {{- end -}}
+  {{- with .show_image -}}
+    {{- $show_images = . -}}
+  {{- end -}}
+
+  {{- if .layout -}}
+    {{- $layout_class = printf "block-pages--%s" .layout -}}
+  {{- end -}}
+
+  {{- $page_class := "" -}}
+
+  {{ $page := partial "GetPageByUrl" .page }}
+  {{- with $page }}
+    {{- $show_main_page = true -}}
+    {{ if eq $title "" }}
+      {{ $title = .Title }}
+    {{ end }}
+    {{ if .Params.bodyclass }}
+      {{- $page_class = partial "GetBodyclass" . }}
+      {{- $page_class = printf "block-%s" $page_class }}
+    {{ end }}
+  {{ end -}}
+
+  <section class="block-pages {{ $layout_class }} {{ $page_class }}" id="block-{{ $position }}">
+    <div class="container">
+      <div class="block-content">
+
+        {{- if and $title (not $show_main_page) }}
+          <div class="top">
+            <h2>{{ partial "PrepareHTML" $title }}</h2>
+          </div>
+        {{ end -}}
+
+        {{- with $page -}}
+
+          <div class="main-page page{{ if .Params.bodyclass }} page-{{ .Params.bodyclass }}{{ end }}">
+            <div>
+              <p class="title">
+                <a href="{{ .Permalink }}">{{ partial "PrepareHTML" $title }}</a>
+              </p>
+              {{ if and .Params.description_short $show_main_description -}}
+                <p>{{- partial "PrepareHTML" .Params.description_short -}}</p>
+              {{- end }}
+            </div>
+          </div>
+
+        {{- end -}}
+
+        <div class="pages">
+          {{- range .pages }}
+            {{- $page := partial "GetPageByUrl" .page -}}
+            {{- if .slug -}}
+              {{- $page = partial "GetPageByUrl" .slug -}}
+            {{- end -}}
+            {{ with $page }}
+              <div>
+                <div class="page{{ if .Params.bodyclass }} page-{{ .Params.bodyclass }}{{ end }}">
+                  <div>
+                    <p class="title">
+                      <a href="{{ .Permalink }}">{{ partial "PrepareHTML" .Title }}</a>
+                    </p>
+                    {{ if and .Params.description_short $show_descriptions -}}
+                      <p>{{- partial "GetTruncateContent" .Params.description_short -}}</p>
+                    {{- end }}
+                  </div>
+                  {{ if $show_images -}}
+                    <div class="media">
+                      {{- if .Params.image -}}
+                        {{- partial "commons/image.html"
+                              (dict
+                                "image"    .Params.image
+                                "mobile"   "351x291"
+                                "tablet"   "334x167"
+                                "desktop"  "634x317"
+                              ) -}}
+                      {{- else -}}
+                        {{- partial "commons/image-default.html" -}}
+                      {{- end -}}
+                    </div>
+                  {{- end }}
+                </div>
+              </div>
+            {{ end }}
+          {{ end -}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end -}}

@@ -1,10 +1,4 @@
 .block-pages
-    .block-content
-        @include media-breakpoint-up(lg)
-            align-items: flex-start
-            display: flex
-            > *
-                flex: 1
     .main-page
         @include media-breakpoint-up(lg)
             > div:first-child
@@ -20,49 +14,83 @@
                 &::after,
                 &::before
                     content: none
-    .pages
-        --bs-gutter-y: 0
-        @include media-breakpoint-up(lg)
-            margin-top: 4.5rem
-        > *
-            margin-top: px2rem(10)
-            width: 100%
-    .page
-        > div
-            padding: 0
-        .title
-            margin-bottom: 0
-            a
-                font-size: px2rem(18)
-                &::after
-                    content: none
 
-// .block-pages
-//     background-color: $light
-//     padding-bottom: $grid-gutter-width
-//     padding-top: $grid-gutter-width
-//     @include media-breakpoint-up(lg)
-//         padding-bottom: px2rem(128)
-//         padding-top: px2rem(128)
-//     .main-page
-//         .title
-//             @extend .surtitle
-//             a
-//                 &::before
-//                     content: none
-//         .title + p
-//             @extend .h3
-//     .pages
-//         --bs-gutter-y: #{$grid-gutter-width}
-//         > *
-//             @extend .col-lg-4
-//             position: relative
-//             &::after
-//                 background-color: $border-color
-//                 content: ''
-//                 height: 100%
-//                 position: absolute
-//                 right: 0
-//                 top: 0
-//                 width: 1px
-//
+    &--list
+        .block-content
+            @include media-breakpoint-up(lg)
+                align-items: flex-start
+                display: flex
+                > *
+                    flex: 1
+        .pages
+            --bs-gutter-y: 0
+            @include media-breakpoint-up(lg)
+                margin-top: 4.5rem
+            > *
+                margin-top: px2rem(10)
+                width: 100%
+        .page
+            > div
+                padding: 0
+            .title
+                margin-bottom: 0
+                a
+                    font-size: px2rem(18)
+                    &::after
+                        content: none
+
+.block-pages
+    &--cards
+        background-color: $light
+        padding-bottom: $grid-gutter-width
+        padding-top: $grid-gutter-width
+        @include media-breakpoint-up(lg)
+            padding-bottom: px2rem(128)
+            padding-top: px2rem(128)
+        .main-page
+            .title
+                @extend .surtitle
+                a
+                    &::before
+                        content: none
+            .title + p
+                @extend .h3
+        .pages
+            --bs-gutter-y: #{$grid-gutter-width}
+            > *
+                @extend .col-lg-4
+                position: relative
+                // @include media-breakpoint-only(md)
+                //     &::nth-child(odd)::after
+                //         background-color: $border-color
+                //         content: ''
+                //         height: 100%
+                //         position: absolute
+                //         right: 0
+                //         top: 0
+                //         width: 1px
+                @include media-breakpoint-up(lg)
+                    &:not(:nth-child(3n))::after
+                        background-color: $border-color
+                        content: ''
+                        height: 100%
+                        position: absolute
+                        right: 0
+                        top: 0
+                        width: 1px
+            .page
+                aspect-ratio: 1
+                background-color: white
+                transition: background .3s, color .3s
+                a
+                    transition: text-decoration-color .3s, color .3s
+                    &::before
+                        content: none
+                &:hover
+                    background-color: $site-color
+                    &,
+                    a
+                        color: white
+                        text-decoration-color: white
+                > div:first-of-type
+                    padding: calc(#{$grid-gutter-width} / 2)
