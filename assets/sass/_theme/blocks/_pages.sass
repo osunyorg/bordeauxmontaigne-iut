@@ -85,7 +85,13 @@
                 aspect-ratio: 1
                 background-color: white
                 transition: background .3s, color .3s
+                .title
+                    @extend .h4
                 a
+                    font-family: inherit
+                    font-size: inherit
+                    font-weight: inherit
+                    line-height: inherit
                     transition: text-decoration-color .3s, color .3s
                     &::before
                         content: none
