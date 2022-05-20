@@ -44,20 +44,20 @@
     kind: programs
     children:
     - title: Bachelors Universitaires de Technologie
-      target: "/offre-de-formation/bachelor-universitaire-de-technologie/"
-      kind: program
+      target: "/diplomes/bachelor-universitaire-de-technologie/"
+      kind: diploma
       children: []
     - title: Licences professionnelles
-      target: "/offre-de-formation/licence-professionnelle/"
-      kind: program
+      target: "/diplomes/licence-professionnelle/"
+      kind: diploma
       children: []
     - title: Diplômes d'Université
-      target: "/offre-de-formation/diplome-d-universite/"
-      kind: program
+      target: "/diplomes/diplome-d-universite/"
+      kind: diploma
       children: []
     - title: Masters professionnels
-      target: "/offre-de-formation/master-professionnel/"
-      kind: program
+      target: "/diplomes/master-professionnel/"
+      kind: diploma
       children: []
   - title: Formation continue
     target: "/formation/formation-continue/"
