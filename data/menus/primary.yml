@@ -52,8 +52,8 @@
       kind: diploma
       children: []
     - title: Diplômes d'Université
-      target: "/offre-de-formation/diplome-d-universite/"
-      kind: program
+      target: "/diplomes/diplome-d-universite/"
+      kind: diploma
       children: []
     - title: Masters professionnels
       target: "/offre-de-formation/master-professionnel/"
