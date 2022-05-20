@@ -8,6 +8,7 @@
 {{ $extern_link := i18n "commons.link.blank" }}
 <ul class="{{ $ulClass }}{{ if $level }}nav-level-{{ $level }}{{ end }}">
   {{ range .items -}}
+
     {{- $slug := urlize .title -}}
     {{- $itemClass := "" -}}
     {{- $linkClass := "" -}}
@@ -16,24 +17,30 @@
     {{- $attr := "" -}}
     {{- $attr_title := "" -}}
     {{- $hasDropdown := false -}}
+
     {{- if gt (len .children) 0 -}}
       {{- $itemClass = printf "%shas-children" $itemClass -}}
     {{- end -}}
+
     {{- if and (gt (len .children) 0) $dropdown (eq $level 1) -}}
       {{- $hasDropdown = true -}}
       {{- $attr = printf "id=\"dropdown-%s\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\"" $slug -}}
     {{- end -}}
+
     {{- if and (hasPrefix .target "http") (eq .kind "url") -}}
       {{- $attr = " target=\"_blank\" rel=\"noreferrer\"" -}}
       {{- $attr_title = printf "title=\"%s - %s\"" .title $extern_link -}}
     {{- end -}}
-    {{- $page = partial "GetPageByUrl" .target -}}
-    {{- if $page -}}
-      {{- if $page.Params.bodyclass -}}
-        {{- $pageClass = partial "GetBodyclass" $page }}
-        {{- $itemClass = printf "%s item-%s" $itemClass $pageClass -}}
+
+    {{- if eq .kind "url" -}}
+      {{- with .Site.GetPage .target -}}
+        {{- if .Params.bodyclass -}}
+          {{- $pageClass = partial "GetBodyclass" . }}
+          {{- $itemClass = printf "%s item-%s" $itemClass $pageClass -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
+
     {{- if or (ne $stop 1) (and (eq $stop 1) (ne .kind "blank")) -}}
     <li{{ if ne $itemClass ""}} class="{{ $itemClass }}"{{ end }}>
       {{- if ne .kind "blank" -}}
