@@ -12,6 +12,8 @@
 
     section
         scroll-margin-top: calc(#{$header-height} + #{$toc-height})
+        html.is-scrolling-down &
+            scroll-margin-top: $toc-height
 
     aside
         position: sticky

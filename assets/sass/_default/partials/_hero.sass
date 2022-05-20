@@ -37,21 +37,18 @@
         > div
             @extend .col-4
 
-    table
-        display: block
+    dl
+        @extend .row
         font-size: px2rem(18)
-        &,
-        tbody
-            display: block
-        tr
-            @extend .row
+        margin-bottom: 0
+        dt,
+        dd
             padding-bottom: px2rem(12)
             padding-top: px2rem(12)
-        th
+            margin-bottom: 0
+        dt
             @extend .col-md-3
             font-weight: $font-weight-normal
             opacity: .8
-        td
+        dd
             @extend .col-md-9
-        caption
-            @extend .visually-hidden
