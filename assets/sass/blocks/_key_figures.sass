@@ -2,8 +2,12 @@
     dl
         dt
             @include media-breakpoint-up(lg)
-                font-size: 2rem
+                font-size: 1rem
                 strong
-                    font-size: px2rem(120)
                     font-weight: 400
                     line-height: 1
+
+                @include in-page-without-aside
+                    font-size: 2rem
+                    strong
+                        font-size: px2rem(120)
