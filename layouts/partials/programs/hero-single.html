@@ -10,7 +10,7 @@
   </div>
   <div id="essential">
     <div class="container">
-      {{- with .Params.diploma -}}
+      {{- with .Params.diplomas -}}
         {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
         {{- partial "diplomas/essential" $diploma -}}
       {{- end -}}
