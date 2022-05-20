@@ -56,8 +56,8 @@
       kind: diploma
       children: []
     - title: Masters professionnels
-      target: "/offre-de-formation/master-professionnel/"
-      kind: program
+      target: "/diplomes/master-professionnel/"
+      kind: diploma
       children: []
   - title: Formation continue
     target: "/formation/formation-continue/"
