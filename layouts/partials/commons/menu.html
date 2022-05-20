@@ -32,8 +32,12 @@
       {{- $attr_title = printf "title=\"%s - %s\"" .title $extern_link -}}
     {{- end -}}
 
-    {{- if eq .kind "url" -}}
-      {{- with .Site.GetPage .target -}}
+    {{- if ne .kind "url" -}}
+      {{ $path := printf "/%s" .kind }}
+      {{ if eq .kind "page" }}
+        {{ $path = printf "/pages%s" .target }}
+      {{ end }}
+      {{- with site.GetPage $path -}}
         {{- if .Params.bodyclass -}}
           {{- $pageClass = partial "GetBodyclass" . }}
           {{- $itemClass = printf "%s item-%s" $itemClass $pageClass -}}
