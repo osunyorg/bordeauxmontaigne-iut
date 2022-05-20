@@ -20,18 +20,25 @@
         {{- $default := "1280x2560" -}}
         <figure{{ if $is_carousel }} class="splide__slide"{{ end }}>
           <a class="glightbox"
-            data-glightbox="type: image;{{ if .text }} title:{{ partial "GetTextFromHTML" .alt }}; description:{{ partial "GetTextFromHTML" .text }};{{ end }}"
+            data-glightbox="type: image;"
             href="{{ partial "GetImageUrl" (dict "url" $url "size" $default ) }}">
             {{ partial "commons/image.html"
               (dict
-                "image"    .file
+                "image"    .id
                 "alt"      .alt
                 "mobile"   "164"
                 "tablet"   "336"
                 "desktop"  "967x679"
               )}}
           </a>
-          <figcaption>{{ partial "PrepareHTML" .alt }}</figcaption>
+          <figcaption>
+            {{ if .text }}
+              <p>{{ partial "PrepareHTML" .text }}</p>
+            {{ end }}
+            {{ if .credit }}
+              <p>{{ partial "PrepareHTML" .credit }}</p>
+            {{ end }}
+          </figcaption>
         </figure>
       {{- end -}}
     {{ end }}

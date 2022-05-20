@@ -1,16 +1,16 @@
 <div class="gallery">
   {{ range .images }}
-  {{ if .file }}
-    {{- $image := partial "GetMedia" .file -}}
-    {{- if $image -}}
-      {{- $url := $image.url -}}
-      {{- if site.Params.keycdn -}}
-        {{- $url = $image.direct_url -}}
-      {{- end -}}
-      {{- $default := "1280x2560" -}}
-      <figure>
+    {{ if .id }}
+      {{- $image := partial "GetMedia" .id -}}
+      {{- if $image -}}
+        {{- $url := $image.url -}}
+        {{- if site.Params.keycdn -}}
+          {{- $url = $image.direct_url -}}
+        {{- end -}}
+        {{- $default := "1280x2560" -}}
+        <figure>
           <a class="glightbox"
-            data-glightbox="type: image;{{ if .text }} title:{{ partial "GetTextFromHTML" .alt }}; description:{{ partial "GetTextFromHTML" .text }};{{ end }}"
+            data-glightbox="type: image;"
             href="{{ partial "GetImageUrl" (dict "url" $url "size" $default ) }}">
             {{ partial "commons/image.html"
               (dict
@@ -21,9 +21,16 @@
                 "desktop"  "416"
               )}}
           </a>
-        {{ end }}
-        <figcaption>{{ partial "PrepareHTML" .alt }}</figcaption>
-      </figure>
-    {{- end -}}
+          <figcaption>
+            {{ if .text }}
+              <p>{{ partial "PrepareHTML" .text }}</p>
+            {{ end }}
+            {{ if .credit }}
+              <p>{{ partial "PrepareHTML" .credit }}</p>
+            {{ end }}
+          </figcaption>
+        </figure>
+      {{- end -}}
+    {{ end }}
   {{ end }}
 </div>
