@@ -1,4 +1,5 @@
 <div class="container">
+  {{ partial "diplomas/diplomas-select.html" . }}
   {{ $sorted_pages := partial "SortPages" (dict "page" .) }}
   {{ partial "programs/programs-list.html" $sorted_pages }}
 </div>

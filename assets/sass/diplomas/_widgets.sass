@@ -4,3 +4,21 @@
         padding-top: $spacer
         a
             @extend .h3
+
+.diplomas-select
+    button
+        @extend .surtitle
+
+    .dropdown-menu
+        background-color: black
+        padding: 0
+        &,
+        a
+            color: white
+        a
+            &:not(:first-child)
+                border-top: 1px solid $gray-600
+            @include media-breakpoint-up(md)
+                font-size: px2rem(22)
+            &:hover
+                background-color: $light
