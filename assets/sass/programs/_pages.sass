@@ -17,13 +17,15 @@
 
     aside
         position: sticky
-        top: $header-height
-        transition: top 0.4s
+        top: 0
+        transition: top $header-transition
         z-index: 9
-        html.is-scrolling-down &
-            top: 0px
-        @include media-breakpoint-down(lg)
-            top: $header-height-md
+        @if $enable-header-sticky
+            top: $header-height
+            @include media-breakpoint-down(lg)
+                top: $header-height-md
+            html.is-scrolling-down &
+                top: 0
         @include media-breakpoint-up(md)
             margin-bottom: px2rem(128)
         .toc
