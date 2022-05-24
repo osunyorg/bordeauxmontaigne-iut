@@ -42,9 +42,6 @@
 
 
     &--cards
-        background-color: $light
-        padding-bottom: $grid-gutter-width
-        padding-top: $grid-gutter-width
         @include media-breakpoint-up(lg)
             padding-bottom: px2rem(128)
             padding-top: px2rem(128)
@@ -53,7 +50,6 @@
             @include media-breakpoint-up(lg)
                 --bs-gutter-y: #{$grid-gutter-width}
             > *
-                @extend .col-lg-4
                 position: relative
                 @include media-breakpoint-only(md)
                     &:nth-child(odd)::after
@@ -76,17 +72,10 @@
                 &:last-child::after
                     content: none
             .page
-                aspect-ratio: 0.887
-                background-color: white
                 transition: background .3s, color .3s
-                > div:first-child
-                    display: flex
-                    flex-direction: column
                 .title
                     @extend .h4
                     margin-bottom: 0
-                    a
-                        text-decoration: none
                 a
                     font-family: inherit
                     font-size: inherit
@@ -95,14 +84,7 @@
                     transition: color .3s
                     &::before
                         content: none
-                .more
-                    text-decoration-color: $body-color
                 &:hover
                     background-color: $site-color
-                    &,
-                    a,
-                    .more
-                        color: white
-                        text-decoration-color: white
                 > div:first-of-type
                     padding: calc(#{$grid-gutter-width} / 2)
