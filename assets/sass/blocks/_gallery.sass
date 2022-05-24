@@ -6,7 +6,10 @@
         padding-top: px2rem(64)
         position: relative
         .block-content
-            padding-left: #{$grid-gutter-width / 2} !important
+            padding-left: 0 !important
+        .top
+            h2
+                @extend .surtitle
         figure
             >  a
                 margin-bottom: px2rem(24)
@@ -20,6 +23,7 @@
             &__arrows
                 filter: invert(1)
                 order: 2
+                padding-top: $grid-gutter-width
             &__arrow
                 &--prev,
                 &--next
