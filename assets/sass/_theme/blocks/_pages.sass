@@ -85,14 +85,18 @@
                 .title
                     @extend .h4
                     margin-bottom: 0
+                    a
+                        text-decoration: none
                 a
                     font-family: inherit
                     font-size: inherit
                     font-weight: inherit
                     line-height: inherit
-                    transition: text-decoration-color .3s, color .3s
+                    transition: color .3s
                     &::before
                         content: none
+                .more
+                    text-decoration-color: $body-color
                 &:hover
                     background-color: $site-color
                     &,
