@@ -1,11 +1,30 @@
 .posts__section,
 .posts__page,
 .categories__taxonomy,
-.categories__term,
-.authors__taxonomy,
-.authors__term
+.categories__term
+    header[role="banner"],
     .hero
-        background-color: $post
+        background-color: $post-color
     .toc
         .active
-            color: $post
+            color: $post-color
+    .hero
+        > div:last-child
+            .container
+                align-items: center
+                display: flex
+                time, p
+                    font-size: px2rem(18)
+                time + p
+                    margin-left: $spacer
+    aside
+        p
+            @extend .h5
+        .post-categories
+            margin-bottom: calc(#{$spacer} * 2)
+        div + div
+            border-top: 1px solid $border-color
+        div:not([itemprop="articleSection"])
+            display: flex
+            justify-content: space-between
+            padding-top: $spacer

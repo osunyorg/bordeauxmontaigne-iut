@@ -2,3 +2,14 @@
     .title
         .highlighted &
             font-weight: $headings-font-weight
+
+ol.programs
+    padding-left: 0
+    li
+        a:first-of-type
+            @extend .h3
+            margin-bottom: 0
+        a + a
+            @include media-breakpoint-up(md)
+                font-size: px2rem(22)
+                line-height: 140%

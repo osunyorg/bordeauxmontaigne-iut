@@ -1,0 +1,35 @@
+.menu-expand
+
+    .has-children
+        .dropdown-menu
+            background-color: $institute-color
+            color: white
+            .dropdown-item,
+            p a,
+            li a,
+            li span
+                color: white
+
+    .item-page-program
+        .dropdown-menu
+            background-color: $program-color
+
+    .dropdown-menu
+        > p
+            @extend .container
+            @extend .h1
+            a
+                display: inline-block
+                margin-left: 0
+                padding: 0
+        > ul
+            @include media-breakpoint-up(lg)
+                padding-left: $grid-gutter-width
+                padding-right: $grid-gutter-width
+
+    @include media-breakpoint-up(lg)
+        .dropdown-menu
+            padding-bottom: $grid-gutter-width
+            padding-top: $spacer
+            > ul
+                grid-gap: $spacer $grid-gutter-width

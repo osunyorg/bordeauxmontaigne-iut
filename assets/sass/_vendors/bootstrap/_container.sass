@@ -1,0 +1,15 @@
+.container
+    padding-left: 1rem
+    padding-right: 1rem
+    @include media-breakpoint-up(lg)
+        padding-left: $grid-gutter-width
+        padding-right: $grid-gutter-width
+
+.content,
+.row
+    @include media-breakpoint-down(lg)
+        margin-left: -1rem
+        margin-right: -1rem
+        > *
+            padding-left: 1rem
+            padding-right: 1rem

@@ -1,0 +1,17 @@
+.breadcrumb
+    align-items: baseline
+    &-item
+        font-size: $breadcrumb-font-size
+        a
+            color: $breadcrumb-link-color
+            transition: color .3s ease, text-decoration-color .3s ease
+            &:hover
+                color: white
+
+    &-item + &-item
+        line-height: px2rem(22)
+        &::before
+            @extend .icon
+            @extend .icon-caret-right
+            font-size: px2rem(8)
+            line-height: px2rem(24)

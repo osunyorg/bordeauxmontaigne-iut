@@ -1,0 +1,68 @@
+.block-timeline
+    background-color: $primary
+    color: white
+    overflow: hidden
+    padding-bottom: $grid-gutter-width
+    padding-top: $grid-gutter-width
+
+    .timeline-arrows
+        display: flex
+        > button
+            -webkit-appearance: button
+            background: none
+            border: none
+            cursor: pointer
+            font-size: 20px
+            padding: calc(#{$grid-gutter-width}*.5)
+            &:first-child
+                @extend .icon
+                margin-right: $grid-gutter-width * 0.5
+                // &::after
+                //     @include icon("arrow-left")
+            // &:last-child
+            //     &::after
+            //         @include icon("arrow-right")
+    .events
+        margin-left: calc(#{$grid-gutter-width}/-2)
+        margin-right: calc(#{$grid-gutter-width}/-2)
+        ol
+            display: flex
+            flex-flow: row nowrap
+            list-style: none
+            padding-left: 0
+            transition: margin 0.4s ease-in-out
+            width: 100%
+    .event
+        flex: none
+        padding: 0 calc(#{$grid-gutter-width}/2)
+        scroll-snap-align: start
+        transition: 0.3s opacity
+        width: 50%
+        hr
+            opacity: 1
+            overflow: visible
+            width: calc(100% + #{$grid-gutter-width})
+            &::before
+                background: white
+                border-radius: 50%
+                content: ''
+                display: block
+                height: 9px
+                position: relative
+                top: -4px
+                width: 9px
+        &.is-passed
+            opacity: 0.15
+
+
+    @include media-breakpoint-down(md)
+        .event
+            width: 85%
+            hr
+                margin-bottom: 60px
+        .events
+            position: relative
+        .timeline-arrows
+            left: 0
+            position: absolute
+            top: 50px

@@ -1,9 +1,24 @@
 .pages__section,
-.pages__page,
-.administrators__taxonomy,
-.administrators__term
+.pages__page
+    header[role="banner"],
     .hero
-        background-color: $institut
+        background-color: $institute-color
     .toc
         .active
-            color: $institut
+            color: $institute-color
+
+.pages__section
+    main
+        > div
+            > aside
+                > div
+                    > *
+                        @extend .col-md-4
+                @include media-breakpoint-up(md)
+                    ~ *
+                        .container
+                            > *
+                                &:not(.call_to_action)
+                                    padding-left: col(5)
+                                &.call_to_action
+                                    margin-left: col(5)

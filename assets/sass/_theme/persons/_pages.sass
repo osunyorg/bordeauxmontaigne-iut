@@ -1,0 +1,49 @@
+.persons__page,
+.persons__section,
+.administrators__taxonomy,
+.administrators__term,
+.authors__taxonomy,
+.authors__term,
+.researchers__taxonomy,
+.researchers__term,
+.teachers__taxonomy,
+.teachers__term
+    header[role="banner"],
+    .hero
+        background-color: $institute-color
+    .toc
+        .active
+            color: $institute-color
+
+.persons__page
+    main
+        .content
+            > div:last-of-type
+                margin-top: $spacer
+                p:last-of-type
+                    margin-bottom: 0
+                @include media-breakpoint-up(md)
+                    @include make-col(4)
+                    @include make-col-offset(0)
+                    margin-top: 0
+                    text-align: right
+        section
+            @extend .mt-5
+
+.persons__section
+    .lead + .taxonomies
+        margin-top: map-get($spacers, 4)
+    .taxonomies
+        display: flex
+        flex-direction: row
+        list-style: none
+        margin-bottom: px2rem(20)
+        padding-left: 0
+        li
+            @include media-breakpoint-up(md)
+                &:not(:last-child)
+                    margin-right: px2rem(60)
+        a
+            @extend .tabtitle
+        &:empty
+            margin-bottom: 0

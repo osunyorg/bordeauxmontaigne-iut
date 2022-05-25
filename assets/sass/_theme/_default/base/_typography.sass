@@ -1,5 +1,78 @@
 h1
-    @include media-breakpoint-down(md)
-        font-size: px2rem(28)
+    font-weight: 600
+    @include media-breakpoint-up(md)
+        font-size: px2rem(50)
+        line-height: 120%
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(60)
+h2
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(60)
+        line-height: 130%
 h3
-    margin-top: $grid-gutter-width
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(40)
+        line-height: 110%
+h4
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(28)
+        line-height: 130%
+h5
+    letter-spacing: -0.01em
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(24)
+        line-height: 130%
+h6
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(22)
+        line-height: 130%
+
+p, li
+    font-size: px2rem(16)
+    line-height: 140%
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(22)
+
+.surtitle
+    font-family: $headings-font-family
+    font-size: 1rem
+    font-weight: 600
+    line-height: 130%
+    text-transform: uppercase
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(24)
+
+.tabtitle
+    font-family: $headings-font-family
+    font-size: 1rem
+    font-weight: 600
+    letter-spacing: -0.01em
+    line-height: 130%
+    text-transform: uppercase
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(20)
+
+.lead
+    width: 100%
+    @include media-breakpoint-up(lg)
+        margin-bottom: px2rem(32)
+    &,
+    p
+        @extend .h2
+    p:last-child
+        margin-bottom: 0
+    @include media-breakpoint-up(md)
+        margin-bottom: px2rem(128)
+    @include in-page-with-aside
+        &,
+        p
+            @extend .h3
+        margin-bottom: calc(#{$spacer} * 2)
+
+[itemprop="articleBody"]
+    h2
+        @extend .h4
+    h3
+        @extend .h5
+    h4
+        @extend .h6

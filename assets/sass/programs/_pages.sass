@@ -1,8 +1,88 @@
-.programs__section,
-.teachers__taxonomy,
-.teachers__term
+.programs__section:not(.page-program)
     .hero
-        background-color: $diplomes
-    .toc
-        .active
-            color: $diplomes
+        margin-bottom: - $toc-height
+        padding-bottom: $toc-height
+
+.programs__section
+    header[role="banner"],
+    .hero
+        background-color: $program-color
+    aside
+        background-color: darken($program-color, 3)
+
+    section
+        scroll-margin-top: calc(#{$header-height} + #{$toc-height})
+        html.is-scrolling-down &
+            scroll-margin-top: $toc-height
+
+    aside
+        position: sticky
+        top: 0
+        transition: top $header-transition
+        z-index: 9
+        @if $enable-header-sticky
+            top: $header-height
+            @include media-breakpoint-down(lg)
+                top: $header-height-md
+            html.is-scrolling-down &
+                top: 0
+        @include media-breakpoint-up(md)
+            margin-bottom: px2rem(128)
+        .toc
+            padding-bottom: px2rem(10)
+            padding-top: px2rem(10)
+            @include media-breakpoint-down(md)
+                margin-left: px2rem(-15)
+                overflow: auto
+                padding-left: px2rem(15)
+                padding-right: px2rem(15)
+                width: calc(100% + 1.875rem)
+            ol
+                flex-direction: row
+                flex-wrap: nowrap
+                justify-content: space-between
+                margin-right: -$nav-link-padding-x
+                margin-top: 0
+                li
+                    flex-shrink: 0
+                    margin-bottom: 0
+                a
+                    color: white
+                    transition: opacity 0.4s
+            .active
+                opacity: 0.5
+    main
+        .content
+            > div
+                @extend .col-md-7
+            > div:first-of-type
+                @extend .col-md-5
+            h2
+                @extend .surtitle
+            h3
+                @extend .h4
+
+    article > section:not(:first-of-type)
+        .container::before
+            border-top: 1px solid black
+            content: ''
+            display: block
+            margin-top: $grid-gutter-width
+            padding-top: $spacer
+
+    .table-persons
+        border: 0
+        > :not(caption) > * > *
+            border: 0
+            padding-bottom: 1rem
+            padding-top: 1rem
+        th, td
+            font-weight: 400
+            line-height: 140%
+            @include media-breakpoint-up(lg)
+                font-size: 22px
+        th
+            padding-right: 0
+            width: calc(100% / 7 * 3)
+        td
+            padding-left: calc(#{$grid-gutter-width} / 2)

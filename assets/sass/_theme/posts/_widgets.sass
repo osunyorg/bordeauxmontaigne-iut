@@ -1,0 +1,64 @@
+.post
+    @extend .card
+    border: 0
+
+    > div:first-of-type
+        @extend .card-body
+        padding-bottom: 0
+        padding-left: 0
+        padding-right: 0
+
+    .media
+        img
+            height: auto
+            width: 100%
+
+    .title
+        @extend .card-title
+        @extend .h4
+        a
+            @extend .stretched-link
+
+    .title + p + time
+        margin-top: px2rem(10)
+
+    time
+        font-size: 18px
+        line-height: 120%
+
+div:not(.block-content) > .posts
+    > div
+        border-bottom: 1px solid $border-color
+        margin-bottom: $grid-gutter-width
+        padding-bottom: $grid-gutter-width
+    .post
+        @include media-breakpoint-up(md)
+            display: grid
+            grid-gap: $grid-gutter-width
+            grid-template-columns: repeat(12, 1fr)
+            > div:not(.media)
+                grid-column: 4 / 13
+                padding: 0
+                > *
+                    max-width: calc(100% / 3 * 2)
+            time
+                position: absolute
+                right: 0
+                top: 0
+            .media
+                grid-column: 1 / 4
+
+
+.post-categories
+    list-style: none
+    margin: 0 0 $spacer
+    padding: 0
+    li
+        font-size: px2rem(18)
+        line-height: 120%
+        margin-bottom: px2rem(15)
+    a
+        color: $post-color
+        text-decoration-color: rgba($post-color, .3)
+        &:hover
+            text-decoration-color: $post-color
