@@ -1,16 +1,27 @@
 .menu
     @extend .menu-expand
+    @include media-breakpoint-down(lg)
+        margin-left: -1rem
+        margin-right: -1rem
+        > ul li,
+        .nav-level-1 > .has-children li
+            a,
+            span
+                padding-left: 1rem
+                padding-right: 1rem
+        > ul li
+            a,
+            span
+                padding-bottom: 1rem
+                padding-top: 1rem
 
     .nav-level-1
         > li
-            margin-left: px2rem(10)
+            @include media-breakpoint-up(lg)
+                margin-left: px2rem(10)
             > a,
             > span
                 color: white
-                @include media-breakpoint-up(lg)
-                    padding-left: 1rem
-                    padding-right: 1rem
-
         & > .has-children
             li a,
             li span
