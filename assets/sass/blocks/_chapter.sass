@@ -1,3 +1,13 @@
 .block-chapter
     .top
         margin-bottom: px2rem(24)
+
+    @include media-breakpoint-up(md)
+        @include in-page-without-aside
+            .block-content
+                > *
+                    @include make-col(7)
+            &--with-image
+                .block-content
+                    > picture
+                        @include make-col(5)
