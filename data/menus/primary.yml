@@ -63,10 +63,6 @@
     target: "/formation/formation-continue/"
     kind: page
     children:
-    - title: Organisation du service
-      target: "/formation/formation-continue/organisation-du-service/"
-      kind: page
-      children: []
     - title: Offre de formation
       target: "/formation/formation-continue/offre-de-formation-fc/"
       kind: page
