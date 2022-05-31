@@ -63,10 +63,6 @@
     target: "/formation/formation-continue/"
     kind: page
     children:
-    - title: Codes utiles
-      target: "/formation/formation-continue/codes-utiles/"
-      kind: page
-      children: []
     - title: Validation des acquis (VAE/VAPP)
       target: https://www.u-bordeaux-montaigne.fr/fr/formations/formation_continue/validation-des-acquis.html/
       kind: url
