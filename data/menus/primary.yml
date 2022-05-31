@@ -28,8 +28,8 @@
     kind: page
     children: []
   - title: Consignes de sécurité
-    target: https://www.u-bordeaux-montaigne.fr/fr/actualites/vie-institutionnelle/vigipirate-consignes-de-securite.html/
-    kind: url
+    target: "/notre-institut/consignes-de-securite/"
+    kind: page
     children: []
   - title: Relations avec les entreprises
     target: "/notre-institut/relations-avec-les-entreprises/"
