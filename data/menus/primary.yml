@@ -62,11 +62,7 @@
   - title: Formation continue
     target: "/formation/formation-continue/"
     kind: page
-    children:
-    - title: Médiation
-      target: "/formation/formation-continue/mediation/"
-      kind: page
-      children: []
+    children: []
   - title: Scolarité
     target: "/formation/scolarite/"
     kind: page
