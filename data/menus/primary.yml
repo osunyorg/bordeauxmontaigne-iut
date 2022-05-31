@@ -63,10 +63,6 @@
     target: "/formation/formation-continue/"
     kind: page
     children:
-    - title: Offre de formation
-      target: "/formation/formation-continue/offre-de-formation-fc/"
-      kind: page
-      children: []
     - title: Modes de financement
       target: "/formation/formation-continue/modes-de-financement/"
       kind: page
