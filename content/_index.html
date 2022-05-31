@@ -32,10 +32,27 @@ header_text: >-
 legacy_text: >
    
 blocks:
+  - template: pages
+    title: >
+      Formation
+    position: 1
+    data:
+      page: /formation/
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /offre-de-formation/
+          slug: /offre-de-formation/
+        - page: /formation/formation-continue/
+          slug: /formation/formation-continue/
+        - page: /formation/scolarite/etre-candidat/
+          slug: /formation/scolarite/etre-candidat/
   - template: posts
     title: >
       Actualités
-    position: 1
+    position: 2
     data:
       posts:
         - 2022/2022-04-07-candidatures-en-but
@@ -43,7 +60,7 @@ blocks:
   - template: pages
     title: >
       Notre institut
-    position: 2
+    position: 3
     data:
       page: /notre-institut/
       show_main_description: true
@@ -67,23 +84,6 @@ blocks:
           slug: /notre-institut/consignes-de-securite/
         - page: /notre-institut/relations-avec-les-entreprises/
           slug: /notre-institut/relations-avec-les-entreprises/
-  - template: pages
-    title: >
-      Formation
-    position: 3
-    data:
-      page: /formation/
-      show_main_description: false
-      show_descriptions: true
-      show_images: false
-      layout: grid
-      pages:
-        - page: /offre-de-formation/
-          slug: /offre-de-formation/
-        - page: /formation/formation-continue/
-          slug: /formation/formation-continue/
-        - page: /formation/scolarite/etre-candidat/
-          slug: /formation/scolarite/etre-candidat/
   - template: key_figures
     title: >
       Chiffres clés
