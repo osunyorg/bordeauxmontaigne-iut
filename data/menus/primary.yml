@@ -1,7 +1,7 @@
 ---
 - title: Actualités
   target: "/actualites/"
-  kind: news
+  kind: posts
   children: []
 - title: Notre institut
   target: "/notre-institut/"
@@ -17,7 +17,7 @@
     children: []
   - title: Équipe
     target: "/notre-institut/equipe/"
-    kind: staff
+    kind: persons
     children: []
   - title: Ressources et équipements
     target: "/notre-institut/ressources-techniques/"
