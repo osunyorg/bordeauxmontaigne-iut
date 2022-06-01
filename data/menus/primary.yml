@@ -43,18 +43,6 @@
     target: "/offre-de-formation/"
     kind: programs
     children:
-    - title: Bachelors Universitaires de Technologie
-      target: "/diplomes/bachelor-universitaire-de-technologie/"
-      kind: diploma
-      children: []
-    - title: Licences professionnelles
-      target: "/diplomes/licence-professionnelle/"
-      kind: diploma
-      children: []
-    - title: Diplômes d'Université
-      target: "/diplomes/diplome-d-universite/"
-      kind: diploma
-      children: []
     - title: Masters professionnels
       target: "/diplomes/master-professionnel/"
       kind: diploma
