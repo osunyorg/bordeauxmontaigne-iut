@@ -1,5 +1,6 @@
 .page__home
     .hero
+        margin-bottom: px2rem(120)
         overflow: visible
         .container
             @include media-breakpoint-up(md)
@@ -27,3 +28,26 @@
                 height: 100%
                 object-fit: cover
                 width: 100%
+    .blocks
+        > *:not(.block-pages--cards)
+            padding-top: 0
+            .top
+                border-top: 1px solid black
+                padding-top: $spacer
+        .block-pages--list
+            .block-content
+                border-top: 1px solid black
+                padding-top: $spacer
+                .main-page
+                    a
+                        text-decoration: none
+                        &::before
+                            content: ''
+                            inset: 0
+                            position: absolute
+                        &::after
+                            @include icon
+                            content: map-get($icons, "arrow-right")
+                            font-size: px2rem(14)
+                            margin-left: px2rem(16)
+                            position: static

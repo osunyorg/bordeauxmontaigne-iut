@@ -31,6 +31,10 @@
             @extend .mt-5
 
 .persons__section
+    .lead
+        margin-top: px2rem(64)
+        @include media-breakpoint-up(md)
+            margin-top: px2rem(128)
     .lead + .taxonomies
         margin-top: map-get($spacers, 4)
     .taxonomies

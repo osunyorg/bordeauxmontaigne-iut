@@ -4,6 +4,13 @@
     .hero
         background-color: $institute-color
     .toc
+        ol
+            > li
+                &:not(:last-child)
+                    margin-bottom: 0
+                > a
+                    @extend .tabtitle
+                    color: $gray-500
         .active
             color: $institute-color
 
@@ -11,6 +18,8 @@
     main
         > div
             > aside
+                padding-bottom: 4rem
+                padding-top: 4rem
                 > div
                     > *
                         @extend .col-md-4

@@ -6,6 +6,11 @@
 ol.programs
     padding-left: 0
     li
+        a
+            text-decoration: none
+            transition: color .3s
+            &:hover
+                color: $program-color
         a:first-of-type
             @extend .h3
             margin-bottom: 0

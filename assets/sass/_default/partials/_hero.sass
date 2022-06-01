@@ -5,7 +5,9 @@
     padding-bottom: 0
     padding-top: px2rem(32)
     @include media-breakpoint-up(md)
-        margin-bottom: px2rem(128)
+        margin-bottom: px2rem(120)
+    .page-with-blocks &
+        margin-bottom: 0
 
     p
         margin-bottom: 0
@@ -19,8 +21,8 @@
     > div + div
         margin-top: auto
         .container
-            padding-bottom: px2rem(12)
-            padding-top: px2rem(12)
+            padding-bottom: $spacer
+            padding-top: $spacer
         &::before
             background-color: rgba(white, .2)
             content: ''
@@ -36,19 +38,3 @@
             @extend .col-8
         > div
             @extend .col-4
-
-    dl
-        @extend .row
-        font-size: px2rem(18)
-        margin-bottom: 0
-        dt,
-        dd
-            margin-bottom: 0
-            padding-bottom: px2rem(12)
-            padding-top: px2rem(12)
-        dt
-            @extend .col-md-3
-            font-weight: $font-weight-normal
-            opacity: .8
-        dd
-            @extend .col-md-9

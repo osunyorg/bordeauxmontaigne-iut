@@ -22,3 +22,19 @@
                 font-size: px2rem(22)
             &:hover
                 background-color: $light
+
+.essential
+    @extend .row
+    font-size: px2rem(18)
+    margin-bottom: 0
+    dt,
+    dd
+        margin-bottom: 0
+        padding-bottom: px2rem(12)
+        padding-top: px2rem(12)
+    dt
+        @extend .col-md-3
+        font-weight: $font-weight-normal
+        opacity: .8
+    dd
+        @extend .col-md-9

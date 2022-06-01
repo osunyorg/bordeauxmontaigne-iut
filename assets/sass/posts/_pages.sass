@@ -28,3 +28,9 @@
             display: flex
             justify-content: space-between
             padding-top: $spacer
+
+.posts__page
+    .lead
+        @extend .h3
+        @include media-breakpoint-up(md)
+            margin-bottom: calc(#{$spacer} * 5)

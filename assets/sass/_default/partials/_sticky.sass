@@ -1,3 +1,5 @@
 .sticky
     @include media-breakpoint-up(md)
-        top: $header-height
+        top: $spacer
+        html:not(.is-scrolling-down) &
+            top: calc(#{$header-height} + #{$spacer})
