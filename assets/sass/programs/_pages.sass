@@ -10,6 +10,20 @@
         > div + div
             .container
                 padding-top: px2rem(45)
+    .dropdown-share
+        margin-top: $spacer
+        @include media-breakpoint-up(md)
+            float: right
+            margin-top: 0
+            transform: translateY(-100%)
+        > button
+            font-size: px2rem(18)
+
+    article
+        padding-bottom: $grid-gutter-width
+        @include media-breakpoint-up(lg)
+            padding-bottom: calc(#{$grid-gutter-width} * 2)
+
     aside
         background-color: darken($program-color, 3)
 
@@ -73,9 +87,15 @@
             display: block
             margin-top: $grid-gutter-width
             padding-top: $spacer
+            @include media-breakpoint-up(lg)
+                margin-top: calc(#{$grid-gutter-width} * 2)
+
+    .blocks > *:last-of-type
+        padding-bottom: 0
 
     .table-persons
         border: 0
+        margin-bottom: 0
         > :not(caption) > * > *
             border: 0
             padding-bottom: 1rem
