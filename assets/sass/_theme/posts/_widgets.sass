@@ -18,6 +18,10 @@
         @extend .h4
         a
             @extend .stretched-link
+            text-decoration-color: transparent
+            transition: color .3s
+            &:hover
+                color: $post-color
 
     .title + p + time
         margin-top: px2rem(10)
@@ -47,6 +51,8 @@
                 top: 0
             .media
                 grid-column: 1 / 4
+                padding-top: px2rem(7)
+
 
 
 .post-categories
