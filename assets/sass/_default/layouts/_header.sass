@@ -25,14 +25,13 @@ header[role="banner"]
             @include media-breakpoint-down(lg)
                 height: 30px
 
-    nav[role="navigation"]
-        button[type="button"]
-            color: white
-
-    &:not(.is-sticky)
-        background-color: $site-color
-
-
     &.is-sticky
         .logo img
             filter: invert(1)
+
+    &:not(.is-sticky)
+        background-color: $site-color
+        nav[role="navigation"]
+            button[type="button"]
+                html:not(.is-menu-open) &
+                    color: white
