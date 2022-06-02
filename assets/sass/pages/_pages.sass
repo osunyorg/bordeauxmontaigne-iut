@@ -1,10 +1,11 @@
 .pages__section,
 .pages__page
     header[role="banner"]:not(.is-sticky)
-        background-color: $institute-color
-        .menu-expand
-            .dropdown-menu
-                background-color: $institute-color
+        html:not(.is-menu-open) &
+            background-color: $institute-color
+        // .menu-expand
+        //     .dropdown-menu
+        //         background-color: $institute-color
     .hero
         background-color: $institute-color
     // .menu

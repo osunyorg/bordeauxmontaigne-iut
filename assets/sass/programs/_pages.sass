@@ -10,10 +10,11 @@
             .container
                 padding-top: px2rem(45)
     header[role="banner"]:not(.is-sticky)
-        background-color: $program-color
-        .menu-expand
-            .dropdown-menu
-                background-color: $program-color
+        html:not(.is-menu-open) &
+            background-color: $program-color
+        // .menu-expand
+        //     .dropdown-menu
+        //         background-color: $program-color
     .dropdown-share
         margin-top: $spacer
         @include media-breakpoint-up(md)

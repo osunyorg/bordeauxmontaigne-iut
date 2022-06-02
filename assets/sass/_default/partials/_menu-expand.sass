@@ -1,11 +1,25 @@
 .menu-expand
 
-    .has-children
-        [aria-expanded="true"]
-            &::before
-                @include media-breakpoint-up(md)
+    .dropdown-menu
+        animation-duration: $header-transition
+        animation-fill-mode: both
+        animation-name: showIn
+
+        > ul
+            @include media-breakpoint-up(lg)
+                padding-left: $grid-gutter-width
+                padding-right: $grid-gutter-width
+
+    @include media-breakpoint-up(md)
+        .has-children
+            [data-bs-toggle="dropdown"]
+                &::before
+                    animation-duration: $header-transition
+                    animation-fill-mode: both
+                    animation-name: showIn
                     background-color: rgba(black, .3)
                     content: ""
+                    display: none
                     inset: $header-height 0 0 0
                     position: fixed
                     // polyfill for inset
@@ -19,19 +33,24 @@
                         // polyfill for inset
                         @supports not (inset: 0)
                             top: $header-height-md
+                &[aria-expanded="true"]::before
+                    display: block
 
-    .dropdown-menu
-        header[role="banner"]:not(.is-sticky) &
-            background-color: $site-color
-
-        > ul
-            @include media-breakpoint-up(lg)
-                padding-left: $grid-gutter-width
-                padding-right: $grid-gutter-width
 
     @include media-breakpoint-up(lg)
         .dropdown-menu
             padding-bottom: $grid-gutter-width
-            padding-top: $spacer
+            padding-top: $grid-gutter-width
             > ul
                 grid-gap: $spacer $grid-gutter-width
+
+
+@keyframes showIn
+    0%
+        opacity: 0
+
+    100%
+        opacity: 1
+
+    0%
+        opacity: 0

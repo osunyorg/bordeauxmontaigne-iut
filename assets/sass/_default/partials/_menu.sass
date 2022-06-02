@@ -17,20 +17,24 @@
     @include media-breakpoint-down(lg)
         background-color: transparent
 
-    li
-        a,
-        span
-            header[role="banner"]:not(.is-sticky) &
-                color: white
-                &:focus,
-                &:hover
-                    color: white
-
+    // li
+    //     a,
+    //     span
+    //         header[role="banner"]:not(.is-sticky) &,
+    //         html:not(.is-menu-open) &
+    //             color: white
+    //             &:focus,
+    //             &:hover
+    //                 color: white
 
     .nav-level-1
         > li
             @include media-breakpoint-up(lg)
                 margin-left: px2rem(10)
+            > a,
+            > span
+                html:not(.is-menu-open) header[role="banner"]:not(.is-sticky) &
+                    color: white
         & > .has-children
             li a,
             li span

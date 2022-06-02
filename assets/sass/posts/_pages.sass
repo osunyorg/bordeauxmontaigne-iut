@@ -3,10 +3,11 @@
 .categories__taxonomy,
 .categories__term
     header[role="banner"]:not(.is-sticky)
-        background-color: $post-color
-        .menu-expand
-            .dropdown-menu
-                background-color: $post-color
+        html:not(.is-menu-open) &
+            background-color: $post-color
+        // .menu-expand
+        //     .dropdown-menu
+        //         background-color: $post-color
     // .menu
     //     @include media-breakpoint-down(lg)
     //         background-color: $post-color
