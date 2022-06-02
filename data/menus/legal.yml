@@ -1,10 +1,10 @@
 ---
-- title: Mentions légales
-  target: "/mentions-legales/"
-  kind: page
-  children: []
 - title: Plan du site
   target: "/plan-du-site/"
+  kind: page
+  children: []
+- title: Mentions légales
+  target: "/mentions-legales/"
   kind: page
   children: []
 - title: Politique de confidentialité
