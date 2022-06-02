@@ -36,6 +36,9 @@
                 .title
                     a
                         font-size: px2rem(18)
+                        text-decoration-color: transparent
+                        &:hover
+                            text-decoration-color: black
         .page
             > div
                 padding: 0
@@ -72,6 +75,7 @@
                 &:last-child::after
                     content: none
             .page
+                aspect-ratio: 0.8
                 transition: background .3s, color .3s
                 .title
                     @extend .h4

@@ -38,16 +38,19 @@
             .block-content
                 border-top: 1px solid black
                 padding-top: $spacer
-                .main-page
-                    a
-                        text-decoration: none
-                        &::before
-                            content: ''
-                            inset: 0
-                            position: absolute
-                        &::after
-                            @include icon
-                            content: map-get($icons, "arrow-right")
-                            font-size: px2rem(14)
-                            margin-left: px2rem(16)
-                            position: static
+        .block-pages
+            .main-page
+                a
+                    text-decoration-color: transparent
+                    &:hover
+                        text-decoration-color: black
+                    &::before
+                        content: ''
+                        inset: 0
+                        position: absolute
+                    &::after
+                        @include icon
+                        content: map-get($icons, "arrow-right")
+                        font-size: px2rem(14)
+                        margin-left: px2rem(16)
+                        position: static
