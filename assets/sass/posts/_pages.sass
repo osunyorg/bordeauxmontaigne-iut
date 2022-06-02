@@ -2,7 +2,14 @@
 .posts__page,
 .categories__taxonomy,
 .categories__term
-    header[role="banner"],
+    header[role="banner"]:not(.is-sticky)
+        background-color: $post-color
+        .menu-expand
+            .dropdown-menu
+                background-color: $post-color
+    // .menu
+    //     @include media-breakpoint-down(lg)
+    //         background-color: $post-color
     .hero
         background-color: $post-color
     .toc

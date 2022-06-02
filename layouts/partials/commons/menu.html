@@ -56,13 +56,6 @@
         {{- if $hasDropdown }}
           {{/* dropdown-menu class is required for bootstrap js */}}
           <div class="dropdown-menu" aria-labelledby="dropdown-{{ $slug }}">
-            <p>
-              {{- if ne .kind "blank" -}}
-                <a href="{{ .target }}">{{ .title }}</a>
-              {{- else -}}
-                {{ .title }}
-              {{- end -}}
-            </p>
         {{- end -}}
         {{- if gt (len .children) 0 -}}
           {{- $nextLevel := add $level 1 -}}

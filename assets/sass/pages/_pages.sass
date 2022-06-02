@@ -1,8 +1,15 @@
 .pages__section,
 .pages__page
-    header[role="banner"],
+    header[role="banner"]:not(.is-sticky)
+        background-color: $institute-color
+        .menu-expand
+            .dropdown-menu
+                background-color: $institute-color
     .hero
         background-color: $institute-color
+    // .menu
+    //     @include media-breakpoint-down(lg)
+    //         background-color: $institute-color
     .toc
         ol
             > li

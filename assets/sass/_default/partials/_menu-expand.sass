@@ -1,27 +1,29 @@
 .menu-expand
 
     .has-children
-        .dropdown-menu
-            background-color: $institute-color
-            color: white
-            .dropdown-item,
-            p a,
-            li a,
-            li span
-                color: white
-
-    .item-page-program
-        .dropdown-menu
-            background-color: $program-color
+        [aria-expanded="true"]
+            &::before
+                @include media-breakpoint-up(md)
+                    background-color: rgba(black, .3)
+                    content: ""
+                    inset: $header-height 0 0 0
+                    position: fixed
+                    // polyfill for inset
+                    @supports not (inset: 0)
+                        bottom: 0
+                        left: 0
+                        right: 0
+                        top: $header-height
+                    @include media-breakpoint-up(md)
+                        inset: $header-height-md 0 0 0
+                        // polyfill for inset
+                        @supports not (inset: 0)
+                            top: $header-height-md
 
     .dropdown-menu
-        > p
-            @extend .container
-            @extend .h1
-            a
-                display: inline-block
-                margin-left: 0
-                padding: 0
+        header[role="banner"]:not(.is-sticky) &
+            background-color: $site-color
+
         > ul
             @include media-breakpoint-up(lg)
                 padding-left: $grid-gutter-width
