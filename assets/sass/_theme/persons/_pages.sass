@@ -8,7 +8,9 @@
 .researchers__term,
 .teachers__taxonomy,
 .teachers__term
-    header[role="banner"],
+    header[role="banner"]:not(.is-sticky)
+        html:not(.is-menu-open) &
+            background-color: $institute-color
     .hero
         background-color: $institute-color
     .toc
