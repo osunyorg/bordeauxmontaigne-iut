@@ -50,11 +50,7 @@
   - title: Scolarité
     target: "/formation/scolarite/"
     kind: page
-    children:
-    - title: Statistiques
-      target: "/formation/scolarite/statistiques/"
-      kind: page
-      children: []
+    children: []
   - title: Être candidat·e
     target: "/formation/scolarite/etre-candidat/"
     kind: page
