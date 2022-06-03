@@ -55,10 +55,6 @@
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
-    - title: Frais d'inscription
-      target: "/formation/scolarite/frais-dinscription/"
-      kind: page
-      children: []
     - title: Accessibilité et handicap
       target: https://www.u-bordeaux-montaigne.fr/fr/campus/accessibilite-et-handicap.html/
       kind: url
