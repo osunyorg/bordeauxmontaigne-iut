@@ -51,18 +51,6 @@
     target: "/formation/scolarite/"
     kind: page
     children:
-    - title: Inscription administrative
-      target: "/formation/scolarite/inscription-administrative/"
-      kind: page
-      children: []
-    - title: Accessibilité et handicap
-      target: https://www.u-bordeaux-montaigne.fr/fr/campus/accessibilite-et-handicap.html/
-      kind: url
-      children: []
-    - title: Attention au plagiat
-      target: https://etu.u-bordeaux-montaigne.fr/fr/etudes-et-scolarite/examens/plagiat.html/
-      kind: url
-      children: []
     - title: Statistiques
       target: "/formation/scolarite/statistiques/"
       kind: page
