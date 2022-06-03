@@ -51,10 +51,6 @@
     target: "/formation/scolarite/"
     kind: page
     children:
-    - title: Être candidat·e
-      target: "/formation/scolarite/etre-candidat/"
-      kind: page
-      children: []
     - title: Inscription administrative
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
