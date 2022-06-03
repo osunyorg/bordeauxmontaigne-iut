@@ -59,6 +59,10 @@
     target: "/formation/apprentissage/"
     kind: page
     children: []
+  - title: Inscription administrative
+    target: "/formation/scolarite/inscription-administrative/"
+    kind: page
+    children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
