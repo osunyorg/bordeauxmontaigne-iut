@@ -59,14 +59,6 @@
       target: https://www.u-bordeaux-montaigne.fr/fr/campus/accessibilite-et-handicap.html/
       kind: url
       children: []
-    - title: Sportifs de haut et bon niveau
-      target: https://etu.u-bordeaux-montaigne.fr/fr/culture-et-vie-etudiante/sport/sportifs-de-haut-et-bon-niveau.html/
-      kind: url
-      children: []
-    - title: Validation des acquis (VAE/VAPP)
-      target: https://www.u-bordeaux-montaigne.fr/fr/formations/admission-inscription/validations_d_acquis.html/
-      kind: url
-      children: []
     - title: Attention au plagiat
       target: https://etu.u-bordeaux-montaigne.fr/fr/etudes-et-scolarite/examens/plagiat.html/
       kind: url
