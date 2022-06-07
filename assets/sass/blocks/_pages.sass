@@ -12,6 +12,7 @@
                 &::after,
                 &::before
                     content: none
+
         .title + p
             @extend .h3
             margin-top: calc(#{$spacer} * 2)
@@ -37,6 +38,7 @@
                     a
                         font-size: px2rem(18)
                         text-decoration-color: transparent
+                        @include hover-translate-icon(before, 3)
                         &:hover
                             text-decoration-color: black
         .page
@@ -88,7 +90,25 @@
                     transition: color .3s
                     &::before
                         content: none
+                .more
+                    position: relative
+                    &::after
+                        @include icon
+                        content: map-get($icons, "arrow-right")
+                        font-size: px2rem(14)
+                        opacity: 0
+                        position: absolute
+                        right: 0
+                        line-height: px2rem(22)
+                        transform: translateX(px2rem(-20))
+                        transition: all 0.55s $arrow-ease-transition-2
+                        text-decoration: none
                 &:hover
                     background-color: $site-color
+                    .more
+                        transform: translateX(0)
+                        &::after
+                            opacity: 1
+                            transform: translateX(0)
                 > div:first-of-type
                     padding: calc(#{$grid-gutter-width} / 2)
