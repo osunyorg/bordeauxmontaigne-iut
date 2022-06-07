@@ -1,6 +1,8 @@
 .diplomas__taxonomy,
 .diplomas__term
-    header[role="banner"],
+    header[role="banner"]:not(.is-sticky)
+        html:not(.is-menu-open) &
+            background-color: $program-color
     .hero
         background-color: $program-color
         > div + div

@@ -64,6 +64,7 @@ var devPlugins = {},
                     /__home/,
                     /__page/,
                     /__section/,
+                    /__taxonomy/,
                     /__term/
                 ]
             }
