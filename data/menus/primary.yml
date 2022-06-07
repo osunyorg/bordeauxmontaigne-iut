@@ -59,10 +59,10 @@
       target: "/formation/scolarite/etre-candidat/"
       kind: page
       children: []
-  - title: Inscription administrative
-    target: "/formation/scolarite/inscription-administrative/"
-    kind: page
-    children: []
+    - title: Inscription administrative
+      target: "/formation/scolarite/inscription-administrative/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
