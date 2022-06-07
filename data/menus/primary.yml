@@ -47,10 +47,10 @@
       target: "/formation/formation-continue/"
       kind: page
       children: []
-  - title: Apprentissage
-    target: "/formation/apprentissage/"
-    kind: page
-    children: []
+    - title: Apprentissage
+      target: "/formation/apprentissage/"
+      kind: page
+      children: []
   - title: Scolarité
     target: "/formation/scolarite/"
     kind: page
