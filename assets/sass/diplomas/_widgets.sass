@@ -1,9 +1,15 @@
-.diplomas
+ul.diplomas
     li
         padding-bottom: $spacer
         padding-top: $spacer
         a
             @extend .h3
+            margin-bottom: 0
+            text-decoration: none
+            transition: color .3s
+            &:hover
+                color: $program-color
+
 
 .diplomas-select
     button
