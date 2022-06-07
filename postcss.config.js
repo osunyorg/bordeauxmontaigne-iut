@@ -41,6 +41,7 @@ var devPlugins = {},
                 ],
                 deep: [
                     /block-/,
+                    /ratio/,
                     // Glightbox
                     /^glightbox/,
                     /^gslide/,
