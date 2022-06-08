@@ -42,7 +42,11 @@
   - title: Offre de formation
     target: "/formation/offre-de-formation/"
     kind: programs
-    children: []
+    children:
+    - title: Diplômes
+      target: "/formation/offre-de-formation/diplomes/"
+      kind: page
+      children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
