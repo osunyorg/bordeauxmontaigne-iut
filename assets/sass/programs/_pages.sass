@@ -4,6 +4,14 @@
         padding-bottom: $toc-height
 
 .programs__section
+    .page-with-blocks
+        .hero
+            margin-bottom: 0
+        .diplomas-select,
+        div:not(.diplomas-select) + .programs
+            @include media-breakpoint-up(md)
+                margin-top: px2rem(120)
+
     header[role="banner"]:not(.is-sticky)
         html:not(.is-menu-open) &
             background-color: $program-color
@@ -93,7 +101,7 @@
             @include media-breakpoint-up(lg)
                 margin-top: calc(#{$grid-gutter-width} * 2)
 
-    .blocks > *:last-of-type
+    section + .blocks > *:last-of-type
         padding-bottom: 0
 
     .table-persons

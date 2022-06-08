@@ -1,5 +1,9 @@
 .diplomas__taxonomy,
 .diplomas__term
+    .page-with-blocks
+        .hero
+            @include media-breakpoint-up(md)
+                margin-bottom: px2rem(120)
     header[role="banner"]:not(.is-sticky)
         html:not(.is-menu-open) &
             background-color: $program-color
