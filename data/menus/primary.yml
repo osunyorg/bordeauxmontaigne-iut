@@ -23,6 +23,10 @@
       target: "/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
       kind: page
       children: []
+  - title: Ressources
+    target: "/notre-institut/ressources/"
+    kind: page
+    children: []
   - title: Équipe
     target: "/notre-institut/ressources/equipe/"
     kind: persons
@@ -37,10 +41,6 @@
     children: []
   - title: Consignes de sécurité
     target: "/notre-institut/informations-pratiques/consignes-de-securite/"
-    kind: page
-    children: []
-  - title: Ressources
-    target: "/notre-institut/ressources/"
     kind: page
     children: []
 - title: Formation
