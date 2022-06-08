@@ -28,7 +28,7 @@
     kind: page
     children: []
   - title: Plan d’accès et contact
-    target: "/notre-institut/plan-dacces-et-contact/"
+    target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
     kind: page
     children: []
   - title: Consignes de sécurité
