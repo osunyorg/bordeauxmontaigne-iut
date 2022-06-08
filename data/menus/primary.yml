@@ -43,6 +43,10 @@
     target: "/notre-institut/informations-pratiques/consignes-de-securite/"
     kind: page
     children: []
+  - title: Informations pratiques
+    target: "/notre-institut/informations-pratiques/"
+    kind: page
+    children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
   kind: programs
