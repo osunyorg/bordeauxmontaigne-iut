@@ -83,10 +83,6 @@
     target: "/vie-etudiante/services-numeriques/"
     kind: page
     children:
-    - title: Aquipass
-      target: "/vie-etudiante/services-numeriques/aquipass/"
-      kind: page
-      children: []
     - title: Service d'impression
       target: "/vie-etudiante/services-numeriques/service-dimpression/"
       kind: page
