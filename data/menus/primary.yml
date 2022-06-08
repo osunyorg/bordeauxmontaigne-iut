@@ -60,8 +60,8 @@
       kind: page
       children: []
     - title: Domaines
-      target: "/"
-      kind: blank
+      target: "/formation/offre-de-formation/domaines/"
+      kind: page
       children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
