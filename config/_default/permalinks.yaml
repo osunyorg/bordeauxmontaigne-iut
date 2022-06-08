@@ -1,8 +1,8 @@
 posts:          /actualites/:year/:month/:day/:slug/
 categories:     /actualites/:slug/
-persons:        /notre-institut/equipe/:slug/
-authors:        /notre-institut/equipe/:slug/actualites/
+persons:        /notre-institut/ressources/equipe/:slug/
+authors:        /notre-institut/ressources/equipe/:slug/actualites/
 diplomas:       /formation/offre-de-formation/diplomes/:slug/
-administrators: /notre-institut/equipe/:slug/roles/
-teachers:       /notre-institut/equipe/:slug/programs/
-researchers:    /notre-institut/equipe/:slug/articles/
+administrators: /notre-institut/ressources/equipe/:slug/roles/
+teachers:       /notre-institut/ressources/equipe/:slug/programs/
+researchers:    /notre-institut/ressources/equipe/:slug/articles/
