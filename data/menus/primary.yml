@@ -11,14 +11,14 @@
     target: "/notre-institut/presentation-de-liut/"
     kind: page
     children:
+    - title: Les atouts des IUT
+      target: "/notre-institut/les-atouts-des-iut/"
+      kind: page
+      children: []
     - title: Relations avec les entreprises
       target: "/notre-institut/relations-avec-les-entreprises/"
       kind: page
       children: []
-  - title: Les atouts des IUT
-    target: "/notre-institut/les-atouts-des-iut/"
-    kind: page
-    children: []
   - title: Équipe
     target: "/notre-institut/equipe/"
     kind: persons
