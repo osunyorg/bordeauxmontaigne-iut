@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+  {{- $is_organigram_present := false -}}
+  {{ range .Params.blocks }}
+    {{- if eq .template "organization_chart" -}}
+      {{- $is_organigram_present = true -}}
+    {{- end -}}
+  {{ end }}
+
+  {{ partial "persons/hero.html" . }}
+
+  {{- if not $is_organigram_present -}}
+    <div class="container">
+      {{ partial "persons/taxonomies.html" . }}
+      {{ partial "persons/list.html" . }}
+    </div>
+  {{- end -}}
+
+  {{ if .Params.blocks }}
+    <div class="content-blocks">
+      {{ partial "pages/aside.html"
+          (dict
+              "context" .
+          )
+      }}
+      {{ partial "blocks/list.html" .Params.blocks }}
+    </div>
+  {{ end }}
+
+{{ end }}
