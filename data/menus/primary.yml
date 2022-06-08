@@ -11,6 +11,10 @@
     target: "/notre-institut/presentation-de-liut/"
     kind: page
     children:
+    - title: Histoire et héritage
+      target: "/notre-institut/presentation-de-liut/histoire-et-heritage/"
+      kind: page
+      children: []
     - title: Les atouts des IUT
       target: "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
       kind: page
@@ -33,10 +37,6 @@
     children: []
   - title: Consignes de sécurité
     target: "/notre-institut/informations-pratiques/consignes-de-securite/"
-    kind: page
-    children: []
-  - title: Histoire et héritage
-    target: "/notre-institut/presentation-de-liut/histoire-et-heritage/"
     kind: page
     children: []
 - title: Formation
