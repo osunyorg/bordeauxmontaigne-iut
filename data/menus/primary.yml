@@ -24,7 +24,7 @@
     kind: persons
     children: []
   - title: Ressources et équipements
-    target: "/notre-institut/ressources-techniques/"
+    target: "/notre-institut/ressources/ressources-techniques/"
     kind: page
     children: []
   - title: Plan d’accès et contact
