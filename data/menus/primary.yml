@@ -103,4 +103,8 @@
   target: "/intranet/"
   kind: page
   children: []
+- title: Régimes d'inscriptions
+  target: "/formation/regimes-dinscriptions/"
+  kind: page
+  children: []
 
