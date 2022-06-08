@@ -1,7 +1,7 @@
 <table class="table-persons">
   <caption></caption>
   <tbody>
-    {{- range .Paginator.Pages.ByParam "last_name" -}}
+    {{- range (.Paginate (.Pages.ByParam "last_name")).Pages -}}
       {{- $person := site.GetPage (printf "/persons/%s" .Slug) -}}
       {{ with $person }}
         <tr>
