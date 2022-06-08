@@ -32,7 +32,7 @@
     kind: page
     children: []
   - title: Consignes de sécurité
-    target: "/notre-institut/consignes-de-securite/"
+    target: "/notre-institut/informations-pratiques/consignes-de-securite/"
     kind: page
     children: []
 - title: Formation
