@@ -23,7 +23,7 @@
     target: "/notre-institut/ressources/equipe/"
     kind: persons
     children: []
-  - title: Ressources et équipements
+  - title: Espaces et équipements
     target: "/notre-institut/ressources/espaces-et-equipements/"
     kind: page
     children: []
