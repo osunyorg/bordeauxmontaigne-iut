@@ -44,11 +44,11 @@
     kind: programs
     children:
     - title: Formation continue
-      target: "/formation/formation-continue/"
+      target: "/formation/regimes-dinscriptions/formation-continue/"
       kind: page
       children: []
     - title: Apprentissage
-      target: "/formation/apprentissage/"
+      target: "/formation/regimes-dinscriptions/apprentissage/"
       kind: page
       children: []
   - title: Scolarité
