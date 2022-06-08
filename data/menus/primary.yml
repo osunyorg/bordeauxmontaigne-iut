@@ -35,10 +35,6 @@
       target: "/notre-institut/ressources/espaces-et-equipements/"
       kind: page
       children: []
-  - title: Plan d’accès et contact
-    target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
-    kind: page
-    children: []
   - title: Consignes de sécurité
     target: "/notre-institut/informations-pratiques/consignes-de-securite/"
     kind: page
@@ -46,7 +42,11 @@
   - title: Informations pratiques
     target: "/notre-institut/informations-pratiques/"
     kind: page
-    children: []
+    children:
+    - title: Plan d’accès et contact
+      target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
+      kind: page
+      children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
   kind: programs
