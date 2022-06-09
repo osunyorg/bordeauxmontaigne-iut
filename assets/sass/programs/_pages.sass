@@ -65,11 +65,11 @@
             padding-bottom: px2rem(20)
             padding-top: px2rem(20)
             @include media-breakpoint-down(md)
-                margin-left: px2rem(-15)
+                margin-left: - $container-gutter-width
                 overflow: auto
-                padding-left: px2rem(15)
-                padding-right: px2rem(15)
-                width: calc(100% + 1.875rem)
+                padding-left: $container-gutter-width
+                padding-right: $container-gutter-width
+                width: calc(100% + (#{$container-gutter-width} * 2))
             ol
                 flex-direction: row
                 flex-wrap: nowrap
