@@ -1,0 +1,27 @@
+.content-blocks
+    > aside
+        @include media-breakpoint-down(md)
+            background-color: darken($institute-color, .3)
+            border-top: 1px solid rgba(white, .2)
+            padding-bottom: px2rem(20)
+            padding-top: px2rem(20)
+            position: sticky
+            top: 0
+            transition: top $header-transition
+            z-index: 9
+            @if $enable-header-sticky
+                top: $header-height
+                @include media-breakpoint-up(md)
+                    top: $header-height-md
+                html.is-scrolling-down:not(.is-menu-open) &
+                    top: 0
+            .toc
+                overflow: auto
+                ol
+                    flex-direction: row
+                    flex-wrap: nowrap
+                    margin-top: 0
+                a
+                    white-space: nowrap
+                    &.active
+                        color: white
