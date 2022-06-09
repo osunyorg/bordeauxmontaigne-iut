@@ -37,3 +37,14 @@ header[role="banner"]
             button[type="button"]
                 html:not(.is-menu-open) &
                     color: white
+
+@include media-breakpoint-down(lg)
+    header[role="banner"]
+        left: 0
+        position: fixed
+        right: 0
+        top: 0
+        &.is-sticky
+            position: fixed
+    main
+        padding-top: $header-height
