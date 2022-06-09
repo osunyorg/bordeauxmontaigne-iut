@@ -33,8 +33,13 @@
 
     @include media-breakpoint-down(md)
         flex-direction: row
+        margin-left: px2rem(-10)
+        margin-right: px2rem(-10)
+        > div
+            padding-left: px2rem(10)
+            padding-right: px2rem(10)
         > div:first-of-type
-            padding-left: px2rem(18)
+            padding-left: px2rem(10)
             padding-top: 0
             width: calc(100% / 3 * 2)
         .media
