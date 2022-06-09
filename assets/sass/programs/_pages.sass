@@ -20,7 +20,7 @@
         > div + div
             @include media-breakpoint-down(lg)
                 background-color: darken($program-color, 3)
-                margin: px2rem(40) 1rem
+                margin: px2rem(50) 1rem px2rem(40)
 
             @include media-breakpoint-up(lg)
                 .container
@@ -34,6 +34,8 @@
             right: $grid-gutter-width
         > button
             font-size: px2rem(18)
+            @include media-breakpoint-down(md)
+                width: 100%
 
     article
         padding-bottom: $grid-gutter-width
@@ -46,6 +48,8 @@
         top: 0
         transition: top $header-transition
         z-index: 9
+        @include media-breakpoint-down(lg)
+            border-top: 1px solid rgba(white, .2)
         @include media-breakpoint-up(lg)
             background-color: darken($program-color, 3)
         @if $enable-header-sticky
