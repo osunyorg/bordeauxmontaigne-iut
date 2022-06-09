@@ -11,17 +11,19 @@
             -webkit-appearance: button
             background: none
             border: none
+            color: white
             cursor: pointer
             font-size: 20px
             padding: calc(#{$grid-gutter-width}*.5)
             &:first-child
                 @extend .icon
-                margin-right: $grid-gutter-width * 0.5
-                // &::after
-                //     @include icon("arrow-left")
-            // &:last-child
-            //     &::after
-            //         @include icon("arrow-right")
+                @extend .icon-arrow-left
+            &:last-child
+                @extend .icon
+                @extend .icon-arrow-right
+            &:disabled
+                cursor: default
+                opacity: .3
     .events
         margin-left: calc(#{$grid-gutter-width}/-2)
         margin-right: calc(#{$grid-gutter-width}/-2)
