@@ -45,5 +45,7 @@ ul.diplomas
         @extend .col-md-3
         font-weight: $font-weight-normal
         opacity: .8
+        @include media-breakpoint-down(md)
+            padding-bottom: 0
     dd
         @extend .col-md-9

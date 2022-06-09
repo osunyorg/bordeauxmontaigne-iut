@@ -27,8 +27,26 @@
         margin-top: px2rem(10)
 
     time
-        font-size: 18px
+        font-size: px2rem(18)
         line-height: 120%
+
+
+    @include media-breakpoint-down(md)
+        flex-direction: row
+        > div:first-of-type
+            padding-left: px2rem(18)
+            padding-top: 0
+            width: calc(100% / 3 * 2)
+        .media
+            padding-top: px2rem(5)
+            width: calc(100% / 3)
+        .title
+            font-size: px2rem(20)
+        .title + p
+            display: none
+        time
+            font-size: px2rem(14)
+
 
 *:not(.block-content) > .posts
     > div

@@ -5,6 +5,8 @@
 
 ol.programs
     li
+        @include media-breakpoint-down(md)
+            position: relative
         a
             text-decoration: none
             transition: color .3s
@@ -13,6 +15,13 @@ ol.programs
         a:first-of-type
             @extend .h3
             margin-bottom: 0
+            @include media-breakpoint-down(md)
+                font-size: px2rem(28)
+                margin-bottom: px2rem(5)
+                &::after
+                    bottom: 1.8rem
+                    position: absolute
+                    right: 0
         a + a
             @include media-breakpoint-up(md)
                 font-size: px2rem(22)

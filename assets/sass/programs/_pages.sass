@@ -5,8 +5,8 @@
 
 .programs__section
     .page-with-blocks
-        .hero
-            margin-bottom: 0
+        // .hero
+        //     margin-bottom: 0
         .diplomas-select,
         div:not(.diplomas-select) + .programs
             @include media-breakpoint-up(md)
@@ -18,8 +18,13 @@
     .hero
         background-color: $program-color
         > div + div
-            .container
-                padding-top: px2rem(45)
+            @include media-breakpoint-down(lg)
+                background-color: darken($program-color, 3)
+                margin: px2rem(40) 1rem
+
+            @include media-breakpoint-up(lg)
+                .container
+                    padding-top: px2rem(45)
     .dropdown-share
         margin-top: $spacer
         @include media-breakpoint-up(md)
@@ -36,18 +41,13 @@
             padding-bottom: calc(#{$grid-gutter-width} * 2)
 
     aside
-        background-color: darken($program-color, 3)
-
-    section
-        scroll-margin-top: calc(#{$header-height} + #{$toc-height})
-        html.is-scrolling-down &
-            scroll-margin-top: $toc-height
-
-    aside
+        margin-bottom: 3rem
         position: sticky
         top: 0
         transition: top $header-transition
         z-index: 9
+        @include media-breakpoint-up(lg)
+            background-color: darken($program-color, 3)
         @if $enable-header-sticky
             top: $header-height
             @include media-breakpoint-down(lg)
@@ -80,6 +80,12 @@
                     transition: opacity 0.4s
             .active
                 opacity: 0.7
+
+    section
+        scroll-margin-top: calc(#{$header-height} + #{$toc-height})
+        html.is-scrolling-down &
+            scroll-margin-top: $toc-height
+
     main
         .content
             > div

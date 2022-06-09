@@ -26,12 +26,13 @@
         .container
             padding-bottom: $spacer
             padding-top: $spacer
-        &::before
-            background-color: rgba(white, .2)
-            content: ''
-            display: block
-            height: 1px
-            width: 100%
+        @include media-breakpoint-up(lg)
+            &::before
+                background-color: rgba(white, .2)
+                content: ''
+                display: block
+                height: 1px
+                width: 100%
         & + aside
             margin-top: 0
 

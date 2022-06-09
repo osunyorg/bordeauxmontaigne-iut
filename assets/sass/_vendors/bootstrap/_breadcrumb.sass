@@ -4,8 +4,10 @@
         margin-left: -.4rem
         padding-left: .4rem
     &-item
-        font-size: $breadcrumb-font-size
+        font-size: px2rem(14)
         padding: .3rem 0
+        @include media-breakpoint-up(md)
+            font-size: $breadcrumb-font-size
         a
             color: $breadcrumb-link-color
             transition: color .3s ease, text-decoration-color .3s ease
@@ -14,8 +16,12 @@
 
     &-item + &-item
         line-height: px2rem(22)
+        @include media-breakpoint-down(md)
+            padding-left: px2rem(12)
         &::before
             @extend .icon
             @extend .icon-caret-right
             font-size: px2rem(8)
             line-height: px2rem(24)
+            @include media-breakpoint-down(md)
+                padding-right: px2rem(12)
