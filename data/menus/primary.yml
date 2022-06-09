@@ -94,11 +94,7 @@
   - title: Centre de ressources Montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
-    children:
-    - title: L'équipe qui vous accueille
-      target: "/vie-etudiante/centre-de-ressources-montaigne/equipe-qui-vous-accueille/"
-      kind: page
-      children: []
+    children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
