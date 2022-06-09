@@ -57,7 +57,7 @@
             top: $header-height
             @include media-breakpoint-up(md)
                 top: $header-height-md
-            html.is-scrolling-down &
+            html.is-scrolling-down:not(.is-menu-open) &
                 top: 0
         @include media-breakpoint-up(md)
             margin-bottom: px2rem(128)
@@ -88,7 +88,7 @@
 
     section
         scroll-margin-top: calc(#{$header-height} + #{$toc-height})
-        html.is-scrolling-down &
+        html.is-scrolling-down:not(.is-menu-open) &
             scroll-margin-top: $toc-height
 
     main
