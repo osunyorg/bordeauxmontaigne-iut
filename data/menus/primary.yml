@@ -39,7 +39,7 @@
     target: "/notre-institut/informations-pratiques/"
     kind: page
     children:
-    - title: Consignes de sécurité
+    - title: Règles d'usage et de sécurité
       target: "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
       kind: page
       children: []
