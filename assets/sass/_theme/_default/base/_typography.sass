@@ -74,10 +74,10 @@ p, li
     @include media-breakpoint-up(md)
         margin-bottom: px2rem(128)
     @include in-page-with-aside
+        margin-bottom: calc(#{$spacer} * 2)
         &,
         p
             @extend .h3
-        margin-bottom: calc(#{$spacer} * 2)
 
 [itemprop="articleBody"]
     h2
