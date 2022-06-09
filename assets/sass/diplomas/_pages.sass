@@ -11,8 +11,12 @@
         background-color: $program-color
         margin-bottom: 3rem
         > div + div
-            .container
-                padding-top: px2rem(45)
+            @include media-breakpoint-down(md)
+                background-color: darken($program-color, 3)
+                margin: px2rem(50) 1rem px2rem(40)
+            @include media-breakpoint-up(md)
+                .container
+                    padding-top: px2rem(45)
     .essential
         dt:first-of-type,
         dd:first-of-type
