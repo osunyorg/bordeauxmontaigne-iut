@@ -44,6 +44,28 @@
             > ul
                 grid-gap: $spacer $grid-gutter-width
 
+    @include media-breakpoint-down(lg)
+        .nav-level-1
+            > li:last-child a
+                padding-bottom: 0
+
+html.is-menu-open body
+    @include media-breakpoint-down(lg)
+        &::after
+            animation-duration: $header-transition
+            animation-fill-mode: both
+            animation-name: showIn
+            background-color: rgba(black, .3)
+            content: ""
+            display: block
+            inset: $header-height 0 0 0
+            position: fixed
+            // polyfill for inset
+            @supports not (inset: 0)
+                bottom: 0
+                left: 0
+                right: 0
+                top: $header-height
 
 @keyframes showIn
     0%
