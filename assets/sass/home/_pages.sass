@@ -1,7 +1,11 @@
 .page__home
     .hero
-        margin-bottom: px2rem(120)
+        margin-bottom: px2rem(60)
         overflow: visible
+        @include media-breakpoint-up(md)
+            margin-bottom: px2rem(120)
+        @include media-breakpoint-down(md)
+            padding-top: px2rem(140)
         .container
             @include media-breakpoint-up(md)
                 min-height: $hero-height-md
@@ -15,6 +19,10 @@
                 aspect-ratio: 8/6
                 display: block
                 margin-bottom: calc(#{$grid-gutter-width} / -2)
+            @include media-breakpoint-down(md)
+                margin-bottom: 0
+                margin-left: - $container-gutter-width
+                margin-right: - $container-gutter-width
             @include media-breakpoint-up(md)
                 width: 82.2%
             @include media-breakpoint-up(xl)
