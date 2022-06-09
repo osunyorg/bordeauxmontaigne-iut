@@ -48,8 +48,8 @@
       kind: page
       children: []
   - title: Recherche
-    target: "/"
-    kind: blank
+    target: "/notre-institut/recherche/"
+    kind: page
     children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
