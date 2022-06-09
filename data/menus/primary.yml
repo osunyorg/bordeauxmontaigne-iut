@@ -95,10 +95,6 @@
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
     children:
-    - title: Consulter et emprunter
-      target: "/vie-etudiante/centre-de-ressources-montaigne/consulter-et-emprunter/"
-      kind: page
-      children: []
     - title: L'équipe qui vous accueille
       target: "/vie-etudiante/centre-de-ressources-montaigne/equipe-qui-vous-accueille/"
       kind: page
