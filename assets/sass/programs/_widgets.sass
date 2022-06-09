@@ -17,12 +17,13 @@ ol.programs
             margin-bottom: 0
             @include media-breakpoint-down(md)
                 font-size: px2rem(28)
-                margin-bottom: px2rem(5)
                 &::after
                     bottom: 1.8rem
                     position: absolute
                     right: 0
         a + a
+            @include media-breakpoint-down(md)
+                margin-top: px2rem(5)
             @include media-breakpoint-up(md)
                 font-size: px2rem(22)
                 line-height: 140%
