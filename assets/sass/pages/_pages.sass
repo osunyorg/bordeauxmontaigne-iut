@@ -15,16 +15,16 @@
                     color: $gray-500
         .active
             color: $institute-color
+    @include media-breakpoint-down(md)
+        .featured-image
+            margin-left: - $container-gutter-width
+            margin-right: - $container-gutter-width
+            margin-top: - 4rem
 
 .pages__section
     main
         > div
             > aside
-                margin-bottom: 0
-                padding-bottom: 4rem
-                padding-top: 4rem
-                @include media-breakpoint-down(md)
-                    padding-bottom: 0
                 > div
                     > *
                         @extend .col-md-4
