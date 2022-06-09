@@ -99,6 +99,10 @@
       target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html/
       kind: url
       children: []
+    - title: Trouver un document
+      target: https://scd.u-bordeaux-montaigne.fr/contenus/tout/
+      kind: url
+      children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
