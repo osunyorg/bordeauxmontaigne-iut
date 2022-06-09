@@ -1,6 +1,9 @@
 .block-video
     .transcription
         margin-bottom: 0
+        @include media-breakpoint-down(md)
+            padding-left: 1rem
+            padding-right: 1rem
     @include media-breakpoint-up(md)
         @include in-page-without-aside
             .block-content
