@@ -50,7 +50,7 @@
             background-color: darken($program-color, 3)
         @if $enable-header-sticky
             top: $header-height
-            @include media-breakpoint-down(lg)
+            @include media-breakpoint-up(md)
                 top: $header-height-md
             html.is-scrolling-down &
                 top: 0
