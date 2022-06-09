@@ -12,6 +12,7 @@
           )
       }}
       {{/* TEMP */}}
+      {{- if or (.Params.image) (partial "GetTextFromHTML" .Params.description_short) -}}
       <div class="blocks blocks-chapo">
         <div class="container">
           <div class="block-content">
@@ -36,6 +37,7 @@
           </div>
         </div>
       </div>
+      {{- end -}}
       {{ partial "blocks/list.html" .Params.blocks }}
     </div>
   {{ else }}
