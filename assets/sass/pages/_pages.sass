@@ -6,6 +6,10 @@
     .hero
         background-color: $institute-color
     .toc
+        @include media-breakpoint-down(md)
+            border-top: 1px solid rgba(white, .2)
+            padding-bottom: px2rem(20)
+            padding-top: px2rem(20)
         ol
             > li
                 &:not(:last-child)
