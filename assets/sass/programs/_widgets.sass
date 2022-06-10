@@ -15,6 +15,15 @@ ol.programs
         a:first-of-type
             @extend .h3
             margin-bottom: 0
+            @include media-breakpoint-up(md)
+                &::after
+                    opacity: 0
+                    transform: translateX(px2rem(-10))
+                    transition: all 0.55s $arrow-ease-transition-2
+                &:hover
+                    &::after
+                        opacity: 1
+                        transform: translateX(px2rem(10))
             @include media-breakpoint-down(md)
                 font-size: px2rem(28)
                 &::after
