@@ -65,9 +65,9 @@ class BlockTimeline {
         this.itemWidth = this.items[0].offsetWidth;
 
         this.items.forEach((item) => {
-            maxTitleHeight = item.querySelector('.title').offsetHeight;
+            maxTitleHeight = Math.max(item.querySelector('.title').offsetHeight, maxTitleHeight);
         });
-        console.log(maxTitleHeight);
+
         this.block.style.setProperty('--min-title-height', maxTitleHeight + 'px');
         this.update();
     }
