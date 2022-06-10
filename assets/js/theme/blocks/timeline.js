@@ -58,7 +58,7 @@ class BlockTimeline {
 
     resize () {
         let maxTitleHeight = 0;
-        
+
         this.block.style = '';
         this.content.style = '';
 
