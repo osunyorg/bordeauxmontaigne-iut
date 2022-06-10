@@ -57,16 +57,18 @@ class BlockTimeline {
     }
 
     resize () {
-        const width = window.innerWidth,
-            offset = this.getAbsoluteOffset(this.block.parentNode);
-        let contentWidth = 0;
-
+        let maxTitleHeight = 0;
+        
         this.block.style = '';
         this.content.style = '';
 
-        contentWidth = this.content.offsetWidth;
         this.itemWidth = this.items[0].offsetWidth;
 
+        this.items.forEach((item) => {
+            maxTitleHeight = item.querySelector('.title').offsetHeight;
+        });
+        console.log(maxTitleHeight);
+        this.block.style.setProperty('--min-title-height', maxTitleHeight + 'px');
         this.update();
     }
 

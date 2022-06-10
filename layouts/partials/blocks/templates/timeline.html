@@ -16,8 +16,8 @@
             <ol>
               {{ range .events }}
                 <li class="event">
-                  <p><strong>{{- partial "PrepareHTML" .title -}}</strong></p>
-                  <hr>
+                  <p class="title"><strong>{{- partial "PrepareHTML" .title -}}</strong></p>
+                  <div class="line"></div>
                   <p>{{- partial "PrepareHTML" .text -}}</p>
                 </li>
               {{ end }}
