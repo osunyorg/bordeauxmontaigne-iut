@@ -2,10 +2,11 @@
     .hero
         margin-bottom: px2rem(60)
         overflow: visible
-        @include media-breakpoint-up(md)
-            margin-bottom: px2rem(120)
         @include media-breakpoint-down(md)
             padding-top: px2rem(140)
+        @include media-breakpoint-up(md)
+            margin-bottom: px2rem(120)
+
         .container
             @include media-breakpoint-up(md)
                 min-height: $hero-height-md
@@ -27,7 +28,7 @@
                 width: 82.2%
             @include media-breakpoint-up(xl)
                 bottom: - $grid-gutter-width
-                left: 44.2%
+                left: 52.2%
                 position: absolute
                 right: $grid-gutter-width
                 top: px2rem(135)
@@ -40,11 +41,11 @@
         > *:not(.block-pages--cards)
             padding-top: 0
             .top
-                border-top: 1px solid black
+                // border-top: 1px solid black
                 padding-top: $spacer
         .block-pages--list
             .block-content
-                border-top: 1px solid black
+                // border-top: 1px solid black
                 padding-top: $spacer
         .block-pages
             .main-page
