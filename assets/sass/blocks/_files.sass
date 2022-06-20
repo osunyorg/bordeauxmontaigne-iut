@@ -1,5 +1,12 @@
 .block-files
     a
+        line-height: 120%
         &::before
+            border-color: black
             height: $grid-gutter-width
+            transition: background .3s ease, color .3s ease
             width: $grid-gutter-width
+        &:hover
+            &::before
+                background-color: black
+                color: white
