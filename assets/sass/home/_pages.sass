@@ -37,6 +37,9 @@
                 height: 100%
                 object-fit: cover
                 width: 100%
+        p
+            @include media-breakpoint-down(md)
+                margin-bottom: px2rem(30)
     .blocks
         > *:not(.block-pages--cards)
             padding-top: 0

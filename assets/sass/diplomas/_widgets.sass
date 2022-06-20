@@ -34,6 +34,9 @@ ul.diplomas
     .dropdown-menu
         background-color: black
         padding: 0
+        @include media-breakpoint-down(md)
+            padding-left: $container-gutter-width
+            padding-right: $container-gutter-width
         &,
         a
             color: white
@@ -41,6 +44,8 @@ ul.diplomas
             white-space: normal
             &:not(:first-child)
                 border-top: 1px solid $gray-600
+            @include media-breakpoint-down(md)
+                padding: $container-gutter-width 0
             @include media-breakpoint-up(md)
                 font-size: px2rem(22)
             &:hover
