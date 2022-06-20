@@ -91,7 +91,7 @@
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
-  - title: Internationnal
+  - title: International
     target: "/formation/internationnal/"
     kind: page
     children: []
