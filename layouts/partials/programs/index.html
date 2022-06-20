@@ -1,7 +1,9 @@
 <div class="container">
+  {{ partial "programs/chapo.html" .Params.description_short }}
+</div>
+{{ partial "blocks/list.html" .Params.blocks }}
+<div class="container">
   {{ partial "diplomas/diplomas-select.html" . }}
   {{ $sorted_pages := partial "SortPages" (dict "page" .) }}
   {{ partial "programs/programs-list.html" $sorted_pages }}
 </div>
-
-{{ partial "blocks/list.html" .Params.blocks }}
