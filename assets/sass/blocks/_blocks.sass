@@ -1,4 +1,18 @@
-.top
-    @include in-page-without-aside
-        h2
-            @extend .surtitle
+.blocks
+    > *
+        position: relative
+        &::before
+            background: $border-color
+            content: ''
+            height: 1px
+            left: $container-gutter-width
+            position: absolute
+            right: $container-gutter-width
+            top: 0
+            @include media-breakpoint-up(md)
+                left: $container-gutter-width-md
+                right: $container-gutter-width-md
+
+            aside ~ &
+                @include media-breakpoint-up(md)
+                    left: calc(100% / 12 * 5 + (#{$grid-gutter-width} / 2) + (#{$grid-gutter-width} / 11))

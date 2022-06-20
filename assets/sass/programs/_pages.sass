@@ -25,6 +25,12 @@
             @include media-breakpoint-up(md)
                 .container
                     padding-top: px2rem(45)
+
+    .blocks
+        > *
+            &::before
+                content: none
+
     .dropdown-share
         margin-top: $spacer
         @include media-breakpoint-up(md)

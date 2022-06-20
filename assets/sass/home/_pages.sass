@@ -45,6 +45,9 @@
             @include media-breakpoint-down(xl)
                 margin-bottom: px2rem(30)
     .blocks
+        > *
+            &::before
+                content: none
         > *:not(.block-pages--cards)
             padding-top: 0
             .top
