@@ -114,7 +114,11 @@
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
-    children: []
+    children:
+    - title: Espace étudiant
+      target: https://etu.u-bordeaux-montaigne.fr/
+      kind: url
+      children: []
   - title: Aide & entraide
     target: "/vie-etudiante/aide-entraide/"
     kind: page
