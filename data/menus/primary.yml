@@ -115,13 +115,13 @@
     target: "/vie-etudiante/services-numeriques/"
     kind: page
     children:
-    - title: Service d'impression
-      target: "/vie-etudiante/services-numeriques/service-dimpression/"
-      kind: page
+    - title: Espace étudiant
+      target: https://etu.u-bordeaux-montaigne.fr/
+      kind: url
       children: []
-    - title: Outils pédagogiques
-      target: "/vie-etudiante/services-numeriques/outils-pedagogiques/"
-      kind: page
+    - title: Bureau Virtuel
+      target: https://bv.u-bordeaux-montaigne.fr/
+      kind: url
       children: []
   - title: Aide & entraide
     target: "/vie-etudiante/aide-entraide/"
