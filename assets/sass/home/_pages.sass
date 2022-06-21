@@ -1,21 +1,24 @@
 .page__home
     .hero
         margin-bottom: px2rem(60)
+        min-height: auto
         overflow: visible
-        @include media-breakpoint-up(md)
-            margin-bottom: px2rem(120)
         @include media-breakpoint-down(md)
             padding-top: px2rem(140)
+        @include media-breakpoint-up(xl)
+            margin-bottom: px2rem(120)
+        @include media-breakpoint-up(xl)
+            min-height: $hero-height-md
+
         .container
-            @include media-breakpoint-up(md)
-                min-height: $hero-height-md
+            position: static
             > div:first-of-type:not(.title-avatar)
                 position: relative
                 z-index: 1
-                @include media-breakpoint-up(md)
-                    max-width: 39%
+                @include media-breakpoint-up(lg)
+                    max-width: 50%
         picture
-            @include media-breakpoint-down(xl)
+            @include media-breakpoint-down(lg)
                 aspect-ratio: 8/6
                 display: block
                 margin-bottom: calc(#{$grid-gutter-width} / -2)
@@ -23,28 +26,36 @@
                 margin-bottom: 0
                 margin-left: - $container-gutter-width
                 margin-right: - $container-gutter-width
-            @include media-breakpoint-up(md)
+            @include media-breakpoint-up(lg)
                 width: 82.2%
-            @include media-breakpoint-up(xl)
+            @include media-breakpoint-up(lg)
                 bottom: - $grid-gutter-width
-                left: 44.2%
+                left: calc(50% + #{$grid-gutter-width} / 2)
                 position: absolute
                 right: $grid-gutter-width
-                top: px2rem(135)
+                top: px2rem(90)
                 width: auto
+            @include media-breakpoint-up(xl)
+                top: px2rem(135)
             img
                 height: 100%
                 object-fit: cover
                 width: 100%
+        p
+            @include media-breakpoint-down(xl)
+                margin-bottom: px2rem(30)
     .blocks
+        > *
+            &::before
+                content: none
         > *:not(.block-pages--cards)
             padding-top: 0
             .top
-                border-top: 1px solid black
+                // border-top: 1px solid black
                 padding-top: $spacer
         .block-pages--list
             .block-content
-                border-top: 1px solid black
+                // border-top: 1px solid black
                 padding-top: $spacer
         .block-pages
             .main-page

@@ -4,14 +4,6 @@
         padding-bottom: $toc-height
 
 .programs__section
-    .page-with-blocks
-        // .hero
-        //     margin-bottom: 0
-        .diplomas-select,
-        div:not(.diplomas-select) + .programs
-            @include media-breakpoint-up(md)
-                margin-top: px2rem(120)
-
     header[role="banner"]:not(.is-sticky)
         html:not(.is-menu-open) &
             background-color: $program-color
@@ -25,6 +17,12 @@
             @include media-breakpoint-up(md)
                 .container
                     padding-top: px2rem(45)
+
+    .blocks
+        > *
+            &::before
+                content: none
+
     .dropdown-share
         margin-top: $spacer
         @include media-breakpoint-up(md)
@@ -137,6 +135,13 @@
         td
             @include media-breakpoint-up(md)
                 padding-left: calc(#{$grid-gutter-width} / 2)
+
+    .page-with-blocks
+        .programs
+            @include media-breakpoint-up(md)
+                margin-bottom: px2rem(120)
+            @include media-breakpoint-up(lg)
+                margin-bottom: px2rem(160)
 
     .block-timeline,
     aside ~ .blocks .block-call_to_action .call_to_action > div
