@@ -63,7 +63,7 @@
       target: "/formation/offre-de-formation/diplomes/"
       kind: page
       children: []
-    - title: Domaines
+    - title: Domaines *
       target: "/formation/offre-de-formation/domaines/"
       kind: page
       children: []
