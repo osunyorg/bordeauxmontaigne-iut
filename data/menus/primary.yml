@@ -151,6 +151,10 @@
       target: "/vie-etudiante/aide-entraide/aides-sociales/"
       kind: page
       children: []
+    - title: Santé et prévention
+      target: "/vie-etudiante/aide-entraide/sante-et-prevention/"
+      kind: page
+      children: []
 - title: Intranet
   target: "/intranet/"
   kind: page
