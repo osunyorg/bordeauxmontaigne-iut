@@ -147,6 +147,10 @@
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
+    - title: Aides sociales
+      target: "/vie-etudiante/aide-entraide/aides-sociales/"
+      kind: page
+      children: []
 - title: Intranet
   target: "/intranet/"
   kind: page
