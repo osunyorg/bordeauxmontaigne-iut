@@ -143,16 +143,16 @@
     target: "/vie-etudiante/aide-entraide/"
     kind: page
     children:
-    - title: Contacter un médiateur
-      target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
-      kind: page
-      children: []
     - title: Aides sociales
       target: "/vie-etudiante/aide-entraide/aides-sociales/"
       kind: page
       children: []
     - title: Santé et prévention
       target: "/vie-etudiante/aide-entraide/sante-et-prevention/"
+      kind: page
+      children: []
+    - title: Contacter un médiateur
+      target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
 - title: Intranet
