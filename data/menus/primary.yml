@@ -131,7 +131,7 @@
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
     children:
-    - title: Citoyenneté étudiante
+    - title: Citoyenneté étudiante *
       target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
       children: []
