@@ -135,7 +135,7 @@
       target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
       children: []
-    - title: Associations étudiantes
+    - title: Associations étudiantes *
       target: "/vie-etudiante/liut-au-quotidien/associations-etudiantes/"
       kind: page
       children: []
