@@ -55,6 +55,15 @@
                 flex-direction: column
                 > *
                     @extend .col-md-3
+            @include media-breakpoint-up(md)
+                ~ *
+                    .container
+                        > *
+                            &:not(.call_to_action)
+                                padding-left: col(5)
+                            &.call_to_action
+                                margin-left: col(5)
+
 
 .posts__page
     .lead
