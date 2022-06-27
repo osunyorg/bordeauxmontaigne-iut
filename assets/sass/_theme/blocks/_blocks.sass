@@ -1,15 +1,16 @@
 .blocks
     > *
         padding-bottom: 8rem
-        padding-top: 0
         @include media-breakpoint-down(md)
             padding-bottom: 3rem
-            padding-top: 0
 
+        &:first-of-type,
         &.block-with-title
             padding-top: 4rem
             @include media-breakpoint-down(md)
                 padding-top: 1rem
+
+        &.block-with-title
             &::before
                 background: $border-color
                 content: ''
