@@ -35,6 +35,9 @@
         > div
             > aside
                 > div
+                    @include media-breakpoint-down(md)
+                        margin-left: 0
+                        margin-right: 0
                     > *
                         @extend .col-md-4
                 @include media-breakpoint-up(md)
