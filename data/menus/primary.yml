@@ -63,10 +63,6 @@
       target: "/formation/offre-de-formation/diplomes/"
       kind: page
       children: []
-    - title: Domaines *
-      target: "/formation/offre-de-formation/domaines/"
-      kind: page
-      children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
