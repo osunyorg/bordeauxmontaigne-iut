@@ -17,6 +17,7 @@
     @include media-breakpoint-down(lg)
         background-color: transparent
 
+
     .nav-level-1
         > li
             @include media-breakpoint-up(lg)
@@ -25,6 +26,9 @@
             > span
                 html:not(.is-menu-open) header[role="banner"]:not(.is-sticky) &
                     color: white
+            > a:hover
+                html:not(.is-menu-open) header[role="banner"]:not(.is-sticky) &
+                    text-decoration-color: white
         & > .has-children
             li a,
             li span
