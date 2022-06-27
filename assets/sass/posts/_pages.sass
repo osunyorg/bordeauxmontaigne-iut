@@ -39,6 +39,13 @@
                 display: flex
                 justify-content: space-between
                 padding-top: $spacer
+        div + .toc
+            &::before
+                background-color: black
+                content: ''
+                display: block
+                height: 1px
+                margin-bottom: 2rem
 
     .block-timeline,
     aside ~ .blocks .block-call_to_action .call_to_action > div
@@ -46,11 +53,6 @@
 
     .content-blocks
         > aside
-            .infos
-                div + div
-                    &::before
-                        left: calc(var(--bs-gutter-x) * .5)
-                        right: calc(var(--bs-gutter-x) * .5)
             > div
                 flex-direction: column
                 > *
