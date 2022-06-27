@@ -7,7 +7,7 @@ footer[role="contentinfo"]
         height: 600px
         padding-bottom: 0
         position: relative
-    @include media-breakpoint-up(xxl)
+    @media (max-width: 1439px)
         &::after
             background-color: rgba(white, 0.3)
             bottom: calc(#{$spacer} * 5)
@@ -42,7 +42,7 @@ footer[role="contentinfo"]
         > div
             display: flex
             margin-right: auto
-            @include media-breakpoint-down(xxl)
+            @media (max-width: 1439px)
                 flex-direction: column
         @include media-breakpoint-only(md)
             flex-wrap: wrap
@@ -76,7 +76,7 @@ footer[role="contentinfo"]
                 color: white
                 text-decoration-color: white
 
-    @include media-breakpoint-between(md, xxl)
+    @media (min-width: 768px) and (max-width: 1439px)
         .complementary
             .nav-legal,
             .nav-social
