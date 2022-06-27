@@ -3,19 +3,12 @@ footer[role="contentinfo"]
     color: white
     padding-bottom: px2rem(60)
     padding-top: px2rem(60)
+    @include media-breakpoint-up(md)
+        overflow: hidden
     @include media-breakpoint-up(lg)
         height: 600px
         padding-bottom: 0
         position: relative
-    @media (max-width: 1439px)
-        &::after
-            background-color: rgba(white, 0.3)
-            bottom: calc(#{$spacer} * 5)
-            content: ''
-            height: 1px
-            left: 0
-            position: absolute
-            width: 100%
 
     .container
         display: flex
@@ -39,6 +32,20 @@ footer[role="contentinfo"]
             margin-bottom: 0
 
     .complementary
+        position: relative
+        @include media-breakpoint-up(md)
+            padding-top: calc(1.5rem * 2)
+            &::before
+                background-color: rgba(white, 0.3)
+                bottom: calc(#{$spacer} * 5)
+                content: ''
+                height: 1px
+                left: 50%
+                position: absolute
+                top: 0
+                transform: translateX(-50%)
+                width: 100vw
+        @include media-breakpoint-up(lg)
         > div
             display: flex
             margin-right: auto
@@ -78,6 +85,7 @@ footer[role="contentinfo"]
 
     @media (min-width: 768px) and (max-width: 1439px)
         .complementary
+            align-items: flex-start
             .nav-legal,
             .nav-social
                 flex-direction: column
