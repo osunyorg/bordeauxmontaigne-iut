@@ -7,6 +7,7 @@ footer[role="contentinfo"]
         height: 600px
         padding-bottom: 0
         position: relative
+    @include media-breakpoint-up(xxl)
         &::after
             background-color: rgba(white, 0.3)
             bottom: calc(#{$spacer} * 5)
@@ -38,6 +39,11 @@ footer[role="contentinfo"]
             margin-bottom: 0
 
     .complementary
+        > div
+            display: flex
+            margin-right: auto
+            @include media-breakpoint-down(xxl)
+                flex-direction: column
         @include media-breakpoint-only(md)
             flex-wrap: wrap
             .nav-social
@@ -69,3 +75,19 @@ footer[role="contentinfo"]
             &:hover
                 color: white
                 text-decoration-color: white
+
+    @include media-breakpoint-between(md, xxl)
+        .complementary
+            .nav-legal,
+            .nav-social
+                flex-direction: column
+            .nav-legal
+                li:not(:first-child)
+                    margin-left: 0
+            .nav-social
+                align-items: flex-end
+                width: auto
+                li:last-child
+                    margin-right: -1rem
+            [class^="nav-"] + .credit
+                margin-left: 0
