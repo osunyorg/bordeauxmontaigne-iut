@@ -18,6 +18,11 @@
                 @include media-breakpoint-up(lg)
                     max-width: 50%
                     padding-right: calc(#{$grid-gutter-width} / 2)
+
+        h1
+            @media (min-width: 1200px) and (max-width: 1360px)
+                font-size: px2rem(50)
+
         picture
             @include media-breakpoint-down(lg)
                 aspect-ratio: 8/6
