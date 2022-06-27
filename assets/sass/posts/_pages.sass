@@ -30,10 +30,11 @@
                     background-color: black
                     content: ''
                     height: 1px
-                    left: calc(var(--bs-gutter-x) * .5)
+                    left: 0
                     position: absolute
-                    right: calc(var(--bs-gutter-x) * .5)
+                    right: 0
                     top: 0
+
             div:not([itemprop="articleSection"])
                 display: flex
                 justify-content: space-between
@@ -45,6 +46,11 @@
 
     .content-blocks
         > aside
+            .infos
+                div + div
+                    &::before
+                        left: calc(var(--bs-gutter-x) * .5)
+                        right: calc(var(--bs-gutter-x) * .5)
             > div
                 flex-direction: column
                 > *
