@@ -26,15 +26,24 @@
 
     @include media-breakpoint-down(md)
         .featured-image
+            border: 0
             margin-left: - $container-gutter-width
             margin-right: - $container-gutter-width
-            margin-top: - 4rem
+            margin-top: - 1rem
+            picture
+                border: 0
+            figcaption
+                padding-left: $container-gutter-width
+                padding-right: $container-gutter-width
 
 .pages__section
     main
         > div
             > aside
                 > div
+                    @include media-breakpoint-down(md)
+                        margin-left: 0
+                        margin-right: 0
                     > *
                         @extend .col-md-4
                 @include media-breakpoint-up(md)
