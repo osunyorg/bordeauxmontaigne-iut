@@ -94,11 +94,7 @@
   - title: Centre de ressources Montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
-    children:
-    - title: Les autres bibliothèques
-      target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html/
-      kind: url
-      children: []
+    children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
