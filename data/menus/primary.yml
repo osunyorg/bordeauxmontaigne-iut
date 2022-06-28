@@ -131,4 +131,8 @@
   target: "/intranet/"
   kind: page
   children: []
+- title: Diplôme Universitaire d'Etudes Technologiques Internationales (DUETI)
+  target: "/formation/internationnal/diplome-universitaire-detudes-technologiques-internationales-dueti/"
+  kind: page
+  children: []
 
