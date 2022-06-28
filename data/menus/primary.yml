@@ -86,11 +86,7 @@
   - title: International
     target: "/formation/internationnal/"
     kind: page
-    children:
-    - title: Diplôme Universitaire d'Etudes Technologiques Internationales (DUETI)
-      target: "/formation/internationnal/diplome-universitaire-detudes-technologiques-internationales-dueti/"
-      kind: page
-      children: []
+    children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
