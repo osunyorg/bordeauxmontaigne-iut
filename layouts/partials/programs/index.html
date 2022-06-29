@@ -4,6 +4,7 @@
 {{ partial "blocks/list.html" .Params.blocks }}
 <div class="container">
   {{ partial "diplomas/diplomas-select.html" . }}
-  {{ $sorted_pages := partial "SortPages" (dict "page" .) }}
-  {{ partial "programs/programs-list.html" $sorted_pages }}
+  {{ $programs := where .Site.Pages "Section" "programs" }}
+  {{ $programs = where $programs "Permalink" "!=" .FirstSection.Permalink }}
+  {{ partial "programs/programs-list.html" $programs }}
 </div>
