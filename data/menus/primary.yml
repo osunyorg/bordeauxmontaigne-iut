@@ -94,7 +94,11 @@
   - title: Centre de ressources Montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
-    children: []
+    children:
+    - title: Trouver un document
+      target: http://scd.u-bordeaux-montaigne.fr/contenus/tout/
+      kind: url
+      children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
