@@ -28,6 +28,14 @@
                     @include media-breakpoint-up(md)
                         left: calc(100% / 12 * 5 + (#{$grid-gutter-width} / 2) + (#{$grid-gutter-width} / 11))
 
+        &.block-call_to_action,
+        &.block-timeline
+            &::before
+                content: none
+            & + .block-with-title
+                &::before
+                    content: none
+
     &-chapo
         > *
             padding-top: 4rem
