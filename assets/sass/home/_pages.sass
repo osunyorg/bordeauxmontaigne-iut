@@ -18,6 +18,11 @@
                 @include media-breakpoint-up(lg)
                     max-width: 50%
                     padding-right: calc(#{$grid-gutter-width} / 2)
+
+        h1
+            @media (min-width: 1200px) and (max-width: 1360px)
+                font-size: px2rem(50)
+
         picture
             @include media-breakpoint-down(lg)
                 aspect-ratio: 8/6
@@ -34,10 +39,10 @@
                 left: calc(50% + #{$grid-gutter-width} / 2)
                 position: absolute
                 right: $grid-gutter-width
-                top: px2rem(90)
+                top: px2rem(70)
                 width: auto
             @include media-breakpoint-up(xl)
-                top: px2rem(135)
+                top: px2rem(115)
             img
                 height: 100%
                 object-fit: cover

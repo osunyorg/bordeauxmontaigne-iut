@@ -39,7 +39,7 @@
     target: "/notre-institut/informations-pratiques/"
     kind: page
     children:
-    - title: Règles d'usage et de sécurité *
+    - title: Règles d'usage et de sécurité
       target: "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
       kind: page
       children: []
@@ -83,6 +83,10 @@
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
+  - title: International
+    target: "/formation/international/"
+    kind: page
+    children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
@@ -90,15 +94,7 @@
   - title: Centre de ressources Montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
-    children:
-    - title: Les autres bibliothèques
-      target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html/
-      kind: url
-      children: []
-    - title: Trouver un document
-      target: https://scd.u-bordeaux-montaigne.fr/contenus/tout/
-      kind: url
-      children: []
+    children: []
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page

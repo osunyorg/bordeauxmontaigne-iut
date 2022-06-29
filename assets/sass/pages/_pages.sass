@@ -17,8 +17,12 @@
                 > a
                     @extend .tabtitle
                     color: $gray-500
+                    &:hover
+                        text-decoration-color: $gray-500
         .active
             color: $institute-color
+            &:hover
+                text-decoration-color: $institute-color
 
     .block-timeline--horizontal,
     aside ~ .blocks .block-call_to_action .call_to_action > div

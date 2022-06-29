@@ -66,9 +66,21 @@
                             &.call_to_action
                                 margin-left: col(5)
 
-
 .posts__page
+    main:not(.page-with-blocks)
+        .hero
+            margin-bottom: 2rem
+            @include media-breakpoint-up(md)
+                margin-bottom: 4rem
     .lead
         @extend .h3
         @include media-breakpoint-up(md)
-            margin-bottom: calc(#{$spacer} * 5)
+            margin-bottom: px2rem(60)
+    .featured-image
+        margin-bottom: px2rem(60)
+    .content > aside + div
+        @extend .offset-md-1
+        @extend .offset-lg-2
+        @extend .col-md-7
+    .content-blocks .featured-image
+        margin-bottom: 0
