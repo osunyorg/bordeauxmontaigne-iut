@@ -96,7 +96,7 @@
     kind: page
     children:
     - title: Trouver un document
-      target: http://scd.u-bordeaux-montaigne.fr/contenus/tout/
+      target: https://scd.u-bordeaux-montaigne.fr/contenus/tout/
       kind: url
       children: []
   - title: Services numériques
