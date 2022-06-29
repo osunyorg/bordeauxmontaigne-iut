@@ -84,7 +84,7 @@
       kind: page
       children: []
   - title: International
-    target: "/formation/internationnal/"
+    target: "/formation/international/"
     kind: page
     children: []
 - title: Vie étudiante
