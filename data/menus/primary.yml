@@ -55,7 +55,7 @@
     target: "/formation/offre-de-formation/"
     kind: programs
     children:
-    - title: Diplômes
+    - title: Par diplômes
       target: "/formation/offre-de-formation/diplomes/"
       kind: page
       children: []
