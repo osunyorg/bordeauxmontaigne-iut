@@ -1,3 +1,13 @@
+.administrators__taxonomy,
+.authors__taxonomy,
+.teachers__taxonomy
+    main.page-with-blocks
+        padding-bottom: $grid-gutter-width * 2.5
+        .hero
+            margin-bottom: 4rem
+            @include media-breakpoint-up(md)
+                margin-bottom: px2rem(120)
+
 .persons__page,
 .persons__section,
 .administrators__taxonomy,
@@ -64,3 +74,33 @@
             @extend .tabtitle
         &:empty
             margin-bottom: 0
+    
+    .toc
+        ol
+            > li
+                &:not(:last-child)
+                    margin-bottom: 0
+                > a
+                    @extend .tabtitle
+                    color: $gray-500
+        .active
+            color: $institute-color
+    .block-timeline--horizontal,
+    aside ~ .blocks .block-call_to_action .call_to_action > div
+        background-color: $institute-color
+
+    main
+        > div
+            > aside
+                > div
+                    > *
+                        @extend .col-md-4
+                @include media-breakpoint-up(md)
+                    ~ *
+                        .container
+                            > *
+                                &:not(.call_to_action)
+                                    padding-left: col(5)
+                                &.call_to_action
+                                    margin-left: col(5)
+
