@@ -7,20 +7,19 @@ var devPlugins = {},
         },
         '@fullhuman/postcss-purgecss': {
             content: [
+                // './hugo_stats.json',
                 './themes/**/*.html',
                 'layouts/**/*.html'
             ],
+            // defaultExtractor: (content) => {
+            //     let els = JSON.parse(content).htmlElements;
+            //     return els.tags.concat(els.classes, els.ids);
+            // },
             safelist: {
                 standard: [
                     'show',
                     'active',
                     'collapsed',
-                    'h1',
-                    'h2',
-                    'h3',
-                    'h4',
-                    'h5',
-                    'h6',
                     /^dropdown/,
                     /^nav-level-/,
                     /^splide_/,
@@ -40,8 +39,6 @@ var devPlugins = {},
                     'gzoomOut'
                 ],
                 deep: [
-                    /block-/,
-                    /ratio/,
                     // Glightbox
                     /^glightbox/,
                     /^gslide/,
@@ -64,8 +61,10 @@ var devPlugins = {},
                     /__home/,
                     /__page/,
                     /__section/,
-                    /__taxonomy/,
-                    /__term/
+                    /__term/,
+                    /posts/,
+                    /call_to_action/,
+                    /block-timeline/
                 ]
             }
         }

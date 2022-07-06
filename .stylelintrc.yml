@@ -1,0 +1,35 @@
+extends: stylelint-config-standard
+defaultSeverity: warning
+customSyntax: postcss-sass
+plugins:
+  - stylelint-scss
+  - stylelint-a11y
+rules:
+  indentation:
+    - 4
+
+  # To discuss
+  max-nesting-depth: null
+  rule-empty-line-before: null
+  no-descending-specificity: null
+  function-no-unknown: null
+
+  # Remove all rules concerning semicolons or braces
+  at-rule-semicolon-newline-after: null
+  at-rule-semicolon-space-before: null
+  block-closing-brace-empty-line-before: null
+  block-closing-brace-newline-after: null
+  block-closing-brace-newline-before: null
+  block-closing-brace-space-after: null
+  block-closing-brace-space-before: null
+  block-opening-brace-newline-after: null
+  block-opening-brace-newline-before: null
+  block-opening-brace-space-after: null
+  block-opening-brace-space-before: null
+  declaration-block-semicolon-newline-after: null
+  declaration-block-semicolon-newline-before: null
+  declaration-block-semicolon-space-after: null
+  declaration-block-semicolon-space-before: null
+  declaration-block-trailing-semicolon: null
+  no-extra-semicolons: null
+
