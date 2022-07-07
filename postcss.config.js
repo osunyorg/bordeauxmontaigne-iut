@@ -80,5 +80,5 @@ var devPlugins = {},
     };
 
 module.exports = {
-    plugins: process.env.HUGO_ENVIRONMENT === 'production' ? productionPlugins : devPlugins
+    plugins: productionPlugins
 };
