@@ -20,6 +20,12 @@ var devPlugins = {},
                     'show',
                     'active',
                     'collapsed',
+                    'h1',
+                    'h2',
+                    'h3',
+                    'h4',
+                    'h5',
+                    'h6',
                     /^dropdown/,
                     /^nav-level-/,
                     /^splide_/,
@@ -40,6 +46,8 @@ var devPlugins = {},
                 ],
                 deep: [
                     // Glightbox
+                    /block-/,
+                    /ratio/,
                     /^glightbox/,
                     /^gslide/,
                     /^desc-top/,
@@ -64,7 +72,8 @@ var devPlugins = {},
                     /__term/,
                     /posts/,
                     /call_to_action/,
-                    /block-timeline/
+                    /block-timeline/,
+                    /__taxonomy/
                 ]
             }
         }
