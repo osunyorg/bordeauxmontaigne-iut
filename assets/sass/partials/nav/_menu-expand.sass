@@ -45,6 +45,11 @@
             > ul
                 grid-gap: $spacer $grid-gutter-width
 
+    @include media-breakpoint-down(lg)
+        .nav-level-1
+            > li:last-child a
+                padding-bottom: 0
+
 html.is-menu-open body
     @include media-breakpoint-down(lg)
         &::after
