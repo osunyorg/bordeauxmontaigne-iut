@@ -45,9 +45,9 @@ var devPlugins = {},
                     'gzoomOut'
                 ],
                 deep: [
-                    // Glightbox
                     /block-/,
                     /ratio/,
+                    // Glightbox
                     /^glightbox/,
                     /^gslide/,
                     /^desc-top/,
@@ -69,11 +69,11 @@ var devPlugins = {},
                     /__home/,
                     /__page/,
                     /__section/,
+                    /__taxonomy/,
                     /__term/,
                     /posts/,
                     /call_to_action/,
-                    /block-timeline/,
-                    /__taxonomy/
+                    /block-timeline/
                 ]
             }
         }
