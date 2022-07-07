@@ -14,7 +14,6 @@ ol.programs
                 color: $program-color
         a:first-of-type
             @extend .h3
-            flex: 1
             margin-bottom: 0
             @include media-breakpoint-up(md)
                 &::after
@@ -32,6 +31,8 @@ ol.programs
                     position: absolute
                     right: 0
         a + a
+            margin-left: px2rem(20)
+            white-space: nowrap
             @include media-breakpoint-down(md)
                 margin-top: px2rem(5)
             @include media-breakpoint-up(md)
