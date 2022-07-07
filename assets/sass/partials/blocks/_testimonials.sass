@@ -8,5 +8,10 @@
             @include media-breakpoint-up(md)
                 font-size: px2rem(30)
             @include media-breakpoint-up(xl)
-                font-size: px2rem(60)
-                line-height: 110%
+                font-size: px2rem(50)
+                line-height: px2rem(55)
+        &.is-long
+            p
+                @include media-breakpoint-up(xl)
+                    font-size: px2rem(36)
+                    line-height: px2rem(39.6)
