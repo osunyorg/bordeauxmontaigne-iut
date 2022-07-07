@@ -128,11 +128,10 @@
         th, td
             font-weight: 400
             line-height: 140%
-            @include media-breakpoint-up(lg)
-                font-size: px2rem(22)
         th
             padding-right: 0
             @include media-breakpoint-up(lg)
+                font-size: px2rem(20)
                 width: calc(100% / 7 * 3)
         td
             @include media-breakpoint-up(md)
@@ -151,3 +150,7 @@
     .block-timeline--horizontal,
     aside ~ .blocks .block-call_to_action .call_to_action > div
         background-color: $program-color
+
+    .block-testimonials
+        blockquote
+            color: $program-color

@@ -18,12 +18,12 @@ ol.programs
             @include media-breakpoint-up(md)
                 &::after
                     opacity: 0
-                    transform: translateX(px2rem(-10))
+                    transform: translateX(px2rem(-20))
                     transition: all 0.55s $arrow-ease-transition-2
                 &:hover
                     &::after
                         opacity: 1
-                        transform: translateX(px2rem(10))
+                        transform: translateX(px2rem(0))
             @include media-breakpoint-down(md)
                 font-size: px2rem(28)
                 &::after
@@ -31,6 +31,8 @@ ol.programs
                     position: absolute
                     right: 0
         a + a
+            margin-left: px2rem(20)
+            white-space: nowrap
             @include media-breakpoint-down(md)
                 margin-top: px2rem(5)
             @include media-breakpoint-up(md)
