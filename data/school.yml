@@ -18,7 +18,6 @@ administrators:
   - "melisse-debes"
   - "karine-dubois"
   - "helene-ertle"
-  - "crm-iutijba"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
@@ -45,8 +44,6 @@ administrators_description:
     Secrétariat Carrières sociales
   "helene-ertle": >
     Gestion administrative et financière
-  "crm-iutijba": >
-    Centre de Ressources Montaigne
   "catherine-lecart": >
     Pôle Formation continue
   "kmerahi": >
@@ -110,7 +107,6 @@ roles:
   - title: >
       Centre de Ressources Montaigne
     persons:
-      - "crm-iutijba"
       - "gsuchestow"
       - "mzaquithorea"
       - "cviron"
