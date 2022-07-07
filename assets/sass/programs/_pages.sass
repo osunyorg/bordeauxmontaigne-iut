@@ -35,6 +35,13 @@
             @include media-breakpoint-down(md)
                 width: 100%
 
+    ol.programs
+        li
+            a:first-of-type
+                &::after
+                    @include media-breakpoint-down(md)
+                        bottom: 4rem
+
     article
         padding-bottom: $grid-gutter-width
         @include media-breakpoint-up(lg)
