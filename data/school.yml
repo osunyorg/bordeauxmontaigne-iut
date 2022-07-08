@@ -12,23 +12,29 @@ country: >
 phone: >
   +33 5 57 12 20 44
 administrators:
+  - "annie-berachategui"
   - "quentin-bessiere"
   - "nassima-choltus"
   - "stephane-colnay"
   - "aurelien-cornille"
   - "melisse-debes"
+  - "aurelie-doumbo"
   - "karine-dubois"
   - "helene-ertle"
+  - "marina-esteves"
+  - "johanna-hourregue"
   - "david-lachaud"
   - "eric-lamothe"
   - "kathy-lavignole"
   - "catherine-lecart"
+  - "anais-mendibil"
   - "kmerahi"
   - "hmonneriesor"
   - "julien-muzard"
   - "herve-panhaleux"
   - "justin-puyo"
-  - "mathilde-rollin"
+  - "michele-quellier"
+  - "weiwei-reynet"
   - "camille-seguin"
   - "laurianne-seran"
   - "gsuchestow"
@@ -37,6 +43,8 @@ administrators:
   - "cviron"
   - "mzaquithorea"
 administrators_description:
+  "annie-berachategui": >
+    Gestion administrative et financière
   "quentin-bessiere": >
     Secrétariat PUB - MMI
   "nassima-choltus": >
@@ -47,10 +55,16 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "melisse-debes": >
     Secrétariat Carrières sociales
+  "aurelie-doumbo": >
+    Centre de Ressources Montaigne
   "karine-dubois": >
     Secrétariat Carrières sociales
   "helene-ertle": >
     Gestion administrative et financière
+  "marina-esteves": >
+    Service PAO
+  "johanna-hourregue": >
+    Centre de Ressources Montaigne
   "david-lachaud": >
     Service Patrimoine logistique et maintenance
   "eric-lamothe": >
@@ -58,9 +72,11 @@ administrators_description:
   "kathy-lavignole": >
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >
-    Pôle Formation continue
+    Service Formation continue
+  "anais-mendibil": >
+    Accueil
   "kmerahi": >
-    Pôle Formation continue
+    Service Formation continue
   "hmonneriesor": >
     Scolarité
   "julien-muzard": >
@@ -69,8 +85,10 @@ administrators_description:
     Service Informatique
   "justin-puyo": >
     Service Informatique
-  "mathilde-rollin": >
-    Accueil
+  "michele-quellier": >
+    Gestion administrative et financière
+  "weiwei-reynet": >
+    Gestion administrative et financière
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
@@ -89,11 +107,14 @@ roles:
   - title: >
       Accueil
     persons:
-      - "mathilde-rollin"
+      - "anais-mendibil"
   - title: >
       Gestion administrative et financière
     persons:
       - "helene-ertle"
+      - "michele-quellier"
+      - "annie-berachategui"
+      - "weiwei-reynet"
   - title: >
       Scolarité
     persons:
@@ -115,16 +136,14 @@ roles:
       - "nassima-choltus"
       - "corine-videau"
   - title: >
-      Pôle Formation continue
+      Service Formation continue
     persons:
       - "kmerahi"
       - "catherine-lecart"
   - title: >
-      Centre de Ressources Montaigne
+      Service PAO
     persons:
-      - "gsuchestow"
-      - "mzaquithorea"
-      - "cviron"
+      - "marina-esteves"
   - title: >
       Service Informatique
     persons:
@@ -140,4 +159,12 @@ roles:
       - "david-lachaud"
       - "kathy-lavignole"
       - "theodore-tangoulis"
+  - title: >
+      Centre de Ressources Montaigne
+    persons:
+      - "gsuchestow"
+      - "mzaquithorea"
+      - "cviron"
+      - "aurelie-doumbo"
+      - "johanna-hourregue"
 ---
