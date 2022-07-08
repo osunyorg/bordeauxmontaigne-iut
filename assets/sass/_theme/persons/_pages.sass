@@ -37,7 +37,7 @@
                 @include media-breakpoint-down(md)
                     margin-left: 0
                     margin-right: 0
-    
+
 .persons__page
     main
         .content
@@ -81,7 +81,13 @@
                     margin-bottom: 0
                 > a
                     @extend .tabtitle
-                    color: $gray-500
+                    color: $gray-600
+                    &:hover
+                        text-decoration-color: $gray-600
+                    @include media-breakpoint-down(md)
+                        color: $gray-300
+                        &:hover
+                            text-decoration-color: $gray-300
         .active
             color: $institute-color
     .block-timeline--horizontal,
@@ -102,4 +108,3 @@
                                     padding-left: col(5)
                                 &.call_to_action
                                     margin-left: col(5)
-
