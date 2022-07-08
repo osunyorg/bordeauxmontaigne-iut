@@ -32,3 +32,15 @@
             margin-bottom: px2rem(120)
         @include media-breakpoint-up(lg)
             margin-bottom: px2rem(160)
+
+
+.diplomas__term
+    ol.programs
+        li
+            a:first-of-type
+                @include media-breakpoint-up(md)
+                    &::after
+                        transform: translateX(px2rem(-20))
+                    &:hover
+                        &::after
+                            transform: translateX(px2rem(0))
