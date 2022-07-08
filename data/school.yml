@@ -15,9 +15,13 @@ administrators:
   - "quentin-bessiere"
   - "nassima-choltus"
   - "stephane-colnay"
+  - "aurelien-cornille"
   - "melisse-debes"
   - "karine-dubois"
   - "helene-ertle"
+  - "david-lachaud"
+  - "eric-lamothe"
+  - "kathy-lavignole"
   - "catherine-lecart"
   - "kmerahi"
   - "hmonneriesor"
@@ -28,6 +32,7 @@ administrators:
   - "camille-seguin"
   - "laurianne-seran"
   - "gsuchestow"
+  - "theodore-tangoulis"
   - "corine-videau"
   - "cviron"
   - "mzaquithorea"
@@ -38,12 +43,20 @@ administrators_description:
     Secrétariat Information - Communication
   "stephane-colnay": >
     Service Informatique
+  "aurelien-cornille": >
+    Service Patrimoine logistique et maintenance
   "melisse-debes": >
     Secrétariat Carrières sociales
   "karine-dubois": >
     Secrétariat Carrières sociales
   "helene-ertle": >
     Gestion administrative et financière
+  "david-lachaud": >
+    Service Patrimoine logistique et maintenance
+  "eric-lamothe": >
+    Service Patrimoine logistique et maintenance
+  "kathy-lavignole": >
+    Service Patrimoine logistique et maintenance
   "catherine-lecart": >
     Pôle Formation continue
   "kmerahi": >
@@ -64,6 +77,8 @@ administrators_description:
     Scolarité
   "gsuchestow": >
     Centre de Ressources Montaigne
+  "theodore-tangoulis": >
+    Service Patrimoine logistique et maintenance
   "corine-videau": >
     Secrétariat Information - Communication
   "cviron": >
@@ -120,4 +135,9 @@ roles:
   - title: >
       Service Patrimoine logistique et maintenance
     persons:
+      - "aurelien-cornille"
+      - "eric-lamothe"
+      - "david-lachaud"
+      - "kathy-lavignole"
+      - "theodore-tangoulis"
 ---
