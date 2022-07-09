@@ -26,6 +26,7 @@ module.exports = {
                     'h4',
                     'h5',
                     'h6',
+                    'pre',
                     /^dropdown/,
                     /^nav-level-/,
                     /^splide_/,
