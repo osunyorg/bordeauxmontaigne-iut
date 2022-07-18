@@ -155,9 +155,25 @@
                 margin-bottom: px2rem(160)
 
     .block-timeline--horizontal,
-    aside ~ .blocks .block-call_to_action .call_to_action > div
+    .blocks .block-call_to_action .call_to_action > div
         background-color: $program-color
-
     .block-testimonials
         blockquote
             color: $program-color
+
+
+
+    @include media-breakpoint-up(md)
+        &:not(.page-program)
+            .blocks
+                > section
+                    .container
+                        .block-content
+                            margin-left: col(5)
+                            margin-right: 0
+                .block-video
+                    .block-content > *
+                        margin-left: 0
+                        padding-left: 0
+                        padding-right: 0
+                        width: 100%
