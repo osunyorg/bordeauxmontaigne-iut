@@ -2,6 +2,13 @@
     .hero
         margin-bottom: - $toc-height
         padding-bottom: $toc-height
+        h1
+            margin-bottom: 0
+        > div:first-of-type
+            > div
+                @include media-breakpoint-up(md)
+                    margin-bottom: px2rem(80)
+                    margin-top: px2rem(30)
 
 .programs__section
     header[role="banner"]:not(.is-sticky)
