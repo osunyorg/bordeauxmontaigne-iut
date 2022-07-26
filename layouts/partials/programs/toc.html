@@ -7,14 +7,20 @@
     <li>
       <a class="nav-link" href="#presentation">{{ i18n "programs.toc.presentation" }}</a>
     </li>
+    {{- if or (partial "GetTextFromHTML" .Params.content) (partial "GetTextFromHTML" .Params.pedagogy) (partial "GetTextFromHTML" .Params.evaluation) (.Params.teachers) -}}
     <li>
       <a class="nav-link" href="#pedagogy">{{ i18n "programs.toc.pedagogy" }}</a>
     </li>
+    {{- end -}}
+    {{- if or (partial "GetTextFromHTML" .Params.opportunities) (partial "GetTextFromHTML" .Params.results) -}}
     <li>
       <a class="nav-link" href="#results">{{ i18n "programs.toc.results" }}</a>
     </li>
+    {{- end -}}
+    {{- if or (partial "GetTextFromHTML" .Params.prerequisites) (partial "GetTextFromHTML" .Params.pricing) (partial "GetTextFromHTML" .Params.registration) (partial "GetTextFromHTML" .Params.accessibility) (partial "GetTextFromHTML" .Params.other) -}}
     <li>
       <a class="nav-link" href="#admission">{{ i18n "programs.toc.admission" }}</a>
     </li>
+    {{- end -}}
   </ol>
 </nav>
