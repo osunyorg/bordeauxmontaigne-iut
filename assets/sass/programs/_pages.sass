@@ -30,15 +30,26 @@
             &::before
                 content: none
 
-    .dropdown-share
+    .buttons
         margin-top: $spacer
         @include media-breakpoint-up(md)
             bottom: 2.25rem
             margin-top: 0
             position: absolute
             right: $grid-gutter-width
+
+        a[download]
+            @extend .btn
+            @extend .btn-lg
+            @extend .btn-light
+            margin-top: px2rem(30)
+            &::after
+                @include icon
+                content: map-get($icons, "download")
+                font-size: px2rem(20)
+
+    .dropdown-share
         > button
-            font-size: px2rem(18)
             @include media-breakpoint-down(md)
                 width: 100%
 
