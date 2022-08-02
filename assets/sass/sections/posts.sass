@@ -1,2 +1,16 @@
 .posts
     @include grid(2, md)
+    .post 
+        .title
+            a
+                font-family: $heading-font-family
+                font-weight: 500
+                text-decoration: none
+                &:hover
+                    color: $post-color
+        time 
+            color: #6c757d
+
+.posts__section
+    .posts
+        @include grid(1)

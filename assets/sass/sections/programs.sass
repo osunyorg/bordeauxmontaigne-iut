@@ -1,0 +1,15 @@
+.programs 
+    li 
+        a
+            @include media-breakpoint-up(md)
+                @include icon('arrow', after)
+                    font-size: px2rem(12)
+                    opacity: 0
+                    transform: translateX(-$spacing0)
+                    transition: all 0.55s $arrow-ease-transition-2
+            &:hover 
+                color: $program-color
+                @include media-breakpoint-up(md)
+                    &::after
+                        opacity: 1 !important
+                        transform: translateX($spacing0)
