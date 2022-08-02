@@ -30,6 +30,68 @@
     src: url('../fonts/Inter/Inter.woff2') format('woff2'), url('../fonts/Inter/Inter.woff') format('woff')
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 
+h1
+    font-size: $h1-size
+    font-weight: 600
+    line-height: 120%
+    @include media-breakpoint-up(md)
+        font-size: $h2-size-md
+    @include media-breakpoint-up(xl)
+        font-size: $h1-size-md
+h2
+    font-size: $h2-size-md
+    line-height: 110%
+    @include media-breakpoint-up(md)
+        font-size: px2rem(50)
+    @include media-breakpoint-up(xl)
+        font-size: $h1-size-md
+        line-height: 130%
+h3
+    font-size: $h3-size
+    line-height: 110%
+    @include media-breakpoint-up(xl)
+        font-size: $h3-size-md
+h4
+    font-size: $h4-size
+    line-height: 130%
+    @include media-breakpoint-up(xl)
+        font-size: $h4-size-md
+h5
+    font-size: $h6-size
+    letter-spacing: -0.01em
+    line-height: 130%
+    @include media-breakpoint-up(xl)
+        font-size: $h5-size-md
+h6
+    font-size: $h6-size
+    line-height: 130%
+    @include media-breakpoint-up(xl)
+        font-size: $h6-size-md
+
+p, li
+    font-size: $h6-size
+    line-height: 140%
+    @include media-breakpoint-up(xl)
+        font-size: $h3-size
+        line-height: 150%
+
+.surtitle
+    font-family: $heading-font-family
+    font-size: $h2-size
+    font-weight: 600
+    line-height: 130%
+    text-transform: uppercase
+
+.tabtitle
+    font-family: $heading-font-family
+    font-size: $h6-size
+    font-weight: 600
+    letter-spacing: -0.01em
+    line-height: 130%
+    text-transform: uppercase
+    @include media-breakpoint-up(lg)
+        font-size: $h3-size
+
 .lead
     &,
     p            
@@ -38,3 +100,11 @@
             font-size: $h1-size-md
         @include in-page-with-aside
             font-size: $h3-size-md
+
+
+main > .blocks .top h2,
+.block-pages .main-page .title a
+    font-size: $h5-size-md
+    font-weight: 600
+    line-height: 130%
+    text-transform: uppercase
