@@ -47,16 +47,20 @@
                 font-weight: 600
                 line-height: 130%
                 text-transform: uppercase
+            h3
+                @extend .h4
 
-    .table-persons 
-        tbody
-            tr, 
-            th
-                border: none
+    table
+        border: none
+        &.table-persons 
+            tbody
+                tr, 
+                th
+                    border: none
 
-                a
-                    font-size: $h3-size
-                    font-weight: 400
-    
+                    a
+                        font-size: $h3-size
+                        font-weight: 400
+        
     
 
