@@ -41,10 +41,10 @@ h1,
         font-size: $h1-size-md
 h2,
 .h2
-    font-size: $h2-size-md
+    font-size: $h2-size
     line-height: 110%
     @include media-breakpoint-up(md)
-        font-size: px2rem(50)
+        font-size: $h2-size-md
     @include media-breakpoint-up(xl)
         font-size: $h1-size-md
         line-height: 130%
@@ -108,6 +108,9 @@ p, li
         @include in-page-with-aside
             font-size: $h3-size-md
 
+.top 
+    h2
+        @extend .h4
 
 main > .blocks .top h2,
 .block-pages .main-page .title a,
