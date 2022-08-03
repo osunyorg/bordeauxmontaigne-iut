@@ -1,5 +1,4 @@
 .posts
-    @include grid(2, md)
     .post 
         .title
             a
@@ -11,9 +10,11 @@
         time 
             color: #6c757d
 
-.posts__section
+
+.block-posts
     .posts
         @include grid(1)
+        @include grid(2, md)
 
 .table-infos
     th
