@@ -1,6 +1,42 @@
 .block-gallery
+    .block-content
+        padding-left: 0 !important
     .top
+        color: white
+        display: block
+        margin-bottom: $spacing2
+        @include media-breakpoint-up(md)
+            align-items: flex-start
+            display: flex
+            flex-wrap: wrap
         h2
             font-size: $h2-size
             font-weight: 600
             text-transform: uppercase
+        .description
+            margin-top: px2rem(32)
+            width: 100%
+        @include media-breakpoint-up(md)
+            h2
+                flex: .5
+            .description
+                flex: 1
+                margin: 0
+
+    &--carousel 
+        background-color: $main-color
+        color: white
+        padding-bottom: $spacing3
+        padding-top: $spacing3
+        @include media-breakpoint-up(md)
+            .splide 
+                figure 
+                    max-width: 50%
+                    min-width: 50%
+                    -webkit-flex-shrink: initial
+                    flex-shrink: 1
+        .splide__arrows
+            button
+                filter: invert(1)
+                &::before
+                    font-size: px2rem(16)
