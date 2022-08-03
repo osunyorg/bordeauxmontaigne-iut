@@ -1,0 +1,41 @@
+.persons__page
+    main 
+        > .container 
+            margin-top: var(--header-height)
+        .informations
+            @include media-breakpoint-up(md)
+                p
+                    text-align: right
+            .link-more
+                font-size: px2rem(14)
+                line-height: 140%
+        .lead
+            line-height: 110%
+            margin-bottom: $spacing1
+            @include media-breakpoint-up(md)
+                margin-bottom: $spacing4
+        section
+            margin-top: $spacing1 * 3
+            @include media-breakpoint-up(md)
+                margin-top: 0
+            .top
+                margin-bottom: $spacing2
+            .table-resume
+                @include media-breakpoint-down(md)
+                    &,
+                    th,
+                    td
+                        border: 0
+                        display: block
+                    td
+                        a
+                            font-size: px2rem(14)
+                @include media-breakpoint-up(md)
+                    td
+                        padding-bottom: $spacing1
+                        padding-top: $spacing1
+                        text-align: right
+                caption
+                    @include visually-hidden
+                
+                    

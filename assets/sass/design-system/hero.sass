@@ -3,6 +3,8 @@ body:not(.page__home)
         flex-direction: column
         .title-avatar
             align-items: flex-start
+            @include media-breakpoint-down(md)
+                display: flex
             h1
                 width: 75%
             > div
