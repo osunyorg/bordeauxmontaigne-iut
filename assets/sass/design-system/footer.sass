@@ -1,3 +1,13 @@
+footer[role="contentinfo"] 
+    a
+        @include link($footer-color)
+    [class^="nav-"]
+        a
+            padding-bottom: px2rem(8)
+            padding-top: px2rem(8)
+    p
+        margin-bottom: 0
+
 @include media-breakpoint-up(md)
     footer[role="contentinfo"] 
         padding-bottom: 0
@@ -9,8 +19,7 @@
                     height: $header-logo-height
                 div + div
                     text-align: right
-                    p
-                        margin-bottom: 0
+                    
         .complementary
             justify-content: space-between
             padding-bottom: $spacing2
@@ -30,12 +39,7 @@
                 -o-transform: translateX(-50%)
                 transform: translateX(-50%)
                 width: 100vw
-        a
-            @include link($footer-color)
-        [class^="nav-"]
-            a
-                padding-bottom: px2rem(8)
-                padding-top: px2rem(8)
+        
                 
         ul,
         .nav-legal
