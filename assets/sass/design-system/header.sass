@@ -4,6 +4,9 @@ header[role="banner"]
     html.has-menu-opened &, &.is-sticky
         background-color: white
         color: black
+        nav 
+            button[aria-expanded="true"]
+                color: black
         .menu a
             color: black
             &:hover
@@ -13,6 +16,12 @@ header[role="banner"]
         .logo img
             filter: invert(1)
 
+    @include media-breakpoint-down(md)
+        &:not(.is-sticky)
+            nav
+                button[type="button"]
+                    color: white
+                    
     @include media-breakpoint-up(md)
         &::after
             background-color: rgba(white, .2)
