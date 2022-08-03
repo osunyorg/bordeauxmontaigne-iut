@@ -1,5 +1,5 @@
 .pagination
-    li 
+    li
         a,
         span
             font-size: px2rem(14)
@@ -7,6 +7,15 @@
                 font-size: px2rem(18)
         span
             color: #6c757d
+    &-between-pages
+        
+        li,
+        .previous,
+        .next
+            a
+                span::before
+                    font-size: px2rem(12)
+            
 
 
 .posts
