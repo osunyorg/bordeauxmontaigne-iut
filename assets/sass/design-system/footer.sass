@@ -1,0 +1,44 @@
+@include media-breakpoint-up(md)
+    footer[role="contentinfo"] 
+        padding-bottom: 0
+        .container
+            .content
+                @include grid(2)
+                padding-bottom: $spacing3
+                .logo img
+                    height: $header-logo-height
+                div + div
+                    text-align: right
+                    p
+                        margin-bottom: 0
+        .complementary
+            justify-content: space-between
+            padding-bottom: $spacing2
+            padding-top: $spacing2   
+            position: relative
+            
+            &::before
+                background-color: hsla(0,0%,100%,.3)
+                bottom: 7.5rem
+                content: ""
+                height: 1px
+                left: 50%
+                position: absolute
+                top: 0
+                -webkit-transform: translateX(-50%)
+                -moz-transform: translateX(-50%)
+                -o-transform: translateX(-50%)
+                transform: translateX(-50%)
+                width: 100vw
+        a
+            @include link($footer-color)
+        [class^="nav-"]
+            a
+                padding-bottom: px2rem(8)
+                padding-top: px2rem(8)
+                
+        ul,
+        .nav-legal
+            @include list-reset
+            li:not(:first-child)
+                margin-left: 0
