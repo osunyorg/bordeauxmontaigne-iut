@@ -1,0 +1,18 @@
+body:not(.page__home)
+    .hero
+        flex-direction: column
+
+.posts__page
+    .hero
+        align-items: unset
+        padding-bottom: 0
+        > div:last-child 
+            &::before
+                background-color: hsla(0,0%,100%,.2)
+                content: ""
+                display: block
+                height: 1px
+                width: 100%
+            .container 
+                time
+                    font-size: px2rem(18)
