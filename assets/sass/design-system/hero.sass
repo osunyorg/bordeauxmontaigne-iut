@@ -1,11 +1,22 @@
 body:not(.page__home)
     .hero
         flex-direction: column
+        .title-avatar
+            align-items: flex-start
+            h1
+                width: 75%
+            > div
+                width: 25%
+                padding-left: $spacing2
 
 .posts__page
     .hero
         align-items: unset
         padding-bottom: 0
+        @include media-breakpoint-up(md)
+            .container
+                > div:first-of-type:not(.title-avatar)
+                    max-width: 76.666666667%
         > div:last-child 
             &::before
                 background-color: hsla(0,0%,100%,.2)
