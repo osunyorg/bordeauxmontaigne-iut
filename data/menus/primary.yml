@@ -122,7 +122,11 @@
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
-    children: []
+    children:
+    - title: Associations étudiantes *
+      target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
+      kind: page
+      children: []
   - title: Aide & entraide
     target: "/vie-etudiante/aide-entraide/"
     kind: page
