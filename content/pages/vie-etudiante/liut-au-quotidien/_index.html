@@ -24,10 +24,22 @@ header_text: >-
 legacy_text: >
   
 blocks:
+  - template: pages
+    title: >-
+      L'IUT au quotidien
+    position: 1
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: grid
+      pages:
+        - page: /vie-etudiante/liut-au-quotidien/vie-associative/
+          slug: /vie-etudiante/liut-au-quotidien/vie-associative/
   - template: files
     title: >-
       Livret d'accueil
-    position: 3
+    position: 2
     data:
       description: >-
         <p>Vous pouvez consulter le Livret d'accueil de l'étudiant afin de  retrouver les informations essentielles à votre vie d'étudiant·e à  l'IUT.</p>
@@ -42,22 +54,10 @@ blocks:
             Livret d'accueil de l'étudiant
 
 
-  - template: pages
-    title: >-
-      L'IUT au quotidien
-    position: 4
-    data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: true
-      layout: grid
-      pages:
-        - page: /vie-etudiante/liut-au-quotidien/vie-associative/
-          slug: /vie-etudiante/liut-au-quotidien/vie-associative/
   - template: posts
     title: >-
       Actualités
-    position: 5
+    position: 3
     data:
       category: "/vie-etudiante/"
       posts:
