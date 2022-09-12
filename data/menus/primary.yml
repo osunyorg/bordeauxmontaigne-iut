@@ -123,7 +123,7 @@
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
     children:
-    - title: Associations étudiantes *
+    - title: Vie associative
       target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
       children: []
