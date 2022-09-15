@@ -18,15 +18,18 @@ administrators:
   - "nassima-choltus"
   - "stephane-colnay"
   - "aurelien-cornille"
+  - "zoe-cossais-bossard"
   - "melisse-debes"
   - "aurelie-doumbo"
   - "helene-ertle"
   - "marina-esteves"
+  - "elorie-feminier-mazain"
   - "johanna-hourregue"
   - "david-lachaud"
   - "eric-lamothe"
   - "kathy-lavignole"
   - "catherine-lecart"
+  - "mathilda-menadeo"
   - "anais-mendibil"
   - "kmerahi"
   - "hmonneriesor"
@@ -40,6 +43,7 @@ administrators:
   - "louise-elodie-seran"
   - "gsuchestow"
   - "theodore-tangoulis"
+  - "eve-tissot"
   - "corine-videau"
   - "mzaquithorea"
 administrators_description:
@@ -55,6 +59,8 @@ administrators_description:
     Service Informatique
   "aurelien-cornille": >
     Service Patrimoine logistique et maintenance
+  "zoe-cossais-bossard": >
+    Centre de Ressources Montaigne
   "melisse-debes": >
     Secrétariat Carrières sociales
   "aurelie-doumbo": >
@@ -63,6 +69,8 @@ administrators_description:
     Gestion administrative et financière
   "marina-esteves": >
     Service PAO
+  "elorie-feminier-mazain": >
+    Centre de Ressources Montaigne
   "johanna-hourregue": >
     Centre de Ressources Montaigne
   "david-lachaud": >
@@ -73,6 +81,8 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >
     Service Formation continue
+  "mathilda-menadeo": >
+    Centre de Ressources Montaigne
   "anais-mendibil": >
     Scolarité
   "kmerahi": >
@@ -99,6 +109,8 @@ administrators_description:
     Centre de Ressources Montaigne
   "theodore-tangoulis": >
     Service Patrimoine logistique et maintenance
+  "eve-tissot": >
+    Centre de Ressources Montaigne
   "corine-videau": >
     Secrétariat Information - Communication
   "mzaquithorea": >
@@ -163,8 +175,12 @@ roles:
   - title: >
       Centre de Ressources Montaigne
     persons:
+      - "aurelie-doumbo"
       - "gsuchestow"
       - "mzaquithorea"
-      - "aurelie-doumbo"
       - "johanna-hourregue"
+      - "mathilda-menadeo"
+      - "zoe-cossais-bossard"
+      - "elorie-feminier-mazain"
+      - "eve-tissot"
 ---
