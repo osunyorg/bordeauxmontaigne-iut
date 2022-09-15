@@ -41,7 +41,6 @@ administrators:
   - "gsuchestow"
   - "theodore-tangoulis"
   - "corine-videau"
-  - "cviron"
   - "mzaquithorea"
 administrators_description:
   "assad-abderemane": >
@@ -102,8 +101,6 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "corine-videau": >
     Secrétariat Information - Communication
-  "cviron": >
-    Centre de Ressources Montaigne
   "mzaquithorea": >
     Centre de Ressources Montaigne
 roles:
@@ -168,7 +165,6 @@ roles:
     persons:
       - "gsuchestow"
       - "mzaquithorea"
-      - "cviron"
       - "aurelie-doumbo"
       - "johanna-hourregue"
 ---
