@@ -24,4 +24,10 @@
   {{- partial "programs/pedagogy.html" . -}}
   {{- partial "programs/results.html" . -}}
   {{- partial "programs/admission.html" . -}}
+  <section>  
+    <div class="container">
+      {{- $category := site.GetPage (printf "/categories%s" .Params.category) -}}
+      {{- partial "posts/related.html" $category -}}
+    </div>
+  </section>
 </article>
