@@ -53,29 +53,29 @@
                 --bs-gutter-y: #{$grid-gutter-width}
             > *
                 position: relative
-                @include media-breakpoint-only(md)
-                    &:nth-child(odd)::after
-                        background-color: $border-color
-                        content: ''
-                        height: 100%
-                        position: absolute
-                        right: 0
-                        top: 0
-                        width: 1px
-                @include media-breakpoint-up(lg)
-                    &:not(:nth-child(3n))::after
-                        background-color: $border-color
-                        content: ''
-                        height: 100%
-                        position: absolute
-                        right: 0
-                        top: 0
-                        width: 1px
+                // @include media-breakpoint-only(md)
+                //     &:nth-child(odd)::after
+                //         background-color: $border-color
+                //         content: ''
+                //         height: 100%
+                //         position: absolute
+                //         right: 0
+                //         top: 0
+                //         width: 1px
+                // @include media-breakpoint-up(lg)
+                //     &:not(:nth-child(3n))::after
+                //         background-color: $border-color
+                //         content: ''
+                //         height: 100%
+                //         position: absolute
+                //         right: 0
+                //         top: 0
+                //         width: 1px
+                @include media-breakpoint-up(xl)
+                    @include in-page-without-aside
+                        width: 33.33333%
                 &:last-child::after
                     content: none
-                @include in-page-without-aside
-                    @include media-breakpoint-up(xl)
-                        width: 33.33333%
             .page
                 aspect-ratio: 0.8
                 transition: background .3s, color .3s
