@@ -43,7 +43,6 @@
             > div
                 padding: 0
 
-
     &--cards
         @include media-breakpoint-up(lg)
             padding-bottom: px2rem(128)
@@ -74,6 +73,9 @@
                         width: 1px
                 &:last-child::after
                     content: none
+                @include in-page-without-aside
+                    @include media-breakpoint-up(xl)
+                        width: 33.33333%
             .page
                 aspect-ratio: 0.8
                 transition: background .3s, color .3s
