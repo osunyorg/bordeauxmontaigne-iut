@@ -131,7 +131,7 @@
       target: "/vie-etudiante/liut-au-quotidien/culture/"
       kind: page
       children: []
-    - title: Sport et culture
+    - title: Sport
       target: "/vie-etudiante/liut-au-quotidien/sport/"
       kind: page
       children: []
