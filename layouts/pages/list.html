@@ -22,7 +22,7 @@
         </div>
       </div>
       {{- end -}}
-      {{ partial "blocks/list.html" .Params.blocks }}
+      {{ partial "blocks/list.html" . }}
     </div>
   {{ else }}
     {{- with .Params.image -}}
