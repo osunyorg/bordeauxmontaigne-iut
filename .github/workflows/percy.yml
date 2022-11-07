@@ -1,9 +1,10 @@
 name: Percy
 
 on:
-  push:
-    branches:
-      - main
+  # Used to trigger a base analysis
+  # push:
+  #   branches:
+  #     - main
   pull_request:
     branches:
       - main
