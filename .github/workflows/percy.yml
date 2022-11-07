@@ -34,3 +34,5 @@ jobs:
 
       - name: Percy Test
         run: npx @percy/cli snapshot snapshots.yml
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
