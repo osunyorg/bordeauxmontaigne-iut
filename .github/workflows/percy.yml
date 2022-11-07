@@ -29,11 +29,8 @@ jobs:
       - name: Install JS dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Start 
+        run: hugo server -e ${{ secrets.HUGO_ENV }} --minify & # https://discourse.gohugo.io/t/run-server-as-background/3252/2
+
       - name: Percy Test
-        uses: BerniWittmann/background-server-action@1.0.4
-        with: 
-          command: npx @percy/cli snapshot snapshots.yml
-          start: hugo server -e ${{ secrets.HUGO_ENV }} --minify
-          wait-on: 'http://localhost:1313'
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+        run: npx @percy/cli snapshot snapshots.yml
