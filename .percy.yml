@@ -1,5 +1,1 @@
 version: 2
-discovery:
-  networkIdleTimeout: 1000
-  launchOptions:
-    timeout: 60000
