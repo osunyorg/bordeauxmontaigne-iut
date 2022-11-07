@@ -1,9 +1,8 @@
 name: Percy
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
       - v2
 
 jobs:
@@ -31,7 +30,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        run: hugo -e ${{ secrets.HUGO_ENV }} --minify
+        run: hugo server -e ${{ secrets.HUGO_ENV }} --minify
 
       - name: Percy Test
-        run: npx @percy/cli snapshot public/ 
+        run: npx @percy/cli snapshot snapshots.yml
