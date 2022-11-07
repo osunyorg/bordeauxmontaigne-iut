@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 1
       - name: Percy Test
         run: npx @percy/cli snapshot public/ 
-
-# You need to add PERCY_TOKEN in your repository's secrets to run tests
