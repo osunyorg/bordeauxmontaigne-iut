@@ -1,4 +1,11 @@
 name: Percy
+
+on:
+  push:
+    branches:
+      - v2
+
+jobs:
   build:
     runs-on: ubuntu-latest
       - uses: actions/checkout@v3
