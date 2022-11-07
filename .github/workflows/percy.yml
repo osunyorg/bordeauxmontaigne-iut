@@ -1,16 +1,8 @@
-# You need to add PERCY_TOKEN in your repository's secrets to run tests
-
-name: Percy.io Visual Diff
-
-on:
-  pull_request:
-    branches: 
-      - main
-      - v2
-
-jobs:
+name: Percy
   build:
     runs-on: ubuntu-latest
       - uses: actions/checkout@v3
       - name: Percy Test
         run: npx @percy/cli snapshot public/ 
+
+# You need to add PERCY_TOKEN in your repository's secrets to run tests
