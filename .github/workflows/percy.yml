@@ -3,6 +3,7 @@ name: Percy
 on:
   push:
     branches:
+      - main
       - v2
 
 jobs:
