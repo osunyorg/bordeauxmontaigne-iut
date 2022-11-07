@@ -33,8 +33,9 @@ jobs:
       - name: Install JS dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Start 
-        run: hugo server -e ${{ secrets.HUGO_ENV }} --minify & # https://discourse.gohugo.io/t/run-server-as-background/3252/2
+      - name: Start Hugo server
+        # https://discourse.gohugo.io/t/run-server-as-background/3252/2
+        run: hugo server -e ${{ secrets.HUGO_ENV }} --minify & 
 
       - name: Percy Test
         run: npx @percy/cli snapshot snapshots.yml
