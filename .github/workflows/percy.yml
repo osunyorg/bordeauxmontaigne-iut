@@ -38,6 +38,6 @@ jobs:
         run: hugo server -e ${{ secrets.HUGO_ENV }} --minify &
 
       - name: Percy Test
-        run: npx @percy/cli snapshot snapshots.yml
+        run: npx @percy/cli snapshot snapshots.yml -v
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
