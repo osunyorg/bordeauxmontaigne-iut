@@ -119,6 +119,22 @@
       target: https://bv.u-bordeaux-montaigne.fr/
       kind: url
       children: []
+  - title: L'IUT au quotidien
+    target: "/vie-etudiante/liut-au-quotidien/"
+    kind: page
+    children:
+    - title: Vie associative
+      target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
+      kind: page
+      children: []
+    - title: Culture
+      target: "/vie-etudiante/liut-au-quotidien/culture/"
+      kind: page
+      children: []
+    - title: Sport
+      target: "/vie-etudiante/liut-au-quotidien/sport/"
+      kind: page
+      children: []
   - title: Aide & entraide
     target: "/vie-etudiante/aide-entraide/"
     kind: page
