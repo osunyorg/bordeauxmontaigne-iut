@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  snapshot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -29,8 +29,10 @@ jobs:
       - name: Install JS dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build
+      - name: Start Hugo server
         run: hugo server -e ${{ secrets.HUGO_ENV }} --minify
 
       - name: Percy Test
         run: npx @percy/cli snapshot snapshots.yml
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
