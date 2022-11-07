@@ -22,6 +22,20 @@
                     transform: translateX($spacing0)
 
 .programs__section
+    .hero
+        display: flex
+        padding-bottom: 0
+        h1 
+            width: 75%
+        > .container
+            + div
+                width: 100%
+                &::before
+                    background-color: hsla(0,0%,100%,.2)
+                    content: ""
+                    display: block
+                    height: 1px
+                    width: 100%
     .essential
         font-size: $h4-size
 
@@ -49,17 +63,22 @@
                 text-transform: uppercase
             h3
                 @extend .h4
+        .blocks
+            > *
+                padding-bottom: $spacing4
+                padding-top: $spacing3
 
     table
         border: none
         &.table-persons 
             tbody
                 tr, 
-                th
+                th,
+                td
                     border: none
+                    font-size: $h5-size
 
                     a
-                        font-size: $h3-size
                         font-weight: 400
         
     

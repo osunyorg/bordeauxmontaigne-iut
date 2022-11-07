@@ -4,9 +4,18 @@
             .title
                 a
                     @include icon("arrow-right", after)
+            p:nth-child(2)
+                margin-bottom: $spacing1
+                margin-top: $spacing2
         .pages
+            margin-bottom: 0
+            margin-top: 10px
             .page
                 .title
                     font-family: $body-font-family
                     font-size: px2rem(18)
                     margin-bottom: 0
+    &--cards
+        .pages
+            @include media-breakpoint-down(lg)
+                @include grid(1, md)
