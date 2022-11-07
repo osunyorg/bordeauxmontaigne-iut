@@ -30,8 +30,10 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Percy Test
+        uses: BerniWittmann/background-server-action@latest
         with: 
-          server: hugo server -e ${{ secrets.HUGO_ENV }} --minify
+          command: npx @percy/cli snapshot snapshots.yml
+          start: hugo server -e ${{ secrets.HUGO_ENV }} --minify
+          wait-on: 'http://localhost:1313'
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-        run: npx @percy/cli snapshot snapshots.yml
