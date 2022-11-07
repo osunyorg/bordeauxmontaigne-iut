@@ -2,6 +2,7 @@ name: Percy
 
 on:
   pull_request:
+    types: [opened, reopened, review_requested, edited]
     branches:
       - v2
 
