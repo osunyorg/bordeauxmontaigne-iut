@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, reopened, review_requested, edited]
     branches:
-      - theme-aaa
+      - main
 
 jobs:
   build:
