@@ -28,6 +28,9 @@
             @include media-breakpoint-up(lg)
                 margin-bottom: - $grid-gutter
                 max-height: calc(650px - #{$header-height-md} - #{$grid-gutter})
+            @include media-breakpoint-down(md)
+                margin-left: calc(-#{$grid-gutter-sm} / 2)
+                margin-right: calc(-#{$grid-gutter-sm} / 2)
             img
                 display: block
                 height: 100%
