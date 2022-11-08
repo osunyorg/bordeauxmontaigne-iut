@@ -4,47 +4,32 @@
         margin-bottom: $spacing3
         min-height: auto
         overflow: visible
+        padding-bottom: 0
         @include media-breakpoint-down(md)
             padding-top: px2rem(140)
         @include media-breakpoint-up(xl)
-            margin-bottom: px2rem(120)
+            margin-bottom: $spacing4
         @include media-breakpoint-up(xl)
             min-height: $hero-height-md
-
         .container
-            position: static // relative pour l'image ?
+            margin-top: $spacing3
+            @include media-breakpoint-up(lg)
+                @include grid(2, md)
             > div:first-of-type:not(.title-avatar)
+                margin-top: 0
                 position: relative
                 z-index: 1
-                @include media-breakpoint-up(lg)
-                    max-width: 50%
-                    padding-right: calc(#{$grid-gutter} / 2)
-
         h1
             @media (min-width: 1200px) and (max-width: 1360px)
                 font-size: px2rem(50)
 
         picture
-            @include media-breakpoint-down(lg)
-                aspect-ratio: 8/6
-                display: block
-                margin-bottom: calc(#{$grid-gutter} / -.9)
-            @include media-breakpoint-down(md)
-                margin-bottom: calc(#{$grid-gutter} / -1)
-                margin-left: calc(-#{$grid-gutter-sm} * 0.5)
-                margin-right: calc(-#{$grid-gutter-sm} * 0.5)
+            display: block
             @include media-breakpoint-up(lg)
-                width: 82.2%
-            @include media-breakpoint-up(lg)
-                bottom: - $grid-gutter
-                left: calc(50% + #{$grid-gutter} / 2)
-                position: absolute
-                right: $grid-gutter
-                top: px2rem(70)
-                width: auto
-            @include media-breakpoint-up(xl)
-                top: px2rem(115)
+                margin-bottom: - $grid-gutter
+                max-height: calc(650px - #{$header-height-md} - #{$grid-gutter})
             img
+                display: block
                 height: 100%
                 object-fit: cover
                 width: 100%
