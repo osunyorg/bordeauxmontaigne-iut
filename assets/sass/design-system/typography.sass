@@ -100,18 +100,20 @@ p, li
 
 .lead
     &,
-    p            
+    p
         font-size: $h3-size
-        line-height: 110%
+        line-height: $h3-line-height
         @include media-breakpoint-up(md)
             font-size: px2rem(50)
-            line-height: 110%
+            line-height: $h3-line-height
         @include media-breakpoint-up(xl)
             font-size: $h1-size-md
             line-height: 130%
         @include in-page-with-aside
             @include media-breakpoint-up(md)
                 font-size: $h3-size-md
+                line-height: $h3-line-height
+
 
 .top 
     h2
@@ -124,3 +126,11 @@ main > .blocks .top h2,
     font-weight: 600
     line-height: 130%
     text-transform: uppercase
+
+[itemprop="articleBody"]
+    h2
+        @extend .h4
+    h3
+        @extend .h5
+    h4
+        @extend .h6
