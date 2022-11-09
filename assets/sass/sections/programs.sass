@@ -10,44 +10,52 @@
             &:hover
                 color: $program-color
         @include media-breakpoint-up(md)
-        .title
-            @include icon('arrow', after)
-                font-size: px2rem(12)
-                opacity: 0
-                transform: translateX(-$spacing0)
-                transition: all 0.55s $arrow-ease-transition-2
-            &:hover 
-                &::after
-                    opacity: 1 !important
-                    transform: translateX($spacing0)
+            .title
+                @include icon('arrow', after)
+                    font-size: px2rem(12)
+                    opacity: 0
+                    transform: translateX(-$spacing0)
+                    transition: all 0.55s $arrow-ease-transition-2
+                &:hover 
+                    &::after
+                        opacity: 1 !important
+                        transform: translateX($spacing0)
 
 body.programs__section
     .hero
+        background-color: $program-color
         display: flex
         min-height: 548px
         padding-bottom: 0
+        @include media-breakpoint-down(md)
+            padding-top: px2rem(32)
         h1 
             width: 75%
         > .container
             + div
-                width: 100%
-                &::before
-                    background-color: hsla(0,0%,100%,.2)
-                    content: ""
-                    display: block
-                    height: 1px
+                @include media-breakpoint-down(md)
+                    background-color: darken($program-color, 3)
+                    margin: px2rem(50) $spacing0 px2rem(40)
+                @include media-breakpoint-up(md)
                     width: 100%
-                .container
-                    padding-top: px2rem(45)
+                    &::before
+                        background-color: hsla(0,0%,100%,.2)
+                        content: ""
+                        display: block
+                        height: 1px
+                        width: 100%
+                    .container
+                        padding-top: px2rem(45)
     .essential
         font-size: $h4-size
         margin: 0
-        dt,
-        dd
-            padding-top: calc(#{$spacing1} / 2)
-            padding-bottom: calc(#{$spacing1} / 2)
-        dd
-            grid-column: 4/13
+        @include media-breakpoint-up(md)
+            dt,
+            dd
+                padding-top: calc(#{$spacing1} / 2)
+                padding-bottom: calc(#{$spacing1} / 2)
+            dd
+                grid-column: 4/13
 
     .dropdown-share
         button

@@ -13,7 +13,8 @@ body:not(.page__home)
         > div:first-of-type
             > div
                 margin-top: px2rem(30)
-                margin-bottom: px2rem(80)
+                @include media-breakpoint-up(md)
+                    margin-bottom: px2rem(80)
 
 .posts__page
     .hero
