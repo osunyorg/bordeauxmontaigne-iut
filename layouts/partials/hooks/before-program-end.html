@@ -1,0 +1,6 @@
+<section>
+  <div class="container">
+    {{- $category := site.GetPage (printf "/categories%s" .Params.category) -}}
+    {{- partial "posts/related.html" $category -}}
+  </div>
+</section>
