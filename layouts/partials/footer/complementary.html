@@ -1,5 +1,5 @@
 <div class="complementary">
-  <div>
+  <nav>
     {{ if site.Data.menus.legal }}
       {{ partial "commons/menu.html"
             (dict
@@ -9,7 +9,7 @@
             )}}
     {{ end }}
     {{ partial "footer/credit.html" }}
-  </div>
+  </nav>
   {{ if site.Data.menus.social }}
     {{ partial "commons/menu.html"
           (dict
