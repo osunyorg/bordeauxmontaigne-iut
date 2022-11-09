@@ -24,3 +24,48 @@
         color: #6c757d
         padding-top: calc(#{$spacing2} / 3)
         padding-bottom: calc(#{$spacing2} / 3)
+
+body.posts__page 
+    aside
+        .infos
+            p 
+                font-weight: 500
+                letter-spacing: -.01em
+                line-height: 130%
+            ul.post-categories
+                margin-bottom: $spacing2
+                li
+                    display: list-item
+                    margin-bottom: px2rem(15)
+                    margin-left: 0
+                    a
+                        color: $post-color
+                        font-size: px2rem(18)
+                        line-height: 120%
+            ul.share
+                flex: 1
+                justify-content: flex-end
+                li
+                    a
+                        padding: px2rem(12)
+                    &:last-child
+                        a
+                            padding-right: 0
+            div + div
+                align-items: center
+                display: flex
+                padding-top: $spacing1
+                position: relative
+                p
+                    margin: 0
+                &::before
+                    background-color: #000
+                    content: ""
+                    height: 1px
+                    left: 0
+                    position: absolute
+                    right: 0
+                    top: 0
+        @include media-breakpoint-down(md)
+            display: block
+            padding-top: calc(#{$spacing3 / 2})
