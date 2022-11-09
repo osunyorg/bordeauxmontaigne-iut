@@ -2,6 +2,7 @@ body:not(.page__home)
     .hero
         flex-direction: column
         min-height: calc(548px + var(--header-height))
+        padding-top: calc(#{$spacing1 / 2} + var(--header-height))
         .title-avatar
             align-items: flex-start
             @include media-breakpoint-down(md)
@@ -9,6 +10,10 @@ body:not(.page__home)
             > div
                 width: 25%
                 padding-left: $spacing2
+        > div:first-of-type
+            > div
+                margin-top: px2rem(30)
+                margin-bottom: px2rem(80)
 
 .posts__page
     .hero
