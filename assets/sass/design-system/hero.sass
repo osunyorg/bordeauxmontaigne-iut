@@ -20,20 +20,17 @@ body.posts__page
     .hero
         background-color: $post-color
         align-items: unset
-        min-height: calc(548px + var(--header-height) - 1.25rem)
+        min-height: unset
         padding-bottom: 0
+        @include media-breakpoint-down(md)
+            padding-top: calc(#{$spacing3 / 2})
         @include media-breakpoint-up(md)
+            min-height: calc(548px + var(--header-height) - 1.25rem)
             .container
                 > div:first-of-type:not(.title-avatar)
                     max-width: 76.666666667%
                     margin-bottom: 0
         > div:last-child 
-            &::before
-                background-color: hsla(0,0%,100%,.2)
-                content: ""
-                display: block
-                height: 1px
-                width: 100%
             .container
                 align-items: center
                 display: flex 
@@ -42,3 +39,10 @@ body.posts__page
                 p 
                     font-size: px2rem(18)
                     margin-left: $spacing1
+            @include media-breakpoint-up(md)
+                &::before
+                    background-color: hsla(0,0%,100%,.2)
+                    content: ""
+                    display: block
+                    height: 1px
+                    width: 100%
