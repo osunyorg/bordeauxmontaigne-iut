@@ -66,6 +66,45 @@ body.posts__page
                     position: absolute
                     right: 0
                     top: 0
-        @include media-breakpoint-down(md)
+        @include media-breakpoint-down(md) // TODO : Est-ce qu'il faut le mettre dans grid.sass ?
             display: block
             padding-top: calc(#{$spacing3 / 2})
+
+    aside~.blocks
+        .lead
+            font-size: $h3-size
+        .block-with-title:first-of-type
+            padding-top: $grid-gutter
+            position: relative
+            &::before
+                background: rgba(0,0,0,.2)
+                content: ""
+                height: 1px
+                left: offset(5)
+                margin-left: calc(#{$spacing1 /2})
+                position: absolute
+                right: $grid-gutter
+                top: 0
+    figure
+        figcaption
+            p
+                font-size: $h5-size
+                line-height: 140%
+    .blocks
+        .block-call_to_action
+            .block-content
+                .call_to_action
+                    > div
+                        background-color: $post-color
+                    div + div
+                        a
+                            background-color: #F5F5F5
+                            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                            &:hover
+                                background-color: #000
+                                color: #fff
+    &.full-width
+        .blocks
+            .block-call_to_action
+                .block-content
+                    background-color: $post-color
