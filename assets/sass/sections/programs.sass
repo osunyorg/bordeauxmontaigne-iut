@@ -46,6 +46,13 @@ body.programs__section
                         width: 100%
                     .container
                         padding-top: px2rem(45)
+        + aside
+            background-color: darken($program-color, 3)
+            @include media-breakpoint-down(md)
+                background-color: $program-color
+                border-top: 1px solid rgba(white, .2)
+            a
+                color: white
     .essential
         font-size: $h4-size
         margin: 0
