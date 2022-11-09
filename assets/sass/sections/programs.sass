@@ -21,9 +21,10 @@
                     opacity: 1 !important
                     transform: translateX($spacing0)
 
-.programs__section
+body.programs__section
     .hero
         display: flex
+        min-height: 548px
         padding-bottom: 0
         h1 
             width: 75%
@@ -36,13 +37,23 @@
                     display: block
                     height: 1px
                     width: 100%
+                .container
+                    padding-top: px2rem(45)
     .essential
         font-size: $h4-size
+        margin: 0
+        dt,
+        dd
+            padding-top: calc(#{$spacing1} / 2)
+            padding-bottom: calc(#{$spacing1} / 2)
+        dd
+            grid-column: 4/13
 
     .dropdown-share
         button
             border-radius: 4px
             font-size: 1.125rem
+            min-width: px2rem(200)
             padding: 1rem 1.25rem
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
             &:hover,
