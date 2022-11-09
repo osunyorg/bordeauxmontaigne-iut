@@ -27,6 +27,7 @@
 
 body.posts__page 
     aside
+        padding-top: $spacing3
         .infos
             p 
                 font-weight: 500
@@ -69,22 +70,27 @@ body.posts__page
         @include media-breakpoint-down(md) // TODO : Est-ce qu'il faut le mettre dans grid.sass ?
             display: block
             padding-top: calc(#{$spacing3 / 2})
-
-    aside~.blocks
-        .lead
-            font-size: $h3-size
-        .block-with-title:first-of-type
-            padding-top: $grid-gutter
-            position: relative
-            &::before
-                background: rgba(0,0,0,.2)
-                content: ""
-                height: 1px
-                left: offset(5)
-                margin-left: calc(#{$spacing1 /2})
-                position: absolute
-                right: $grid-gutter
-                top: 0
+        
+        &~.blocks
+            .lead
+                font-size: $h3-size
+                margin-bottom: $spacing2
+            .block-with-title:first-of-type
+                position: relative
+                @include media-breakpoint-down(md)
+                    padding-top: 1rem
+                &::before
+                    background: rgba(0,0,0,.2)
+                    content: ""
+                    height: 1px
+                    left: calc(#{$grid-gutter-sm / 2})
+                    position: absolute
+                    right: calc(#{$grid-gutter-sm / 2})
+                    top: 0
+                    @include media-breakpoint-up(md)
+                        left: offset(5)
+                        margin-left: calc(#{$spacing1 /2})
+                        right: $grid-gutter
     figure
         figcaption
             p
@@ -103,8 +109,18 @@ body.posts__page
                             &:hover
                                 background-color: #000
                                 color: #fff
+        &-pagination
+            .container
+                padding-bottom: 0
+            .block-content
+                padding: 0
     &.full-width
         .blocks
             .block-call_to_action
                 .block-content
                     background-color: $post-color
+    &:not(.full-width)
+        aside
+            @include media-breakpoint-up(md)
+                > div
+                    top: $spacing1
