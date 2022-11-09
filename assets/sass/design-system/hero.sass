@@ -16,14 +16,17 @@ body:not(.page__home)
                 @include media-breakpoint-up(md)
                     margin-bottom: px2rem(80)
 
-.posts__page
+body.posts__page
     .hero
+        background-color: $post-color
         align-items: unset
+        min-height: calc(548px + var(--header-height) - 1.25rem)
         padding-bottom: 0
         @include media-breakpoint-up(md)
             .container
                 > div:first-of-type:not(.title-avatar)
                     max-width: 76.666666667%
+                    margin-bottom: 0
         > div:last-child 
             &::before
                 background-color: hsla(0,0%,100%,.2)
@@ -31,6 +34,11 @@ body:not(.page__home)
                 display: block
                 height: 1px
                 width: 100%
-            .container 
+            .container
+                align-items: center
+                display: flex 
                 time
                     font-size: px2rem(18)
+                p 
+                    font-size: px2rem(18)
+                    margin-left: $spacing1
