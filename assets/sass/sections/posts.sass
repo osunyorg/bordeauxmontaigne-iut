@@ -30,7 +30,7 @@ body.posts__page
         padding-top: $spacing3
         .infos
             p 
-                font-weight: 500
+                font-weight: 600
                 letter-spacing: -.01em
                 line-height: 130%
             ul.post-categories
@@ -73,8 +73,9 @@ body.posts__page
         
         &~.blocks
             .lead
-                font-size: $h3-size
                 margin-bottom: $spacing2
+                @include media-breakpoint-up(lg)
+                    font-size: $h3-size-md
             .block-chapter.block-with-title
                 position: relative
                 @include media-breakpoint-down(md)
