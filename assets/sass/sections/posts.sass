@@ -10,8 +10,10 @@
                     color: $post-color
         time 
             color: $toc-color
-            font-size: px2rem(18)
+            font-size: px2rem(14)
             margin-top: 10px
+            @include media-breakpoint-up(md)
+                font-size: px2rem(18)
 
 .post
     .media
@@ -72,10 +74,6 @@ body.posts__page
             padding-top: calc(#{$spacing3 / 2})
         
         &~.blocks
-            .lead
-                margin-bottom: $spacing2
-                @include media-breakpoint-up(lg)
-                    font-size: $h3-size-md
             .block-chapter.block-with-title
                 position: relative
                 @include media-breakpoint-down(md)
@@ -134,3 +132,12 @@ body.posts__page
             @include media-breakpoint-up(md)
                 > div
                     top: $spacing1
+
+.posts__section,
+.authors__term
+    .posts 
+        @include media-breakpoint-down(md)
+            grid-gap: unset
+        > div
+            margin-bottom: px2rem(60)
+            padding-bottom: px2rem(60)

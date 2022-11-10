@@ -20,7 +20,15 @@
 .posts
     + nav
         .pagination:not(.pagination-between-pages)
+            padding: 0
             li 
+                font-size: px2rem(14)
+                &.disabled
+                    a
+                        border-color: #dee2e6
+                        color: #dadada
+                a
+                    padding: px2rem(6) px2rem(12)
                 a::before,
                     font-size: px2rem(12)
                     vertical-align: baseline
