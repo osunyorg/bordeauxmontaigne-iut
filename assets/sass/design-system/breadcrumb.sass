@@ -5,11 +5,27 @@
         a,
         span
             font-size: $h4-size
+            @include media-breakpoint-down(md)
+                font-size: $small-font-size
             &:hover
                 color: white
         &:not(:first-child)
             padding-left: px2rem(18)
             @include icon(caret-right, before)
+            @include media-breakpoint-down(md)
+                padding-left: px2rem(12)
             &::before
                 opacity: 0.5
+                @include media-breakpoint-down(md)
+                    font-size: px2rem(8)
 
+@include media-breakpoint-down(md)
+    .hero
+        nav
+            margin-left: calc(-#{$grid-gutter-sm} / 2)
+            margin-right: calc(-#{$grid-gutter-sm} / 2)
+            .breadcrumb
+                padding-inline-start: calc(#{$grid-gutter-sm} / 2)
+                padding-left: calc(#{$grid-gutter-sm} / 2)
+                li:last-child
+                    padding-right: calc(#{$grid-gutter-sm} / 2)

@@ -1,9 +1,12 @@
-.diplomas__taxonomy 
+body.diplomas__taxonomy 
     .hero
         background-color: $program-color
+        min-height: calc(548px + var(--header-height) - 20px)
         margin-bottom: px2rem(120)
         @include media-breakpoint-down(md)
             margin-bottom: $spacing2
+            min-height: 300px
+            padding-top: calc(#{$spacing3} / 2)
     @include media-breakpoint-down(md)
         .lead
             font-size: $h5-size-md
