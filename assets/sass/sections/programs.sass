@@ -23,6 +23,9 @@
 
 body.programs__section,
 .diplomas__term
+    header[role="banner"]:not(.is-sticky)
+        html:not(.has-menu-opened) &
+            background-color: $program-color
     .hero
         background-color: $program-color
         display: flex
