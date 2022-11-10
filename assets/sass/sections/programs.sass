@@ -4,22 +4,33 @@
             transition: color .3s
             &::first-child
                 padding-right: 0 !important
+            &.title
+                font-size: $h3-size
+                @include icon('arrow', after)
+                    font-size: px2rem(12)
+                @include media-breakpoint-down(md)
+                    display: flex
+                    align-items: flex-end
+                    justify-content: space-between
+                    font-size: $h4-size-md
+                @include media-breakpoint-up(md)
+                    &::after
+                        opacity: 0
+                        transform: translateX(-$spacing0)
+                        transition: all 0.55s $arrow-ease-transition-2
+                    &:hover 
+                        &::after
+                            opacity: 1 !important
+                            transform: translateX($spacing0)
             + a 
                 font-size: $h6-size-md
                 white-space: nowrap
+                @include media-breakpoint-down(md)
+                    font-size: $h5-size
+                    margin-top: px2rem(10)
             &:hover
                 color: $program-color
-        @include media-breakpoint-up(md)
-            .title
-                @include icon('arrow', after)
-                    font-size: px2rem(12)
-                    opacity: 0
-                    transform: translateX(-$spacing0)
-                    transition: all 0.55s $arrow-ease-transition-2
-                &:hover 
-                    &::after
-                        opacity: 1 !important
-                        transform: translateX($spacing0)
+        
 
 body.programs__section,
 .diplomas__term
