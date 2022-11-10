@@ -29,8 +29,9 @@ body.programs__section,
     .hero
         background-color: $program-color
         display: flex
-        min-height: 548px
         padding-bottom: 0
+        @include media-breakpoint-up(md)
+            min-height: 548px
         h1 
             width: 75%
             @include media-breakpoint-down(md)

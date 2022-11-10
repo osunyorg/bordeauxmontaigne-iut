@@ -6,3 +6,13 @@
             font-weight: bold
             strong
                 font-weight: 400
+    @include media-breakpoint-down(md)
+        ul
+            display: flex
+            flex-wrap: wrap
+            grid-row-gap: unset
+            li
+                flex: 1
+                dt
+                    strong
+                        font-size: px2rem(32)
