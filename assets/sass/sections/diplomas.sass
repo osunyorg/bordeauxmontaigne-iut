@@ -1,4 +1,5 @@
-body.diplomas__taxonomy 
+body.diplomas__taxonomy,
+body.diplomas__term
     .hero
         background-color: $program-color
         min-height: calc(548px + var(--header-height) - 20px)
@@ -7,6 +8,8 @@ body.diplomas__taxonomy
             margin-bottom: $spacing2
             min-height: 300px
             padding-top: calc(#{$spacing3} / 2)
+
+.diplomas__taxonomy
     @include media-breakpoint-down(md)
         .lead
             font-size: $h5-size-md
@@ -49,4 +52,34 @@ body.diplomas__taxonomy
                     @include media-breakpoint-down(md)
                         margin-top: $spacing1
 
-    
+.diplomas__term 
+    @include media-breakpoint-down(md)
+        .hero 
+            h1
+                padding-bottom: $spacing1
+            > .container 
+                + div
+                    width: calc(100% - #{$spacing0} * 2)
+    .essential 
+        dt
+            white-space: nowrap
+        dt:first-of-type,
+        dd:first-of-type
+            display: none
+    ol.programs 
+        a
+            align-items: center
+            display: flex
+            justify-content: space-between
+            width: 100%
+            + a
+                display: none
+    @include media-breakpoint-down(md)
+        ol.programs
+            li
+                a
+                    align-items: flex-end
+                    font-size: px2rem(28)
+                    @include icon(arrow-right, after)
+                    &::after
+                        font-size: 12px
