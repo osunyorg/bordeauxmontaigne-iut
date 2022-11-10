@@ -9,5 +9,7 @@
                 color: white
         &:not(:first-child)
             padding-left: px2rem(18)
-        //     &::before
-        //         content: map-get($icons, "caret-right")
+            @include icon(caret-right, before)
+            &::before
+                opacity: 0.5
+
