@@ -1,0 +1,10 @@
+{{- if or (.Params.image) (partial "GetTextFromHTML" .Params.description_short) -}}
+  <div class="blocks blocks-chapo">
+    <div class="container">
+      <div class="block-content">
+        {{ partial "pages/image.html" .Params.image }}
+        {{ partial "pages/chapo.html" .Params.description_short }}
+      </div>
+    </div>
+  </div>
+{{- end -}}

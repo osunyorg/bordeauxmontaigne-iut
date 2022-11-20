@@ -5,9 +5,10 @@
 
   {{- if .Params.blocks }}
     <div class="content-blocks">
-      {{ partial "pages/aside.html"
+      {{ partial "toc/container.html"
           (dict
               "category" $category
+              "toc" "pages/toc.html"
               "context" .
           )
       }}
