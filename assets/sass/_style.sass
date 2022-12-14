@@ -3,3 +3,9 @@ ul.categories
     > li 
         > .title
             @include h3
+
+
+header[role="banner"]
+    html.has-menu-opened &, &.is-sticky
+        .logo img
+            filter: invert(1)
