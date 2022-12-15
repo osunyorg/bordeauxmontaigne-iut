@@ -20,7 +20,7 @@ header[role="banner"]
                 margin-top: 0
             ul
                 padding-top: 0
-        a, span 
+        a, span
             font-size: px2rem(16)
             @include media-breakpoint-down(md)
                 padding: calc(#{$spacing0} / 2) 0
@@ -80,9 +80,12 @@ ul.diplomas
 // blocks
 
 .block-pages
-    .grid, .cards
+    .cards
         h1
             @include h4
+    .grid
+        h1
+            @include h6
 
 .block-chapter
     @include in-page-with-or-without-sidebar
@@ -92,7 +95,7 @@ ul.diplomas
     .top
         h2, h3
             @include h4
-            
+
 .block-call_to_action
     .call_to_action
         @include in-page-without-sidebar
