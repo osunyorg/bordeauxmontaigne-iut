@@ -3,6 +3,8 @@ title: >
   IUT Bordeaux Montaigne
 breadcrumb_title: "Accueil"
 url: "/"
+slug: "accueil"
+
 position: 13
 full_width: true
 bodyclass: 
@@ -26,15 +28,16 @@ description: >
   L’IUT Bordeaux Montaigne, le plus court chemin pour aller loin
 description_short: >
   Le plus court chemin pour aller loin
+
 header_text: >-
   Institut Universitaire de Technologie Bordeaux Montaigne
 legacy_text: >
-   
+  <div>    </div>
 blocks:
   - template: pages
     title: >-
       Notre institut
-    position: 10
+    position: 1
     data:
       page: /notre-institut/
       show_main_description: true
@@ -48,20 +51,42 @@ blocks:
           slug: /notre-institut/ressources/
         - page: /notre-institut/informations-pratiques/
           slug: /notre-institut/informations-pratiques/
+  - template: call_to_action
+    title: >-
+      Portes ouvertes samedi 4 mars
+    position: 2
+    data:
+      text: >-
+        <p><b>Lycéens, futurs étudiants, découvrez nos formations !</b></p><p>    </p><p>L'IUT Bordeaux Montaigne vous donne rendez-vous le <b>samedi 4 mars 2023</b>  pour vous accompagner et répondre  à vos questions concernant vos futures études et votre vie étudiante.</p><p>Nous vous accueillerons de 10h à 16h, <br>sous réserve de l'évolution des conditions sanitaires.<br></p>
+
+
+      image:
+        id: "83faee4c-0730-430e-bdcc-9298b10d6ed1"
+        file: "83faee4c-0730-430e-bdcc-9298b10d6ed1"
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+      buttons:
   - template: posts
     title: >-
       Actualités
-    position: 11
+    position: 3
     data:
+      layout: highlight
       posts:
-        - "2022/2022-09-26-moi-s-montaigne-montaigne-a-bordeaux-montaigne-et-bordeaux"
-        - "2022/2022-10-03-la-carte-jeune-bordeaux-metropole"
-        - "2022/2022-09-22-10e-edition-du-prix-des-lecteurs-de-lescale-du-livre"
-        - "2022/2022-09-06-election-a-la-direction-de-l-iut-bordeaux-montaigne"
+        - "2022/2022-12-13-des-etudiant-es-creent-le-jeu-koez-o-et-sont-recompense-es-pour-leur-engagement-societal"
+        - "2022/2022-12-06-portraits-du-personnel-gaelle-suchestow"
   - template: key_figures
     title: >-
       Chiffres clés
-    position: 12
+    position: 4
     data:
       description: >-
         
@@ -111,7 +136,7 @@ blocks:
   - template: pages
     title: >-
       Formation
-    position: 13
+    position: 5
     data:
       page: /formation/
       show_main_description: false

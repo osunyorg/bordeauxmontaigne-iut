@@ -23,7 +23,6 @@ administrators:
   - "aurelie-doumbo"
   - "helene-ertle"
   - "marina-esteves"
-  - "elorie-feminier-mazain"
   - "johanna-hourregue"
   - "david-lachaud"
   - "eric-lamothe"
@@ -69,8 +68,6 @@ administrators_description:
     Gestion administrative et financière
   "marina-esteves": >
     Service PAO
-  "elorie-feminier-mazain": >
-    Centre de Ressources Montaigne
   "johanna-hourregue": >
     Centre de Ressources Montaigne
   "david-lachaud": >
@@ -181,6 +178,5 @@ roles:
       - "johanna-hourregue"
       - "mathilda-menadeo"
       - "zoe-cossais-bossard"
-      - "elorie-feminier-mazain"
       - "eve-tissot"
 ---

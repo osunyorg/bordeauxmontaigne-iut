@@ -127,8 +127,12 @@
       target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
       children: []
-    - title: Sport et culture
-      target: "/vie-etudiante/liut-au-quotidien/sport-et-culture/"
+    - title: Culture
+      target: "/vie-etudiante/liut-au-quotidien/culture/"
+      kind: page
+      children: []
+    - title: Sport
+      target: "/vie-etudiante/liut-au-quotidien/sport/"
       kind: page
       children: []
   - title: Aide & entraide
