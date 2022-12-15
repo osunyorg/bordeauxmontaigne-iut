@@ -81,13 +81,15 @@ ul.diplomas
         // min-height: auto !important
         // padding-bottom: 0
         @include media-breakpoint-down(md)
-            padding-top: px2rem(140)
+            padding-top: px2rem(180)
         @include media-breakpoint-up(xl)
             margin-bottom: $spacing4
             min-height: $hero-height-desktop
         @include media-breakpoint-up(desktop)
             hgroup
                 max-width: 50%
+        @include media-breakpoint-down(md)
+            padding-bottom: 0
         .container
             margin-top: $spacing3
             .content
@@ -104,10 +106,8 @@ ul.diplomas
                 aspect-ratio: 8/6
                 display: block
                 margin-bottom: half($grid-gutter)
-            // @include media-breakpoint-down(md)
-            //     margin-bottom: 0
-            //     margin-left: - $grid-gutter
-            //     margin-right: - $grid-gutter
+            @include media-breakpoint-down(md)
+                margin-bottom: 0
             @include media-breakpoint-up(lg)
                 top: calc(#{$spacing3} +  calc(2.6rem + var(--header-height)))
                 bottom: - $grid-gutter
