@@ -72,19 +72,27 @@ ul.diplomas
             color: $program-color
 
 // Programs
-
-.essential
-    dt
-        color: transparentize($hero-color, .2)
+.hero-program
+    #essential
+        @include media-breakpoint-down(desktop)
+            background-color: darken($program-color, 3)
+            margin: $spacing1
+            padding-bottom: $spacing1
+        .essential
+            dt
+                color: transparentize($hero-color, .2)
+        .buttons
+            .dropdown-share
+                button
+                    border-color: white
+                .dropdown-menu
+                    a 
+                        color: $program-color
+        .diplomas-select 
+            .dropdown-menu 
+                a:hover
+                    background-color: $program-color
 .programs__section
-    .buttons
-        .dropdown-share
-            button
-                border-color: white
-    .diplomas-select 
-        .dropdown-menu 
-            a:hover
-                background-color: $program-color
     .block-key_figures
         ul
             @include media-breakpoint-up(md)
