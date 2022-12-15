@@ -29,18 +29,20 @@ ul.categories
         > .title
             font-size: px2rem(28)
             @include media-breakpoint-up(md)
-                @include h3
-ol.programs
-    > li
+                @include h2
+ol.programs,
+ul.diplomas
+    > li,
+    ol.programs li
         a:hover
             color: $program-color
 
 // Programs
 
+.essential
+    dt
+        color: transparentize($hero-color, .2)
 .programs__section
-    .essential
-        dt
-            color: transparentize($hero-color, .2)
     .buttons
         .dropdown-share
             button
