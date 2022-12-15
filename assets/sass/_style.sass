@@ -74,8 +74,55 @@ ul.diplomas
 
 // Home
 .page__home
-    footer
-        margin-top: 0
+    .hero
+        align-items: start
+        margin-bottom: $spacing3
+        padding-bottom: $spacing3
+        // min-height: auto !important
+        // padding-bottom: 0
+        @include media-breakpoint-down(md)
+            padding-top: px2rem(140)
+        @include media-breakpoint-up(xl)
+            margin-bottom: $spacing4
+            min-height: $hero-height-desktop
+        @include media-breakpoint-up(desktop)
+            hgroup
+                max-width: 50%
+        .container
+            margin-top: $spacing3
+            .content
+                margin-top: 0
+                z-index: 1
+        h1
+            @media (min-width: 1200px) and (max-width: 1360px)
+                font-size: px2rem(50)
+        figure
+            picture
+                margin-bottom: 0 !important
+                height: 100%
+            @include media-breakpoint-down(lg)
+                aspect-ratio: 8/6
+                display: block
+                margin-bottom: half($grid-gutter)
+            // @include media-breakpoint-down(md)
+            //     margin-bottom: 0
+            //     margin-left: - $grid-gutter
+            //     margin-right: - $grid-gutter
+            @include media-breakpoint-up(lg)
+                top: calc(#{$spacing3} +  calc(2.6rem + var(--header-height)))
+                bottom: - $grid-gutter
+                margin-bottom: 0 !important
+                left: calc(50% + #{$grid-gutter} / 2)
+                position: absolute
+                right: $grid-gutter
+                width: auto
+            img
+                height: 100%
+                object-fit: cover
+                width: 100%
+        p
+            @include media-breakpoint-down(xl)
+                margin-bottom: px2rem(30)
 
 // blocks
 
