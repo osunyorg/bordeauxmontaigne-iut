@@ -30,6 +30,26 @@ header[role="banner"]
             @include media-breakpoint-down(md)
                 line-height: 140%
 
+// hero
+.posts__section,
+.posts__page,
+.categories__taxonomy,
+.categories__term
+    .hero
+        background-color: $post-color
+
+.diplomas__taxonomy,
+.diplomas__term,
+.programs__section
+    .hero
+        background-color: $program-color
+
+.pages__section,
+.pages__page
+    .hero
+        background-color: $institute-color
+
+
 // Breadcrumb
 
 .breadcrumb 
@@ -124,6 +144,8 @@ ul.diplomas
             @include media-breakpoint-down(xl)
                 margin-bottom: px2rem(30)
 
+
+
 // blocks
 
 .block-pages
@@ -154,3 +176,4 @@ ul.diplomas
         .description
             p
                 @include inherit-text
+
