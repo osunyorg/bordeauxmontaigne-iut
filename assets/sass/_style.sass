@@ -43,7 +43,7 @@ ul.categories
         > .title
             font-size: px2rem(28)
             @include media-breakpoint-up(md)
-                @include h2
+                @include h3
 ol.programs,
 ul.diplomas
     > li,
@@ -67,9 +67,6 @@ ul.diplomas
                 background-color: $program-color
     .block-key_figures
         ul
-            @include grid(2)
-            li
-                margin-top: 0
             @include media-breakpoint-up(md)
                 @include grid(4)
                 padding-bottom: $spacing4
@@ -79,3 +76,10 @@ ul.diplomas
 .page__home
     footer
         margin-top: 0
+
+// blocks
+
+.block-pages
+    .grid, .cards
+        h1
+            @include h4
