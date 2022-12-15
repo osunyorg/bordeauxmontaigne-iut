@@ -27,6 +27,7 @@
     "setup-example": "git submodule add https://github.com/noesya/osuny-example",
     "server-example": "hugo server --config 'osuny-example/config/example/config.yaml'",
     "example": "yarn setup-example > /dev/null || yarn update && yarn server-example",
-    "update-theme": "cd themes/osuny-hugo-theme-aaa && git checkout main && git pull && cd ../.. && git commit -am 'theme'"
+    "update-theme": "cd themes/osuny-hugo-theme-aaa && git checkout main && git pull && cd ../.. && git commit -am 'theme'",
+    "push-theme": "git commit -am 'theme' && git push"
   }
 }
