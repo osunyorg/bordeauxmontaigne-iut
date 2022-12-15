@@ -7,5 +7,23 @@ ol.programs,
 ul.categories 
     > li 
         > .title
-            @include h3
+            @include media-breakpoint-up(md)
+                @include h3
+ol.programs
+    > li
+        .title 
+            &:hover
+                color: $program-color
 
+.programs__section
+    .essential
+        dt
+            color: transparentize($hero-color, .2)
+    .buttons
+        .dropdown-share
+            button
+                border-color: white
+    .diplomas-select 
+        .dropdown-menu 
+            a:hover
+                background-color: $program-color
