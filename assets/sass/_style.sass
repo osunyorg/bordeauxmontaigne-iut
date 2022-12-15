@@ -92,3 +92,15 @@ ul.diplomas
     .top
         h2, h3
             @include h4
+            
+.block-call_to_action
+    .call_to_action
+        @include in-page-without-sidebar
+            h2
+                @include h2
+        @include in-page-with-sidebar
+            h2
+                @include h2
+        .description
+            p
+                @include inherit-text
