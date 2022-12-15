@@ -126,22 +126,27 @@ ul.diplomas
 
 // blocks
 
+.block
+    .top
+        h2, h3
+            @include h4
+    @include in-page-without-sidebar
+        h2, h3 
+            @include h6
+
 .block-pages
     .cards
         h1
             @include h4
-    .grid
-        h1
-            @include h6
+    &--grid
+        .top
+            h2
+                @include h6
 
 .block-chapter
     @include in-page-with-or-without-sidebar
         h2, h3
             @include h5
-.block
-    .top
-        h2, h3
-            @include h4
 
 .block-call_to_action
     .call_to_action
