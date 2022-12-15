@@ -1,19 +1,45 @@
+// Header
+
 header[role="banner"]
     border-bottom-color: hsla(0,0%,100%,.2)
     .dropdown-menu
         border-top: 1px solid rgba(0,0,0,.2)
+        @include media-breakpoint-up(md)
+            padding-bottom: $spacing3
+            padding-top: $spacing3
+        a, span
+            font-family: $body-font-family
+    .nav-level-2
+        > li
+            > a,
+            > span
+                font-size: px2rem(18)
+    .nav-level-3 
+        a,
+        span 
+            font-size: px2rem(14)
+
+// Breadcrumb
+
+.breadcrumb 
+    li
+        a
+            text-decoration-color: rgba($breadcrumb-color, 0.2)
+            text-underline-offset: 3px
 
 ol.programs,
 ul.categories 
     > li 
         > .title
+            font-size: px2rem(28)
             @include media-breakpoint-up(md)
                 @include h3
 ol.programs
     > li
-        .title 
-            &:hover
-                color: $program-color
+        a:hover
+            color: $program-color
+
+// Programs
 
 .programs__section
     .essential
@@ -27,3 +53,12 @@ ol.programs
         .dropdown-menu 
             a:hover
                 background-color: $program-color
+    .block-key_figures
+        ul
+            @include grid(2)
+            li
+                margin-top: 0
+            @include media-breakpoint-up(md)
+                @include grid(4)
+                padding-bottom: $spacing4
+                padding-top: $spacing3
