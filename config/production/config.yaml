@@ -1,1 +1,5 @@
 baseURL: https://www.iut.u-bordeaux-montaigne.fr
+
+## LANGUAGE
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: false
