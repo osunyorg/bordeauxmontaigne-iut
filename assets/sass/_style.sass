@@ -30,7 +30,16 @@ header[role="banner"]
             @include media-breakpoint-down(md)
                 line-height: 140%
 
-// hero
+// Breadcrumb
+.breadcrumb 
+    li
+        a
+            text-decoration-color: rgba($breadcrumb-color, 0.2)
+            &:hover
+                color: white
+
+
+// colors
 .posts__section,
 .posts__page,
 .categories__taxonomy,
@@ -48,14 +57,21 @@ header[role="banner"]
 .persons__page
     @include page-color($institute-color)
 
-// Breadcrumb
+// hero
+body:not(.diplomas__term)
+    .hero
+        display: flex
+        .content
+            height: 100%
+            figure
+                margin-bottom: 0
+                position: relative
+                figcaption
+                    position: absolute
+                    bottom: 0
+                    left: 0
+                    right: 0
 
-.breadcrumb 
-    li
-        a
-            text-decoration-color: rgba($breadcrumb-color, 0.2)
-            &:hover
-                color: white
 ol.programs,
 ul.categories 
     > li 
