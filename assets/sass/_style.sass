@@ -35,21 +35,18 @@ header[role="banner"]
 .posts__page,
 .categories__taxonomy,
 .categories__term
-    .hero
-        background-color: $post-color
+    @include page-color($post-color)
 
 .diplomas__taxonomy,
 .diplomas__term,
 .programs__section
-    .hero
-        background-color: $program-color
+    @include page-color($program-color)
 
 .pages__section,
 .pages__page,
 .persons__section,
 .persons__page
-    .hero
-        background-color: $institute-color
+    @include page-color($institute-color)
 
 // Breadcrumb
 
