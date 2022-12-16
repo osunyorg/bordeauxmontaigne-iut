@@ -209,11 +209,10 @@ footer[role="contentinfo"]
             h2
                 @include h6
     &--list
-        @include in-page-with-or-without-sidebar
-            .top
-                a
-                    @include link
-                    text-decoration-color: rgba(0,0,0,0)
+        .top
+            a
+                @include link
+                text-decoration-color: rgba(0,0,0,0)
         .block-content
             @include in-page-with-or-without-sidebar
                 grid-row-gap: $spacing3
