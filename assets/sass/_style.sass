@@ -154,7 +154,25 @@ ul.diplomas
         p
             @include media-breakpoint-down(xl)
                 margin-bottom: px2rem(30)
-
+// Footer
+footer[role="contentinfo"]
+    position: relative
+    @include media-breakpoint-up(md)
+        &::before
+            border-bottom: 1px solid hsla(0,0%,100%,.3)
+            content: ""
+            left: 0
+            position: absolute
+            right: 0
+            top: 50%
+    ul li a,
+    a
+        @include link($footer-color)
+    .footer
+        &-site
+            @include meta
+        &-social, &-legals, &-credit
+            @include small
 // Posts
 .posts__page
     .lead
