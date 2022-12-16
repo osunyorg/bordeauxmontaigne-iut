@@ -175,21 +175,32 @@ ul.diplomas
                 margin-bottom: px2rem(30)
 // Footer
 footer[role="contentinfo"]
-    position: relative
-    @include media-breakpoint-up(md)
-        &::before
-            border-bottom: 1px solid hsla(0,0%,100%,.3)
-            content: ""
-            left: 0
-            position: absolute
-            right: 0
-            top: 50%
     ul li a,
     a
         @include link($footer-color)
+    @include media-breakpoint-up(desktop)
+        .container:first-child
+            padding-bottom: $spacing5
+        .container:last-child
+            padding-top: $spacing2
+            border-top: 1px solid hsla(0,0%,100%,.3)
+        @include media-breakpoint-up(xxl)
+            ul li
+                display: inline-block
+                + li 
+                    margin-left: $spacing0
+            .footer-legal
+                display: flex
+                small
+                    margin-left: $spacing0
+                    &::before
+                        content: "—"
+                        margin-right: $spacing0
     .footer
         &-site
-            @include meta
+            @include inherit-text
+            p
+                margin-top: 0
         &-social, &-legals, &-credit
             @include small
 
