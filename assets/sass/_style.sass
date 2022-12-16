@@ -51,7 +51,6 @@ header[role="banner"]
     .hero
         background-color: $institute-color
 
-
 // Breadcrumb
 
 .breadcrumb 
@@ -154,7 +153,10 @@ ul.diplomas
             @include media-breakpoint-down(xl)
                 margin-bottom: px2rem(30)
 
-
+// Typography
+@include media-breakpoint-up(xl)
+    .lead
+        @include h2
 
 // blocks
 
