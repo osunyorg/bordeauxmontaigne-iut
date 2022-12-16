@@ -163,6 +163,9 @@ ul.diplomas
     @include in-page-without-sidebar
         h2, h3 
             @include h6
+    @include in-page-with-sidebar
+        h2
+            @include h3
 
 .block-pages
     .cards
@@ -172,7 +175,18 @@ ul.diplomas
         .top
             h2
                 @include h6
-
+    &--list
+        .block-content
+            @include in-page-with-or-without-sidebar
+                grid-row-gap: $spacing3
+            @include in-page-without-sidebar
+                .description
+                    @include h3
+.block-posts
+    &--highlight
+        .highlight-post
+            h1
+                @include h3
 .block-chapter
     @include in-page-with-or-without-sidebar
         h2, h3
