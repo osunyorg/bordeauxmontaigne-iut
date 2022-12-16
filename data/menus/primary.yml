@@ -1,98 +1,98 @@
 ---
 - title: Actualités
-  target: "/fr/accueil/actualites/"
+  target: "/fr/actualites/"
   kind: posts
   children: []
 - title: Notre institut
-  target: "/fr/accueil/notre-institut/"
+  target: "/fr/notre-institut/"
   kind: page
   children:
   - title: Présentation de l'IUT
-    target: "/fr/accueil/notre-institut/presentation-de-liut/"
+    target: "/fr/notre-institut/presentation-de-liut/"
     kind: page
     children:
     - title: Histoire et héritage
-      target: "/fr/accueil/notre-institut/presentation-de-liut/histoire-et-heritage/"
+      target: "/fr/notre-institut/presentation-de-liut/histoire-et-heritage/"
       kind: page
       children: []
     - title: Les atouts des IUT
-      target: "/fr/accueil/notre-institut/presentation-de-liut/les-atouts-des-iut/"
+      target: "/fr/notre-institut/presentation-de-liut/les-atouts-des-iut/"
       kind: page
       children: []
     - title: Relations avec les entreprises
-      target: "/fr/accueil/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
+      target: "/fr/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
       kind: page
       children: []
   - title: Ressources
-    target: "/fr/accueil/notre-institut/ressources/"
+    target: "/fr/notre-institut/ressources/"
     kind: page
     children:
     - title: Équipe
-      target: "/fr/accueil/notre-institut/ressources/equipe/"
+      target: "/fr/notre-institut/ressources/equipe/"
       kind: persons
       children: []
     - title: Espaces et équipements
-      target: "/fr/accueil/notre-institut/ressources/espaces-et-equipements/"
+      target: "/fr/notre-institut/ressources/espaces-et-equipements/"
       kind: page
       children: []
   - title: Informations pratiques
-    target: "/fr/accueil/notre-institut/informations-pratiques/"
+    target: "/fr/notre-institut/informations-pratiques/"
     kind: page
     children:
     - title: Règles d'usage et de sécurité
-      target: "/fr/accueil/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
+      target: "/fr/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
       kind: page
       children: []
     - title: Plan d’accès et contact
-      target: "/fr/accueil/notre-institut/informations-pratiques/plan-dacces-et-contact/"
+      target: "/fr/notre-institut/informations-pratiques/plan-dacces-et-contact/"
       kind: page
       children: []
 - title: Formation
-  target: "/fr/accueil/formation/offre-de-formation/"
+  target: "/fr/formation/offre-de-formation/"
   kind: programs
   children:
   - title: Offre de formation
-    target: "/fr/accueil/formation/offre-de-formation/"
+    target: "/fr/formation/offre-de-formation/"
     kind: programs
     children:
     - title: Par diplômes
-      target: "/fr/accueil/formation/offre-de-formation/diplomes/"
+      target: "/fr/formation/offre-de-formation/diplomes/"
       kind: page
       children: []
   - title: Régimes d'inscriptions
-    target: "/fr/accueil/formation/regimes-dinscriptions/"
+    target: "/fr/formation/regimes-dinscriptions/"
     kind: page
     children:
     - title: Formation continue
-      target: "/fr/accueil/formation/regimes-dinscriptions/formation-continue/"
+      target: "/fr/formation/regimes-dinscriptions/formation-continue/"
       kind: page
       children: []
     - title: Apprentissage
-      target: "/fr/accueil/formation/regimes-dinscriptions/apprentissage/"
+      target: "/fr/formation/regimes-dinscriptions/apprentissage/"
       kind: page
       children: []
   - title: Scolarité
-    target: "/fr/accueil/formation/scolarite/"
+    target: "/fr/formation/scolarite/"
     kind: page
     children:
     - title: Être candidat·e
-      target: "/fr/accueil/formation/scolarite/etre-candidat/"
+      target: "/fr/formation/scolarite/etre-candidat/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/fr/accueil/formation/scolarite/inscription-administrative/"
+      target: "/fr/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
   - title: International
-    target: "/fr/accueil/formation/international/"
+    target: "/fr/formation/international/"
     kind: page
     children: []
 - title: Vie étudiante
-  target: "/fr/accueil/vie-etudiante/"
+  target: "/fr/vie-etudiante/"
   kind: page
   children:
   - title: Centre de ressources Montaigne
-    target: "/fr/accueil/vie-etudiante/centre-de-ressources-montaigne/"
+    target: "/fr/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
     children:
     - title: Trouver un document
@@ -104,11 +104,11 @@
       kind: url
       children: []
   - title: Services numériques
-    target: "/fr/accueil/vie-etudiante/services-numeriques/"
+    target: "/fr/vie-etudiante/services-numeriques/"
     kind: page
     children:
     - title: Outils pédagogiques
-      target: "/fr/accueil/vie-etudiante/services-numeriques/outils-pedagogiques/"
+      target: "/fr/vie-etudiante/services-numeriques/outils-pedagogiques/"
       kind: page
       children: []
     - title: Espace étudiant
@@ -120,39 +120,39 @@
       kind: url
       children: []
   - title: L'IUT au quotidien
-    target: "/fr/accueil/vie-etudiante/liut-au-quotidien/"
+    target: "/fr/vie-etudiante/liut-au-quotidien/"
     kind: page
     children:
     - title: Vie associative
-      target: "/fr/accueil/vie-etudiante/liut-au-quotidien/vie-associative/"
+      target: "/fr/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
       children: []
     - title: Culture
-      target: "/fr/accueil/vie-etudiante/liut-au-quotidien/culture/"
+      target: "/fr/vie-etudiante/liut-au-quotidien/culture/"
       kind: page
       children: []
     - title: Sport
-      target: "/fr/accueil/vie-etudiante/liut-au-quotidien/sport/"
+      target: "/fr/vie-etudiante/liut-au-quotidien/sport/"
       kind: page
       children: []
   - title: Aide & entraide
-    target: "/fr/accueil/vie-etudiante/aide-entraide/"
+    target: "/fr/vie-etudiante/aide-entraide/"
     kind: page
     children:
     - title: Aides sociales
-      target: "/fr/accueil/vie-etudiante/aide-entraide/aides-sociales/"
+      target: "/fr/vie-etudiante/aide-entraide/aides-sociales/"
       kind: page
       children: []
     - title: Santé et prévention
-      target: "/fr/accueil/vie-etudiante/aide-entraide/sante-et-prevention/"
+      target: "/fr/vie-etudiante/aide-entraide/sante-et-prevention/"
       kind: page
       children: []
     - title: Contacter un médiateur
-      target: "/fr/accueil/vie-etudiante/aide-entraide/contacter-un-mediateur/"
+      target: "/fr/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
 - title: Intranet
-  target: "/fr/accueil/intranet/"
+  target: "/fr/intranet/"
   kind: page
   children: []
 

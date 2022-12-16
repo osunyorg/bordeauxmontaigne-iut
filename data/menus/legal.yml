@@ -1,18 +1,18 @@
 ---
 - title: Mentions légales
-  target: "/fr/accueil/mentions-legales/"
+  target: "/fr/mentions-legales/"
   kind: page
   children: []
 - title: Politique de confidentialité
-  target: "/fr/accueil/politique-de-confidentialite/"
+  target: "/fr/politique-de-confidentialite/"
   kind: page
   children: []
 - title: Accessibilité partiellement conforme
-  target: "/fr/accueil/accessibilite/"
+  target: "/fr/accessibilite/"
   kind: page
   children: []
 - title: Plan du site
-  target: "/fr/accueil/plan-du-site/"
+  target: "/fr/plan-du-site/"
   kind: page
   children: []
 
