@@ -87,26 +87,30 @@ ul.diplomas
             color: $program-color
 
 // Programs
-.hero-program
-    #essential
+.diplomas__term,
+.programs__section
+    .hero
         @include media-breakpoint-down(desktop)
-            background-color: darken($program-color, 3)
-            margin: $spacing1
             padding-bottom: $spacing1
-        .essential
-            dt
-                color: transparentize($hero-color, .2)
-        .buttons
-            .dropdown-share
-                button
-                    border-color: white
-                .dropdown-menu
-                    a 
-                        color: $program-color
-        .diplomas-select 
-            .dropdown-menu 
-                a:hover
-                    background-color: $program-color
+        .container + div
+            @include media-breakpoint-down(desktop)
+                background-color: darken($program-color, 3)
+                margin: $spacing1 $spacing1 0
+                padding-bottom: $spacing1
+            .essential
+                dt
+                    color: transparentize($hero-color, .2)
+            .buttons
+                .dropdown-share
+                    button
+                        border-color: white
+                    .dropdown-menu
+                        a 
+                            color: $program-color
+            .diplomas-select 
+                .dropdown-menu 
+                    a:hover
+                        background-color: $program-color
 .programs__section
     .block-key_figures
         ul
@@ -185,20 +189,19 @@ footer[role="contentinfo"]
             @include meta
         &-social, &-legals, &-credit
             @include small
-// Posts
-.posts__page
-    .lead
-        @include h3
 
 // Typography
-.pages__section:not(.full-width),
-.posts__page:not(.full-width)
-    .lead
-        @include h3
 @include media-breakpoint-up(xl)
     .persons__page
         .lead
             @include h2
+
+@include media-breakpoint-down(md)
+    ol.programs
+        > li
+            > .title::after
+                bottom: unset
+                font-size: px2rem(12)
 
 // blocks
 
