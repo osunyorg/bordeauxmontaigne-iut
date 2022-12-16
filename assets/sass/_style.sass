@@ -155,9 +155,13 @@ ul.diplomas
                 margin-bottom: px2rem(30)
 
 // Typography
-@include media-breakpoint-up(xl)
+.pages__section:not(.full-width)
     .lead
-        @include h2
+        @include h3
+@include media-breakpoint-up(xl)
+    .persons__page
+        .lead
+            @include h2
 
 // blocks
 
