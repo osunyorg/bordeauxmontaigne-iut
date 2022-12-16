@@ -94,10 +94,14 @@ ul.diplomas
         @include media-breakpoint-down(desktop)
             padding-bottom: $spacing1
         .container + div
+            position: relative
             @include media-breakpoint-down(desktop)
                 background-color: darken($program-color, 3)
                 margin: $spacing1 $spacing1 0
                 padding-bottom: $spacing1
+            @include media-breakpoint-up(desktop)
+                border-top: 1px solid hsla(0,0%,100%,.3)
+                margin-top: $spacing3
             .essential
                 dt
                     color: transparentize($hero-color, .2)
@@ -193,7 +197,8 @@ footer[role="contentinfo"]
 
 // Typography
 @include media-breakpoint-up(xl)
-    .persons__page
+    .persons__page,
+    .programs__section
         .lead
             @include h2
 
@@ -264,5 +269,7 @@ footer[role="contentinfo"]
                 @include meta
                 @include link
                 
-                
-
+.block-definitions
+    details
+        summary
+            font-family: $body-font-family
