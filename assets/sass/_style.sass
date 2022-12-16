@@ -59,18 +59,19 @@ header[role="banner"]
 
 // hero
 body:not(.diplomas__term)
-    .hero
-        display: flex
-        .content
-            height: 100%
-            figure
-                margin-bottom: 0
-                position: relative
-                figcaption
-                    position: absolute
-                    bottom: 0
-                    left: 0
-                    right: 0
+    @include media-breakpoint-up(desktop)
+        .hero
+            display: flex
+            .content
+                height: 100%
+                figure
+                    margin-bottom: 0
+                    position: relative
+                    figcaption
+                        position: absolute
+                        bottom: 0
+                        left: 0
+                        right: 0
 
 ol.programs,
 ul.categories 
