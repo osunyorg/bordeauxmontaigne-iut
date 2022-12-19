@@ -1,2 +1,5 @@
 fr:
   title: IUT Bordeaux Montaigne
+  contentDir: content/fr
+  languageCode: fr
+  languageName: Français

@@ -1,8 +1,5 @@
 theme: osuny-hugo-theme-aaa
 
-defaultContentLanguage: fr
-languageCode: fr
-
 paginate: 18
 enableRobotsTXT: true
 
