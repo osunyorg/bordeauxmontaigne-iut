@@ -20,7 +20,7 @@ header[role="banner"]
             ul
                 padding-top: 0
         a, span
-            font-size: px2rem(16)
+            font-size: px2rem(18)
             @include media-breakpoint-down(md)
                 padding: calc(#{$spacing0} / 2) 0
     .nav-level-3 
@@ -78,12 +78,6 @@ ul.categories
             font-size: px2rem(28)
             @include media-breakpoint-up(md)
                 @include h3
-ol.programs,
-ul.diplomas
-    > li,
-    ol.programs li
-        a:hover
-            color: $program-color
 
 // Programs
 .diplomas__term,
@@ -95,6 +89,7 @@ ul.diplomas
             position: relative
             @include media-breakpoint-down(desktop)
                 background-color: darken($program-color, 3)
+                border-radius: 4px
                 margin: $spacing1 $spacing1 0
                 padding-bottom: $spacing1
             @include media-breakpoint-up(desktop)
@@ -254,6 +249,10 @@ footer[role="contentinfo"]
         .highlight-post
             h1
                 @include h3
+    .pages__section &
+        .post
+            h1
+                @include h4
 .block-chapter
     @include in-page-with-or-without-sidebar
         h2, h3
