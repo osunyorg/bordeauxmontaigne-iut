@@ -1,5 +1,5 @@
 // Header
-header[role="banner"]
+header#document-header
     border-bottom-color: hsla(0,0%,100%,.2)
     .dropdown-menu
         @include media-breakpoint-up(md)
@@ -72,7 +72,7 @@ ul.categories
 // Programs
 .diplomas__term,
 .programs__section
-    .hero
+    .hero-program
         @include media-breakpoint-down(desktop)
             padding-bottom: $spacing1
         .container + div
@@ -159,8 +159,7 @@ ul.categories
             @include media-breakpoint-down(xl)
                 margin-bottom: px2rem(30)
 // Footer
-footer[role="contentinfo"]
-    ul li a,
+footer#document-footer
     a
         @include link($footer-color)
     @include media-breakpoint-up(desktop)
