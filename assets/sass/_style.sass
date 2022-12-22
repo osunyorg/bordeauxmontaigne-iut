@@ -72,9 +72,12 @@ ul.categories
 // Programs
 .diplomas__term,
 .programs__section
-    .hero-program
+    .hero
         @include media-breakpoint-down(desktop)
             padding-bottom: $spacing1
+        .essential
+            dt
+                color: transparentize($hero-color, .2)
         .container + div
             position: relative
             @include media-breakpoint-down(desktop)
@@ -85,9 +88,6 @@ ul.categories
             @include media-breakpoint-up(desktop)
                 border-top: 1px solid hsla(0,0%,100%,.3)
                 margin-top: $spacing3
-            .essential
-                dt
-                    color: transparentize($hero-color, .2)
             .buttons
                 .dropdown-share
                     button
