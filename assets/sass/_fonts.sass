@@ -1,31 +1,4 @@
-@font-face
-    font-display: swap
-    font-family: 'Basier Circle'
-    font-style: normal
-    font-weight: 500
-    src: url('../fonts/Basier-Circle-medium/basiercircle-medium-webfont.eot')
-    src: url('../fonts/Basier-Circle-medium/basiercircle-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Basier-Circle-medium/basiercircle-medium-webfont.woff2') format('woff2'), url('../fonts/Basier-Circle-medium/basiercircle-medium-webfont.woff') format('woff'), url('../fonts/Basier-Circle-medium/basiercircle-medium-webfont.ttf') format('truetype')
-
-@font-face
-    font-display: swap
-    font-family: 'Basier Circle'
-    font-style: normal
-    font-weight: 600
-    src: url('../fonts/Basier-Circle-semibold/basiercircle-semibold.eot-webfont')
-    src: url('../fonts/Basier-Circle-semibold/basiercircle-semibold.eot-webfont?#iefix') format('embedded-opentype'), url('../fonts/Basier-Circle-semibold/basiercircle-semibold-webfont.woff2') format('woff2'), url('../fonts/Basier-Circle-semibold/basiercircle-semibold-webfont.woff') format('woff'), url('../fonts/Basier-Circle-semibold/basiercircle-semibold-webfont.ttf') format('truetype')
-
-@font-face
-    font-display: swap
-    font-family: 'Inter'
-    font-style: normal
-    font-weight: normal
-    src: url('../fonts/Inter/Inter.woff2') format('woff2'), url('../fonts/Inter/Inter.woff') format('woff')
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-
-@font-face
-    font-display: swap
-    font-family: 'Inter'
-    font-style: normal
-    font-weight: bold
-    src: url('../fonts/Inter/Inter.woff2') format('woff2'), url('../fonts/Inter/Inter.woff') format('woff')
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+@include font-face("Basier Circle", Basier-Circle-medium/basiercircle-medium-webfont, $weight: 500, $exts: (eot woff2 woff ttf))
+@include font-face("Basier Circle", Basier-Circle-semibold/basiercircle-semibold-webfont, $weight: 600, $exts: (eot woff2 woff ttf))
+@include font-face("Inter", Inter/inter-v12-latin-regular)
+@include font-face("Inter", Inter/inter-v12-latin-700, $weight: 700)
