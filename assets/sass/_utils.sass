@@ -1,6 +1,13 @@
 @mixin page-color($color)
     .hero
         background-color: $color
+        .content
+            figure
+                figcaption
+                    p,
+                    &::before
+                        background-color: $color
+                        color: white
     .block-testimonials
         blockquote p
             color: $color
