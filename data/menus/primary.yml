@@ -1,7 +1,7 @@
 ---
 - title: Actualités
   target: "/actualites/"
-  kind: posts
+  kind: page
   children: []
 - title: Notre institut
   target: "/notre-institut/"
@@ -29,7 +29,7 @@
     children:
     - title: Équipe
       target: "/notre-institut/ressources/equipe/"
-      kind: persons
+      kind: page
       children: []
     - title: Espaces et équipements
       target: "/notre-institut/ressources/espaces-et-equipements/"
@@ -49,11 +49,11 @@
       children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
-  kind: programs
+  kind: page
   children:
   - title: Offre de formation
     target: "/formation/offre-de-formation/"
-    kind: programs
+    kind: page
     children:
     - title: Par diplômes
       target: "/formation/offre-de-formation/diplomes/"
