@@ -1,10 +1,10 @@
 ---
 - title: LinkedIn
-  target: https://www.linkedin.com/school/iut-bordeaux-montaigne/
+  target: https://www.linkedin.com/school/iut-bordeaux-montaigne
   kind: url
   children: []
 - title: Facebook
-  target: https://www.facebook.com/iutmontaigne/
+  target: https://www.facebook.com/iutmontaigne
   kind: url
   children: []
 - title: Instagram
@@ -12,7 +12,7 @@
   kind: url
   children: []
 - title: Twitter
-  target: https://twitter.com/iutmontaigne/
+  target: https://twitter.com/iutmontaigne
   kind: url
   children: []
 
