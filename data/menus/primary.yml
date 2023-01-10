@@ -1,7 +1,7 @@
 ---
 - title: Actualités
   target: "/actualites/"
-  kind: posts
+  kind: page
   children: []
 - title: Notre institut
   target: "/notre-institut/"
@@ -29,7 +29,7 @@
     children:
     - title: Équipe
       target: "/notre-institut/ressources/equipe/"
-      kind: persons
+      kind: page
       children: []
     - title: Espaces et équipements
       target: "/notre-institut/ressources/espaces-et-equipements/"
@@ -49,11 +49,11 @@
       children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
-  kind: programs
+  kind: page
   children:
   - title: Offre de formation
     target: "/formation/offre-de-formation/"
-    kind: programs
+    kind: page
     children:
     - title: Par diplômes
       target: "/formation/offre-de-formation/diplomes/"
@@ -96,11 +96,11 @@
     kind: page
     children:
     - title: Trouver un document
-      target: https://scd.u-bordeaux-montaigne.fr/contenus/tout/
+      target: https://scd.u-bordeaux-montaigne.fr/contenus/tout
       kind: url
       children: []
     - title: Les autres bibliothèques
-      target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html/
+      target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html
       kind: url
       children: []
   - title: Services numériques
@@ -112,7 +112,7 @@
       kind: page
       children: []
     - title: Espace étudiant
-      target: https://etu.u-bordeaux-montaigne.fr/
+      target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
     - title: Bureau Virtuel
