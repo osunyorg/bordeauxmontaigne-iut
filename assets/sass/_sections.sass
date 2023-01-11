@@ -28,6 +28,10 @@ body:not(.diplomas__term):not(.page__home)
 .researchers__taxonomy
     @include page-color($institute-color)
 
+.page__home
+    @include page-color($site-color)
+    
+
 // Programs
 ol.programs,
 ul.categories
@@ -36,6 +40,8 @@ ul.categories
             font-size: px2rem(28)
             @include media-breakpoint-up(md)
                 @include h3
+
+
 
 .diplomas__taxonomy
     .diplomas
