@@ -2,7 +2,7 @@
   {{ partial "diplomas/hero-list.html" . }}
 
   <div class="container">
-    {{ partial "diplomas/chapo.html" .Params.description_short }}
+    {{ partial "diplomas/summary.html" .Params.description_short }}
     <ul class="diplomas">
       {{ range .Paginator.Pages }}
         <li>
