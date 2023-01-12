@@ -1,0 +1,178 @@
+
+
+// hero
+body:not(.diplomas__term):not(.page__home)
+    @include media-breakpoint-up(desktop)
+        .hero
+            display: flex
+
+// colors
+.posts__section,
+.posts__page,
+.categories__taxonomy,
+.categories__term
+    @include page-color($post-color)
+
+.diplomas__taxonomy,
+.diplomas__term,
+.programs__section
+    @include page-color($program-color)
+
+.pages__section,
+.pages__page,
+.persons__section,
+.persons__page,
+.teachers__taxonomy,
+.administrators__taxonomy,
+.authors__taxonomy,
+.researchers__taxonomy
+    @include page-color($institute-color)
+
+.page__home
+    @include page-color($site-color)
+    
+
+// Programs
+ol.programs,
+ul.categories
+    > li 
+        > .title
+            font-size: px2rem(28)
+            @include media-breakpoint-up(md)
+                @include h3
+
+
+
+.diplomas__taxonomy
+    .diplomas
+        > li 
+            > a
+                @include h3
+            .programs
+                li
+                    @include h5
+.diplomas__term
+    ol.programs
+        li .title
+            @include h4
+
+.diplomas__term,
+.programs__section
+    .hero
+        @include media-breakpoint-down(desktop)
+            padding-bottom: $spacing1
+        .essential
+            dt
+                color: transparentize($hero-color, .2)
+        .container + div
+            position: relative
+            @include media-breakpoint-down(desktop)
+                background-color: darken($program-color, 3)
+                border-radius: 4px
+                margin: $spacing1 $spacing1 0
+                padding-bottom: $spacing1
+            @include media-breakpoint-up(desktop)
+                border-top: 1px solid hsla(0,0%,100%,.3)
+                margin-top: $spacing3
+            .buttons
+                .dropdown-share
+                    button
+                        border-color: white
+                    .dropdown-menu
+                        a 
+                            color: $program-color
+            .diplomas-select 
+                .dropdown-menu 
+                    a:hover
+                        background-color: $program-color
+.programs__section
+    .lead
+        @include lead(false)
+
+    .block-key_figures
+        ul
+            @include media-breakpoint-up(md)
+                @include grid(4)
+                padding-bottom: $spacing4
+                padding-top: $spacing3
+    .document-content
+        .content
+            > h2
+                @include h6
+            h3
+                @include h4
+
+// Posts
+.post
+    h1
+        @include h4
+
+// Home
+.page__home
+    .hero
+        align-items: start
+        margin-bottom: $spacing3
+        padding-bottom: $spacing4
+        // min-height: auto !important
+        // padding-bottom: 0
+        hgroup
+            margin-top: 0
+            position: relative
+            z-index: 2
+
+        @include media-breakpoint-up(desktop)
+            margin-bottom: $spacing4
+            min-height: $hero-height-desktop
+        @include media-breakpoint-up(desktop)
+            hgroup
+                max-width: 50%
+        @include media-breakpoint-down(md)
+            padding-bottom: 0
+        .container
+            margin-top: $spacing3
+            .content
+                margin-top: 0
+                z-index: 1
+        h1
+            @media (min-width: 1200px) and (max-width: 1360px)
+                font-size: px2rem(50)
+        figure
+            margin-top: 0.7em
+            picture
+                margin-bottom: 0 !important
+                height: 100%
+            @include media-breakpoint-down(lg)
+                aspect-ratio: 8/6
+                display: block
+                margin-bottom: half($grid-gutter)
+            @include media-breakpoint-down(md)
+                margin-bottom: 0
+            @include media-breakpoint-up(lg)
+                top: calc(#{$spacing4} + var(--header-height))
+                bottom: - $grid-gutter
+                margin-bottom: 0 !important
+                left: calc(50% + #{$grid-gutter} / 2)
+                position: absolute
+                right: $grid-gutter
+                width: auto
+            img
+                height: 100%
+                object-fit: cover
+                width: 100%
+        p
+            @include media-breakpoint-down(xl)
+                margin-bottom: px2rem(30)
+
+// Typography
+@include media-breakpoint-up(xl)
+    .persons__page,
+    .programs__section
+        .lead
+            @include h2
+
+@include media-breakpoint-down(md)
+    ol.programs
+        > li
+            > .title::after
+                bottom: unset
+                font-size: px2rem(12)

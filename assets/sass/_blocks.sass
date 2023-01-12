@@ -1,0 +1,91 @@
+
+// blocks
+.block
+    .top
+        h2, h3
+            @include h4
+    @include in-page-without-sidebar
+        h2, h3 
+            @include h6
+    @include in-page-with-sidebar
+        h2
+            @include h4
+
+.block-pages
+    .cards
+        h1
+            @include h4
+    &--grid
+        .top
+            h2
+                @include h6
+        .grid article
+            h1
+                @include h5
+    &--list
+        .top
+            a
+                @include link
+                text-decoration-color: rgba(0,0,0,0)
+        .block-content
+            @include in-page-with-or-without-sidebar
+                grid-row-gap: $spacing3
+            @include in-page-without-sidebar
+                .description
+                    @include h3
+.block-posts
+    &--highlight
+        .highlight-post
+            h1
+                @include h3
+    .pages__section &
+        .post
+            h1
+                @include h4
+.block-chapter
+    @include in-page-with-or-without-sidebar
+        h2, h3
+            @include h4
+
+.block-call_to_action
+    .call_to_action
+        @include in-page-without-sidebar
+            h2
+                @include h2
+        @include in-page-with-sidebar
+            h2
+                @include h2
+        .description
+            p
+                @include inherit-text
+
+.block-organization_chart
+    article
+        .name
+            a
+                @include meta
+                @include link
+
+.block-definitions
+    details
+        summary
+            font-family: $body-font-family
+
+.block-testimonials
+    blockquote
+        p
+            padding-top: $spacing2
+            &:before
+                content: "“"
+                color: inherit
+                font-size: 5.625rem
+                line-height: 1
+                position: absolute
+                transform: translate(-15%,-50%)
+
+
+.block-programs
+    .programs
+        li
+            a
+                @include h4

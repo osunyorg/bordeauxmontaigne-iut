@@ -1,0 +1,68 @@
+// Header
+header#document-header
+    border-bottom-color: hsla(0,0%,100%,.2)
+    .dropdown-menu
+        @include media-breakpoint-up(md)
+            border-top: 1px solid rgba(0,0,0,.2)
+            padding-bottom: $spacing3
+            padding-top: $spacing3
+        a, span
+            font-family: $body-font-family
+    .nav-level-1
+        > li 
+            > a, span
+                @include media-breakpoint-down(md)
+                    font-size: px2rem(18)
+    .nav-level-2
+        @include media-breakpoint-down(md)
+            .has-children  + .has-children
+                margin-top: 0
+            ul
+                padding-top: 0
+        a, span
+            font-size: px2rem(18)
+            @include media-breakpoint-down(md)
+                padding: calc(#{$spacing0} / 2) 0
+    .nav-level-3 
+        a, span 
+            font-size: px2rem(14)
+            @include media-breakpoint-down(md)
+                line-height: 140%
+// Footer
+footer#document-footer
+    a
+        @include link($footer-color)
+    @include media-breakpoint-up(desktop)
+        .container:first-child
+            padding-bottom: $spacing5
+        .container:last-child
+            padding-top: $spacing2
+            border-top: 1px solid hsla(0,0%,100%,.3)
+        @include media-breakpoint-up(xxl)
+            ul li
+                display: inline-block
+                + li 
+                    margin-left: $spacing0
+            .footer-legal
+                display: flex
+                small
+                    margin-left: $spacing0
+                    &::before
+                        content: "—"
+                        margin-right: $spacing0
+    .footer
+        &-site
+            @include inherit-text
+            p
+                margin-top: 0
+        &-social, &-legals, &-credit
+            @include small
+            font-size: px2rem(14) !important
+
+// Breadcrumb
+.breadcrumb 
+    li
+        a
+            text-decoration-color: rgba($breadcrumb-color, 0.2)
+            &:hover
+                color: white

@@ -1,0 +1,30 @@
+@mixin page-color($color)
+    .hero
+        background-color: $color
+        .content
+            figure
+                figcaption
+                    p,
+                    &::before
+                        background-color: $color
+                        color: white
+    .block-testimonials
+        blockquote p
+            color: $color
+    .block-call_to_action
+        --cta-background-color: #{$color}
+    .block-pages--cards
+        .card:hover
+            background-color: $color
+    ul.diplomas > li,
+        a:hover,
+        .programs li a:hover
+            color: $color
+    
+    .list-persons > li,
+    ol.programs > li 
+        &:hover,
+        a:hover
+            color: $color
+    // .block-timeline--horizontal
+    //     background: $color

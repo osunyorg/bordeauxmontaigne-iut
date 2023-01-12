@@ -1,12 +1,4 @@
-theme: osuny-hugo-theme
-
+theme: osuny-hugo-theme-aaa
 paginate: 18
 enableRobotsTXT: true
-
-module:
-  _merge: deep
-
-params:
-  _merge: deep
-  cookie_banner:
-    enable: false
+removePathAccents: true
