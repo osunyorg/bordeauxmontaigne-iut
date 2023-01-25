@@ -4,5 +4,5 @@ enableRobotsTXT: true
 removePathAccents: true
 params:
   pages:
-    list:
+    index:
       truncate_description: 0
