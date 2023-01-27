@@ -50,6 +50,9 @@ footer#document-footer
                     &::before
                         content: "—"
                         margin-right: $spacing0
+    *::selection
+        background: $color-background
+        color: $color-text
     .footer
         &-site
             @include inherit-text
@@ -58,6 +61,7 @@ footer#document-footer
         &-social, &-legals, &-credit
             @include small
             font-size: px2rem(14) !important
+        
 
 // Breadcrumb
 .breadcrumb 
