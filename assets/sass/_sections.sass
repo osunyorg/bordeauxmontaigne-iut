@@ -86,9 +86,6 @@ ul.categories
                     a:hover
                         background-color: $program-color
 .programs__section
-    .lead
-        @include lead(false)
-
     .block-key_figures
         ul
             @include media-breakpoint-up(md)
@@ -164,12 +161,6 @@ ul.categories
                 margin-bottom: px2rem(30)
 
 // Typography
-@include media-breakpoint-up(xl)
-    .persons__page,
-    .programs__section
-        .lead
-            @include h2
-
 @include media-breakpoint-down(md)
     ol.programs
         > li
