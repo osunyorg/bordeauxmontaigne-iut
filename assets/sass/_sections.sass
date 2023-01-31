@@ -60,7 +60,7 @@ ul.categories
 .programs__section
     .hero
         @include media-breakpoint-down(desktop)
-            padding-bottom: $spacing1
+            padding-bottom: 0
         .essential
             dt
                 color: transparentize($hero-color, .2)
@@ -68,8 +68,6 @@ ul.categories
             position: relative
             @include media-breakpoint-down(desktop)
                 background-color: darken($program-color, 3)
-                border-radius: 4px
-                margin: $spacing1 $spacing1 0
                 padding-bottom: $spacing1
             @include media-breakpoint-up(desktop)
                 border-top: 1px solid hsla(0,0%,100%,.3)
