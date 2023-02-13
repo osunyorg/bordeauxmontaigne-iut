@@ -52,7 +52,7 @@
   kind: page
   children:
   - title: Offre de formation
-    target: "/formation/offre-de-formation/"
+    target: "/formation/offre-de-formation/diplomes/"
     kind: page
     children:
     - title: Par diplômes
