@@ -159,4 +159,8 @@
   target: "/formation/offre-de-formation/diplomes/licence-professionnelle/"
   kind: diploma
   children: []
+- title: Diplôme d'Université
+  target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
+  kind: diploma
+  children: []
 
