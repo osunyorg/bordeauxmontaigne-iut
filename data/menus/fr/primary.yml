@@ -163,4 +163,8 @@
   target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
   kind: diploma
   children: []
+- title: Master professionnel
+  target: "/formation/offre-de-formation/diplomes/master-professionnel/"
+  kind: diploma
+  children: []
 
