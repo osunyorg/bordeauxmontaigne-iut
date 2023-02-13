@@ -67,6 +67,10 @@
       target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
       kind: diploma
       children: []
+    - title: Master professionnel
+      target: "/formation/offre-de-formation/diplomes/master-professionnel/"
+      kind: diploma
+      children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
@@ -162,9 +166,5 @@
 - title: Intranet
   target: "/intranet/"
   kind: page
-  children: []
-- title: Master professionnel
-  target: "/formation/offre-de-formation/diplomes/master-professionnel/"
-  kind: diploma
   children: []
 
