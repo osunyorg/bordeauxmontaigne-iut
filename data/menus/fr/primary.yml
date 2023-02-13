@@ -54,11 +54,7 @@
   - title: Offre de formation
     target: "/formation/offre-de-formation/diplomes/"
     kind: page
-    children:
-    - title: Par diplômes
-      target: "/formation/offre-de-formation/diplomes/"
-      kind: page
-      children: []
+    children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
