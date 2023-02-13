@@ -54,7 +54,11 @@
   - title: Offre de formation
     target: "/formation/offre-de-formation/diplomes/"
     kind: page
-    children: []
+    children:
+    - title: Bachelor Universitaire de Technologie
+      target: "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
+      kind: diploma
+      children: []
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
@@ -150,9 +154,5 @@
 - title: Intranet
   target: "/intranet/"
   kind: page
-  children: []
-- title: Bachelor Universitaire de Technologie
-  target: "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
-  kind: diploma
   children: []
 
