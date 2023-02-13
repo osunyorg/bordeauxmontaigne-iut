@@ -155,4 +155,8 @@
   target: "/intranet/"
   kind: page
   children: []
+- title: Licence professionnelle
+  target: "/formation/offre-de-formation/diplomes/licence-professionnelle/"
+  kind: diploma
+  children: []
 
