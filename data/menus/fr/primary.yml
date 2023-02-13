@@ -151,4 +151,8 @@
   target: "/intranet/"
   kind: page
   children: []
+- title: Bachelor Universitaire de Technologie
+  target: "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
+  kind: diploma
+  children: []
 
