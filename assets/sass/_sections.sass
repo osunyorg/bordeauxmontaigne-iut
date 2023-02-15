@@ -41,16 +41,17 @@ ul.categories
             @include media-breakpoint-up(md)
                 @include h3
 
-
-
 .diplomas__taxonomy
     .diplomas
         > li 
             > a
                 @include h3
             .programs
-                li
+                > li > a
                     @include h5
+                @include media-breakpoint-up(sm)
+                    > li a
+                        @include h5
 .diplomas__term
     ol.programs
         li .title
