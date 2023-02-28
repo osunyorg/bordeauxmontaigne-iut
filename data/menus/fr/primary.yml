@@ -17,7 +17,7 @@ items:
       target: "/notre-institut/presentation-de-liut/histoire-et-heritage/"
       kind: page
       children: []
-    - title: Les atouts des IUT
+    - title: Atouts des IUT
       target: "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
       kind: page
       children: []
