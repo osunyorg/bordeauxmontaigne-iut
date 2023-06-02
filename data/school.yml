@@ -40,7 +40,7 @@ administrators:
   - "camille-seguin"
   - "laurianne-seran"
   - "louise-elodie-seran"
-  - "gsuchestow"
+  - "gaelle-suchestow"
   - "theodore-tangoulis"
   - "eve-tissot"
   - "corine-videau"
@@ -102,7 +102,7 @@ administrators_description:
     Scolarité
   "louise-elodie-seran": >
     Secrétariat Carrières sociales
-  "gsuchestow": >
+  "gaelle-suchestow": >
     Centre de Ressources Montaigne
   "theodore-tangoulis": >
     Service Patrimoine logistique et maintenance
@@ -173,7 +173,7 @@ roles:
       Centre de Ressources Montaigne
     persons:
       - "aurelie-doumbo"
-      - "gsuchestow"
+      - "gaelle-suchestow"
       - "mzaquithorea"
       - "johanna-hourregue"
       - "mathilda-menadeo"
