@@ -2,20 +2,20 @@
 // blocks
 .block
     .top
-        h2
+        .block-title
             @include h4
     @include in-page-without-sidebar
-        h2
+        .block-title
             @include h6
     @include in-page-with-sidebar
-        h2
+        .block-title
             @include h4
 
 .programs__section
     .document-content
         .content
             .blocks
-                h2
+                .block-title
                     @include h4
 
 .block-pages
@@ -24,13 +24,13 @@
             @include h4
     &--grid
         .top
-            h2
+            .block-title
                 @include h6
         .grid article
             h3
                 @include h5
     &--list
-        .top
+        .block-title
             a
                 @include link
                 text-decoration-color: rgba(0,0,0,0)
@@ -51,16 +51,16 @@
                 @include h4
 .block-chapter
     @include in-page-with-or-without-sidebar
-        h2
+        .block-title
             @include h4
 
 .block-call_to_action
     .call_to_action
         @include in-page-without-sidebar
-            h2
+            .block-title
                 @include h2
         @include in-page-with-sidebar
-            h2
+            .block-title
                 @include h2
         .description
             p
