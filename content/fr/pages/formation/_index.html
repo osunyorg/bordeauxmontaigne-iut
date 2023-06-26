@@ -39,10 +39,60 @@ header_text: >-
   
 legacy_text: >
   
+contents:
+  - kind: heading
+    title: >-
+      En détail
+    position: 0
+    level: 2
+  - kind: block
+    template: pages
+    title: >
+      
+    position: 1
+    data:
+      page: /formation/
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /formation/offre-de-formation/
+          slug: /formation/offre-de-formation/
+        - page: /formation/regimes-dinscriptions/
+          slug: /formation/regimes-dinscriptions/
+        - page: /formation/scolarite/
+          slug: /formation/scolarite/
+        - page: /formation/international/
+          slug: /formation/international/
+
+
+
+  - kind: heading
+    title: >-
+      Actualités
+    position: 1
+    level: 2
+  - kind: block
+    template: posts
+    title: >
+      
+    position: 2
+    data:
+      category: "/formations/"
+      layout: list
+      posts:
+        - "2023/2023-04-05-journee-altermmi-promouvoir-lalternance-pour-les-metiers-du-multimedia-et-de-linternet"
+        - "2023/2023-04-04-la-publicite-face-a-la-fragmentation-de-l-espace-public-l-eclatement-de-l-audience-dans-les-medias"
+        - "2023/2023-03-27-l-escale-du-livre-2023"
+        - "2023/2023-03-23-why-women-code-and-more"
+
+
+
 blocks:
   - template: pages
     title: >-
-      En détail
+      
     position: 1
     data:
       page: /formation/
@@ -61,7 +111,7 @@ blocks:
           slug: /formation/international/
   - template: posts
     title: >-
-      Actualités
+      
     position: 2
     data:
       category: "/formations/"
