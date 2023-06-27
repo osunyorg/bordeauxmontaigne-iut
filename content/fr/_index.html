@@ -11,7 +11,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 13
@@ -64,16 +64,11 @@ contents:
           slug: /notre-institut/informations-pratiques/
 
 
-  - kind: heading
-    title: >-
-      Actualités
-    position: 2
-    level: 2
   - kind: block
     template: posts
     title: >
       Actualités
-    position: 3
+    position: 2
     data:
       layout: grid
       posts:
@@ -83,17 +78,11 @@ contents:
         - "2023/2023-02-10-candidatures-en-licence-professionnelle-formation-continue-et-apprentissage"
 
 
-
-  - kind: heading
-    title: >-
-      Chiffres clés
-    position: 3
-    level: 2
   - kind: block
     template: key_figures
     title: >
       Chiffres clés
-    position: 1
+    position: 4
     data:
       description: >-
         
@@ -146,7 +135,7 @@ contents:
     template: pages
     title: >
       
-    position: 2
+    position: 5
     data:
       page: /formation/
       show_main_description: false
@@ -162,12 +151,39 @@ contents:
           slug: /formation/scolarite/
 
 
-
 blocks:
+  - template: pages
+    title: >-
+      
+    position: 1
+    data:
+      page: /notre-institut/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /notre-institut/presentation-de-liut/
+          slug: /notre-institut/presentation-de-liut/
+        - page: /notre-institut/ressources/
+          slug: /notre-institut/ressources/
+        - page: /notre-institut/informations-pratiques/
+          slug: /notre-institut/informations-pratiques/
+  - template: posts
+    title: >-
+      Actualités
+    position: 2
+    data:
+      layout: grid
+      posts:
+        - "2023/2023-06-01-phase-dadmission-parcoursup"
+        - "2023/2023-06-16-vous-cherchez-a-vous-loger-utilisez-notre-plateforme-de-logement-en-ligne-2"
+        - "2023/2023-04-07-une-bourse-un-logement-constituez-votre-dossier-en-ligne"
+        - "2023/2023-02-10-candidatures-en-licence-professionnelle-formation-continue-et-apprentissage"
   - template: key_figures
     title: >-
       Chiffres clés
-    position: 1
+    position: 4
     data:
       description: >-
         
@@ -217,24 +233,7 @@ blocks:
   - template: pages
     title: >-
       
-    position: 1
-    data:
-      page: /notre-institut/
-      show_main_description: true
-      show_descriptions: false
-      show_images: false
-      layout: list
-      pages:
-        - page: /notre-institut/presentation-de-liut/
-          slug: /notre-institut/presentation-de-liut/
-        - page: /notre-institut/ressources/
-          slug: /notre-institut/ressources/
-        - page: /notre-institut/informations-pratiques/
-          slug: /notre-institut/informations-pratiques/
-  - template: pages
-    title: >-
-      
-    position: 2
+    position: 5
     data:
       page: /formation/
       show_main_description: false
@@ -248,17 +247,6 @@ blocks:
           slug: /formation/regimes-dinscriptions/formation-continue/
         - page: /formation/scolarite/
           slug: /formation/scolarite/
-  - template: posts
-    title: >-
-      Actualités
-    position: 3
-    data:
-      layout: grid
-      posts:
-        - "2023/2023-06-01-phase-dadmission-parcoursup"
-        - "2023/2023-06-16-vous-cherchez-a-vous-loger-utilisez-notre-plateforme-de-logement-en-ligne-2"
-        - "2023/2023-04-07-une-bourse-un-logement-constituez-votre-dossier-en-ligne"
-        - "2023/2023-02-10-candidatures-en-licence-professionnelle-formation-continue-et-apprentissage"
 
 
 ---
