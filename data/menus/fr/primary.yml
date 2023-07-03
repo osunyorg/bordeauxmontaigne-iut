@@ -97,6 +97,10 @@ items:
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
       children: []
+    - title: La rentrée universitaire
+      target: "/formation/scolarite/la-rentree-universitaire/"
+      kind: page
+      children: []
   - title: International
     target: "/formation/international/"
     kind: page
