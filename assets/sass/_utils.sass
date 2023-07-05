@@ -1,4 +1,7 @@
 @mixin page-color($color)
+    html:not(.has-menu-opened) &
+        header#document-header:not(.is-sticky)
+            background: $color
     .hero
         background-color: $color
         .content
