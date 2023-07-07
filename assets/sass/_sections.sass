@@ -28,9 +28,14 @@ body:not(.diplomas__term):not(.page__home)
 .researchers__taxonomy
     @include page-color($institute-color)
 
-.page__home
+.page__home,
+.authors__term
     @include page-color($site-color)
-    
+
+.publications__page,
+.publications__section,
+.researchers__taxonomy
+    @include page-color($research-color)
 
 // Programs
 ol.programs,
