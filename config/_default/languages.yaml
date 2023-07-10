@@ -10,6 +10,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     diplomas: /formation/offre-de-formation/diplomes/:slug/
     programs: /formation/offre-de-formation/:slug/
+    publications: /publications/:year-:slug/
     persons: /notre-institut/ressources/equipe/:slug/
     administrators: /notre-institut/ressources/equipe/:slug/roles/
     authors: /notre-institut/ressources/equipe/:slug/actualites/
