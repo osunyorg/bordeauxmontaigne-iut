@@ -14,5 +14,5 @@ fr:
     persons: /notre-institut/ressources/equipe/:slug/
     administrators: /notre-institut/ressources/equipe/:slug/roles/
     authors: /notre-institut/ressources/equipe/:slug/actualites/
-    researchers: /notre-institut/ressources/equipe/:slug/papers/
+    researchers: /notre-institut/ressources/equipe/:slug/publications/
     teachers: /notre-institut/ressources/equipe/:slug/programs/
