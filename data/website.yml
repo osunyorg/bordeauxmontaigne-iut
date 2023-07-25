@@ -1,2 +1,16 @@
 title: >
   IUT Bordeaux Montaigne
+external_domains:
+  - "osuny-1b4da.kxcdn.com"
+  - "*.osuny.org"
+  - "osuny.s3.fr-par.scw.cloud"
+  - "plausible.io"
+  - "youtu.be"
+  - "static.genial.ly"
+  - "view.genial.ly"
+  - "twitter.com"
+  - "t.co"
+  - "platform.twitter.com"
+  - "www.instagram.com"
+  - "www.w3.org"
+  - "www.google.com"
