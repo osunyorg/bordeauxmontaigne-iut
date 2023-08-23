@@ -47,10 +47,30 @@ header_text: >-
   Institut Universitaire de Technologie Bordeaux Montaigne
 contents:
   - kind: block
+    template: pages
+    title: >
+      
+    position: 0
+    data:
+      page: /notre-institut/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /notre-institut/presentation-de-liut/
+          slug: /notre-institut/presentation-de-liut/
+        - page: /notre-institut/ressources/
+          slug: /notre-institut/ressources/
+        - page: /notre-institut/informations-pratiques/
+          slug: /notre-institut/informations-pratiques/
+
+
+  - kind: block
     template: call_to_action
     title: >
       La rentrée universitaire
-    position: 0
+    position: 1
     data:
       text: >-
         <p>Dates de rentrée, inscriptions administratives, bourses, aides au logement, services numériques...<br>Retrouvez toutes les informations utiles afin de bien préparer votre rentrée universitaire.<br></p>
@@ -74,26 +94,6 @@ contents:
 
           target_blank: false
 
-
-
-  - kind: block
-    template: pages
-    title: >
-      
-    position: 1
-    data:
-      page: /notre-institut/
-      show_main_description: true
-      show_descriptions: false
-      show_images: false
-      layout: list
-      pages:
-        - page: /notre-institut/presentation-de-liut/
-          slug: /notre-institut/presentation-de-liut/
-        - page: /notre-institut/ressources/
-          slug: /notre-institut/ressources/
-        - page: /notre-institut/informations-pratiques/
-          slug: /notre-institut/informations-pratiques/
 
 
   - kind: block
