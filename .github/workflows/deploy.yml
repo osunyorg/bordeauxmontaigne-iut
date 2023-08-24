@@ -1,4 +1,4 @@
-name: SSH Deployment
+name: ubordeauxmontaigne
 
 on:
   push:
