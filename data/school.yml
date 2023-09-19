@@ -41,7 +41,6 @@ administrators:
   - "louise-elodie-seran"
   - "gaelle-suchestow"
   - "theodore-tangoulis"
-  - "eve-tissot"
   - "corine-videau"
   - "mzaquithorea"
 administrators_description:
@@ -103,8 +102,6 @@ administrators_description:
     Centre de Ressources Montaigne
   "theodore-tangoulis": >
     Service Patrimoine logistique et maintenance
-  "eve-tissot": >
-    Centre de Ressources Montaigne
   "corine-videau": >
     Secrétariat Information - Communication
   "mzaquithorea": >
@@ -174,5 +171,4 @@ roles:
       - "mzaquithorea"
       - "johanna-hourregue"
       - "mathilda-menadeo"
-      - "eve-tissot"
 ---
