@@ -18,7 +18,6 @@ administrators:
   - "nassima-choltus"
   - "stephane-colnay"
   - "aurelien-cornille"
-  - "zoe-cossais-bossard"
   - "melisse-debes"
   - "aurelie-doumbo"
   - "helene-ertle"
@@ -58,8 +57,6 @@ administrators_description:
     Service Informatique
   "aurelien-cornille": >
     Service Patrimoine logistique et maintenance
-  "zoe-cossais-bossard": >
-    Centre de Ressources Montaigne
   "melisse-debes": >
     Secrétariat Carrières sociales
   "aurelie-doumbo": >
@@ -177,6 +174,5 @@ roles:
       - "mzaquithorea"
       - "johanna-hourregue"
       - "mathilda-menadeo"
-      - "zoe-cossais-bossard"
       - "eve-tissot"
 ---
