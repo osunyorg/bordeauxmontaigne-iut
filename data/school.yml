@@ -13,7 +13,6 @@ phone: >
   +33 5 57 12 20 44
 administrators:
   - "assad-abderemane"
-  - "annie-berachategui"
   - "quentin-bessiere"
   - "nassima-choltus"
   - "stephane-colnay"
@@ -46,8 +45,6 @@ administrators:
 administrators_description:
   "assad-abderemane": >
     Accueil
-  "annie-berachategui": >
-    Gestion administrative et financière
   "quentin-bessiere": >
     Secrétariat PUB - MMI
   "nassima-choltus": >
@@ -116,7 +113,6 @@ roles:
     persons:
       - "helene-ertle"
       - "michele-quellier"
-      - "annie-berachategui"
       - "weiwei-reynet"
   - title: >
       Scolarité
