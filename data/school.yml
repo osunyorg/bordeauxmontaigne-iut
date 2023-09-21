@@ -16,6 +16,7 @@ administrators:
   - "quentin-bessiere"
   - "nassima-choltus"
   - "stephane-colnay"
+  - "lucas-corbiat"
   - "aurelien-cornille"
   - "melisse-debes"
   - "aurelie-doumbo"
@@ -27,14 +28,16 @@ administrators:
   - "kathy-lavignole"
   - "catherine-lecart"
   - "mathilda-menadeo"
+  - "lea-menard"
   - "anais-mendibil"
-  - "kmerahi"
   - "hmonneriesor"
+  - "pauline-morisset"
   - "julien-muzard"
   - "herve-panhaleux"
   - "justin-puyo"
   - "michele-quellier"
   - "weiwei-reynet"
+  - "apolline-satta"
   - "camille-seguin"
   - "laurianne-seran"
   - "louise-elodie-seran"
@@ -51,6 +54,8 @@ administrators_description:
     Secrétariat Information - Communication
   "stephane-colnay": >
     Service Informatique
+  "lucas-corbiat": >
+    Centre de Ressources Montaigne
   "aurelien-cornille": >
     Service Patrimoine logistique et maintenance
   "melisse-debes": >
@@ -73,12 +78,14 @@ administrators_description:
     Service Formation continue
   "mathilda-menadeo": >
     Centre de Ressources Montaigne
+  "lea-menard": >
+    Centre de Ressources Montaigne
   "anais-mendibil": >
     Scolarité
-  "kmerahi": >
-    Service Formation continue
   "hmonneriesor": >
     Scolarité
+  "pauline-morisset": >
+    Centre de Ressources Montaigne
   "julien-muzard": >
     Service Informatique
   "herve-panhaleux": >
@@ -89,10 +96,12 @@ administrators_description:
     Gestion administrative et financière
   "weiwei-reynet": >
     Gestion administrative et financière
+  "apolline-satta": >
+    Centre de Ressources Montaigne
   "camille-seguin": >
     Secrétariat Information - Communication
   "laurianne-seran": >
-    Scolarité
+    Gestion administrative et financière
   "louise-elodie-seran": >
     Secrétariat Carrières sociales
   "gaelle-suchestow": >
@@ -114,11 +123,11 @@ roles:
       - "helene-ertle"
       - "michele-quellier"
       - "weiwei-reynet"
+      - "laurianne-seran"
   - title: >
       Scolarité
     persons:
       - "hmonneriesor"
-      - "laurianne-seran"
       - "anais-mendibil"
   - title: >
       Secrétariat Carrières sociales
@@ -138,7 +147,6 @@ roles:
   - title: >
       Service Formation continue
     persons:
-      - "kmerahi"
       - "catherine-lecart"
   - title: >
       Service PAO
@@ -167,4 +175,8 @@ roles:
       - "mzaquithorea"
       - "johanna-hourregue"
       - "mathilda-menadeo"
+      - "lucas-corbiat"
+      - "lea-menard"
+      - "pauline-morisset"
+      - "apolline-satta"
 ---
