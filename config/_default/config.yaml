@@ -8,3 +8,5 @@ params:
       truncate_description: 0
   summary:
     position: hero
+  search:
+    active: true
