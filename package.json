@@ -1,17 +1,11 @@
 {
-  "name": "osuny-hugo-template-aaa",
+  "name": "osuny-hugo-template",
   "version": "2.0.0",
   "repository": "https://github.com/noesya/osuny-hugo-template-aaa",
   "author": "noesya",
   "license": "MIT",
   "dependencies": {
     "osuny-hugo-theme-aaa": "./themes/osuny-hugo-theme-aaa"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.14",
-    "postcss-cli": "^9.1.0",
-    "postcss-sass": "^0.5.0"
   },
   "scripts": {
     "watch": "npx osuny-hugo-theme watch",
