@@ -32,7 +32,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn build
+        run: yarn osuny build
 
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
