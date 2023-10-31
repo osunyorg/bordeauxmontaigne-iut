@@ -89,7 +89,7 @@ items:
     target: "/formation/scolarite/"
     kind: page
     children:
-    - title: Être candidat·e
+    - title: Candidater
       target: "/formation/scolarite/etre-candidat/"
       kind: page
       children: []
