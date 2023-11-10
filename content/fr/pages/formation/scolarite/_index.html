@@ -56,13 +56,14 @@ contents:
     title: >-
       Le service Scolarité
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: contact
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         <p>Le service de la scolarité pourra également répondre à toute question  sur les aides financières, le CROUS, la vie étudiante, etc.</p>
@@ -114,7 +115,8 @@ contents:
     title: >-
       La rentrée universitaire
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         <p>Dates de rentrée, inscriptions administratives, bourses, aides au logement, services numériques...<br>Retrouvez toutes les informations utiles afin de bien préparer votre rentrée universitaire.</p>
@@ -145,7 +147,9 @@ contents:
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true
@@ -167,13 +171,14 @@ contents:
     title: >-
       Frais d'inscription
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 12
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -196,13 +201,14 @@ contents:
     title: >-
       Accessibilité et handicap
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 13
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -225,13 +231,14 @@ contents:
     title: >-
       Sportifs de haut et bon niveau
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 14
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -254,13 +261,14 @@ contents:
     title: >-
       Carte AquiPASS
     position: 5
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 16
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -286,13 +294,14 @@ contents:
     title: >-
       Attention au plagiat
     position: 6
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 17
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -315,13 +324,14 @@ contents:
     title: >-
       Rapports publics Parcoursup
     position: 7
-    level: 2
+    rank: 2
   - kind: block
     template: files
     title: >-
       
     position: 18
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         <p>Tous les ans nous publions un rapport présentant les données statistiques sur les candidatures faites via Parcoursup pour notre établissement.<br></p>
@@ -340,13 +350,14 @@ contents:
     title: >-
       Validation des acquis (VAE/VAPP)
     position: 8
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 15
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -369,13 +380,14 @@ contents:
     title: >-
       Observatoire des étudiants
     position: 9
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 19
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -398,13 +410,15 @@ contents:
     title: >-
       Actualités de la scolarité
     position: 10
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       Toutes les actualités
     position: 20
-    heading_level: 3
+    ranks:
+      self: 3
+      children: 4
     data:
       category: "/scolarite/"
       layout: list

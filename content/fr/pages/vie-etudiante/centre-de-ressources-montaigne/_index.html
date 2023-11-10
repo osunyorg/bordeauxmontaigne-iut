@@ -52,13 +52,14 @@ contents:
     title: >-
       Contact et horaires
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: contact
     title: >-
       Horaires des vacances scolaires du 23/10 au 03/11
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       description: >-
         
@@ -154,7 +155,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -250,13 +252,14 @@ contents:
     title: >-
       Visite interactive du CRM
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: embed
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       code: >-
         <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;"><video class="loader-genially" style="position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 80px; margin-bottom: 10%;" autoplay="autoplay" loop="loop" muted="muted" width="300" height="150"><source src="https://static.genial.ly/resources/panel-loader-low.mp4" type="video/mp4" />Your browser does not support the video tag.</video>
@@ -279,13 +282,14 @@ contents:
     title: >-
       Présentation de la bibliothèque
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: key_figures
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -333,7 +337,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -356,13 +361,14 @@ contents:
     title: >-
       Liens utiles
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -385,13 +391,14 @@ contents:
     title: >-
       Consulter et emprunter
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -414,7 +421,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         
@@ -442,13 +450,14 @@ contents:
     title: >-
       L’équipe qui vous accueille
     position: 5
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -471,13 +480,15 @@ contents:
     title: >-
       Actualités du CRM
     position: 6
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/ressources/"
       layout: list

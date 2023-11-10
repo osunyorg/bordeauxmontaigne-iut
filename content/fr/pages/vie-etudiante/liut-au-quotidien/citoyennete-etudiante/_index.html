@@ -51,13 +51,14 @@ contents:
     title: >-
       Le Conseil d'Institut de l'IUT
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       Fonctionnement du Conseil d'Institut
     position: 0
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -80,7 +81,9 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: false
@@ -98,7 +101,8 @@ contents:
     title: >-
       Organisation du scrutin
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -121,7 +125,8 @@ contents:
     title: >-
       Les élus
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: no_background
       text: >-
@@ -144,13 +149,14 @@ contents:
     title: >-
       Les différents conseils de l'université
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -173,7 +179,8 @@ contents:
     title: >-
       En savoir plus...
     position: 1
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       layout: alt_background
       text: >-
@@ -196,13 +203,15 @@ contents:
     title: >-
       Actualités
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/vie-etudiante/"
       layout: list
@@ -217,7 +226,9 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true

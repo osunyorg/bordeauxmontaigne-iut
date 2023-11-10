@@ -52,13 +52,14 @@ contents:
     title: >-
       Journée portes ouvertes le samedi 4 mars
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -81,7 +82,8 @@ contents:
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         <p>Chaque formation propose une ou plusieurs réunions d'information. Consultez le programme de la journée afin de voir les différents créneaux proposés.<br></p>
@@ -100,7 +102,8 @@ contents:
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -123,13 +126,15 @@ contents:
     title: >-
       Point restauration
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 4
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       layout: list
       posts:
@@ -141,13 +146,14 @@ contents:
     title: >-
       Portes ouvertes en ligne
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 5
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: alt_background
       text: >-
@@ -173,13 +179,14 @@ contents:
     title: >-
       Salons étudiants
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 6
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -205,7 +212,8 @@ contents:
     title: >-
       Portes ouvertes à l’Université Bordeaux Montaigne
     position: 7
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         <p>L'Université Bordeaux Montaigne vous ouvre également ses portes les vendredi 27 et samedi 28 janvier 2023 afin de présenter son offre de formation en licence.<br></p>

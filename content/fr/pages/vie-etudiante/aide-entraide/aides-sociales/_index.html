@@ -54,13 +54,14 @@ contents:
     title: >-
       Bourses
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -86,13 +87,14 @@ contents:
     title: >-
       Logement
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -118,13 +120,14 @@ contents:
     title: >-
       Aides financières
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 4
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -150,13 +153,14 @@ contents:
     title: >-
       Aides alimentaires
     position: 3
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 5
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -182,13 +186,14 @@ contents:
     title: >-
       Autres liens utiles
     position: 4
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 6
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -211,13 +216,15 @@ contents:
     title: >-
       Actualités
     position: 5
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 7
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/vie-etudiante/"
       layout: list
@@ -232,7 +239,9 @@ contents:
     title: >-
       
     position: 8
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true

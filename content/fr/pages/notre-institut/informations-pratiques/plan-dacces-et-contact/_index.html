@@ -54,13 +54,14 @@ contents:
     title: >-
       Où sommes nous ?
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: contact
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         <p><b>ATTENTION  : nous ne sommes pas sur le site du Campus Universitaire Talence/Pessac  !</b><br><b>L'IUT Bordeaux Montaigne est situé à Bordeaux</b>, proche de la gare :</p>
@@ -114,7 +115,8 @@ contents:
     title: >-
       
     position: 3
-    heading_level: 3
+    ranks:
+      self: false
     data:
       code: >-
         <iframe src="https://www.google.com/maps/d/embed?mid=1Fn_kTmjqJ2bYRu-yRCcoFvw--mE&amp;hl=fr&amp;ehbc=2E312F" title="Plan de Bordeaux pour repérer l'IUT" width="640" height="480"></iframe>
@@ -129,13 +131,14 @@ contents:
     title: >-
       Comment venir à l'IUT ?
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 4
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -158,13 +161,14 @@ contents:
     title: >-
       Comment nous contacter ?
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 5
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -187,7 +191,9 @@ contents:
     title: >-
       
     position: 6
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true

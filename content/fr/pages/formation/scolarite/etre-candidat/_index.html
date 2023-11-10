@@ -54,13 +54,14 @@ contents:
     title: >-
       Postuler à l'IUT
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -83,7 +84,8 @@ contents:
     title: >-
       Candidatures en BUT - Parcoursup
     position: 2
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         <p><b>à partir de janvier</b><br></p><p>Se connecter à la plateforme nationale Parcoursup.<br> Suivre la procédure détaillée et les indications précisées pour les différentes formations.<br><br><i>La gestion des candidatures sur Parcoursup fait l'objet d'un traitement de données personnelles.</i></p>
@@ -135,7 +137,8 @@ contents:
     title: >-
       Candidatures en passerelle BUT (2e ou 3e année) - CandIUT
     position: 3
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         <p><b>à partir de mars</b></p><p>Selon les places disponibles, certaines formations proposent des passerelles pour des candidatures directement en 2<sup>e</sup> ou  3<sup>e</sup> année de BUT.<br>Consultez les possibilités sur la plateforme CandIUT. Se conformer aux périodes de dépôt des dossiers, selon le calendrier détaillé.</p><p><i>La gestion des candidatures sur CandIUT fait l'objet d'un traitement de données personnelles.</i></p>
@@ -171,7 +174,8 @@ contents:
     title: >-
       Candidatures en Licence pro, DU, Master, en formation continue et en apprentissage - CandIUT
     position: 4
-    heading_level: 3
+    ranks:
+      self: 3
     data:
       text: >-
         <p><b>à partir de février</b><br></p><p>Se connecter via la plateforme des IUT d'Aquitaine CandIUT.<br> Les modalités varient selon les formations.<br> Se conformer aux périodes de dépôt des dossiers, selon le calendrier détaillé.<br><br><i>La gestion des candidatures sur CandIUT fait l'objet d'un traitement de données personnelles.</i></p>
@@ -207,13 +211,14 @@ contents:
     title: >-
       Contacts
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: contact
     title: >-
       
     position: 5
-    heading_level: 3
+    ranks:
+      self: false
     data:
       description: >-
         <p>Le service de la scolarité est à votre écoute tout au long de l'année  universitaire, de la gestion de votre inscription administrative à  l'édition de votre diplôme. Il pourra également répondre à toute  question sur les aides financières, le CROUS, la vie étudiante, etc.</p>
@@ -265,13 +270,15 @@ contents:
     title: >-
       Actualités de la scolarité
     position: 2
-    level: 2
+    rank: 2
   - kind: block
     template: posts
     title: >-
       
     position: 6
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       category: "/scolarite/"
       layout: list
@@ -286,7 +293,9 @@ contents:
     title: >-
       
     position: 7
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       show_main_description: false
       show_descriptions: true
