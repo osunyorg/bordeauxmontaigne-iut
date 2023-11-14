@@ -20,14 +20,14 @@
 
 .block-pages
     .cards
-        h3
+        .page-title
             @include h4
     &--grid
         .top
             .block-title
                 @include h6
         .grid article
-            h3
+            .page-title
                 @include h5
     &--list
         .block-title
@@ -43,11 +43,11 @@
 .block-posts
     &--highlight
         .highlight-post
-            h3
+            [itemprop="headline"]
                 @include h3
     .pages__section &
         .post
-            h3
+            [itemprop="headline"]
                 @include h4
 .block-chapter
     @include in-page-with-or-without-sidebar
