@@ -141,6 +141,10 @@ items:
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
     children:
+    - title: Citoyenneté étudiante
+      target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
+      kind: page
+      children: []
     - title: Vie associative
       target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
@@ -151,10 +155,6 @@ items:
       children: []
     - title: Sport
       target: "/vie-etudiante/liut-au-quotidien/sport/"
-      kind: page
-      children: []
-    - title: Citoyenneté étudiante
-      target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
       children: []
   - title: Aide & entraide
