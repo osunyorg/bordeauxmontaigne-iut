@@ -6,8 +6,8 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
-    categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
+    posts_categories: /actualites/:slug/
     diplomas: /formation/offre-de-formation/diplomes/:slug/
     programs: /formation/offre-de-formation/:slug/
     publications: /notre-institut/recherche/publications/:year-:slug/
@@ -19,7 +19,6 @@ fr:
   taxonomies:
     administrator: administrators
     author: authors
-    category: categories
     posts_category: posts_categories
     events_category: events_categories
     diploma: diplomas
