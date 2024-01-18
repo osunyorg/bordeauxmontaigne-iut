@@ -90,7 +90,7 @@ items:
     kind: page
     children:
     - title: Candidater
-      target: "/formation/scolarite/etre-candidat/"
+      target: "/formation/scolarite/candidater/"
       kind: page
       children: []
     - title: Inscription administrative
