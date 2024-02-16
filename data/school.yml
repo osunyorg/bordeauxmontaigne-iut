@@ -1,16 +1,11 @@
 ---
-name: >
-  IUT Bordeaux Montaigne
-address: >
+name: "IUT Bordeaux Montaigne"
+address: >-
   1 rue Jacques Ellul
-zipcode: >
-  33080
-city: >
-  Bordeaux Cedex
-country: >
-  France
-phone: >
-  +33 5 57 12 20 44
+zipcode: "33080"
+city: "Bordeaux Cedex"
+country: "France"
+phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
   - "quentin-bessiere"
