@@ -45,7 +45,7 @@ ol.programs,
 ul.categories
     > li 
         > .title
-            font-size: px2rem(28)
+            font-size: pxToRem(28)
             @include media-breakpoint-up(md)
                 @include h3
 
@@ -74,10 +74,10 @@ ul.categories
             position: relative
             @include media-breakpoint-down(desktop)
                 background-color: darken($program-color, 3)
-                padding-bottom: $spacing1
+                padding-bottom: $spacing-3
             @include media-breakpoint-up(desktop)
                 border-top: 1px solid hsla(0,0%,100%,.3)
-                margin-top: $spacing3
+                margin-top: $spacing-5
             .buttons
                 .dropdown-share
                     button
@@ -94,8 +94,8 @@ ul.categories
         ul
             @include media-breakpoint-up(md)
                 @include grid(4)
-                padding-bottom: $spacing4
-                padding-top: $spacing3
+                padding-bottom: $spacing-6
+                padding-top: $spacing-5
     .document-content
         .content
             > h2
@@ -112,8 +112,8 @@ ul.categories
 .page__home
     .hero
         align-items: start
-        margin-bottom: $spacing3
-        padding-bottom: $spacing4
+        margin-bottom: $spacing-5
+        padding-bottom: $spacing-6
         // min-height: auto !important
         // padding-bottom: 0
         hgroup
@@ -121,7 +121,7 @@ ul.categories
             position: relative
             z-index: 2
         @include media-breakpoint-up(desktop)
-            margin-bottom: $spacing4
+            margin-bottom: $spacing-6
             min-height: $hero-height-desktop
         @include media-breakpoint-up(desktop)
             hgroup
@@ -129,13 +129,13 @@ ul.categories
         @include media-breakpoint-down(md)
             padding-bottom: 0
         .container
-            margin-top: $spacing3
+            margin-top: $spacing-5
             .content
                 margin-top: 0
                 z-index: 1
         h1
             @media (min-width: 1200px) and (max-width: 1360px)
-                font-size: px2rem(50)
+                font-size: pxToRem(50)
         figure
             margin-top: 0.7em
             picture, a
@@ -144,24 +144,23 @@ ul.categories
             @include media-breakpoint-down(lg)
                 aspect-ratio: 8/6
                 display: block
-                margin-bottom: half($grid-gutter)
+                margin-bottom: $spacing-2
             @include media-breakpoint-down(md)
                 margin-bottom: 0
             @include media-breakpoint-up(lg)
-                top: calc(#{$spacing4} + var(--header-height))
-                bottom: - $grid-gutter
+                top: calc(#{$spacing-6} + var(--header-height))
+                bottom: var(--grid-gutter-negative)
                 margin-bottom: 0 !important
-                left: calc(50% + #{$grid-gutter} / 2)
+                left: calc(50% + var(--grid-gutter) / 2)
                 position: absolute
-                right: $grid-gutter
-                width: auto
+                width: columns(6)
             img
                 height: 100%
                 object-fit: cover
                 width: 100%
         p
             @include media-breakpoint-down(xl)
-                margin-bottom: px2rem(30)
+                margin-bottom: pxToRem(30)
 
 // Events
 .events__page 
