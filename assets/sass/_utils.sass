@@ -4,12 +4,13 @@
             background: $color
     .hero
         background-color: $color
-        .content
-            figure
-                figcaption
-                    .credit-content,
-                    &::before
-                        background-color: $color
+        @include media-breakpoint-up(desktop)
+            .content
+                figure
+                    figcaption
+                        .credit-content,
+                        &::before
+                            background-color: transparent
     .block-testimonials
         blockquote p
             color: $color
