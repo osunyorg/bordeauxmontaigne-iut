@@ -1,11 +1,3 @@
-
-
-// hero
-body:not(.diplomas__term):not(.page__home)
-    @include media-breakpoint-up(desktop)
-        .hero
-            display: flex
-
 // colors
 .posts__section,
 .posts__page,
@@ -75,9 +67,10 @@ ul.categories
             @include media-breakpoint-down(desktop)
                 background-color: darken($program-color, 3)
                 padding-bottom: $spacing-3
+                padding-top: $spacing-2
             @include media-breakpoint-up(desktop)
                 border-top: 1px solid hsla(0,0%,100%,.3)
-                margin-top: $spacing-5
+                padding-top: $spacing-4
             .buttons
                 .dropdown-share
                     button
@@ -114,9 +107,7 @@ ul.categories
         align-items: start
         margin-bottom: $spacing-5
         padding-bottom: $spacing-6
-        // min-height: auto !important
-        // padding-bottom: 0
-        hgroup
+        .hero-text
             margin-top: 0
             position: relative
             z-index: 2
@@ -124,7 +115,7 @@ ul.categories
             margin-bottom: $spacing-6
             min-height: $hero-height-desktop
         @include media-breakpoint-up(desktop)
-            hgroup
+            .hero-text
                 max-width: 50%
         @include media-breakpoint-down(md)
             padding-bottom: 0

@@ -10,3 +10,5 @@ params:
     position: hero
   search:
     active: true
+  debug:
+    productionUrl: "https://www.iut.u-bordeaux-montaigne.fr"
