@@ -114,9 +114,7 @@ ul.categories
         align-items: start
         margin-bottom: $spacing-5
         padding-bottom: $spacing-6
-        // min-height: auto !important
-        // padding-bottom: 0
-        hgroup
+        .hero-text
             margin-top: 0
             position: relative
             z-index: 2
@@ -124,7 +122,7 @@ ul.categories
             margin-bottom: $spacing-6
             min-height: $hero-height-desktop
         @include media-breakpoint-up(desktop)
-            hgroup
+            .hero-text
                 max-width: 50%
         @include media-breakpoint-down(md)
             padding-bottom: 0
