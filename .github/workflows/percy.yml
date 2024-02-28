@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-      - theme--**
+      - theme-**
   pull_request:
     types:
       - opened
