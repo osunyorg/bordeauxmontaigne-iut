@@ -59,6 +59,12 @@ ul.categories
     .hero
         @include media-breakpoint-down(desktop)
             padding-bottom: 0
+        .essential-container
+            .buttons
+                .dropdown-share
+                    --btn-background: #{$program-color}
+                    --btn-border: 1px solid #{$hero-color}
+                    --btn-color: #{$hero-color}
         .essential
             dt
                 color: transparentize($hero-color, .2)
@@ -71,13 +77,6 @@ ul.categories
             @include media-breakpoint-up(desktop)
                 border-top: 1px solid hsla(0,0%,100%,.3)
                 padding-top: $spacing-4
-            .buttons
-                .dropdown-share
-                    button
-                        border-color: white
-                    .dropdown-menu
-                        a 
-                            color: $program-color
             .diplomas-select 
                 .dropdown-menu 
                     a:hover
