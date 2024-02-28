@@ -1,42 +1,47 @@
-name: Percy
+name: percy
 
 on:
-  # Used to trigger a base analysis
-  # push:
-  #   branches:
-  #     - main
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - theme--**
   pull_request:
+    types:
+      - opened
     branches:
       - main
 
 jobs:
-  snapshot:
+  build_and_test:
+    name: Compilation du site Hugo et test avec Percy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 1
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: ${{ secrets.HUGO_VERSION }}
-          extended: true
+    - name: Récupération des données
+      uses: actions/checkout@v3
+      with:
+        submodules: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'yarn'
+    - name: Installation de Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+        cache: 'yarn'
 
-      - name: Install JS dependencies
-        run: yarn install --frozen-lockfile
+    - name: Installation des dépendances JavaScript
+      run: yarn install
 
-      - name: Start 
-        run: hugo server -e ${{ secrets.HUGO_ENV }} --minify & # https://discourse.gohugo.io/t/run-server-as-background/3252/2
+    - name: Installation de Hugo
+      uses: peaceiris/actions-hugo@v2.6.0
+      with:
+        hugo-version: 'latest'
+        extended: true
 
-      - name: Percy Test
-        run: npx @percy/cli snapshot snapshots.yml
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+    - name: Compilation du site
+      run: yarn osuny percy-build
+
+    - run: npm install --save-dev @percy/cli
+    - run: npx percy snapshot snapshots.yml
+      env:
+        PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}

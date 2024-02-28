@@ -1,7 +1,16 @@
-- http://localhost:1313
-- http://localhost:1313/actualites/
-- http://localhost:1313/actualites/2022/06/08/vous-cherchez-a-vous-loger-utilisez-notre-plateforme-de-logement-en-ligne-1/
-- http://localhost:1313/notre-institut/presentation-de-liut/histoire-et-heritage/
-- http://localhost:1313/formation/offre-de-formation/
-- http://localhost:1313/formation/offre-de-formation/metiers-du-multimedia-et-de-l-internet/
-- http://localhost:1313/notre-institut/ressources/equipe/marlene-dulaurans/
+serve: ./public
+snapshots:
+  - name: Home
+    url: /fr/index.html
+  - name: Actualités
+    url: /actualites/index.html
+  - name: Une actualités
+    url: /actualites/2022/06/08/vous-cherchez-a-vous-loger-utilisez-notre-plateforme-de-logement-en-ligne-1/index.html
+  - name: Page institut
+    url: /notre-institut/presentation-de-liut/histoire-et-heritage/index.html
+  - name: Formations
+    url: /formation/offre-de-formation/index.html
+  - name: MMI
+    url: /formation/offre-de-formation/metiers-du-multimedia-et-de-l-internet/index.html
+  - name: Une personne
+    url: /notre-institut/ressources/equipe/marlene-dulaurans/index.html
