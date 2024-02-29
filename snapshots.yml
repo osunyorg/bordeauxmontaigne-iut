@@ -1,11 +1,11 @@
 serve: ./public
 snapshots:
   - name: Home
-    url: /index.html
+    url: /fr/index.html
   - name: Actualités
     url: /actualites/index.html
   - name: Une actualités
-    url: /posts/2024/2024-01-09-programmation-culturelle-2nd-semestre-2023-2024.html
+    url: /actualites/2022/06/08/vous-cherchez-a-vous-loger-utilisez-notre-plateforme-de-logement-en-ligne-1/index.html
   - name: Page institut
     url: /notre-institut/presentation-de-liut/histoire-et-heritage/index.html
   - name: Formations
