@@ -4,15 +4,15 @@ header#document-header
     .dropdown-menu
         @include media-breakpoint-up(md)
             border-top: 1px solid rgba(0,0,0,.2)
-            padding-bottom: $spacing3
-            padding-top: $spacing3
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
         a, span
             font-family: $body-font-family
     .nav-level-1
         > li 
             > a, span
                 @include media-breakpoint-down(md)
-                    font-size: px2rem(18)
+                    font-size: pxToRem(18)
     .nav-level-2
         @include media-breakpoint-down(md)
             .has-children  + .has-children
@@ -20,12 +20,12 @@ header#document-header
             ul
                 padding-top: 0
         a, span
-            font-size: px2rem(18)
+            font-size: pxToRem(18)
             @include media-breakpoint-down(md)
-                padding: calc(#{$spacing0} / 2) 0
+                padding: calc(#{$spacing-2} / 2) 0
     .nav-level-3 
         a, span 
-            font-size: px2rem(14)
+            font-size: pxToRem(14)
             @include media-breakpoint-down(md)
                 line-height: 140%
     &.is-sticky
@@ -34,26 +34,24 @@ header#document-header
 
 // Footer
 footer#document-footer
-    a
-        @include link($footer-color)
     @include media-breakpoint-up(desktop)
         .container:first-child
-            padding-bottom: $spacing5
+            padding-bottom: $spacing-7
         .container:last-child
-            padding-top: $spacing2
+            padding-top: $spacing-4
             border-top: 1px solid hsla(0,0%,100%,.3)
         @include media-breakpoint-up(xxl)
             ul li
                 display: inline-block
                 + li 
-                    margin-left: $spacing0
+                    margin-left: $spacing-2
             .footer-legal
                 display: flex
                 small
-                    margin-left: $spacing0
+                    margin-left: $spacing-2
                     &::before
                         content: "—"
-                        margin-right: $spacing0
+                        margin-right: $spacing-2
     *::selection
         background: $color-background
         color: $color-text
@@ -64,7 +62,7 @@ footer#document-footer
                 margin-top: 0
         &-social, &-legals, &-credit
             @include small
-            font-size: px2rem(14) !important
+            font-size: pxToRem(14) !important
 
 // Breadcrumb
 .breadcrumb 
@@ -76,3 +74,8 @@ footer#document-footer
 
 .pagefind-ui__result-thumb
     font-size: 1rem
+
+.button-alt
+    --btn-background: #{$color-background}
+    --btn-border: none
+    --btn-color: #{$color-text}

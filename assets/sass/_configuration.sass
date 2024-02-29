@@ -9,7 +9,6 @@ $program-color: #006633
 $color-border: rgba(0,0,0,.2)
 
 $color-accent: $site-color
-$main-color: black
 
 // Fonts
 $body-font-family: 'Inter', sans-serif
@@ -18,62 +17,66 @@ $heading-font-family: 'Basier Circle', sans-serif
 // Headings
 
 // h2
-$h2-size-desktop: px2rem(42)
+$h2-size-desktop: pxToRem(42)
 $h2-line-height: 110%
+$h2-line-height-desktop: 110%
 
 // h3
-$h3-size-desktop: px2rem(36)
+$h3-size-desktop: pxToRem(36)
 $h3-line-height: 110%
+$h3-line-height-desktop: 110%
 $h3-weight: 500
 
 // h4
-$h4-size-desktop: px2rem(28)
-$h4-size: px2rem(18)
+$h4-size-desktop: pxToRem(28)
+$h4-size: pxToRem(18)
 $h4-weight: 500
 
 // h5
 $h5-text-transform: none
 
 // h6 or Section
-$h6-size-desktop: px2rem(24)
-$h6-size: px2rem(20)
+$h6-size-desktop: pxToRem(24)
+$h6-size: pxToRem(20)
 $h6-weight: bold
 // h7 or tab ?
 
 // Lead
 // PAS PRÉSENT DANS LE DESIGN SYSTEM
-$lead-size-desktop: px2rem(54)
-$lead-size: px2rem(24)
+$lead-size-desktop: pxToRem(54)
+$lead-size: pxToRem(24)
 $lead-line-height: 110%
+$lead-line-height-desktop: 110%
 
 // Body
-$body-size-desktop: px2rem(20)
-$body-size: px2rem(16)
+$body-size-desktop: pxToRem(20)
+$body-size: pxToRem(16)
 
 // PAS PRÉSENT DANS LE DESIGN SYSTEM
-// $small-size-desktop: px2rem(18)
+// $small-size-desktop: pxToRem(18)
 
 // Meta
 // à voir avec @Olivia
-// $meta-size-desktop: px2rem(16)
+// $meta-size-desktop: pxToRem(16)
 $meta-font-family: $body-font-family
 
 // Quotes
-$quote-size-short: px2rem(60) // TODO : vérifier les tailles de typo dans le block quote
-$quote-size-long: px2rem(40)
+$quote-size-short: pxToRem(60) // TODO : vérifier les tailles de typo dans le block quote
+$quote-size-long: pxToRem(40)
 $quote-line-height: 150%
+$quote-line-height-desktop: 150%
 // TODO : personne en couleur sur le figma : ajouter une variable ?
 
 // Variable pour le text-decoration-offset du mixin link ?
 
 // Buttons
 // à voir avec @Olivia
-$btn-font-size-desktop: px2rem(18)
-$btn-padding-x-desktop: px2rem(45)
-$btn-border-radius: px2rem(4)
+$btn-font-family: $body-font-family
+$btn-font-size-desktop: pxToRem(16)
+$btn-border-radius: pxToRem(4)
 
 // Spacing
-$spacing0: px2rem(16)
+$spacing-2: pxToRem(16)
 
 // Breadcrumb
 $breadcrumb-below-h1: false
@@ -83,8 +86,8 @@ $breadcrumb-icon-color: rgba(white, .5)
 // Header
 $header-background: transparent
 $header-color: white
-$header-dropdown-color: $main-color
-$header-sticky-color: $main-color
+$header-dropdown-color: var(--color-text)
+$header-sticky-color: var(--color-text)
 $header-dropdown-full: true
 $header-logo-height: 42px
 $header-sticky-invert-logo: true
@@ -96,7 +99,7 @@ $header-height-desktop: 103px
     
 // Footer
 $footer-color: white
-$footer-background-color: $main-color
+$footer-background-color: var(--color-text)
 
 // Hero
 $hero-background-color: $site-color
@@ -108,13 +111,13 @@ $hero-credit-color: $hero-color
 // Table of content // TODO : prévoir le TOC dans la maquette
 $toc-active-color: $institute-color
 $toc-font-family: $body-font-family
-$toc-font-size-desktop: px2rem(20)
+$toc-font-size-desktop: pxToRem(20)
 $toc-line-height: 140%
 // $toc-title-font-size-desktop: $meta-size-desktop
 
 // Table
-$table-head-font-size: px2rem(18)
-$table-head-font-size-desktop: px2rem(22)
+$table-head-font-size: pxToRem(18)
+$table-head-font-size-desktop: pxToRem(22)
 
 // BLOCKS
 
@@ -124,10 +127,10 @@ $block-call-to-action-color: white
 // variale pour font-size cta ?
 
 // Block definitions
-$block-definition-border-color-hovered: $main-color
-$block-definition-color-hovered: $main-color
-$block-definition-font-size-desktop: px2rem(20)
-$block-definition-font-size: px2rem(20)
+$block-definition-border-color-hovered: var(--color-text)
+$block-definition-color-hovered: var(--color-text)
+$block-definition-font-size-desktop: pxToRem(20)
+$block-definition-font-size: pxToRem(20)
 // variable font family ? --> inter
 
 // Block pages
@@ -144,9 +147,9 @@ $block-timeline-horizontal-background: $block-pages-card-background
 $block-testimonials-color: $institute-color
 $block-testimonials-pagination-progress-background: $institute-color
 
-$block-testimonials-xl-font-size: px2rem(50)
+$block-testimonials-xl-font-size: pxToRem(50)
 $block-testimonials-xl-line-height: 110%
-$block-testimonials-xl-font-size-long-text: px2rem(36)
+$block-testimonials-xl-font-size-long-text: pxToRem(36)
 $block-testimonials-xl-line-height-long-text: $block-testimonials-xl-line-height
 $block-testimonials-style: normal
 
