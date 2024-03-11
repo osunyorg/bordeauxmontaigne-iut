@@ -80,3 +80,13 @@ footer#document-footer
     --btn-background: #{$color-background}
     --btn-border: none
     --btn-color: #{$color-text}
+
+.hero
+    @include media-breakpoint-up(desktop)
+        .content
+            figure
+                figcaption
+                    color: inherit
+                    .credit-content,
+                    &::before
+                        background-color: transparent
