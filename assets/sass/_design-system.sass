@@ -91,3 +91,12 @@ footer#document-footer
                 background: black
                 &:hover
                     color: black
+.hero
+    @include media-breakpoint-up(desktop)
+        .content
+            figure
+                figcaption
+                    color: inherit
+                    .credit-content,
+                    &::before
+                        background-color: transparent
