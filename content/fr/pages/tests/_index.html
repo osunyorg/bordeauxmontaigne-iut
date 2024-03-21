@@ -41,9 +41,65 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 0
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
+  - kind: heading
+    title: >-
+      Bloc liste actus
+    position: 1
+    rank: 2
+  - kind: block
+    template: posts
+    title: >-
+      Grille
+    ranks:
+      self: 3
+      children: 4
+    data:
+      mode: all
+      all: true
+      layout: grid
+      posts:
+        - "2024/2024-03-12-de-bordeaux-3-a-bordeaux-montaigne-10-ans-de-retrospective"
+        - "2024/2024-03-01-candidatures-passerelles-en-but"
+        - "2024/2024-02-13-appel-a-talents-semaine-cult-2024"
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Liste
+    ranks:
+      self: 3
+      children: 4
+    data:
+      mode: all
+      all: true
+      layout: list
+      posts:
+        - "2024/2024-03-12-de-bordeaux-3-a-bordeaux-montaigne-10-ans-de-retrospective"
+        - "2024/2024-03-01-candidatures-passerelles-en-but"
+        - "2024/2024-02-13-appel-a-talents-semaine-cult-2024"
+
+
+  - kind: block
+    template: posts
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: all
+      layout: grid
+      posts:
+        - "2024/2024-03-12-de-bordeaux-3-a-bordeaux-montaigne-10-ans-de-retrospective"
+        - "2024/2024-03-01-candidatures-passerelles-en-but"
+        - "2024/2024-02-13-appel-a-talents-semaine-cult-2024"
+
+
+
 
 ---
