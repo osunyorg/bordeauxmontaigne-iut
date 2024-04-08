@@ -55,9 +55,9 @@ header_cta:
   label: 
   target: 
 contents_reading_time:
-  seconds: 5
+  seconds: 38
   text: >-
-    moins d'une minute
+    1 minute
 contents:
   - kind: block
     template: pages
@@ -90,47 +90,21 @@ contents:
           external: false
 
 
-  - kind: block
-    template: posts
+  - kind: heading
     title: >-
       Actualités
-    ranks:
-      self: 2
-      children: 3
-    data:
-      mode: selection
-      layout: large
-      posts:
-        - "2024/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024"
-
-
-  - kind: block
-    template: posts
-    title: >-
-      
-    ranks:
-      self: false
-      children: 2
-    data:
-      mode: selection
-      layout: grid
-      posts:
-        - "2024/2024-04-04-candidatures-en-but"
-        - "2024/2024-03-01-candidatures-passerelles-en-but"
-        - "2024/2024-04-05-une-bourse-un-logement-constituez-votre-dossier-en-ligne-1"
-        - "2024/2024-02-01-candidatures-en-licence-professionnelle-formation-continue-et-apprentissage"
-
-
+    position: 0
+    rank: 2
   - kind: block
     template: agenda
     title: >-
       
     ranks:
       self: false
-      children: 2
+      children: 3
     data:
       mode: all
-      layout: list
+      layout: large
       description: >-
         
 
@@ -147,11 +121,28 @@ contents:
 
 
   - kind: block
+    template: posts
+    title: >-
+      
+    ranks:
+      self: false
+      children: 3
+    data:
+      mode: selection
+      layout: grid
+      posts:
+        - "2024/2024-04-04-candidatures-en-but"
+        - "2024/2024-03-01-candidatures-passerelles-en-but"
+        - "2024/2024-04-05-une-bourse-un-logement-constituez-votre-dossier-en-ligne-1"
+        - "2024/2024-02-01-candidatures-en-licence-professionnelle-formation-continue-et-apprentissage"
+
+
+  - kind: block
     template: key_figures
     title: >-
       Chiffres clés
     ranks:
-      self: 2
+      self: 3
     data:
       description: >-
         
@@ -196,8 +187,8 @@ contents:
     title: >-
       Formation
     ranks:
-      self: 2
-      children: 3
+      self: 3
+      children: 4
     data:
       page: 
         path: "/formation/"
@@ -220,6 +211,7 @@ contents:
           slug: "scolarite"
           file: "pages/formation/scolarite/_index.html"
           external: false
+
 
 
 
