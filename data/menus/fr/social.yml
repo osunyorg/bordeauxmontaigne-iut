@@ -13,8 +13,8 @@ items:
   target: https://www.instagram.com/iutmontaigne/
   kind: url
   children: []
-- title: Twitter
-  target: https://twitter.com/iutmontaigne
+- title: Youtube
+  target: https://www.youtube.com/@iutbordeauxmontaigne
   kind: url
   children: []
 
