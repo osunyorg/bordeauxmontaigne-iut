@@ -17,7 +17,9 @@ fr:
     programs: /formation/offre-de-formation/:slug/
     publications: /notre-institut/recherche/publications/:year-:slug/
     organizations: /organisations/:slug/
+    organizations_categories: /organisations/:slug/
     persons: /notre-institut/ressources/equipe/:slug/
+    persons_categories: /notre-institut/ressources/equipe/:slug/
     administrators: /notre-institut/ressources/equipe/:slug/roles/
     authors: /notre-institut/ressources/equipe/:slug/actualites/
     researchers: /notre-institut/ressources/equipe/:slug/publications/
@@ -28,6 +30,8 @@ fr:
     diploma: diplomas
     events_category: events_categories
     location: locations
+    organizations_category: organizations_categories
+    persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
     researcher: researchers
