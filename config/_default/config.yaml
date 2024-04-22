@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: iut.u-bordeaux-montaigne.fr
   pages:
     index:
       truncate_description: 0
