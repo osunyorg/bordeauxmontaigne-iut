@@ -9,6 +9,7 @@ phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
   - "sylvie-armagnac"
+  - "victoria-belloc"
   - "elisabeth-benazza"
   - "quentin-bessiere"
   - "laurine-bremaud"
@@ -45,6 +46,8 @@ administrators_description:
     Secrétariat Information - Communication
   "sylvie-armagnac": >
     Accueil
+  "victoria-belloc": >
+    Service Patrimoine logistique et maintenance
   "elisabeth-benazza": >
     Service Patrimoine logistique et maintenance
   "quentin-bessiere": >
@@ -162,6 +165,7 @@ roles:
       - "eric-lamothe"
       - "david-lachaud"
       - "theodore-tangoulis"
+      - "victoria-belloc"
       - "elisabeth-benazza"
   - title: >
       Centre de Ressources Montaigne
