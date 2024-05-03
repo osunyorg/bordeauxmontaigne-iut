@@ -9,6 +9,7 @@ phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
   - "sylvie-armagnac"
+  - "elisabeth-benazza"
   - "quentin-bessiere"
   - "laurine-bremaud"
   - "nassima-choltus"
@@ -22,7 +23,6 @@ administrators:
   - "johanna-hourregue"
   - "david-lachaud"
   - "eric-lamothe"
-  - "kathy-lavignole"
   - "catherine-lecart"
   - "anais-mendibil"
   - "hmonneriesor"
@@ -45,6 +45,8 @@ administrators_description:
     Secrétariat Information - Communication
   "sylvie-armagnac": >
     Accueil
+  "elisabeth-benazza": >
+    Service Patrimoine logistique et maintenance
   "quentin-bessiere": >
     Secrétariat PUB - MMI
   "laurine-bremaud": >
@@ -70,8 +72,6 @@ administrators_description:
   "david-lachaud": >
     Service Patrimoine logistique et maintenance
   "eric-lamothe": >
-    Service Patrimoine logistique et maintenance
-  "kathy-lavignole": >
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >
     Service Formation continue
@@ -161,8 +161,8 @@ roles:
       - "aurelien-cornille"
       - "eric-lamothe"
       - "david-lachaud"
-      - "kathy-lavignole"
       - "theodore-tangoulis"
+      - "elisabeth-benazza"
   - title: >
       Centre de Ressources Montaigne
     persons:
