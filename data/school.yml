@@ -8,7 +8,9 @@ country: "France"
 phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
+  - "sylvie-armagnac"
   - "quentin-bessiere"
+  - "laurine-bremaud"
   - "nassima-choltus"
   - "stephane-colnay"
   - "lucas-corbiat"
@@ -22,8 +24,6 @@ administrators:
   - "eric-lamothe"
   - "kathy-lavignole"
   - "catherine-lecart"
-  - "mathilda-menadeo"
-  - "lea-menard"
   - "anais-mendibil"
   - "hmonneriesor"
   - "pauline-morisset"
@@ -42,9 +42,13 @@ administrators:
   - "mzaquithorea"
 administrators_description:
   "assad-abderemane": >
+    Secrétariat Information - Communication
+  "sylvie-armagnac": >
     Accueil
   "quentin-bessiere": >
     Secrétariat PUB - MMI
+  "laurine-bremaud": >
+    Centre de Ressources Montaigne
   "nassima-choltus": >
     Secrétariat Information - Communication
   "stephane-colnay": >
@@ -71,10 +75,6 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >
     Service Formation continue
-  "mathilda-menadeo": >
-    Centre de Ressources Montaigne
-  "lea-menard": >
-    Centre de Ressources Montaigne
   "anais-mendibil": >
     Scolarité
   "hmonneriesor": >
@@ -111,7 +111,7 @@ roles:
   - title: >
       Accueil
     persons:
-      - "assad-abderemane"
+      - "sylvie-armagnac"
   - title: >
       Gestion administrative et financière
     persons:
@@ -139,6 +139,7 @@ roles:
       - "camille-seguin"
       - "nassima-choltus"
       - "corine-videau"
+      - "assad-abderemane"
   - title: >
       Service Formation continue
     persons:
@@ -169,9 +170,8 @@ roles:
       - "gaelle-suchestow"
       - "mzaquithorea"
       - "johanna-hourregue"
-      - "mathilda-menadeo"
+      - "laurine-bremaud"
       - "lucas-corbiat"
-      - "lea-menard"
       - "pauline-morisset"
       - "apolline-satta"
 ---
