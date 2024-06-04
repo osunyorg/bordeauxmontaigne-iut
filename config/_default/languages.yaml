@@ -13,6 +13,8 @@ fr:
     posts_categories: /actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    projects: /projets/:year-:slug/
+    projects_categories: /projets/:slug/
     diplomas: /formation/offre-de-formation/diplomes/:slug/
     programs: /formation/offre-de-formation/:slug/
     publications: /notre-institut/recherche/publications/:year-:slug/
