@@ -42,123 +42,123 @@ administrators:
   - "corine-videau"
   - "mzaquithorea"
 administrators_description:
-  "assad-abderemane": >
+  "assad-abderemane": >-
     Secrétariat Information - Communication
-  "sylvie-armagnac": >
+  "sylvie-armagnac": >-
     Accueil
-  "victoria-belloc": >
+  "victoria-belloc": >-
     Service Patrimoine logistique et maintenance
-  "elisabeth-benazza": >
+  "elisabeth-benazza": >-
     Service Patrimoine logistique et maintenance
-  "quentin-bessiere": >
+  "quentin-bessiere": >-
     Secrétariat PUB - MMI
-  "laurine-bremaud": >
+  "laurine-bremaud": >-
     Centre de Ressources Montaigne
-  "nassima-choltus": >
+  "nassima-choltus": >-
     Secrétariat Information - Communication
-  "stephane-colnay": >
+  "stephane-colnay": >-
     Service Informatique
-  "lucas-corbiat": >
+  "lucas-corbiat": >-
     Centre de Ressources Montaigne
-  "aurelien-cornille": >
+  "aurelien-cornille": >-
     Service Patrimoine logistique et maintenance
-  "melisse-debes": >
+  "melisse-debes": >-
     Secrétariat Carrières sociales
-  "aurelie-doumbo": >
+  "aurelie-doumbo": >-
     Centre de Ressources Montaigne
-  "helene-ertle": >
+  "helene-ertle": >-
     Gestion administrative et financière
-  "marina-esteves": >
+  "marina-esteves": >-
     Service PAO
-  "johanna-hourregue": >
+  "johanna-hourregue": >-
     Centre de Ressources Montaigne
-  "david-lachaud": >
+  "david-lachaud": >-
     Service Patrimoine logistique et maintenance
-  "eric-lamothe": >
+  "eric-lamothe": >-
     Service Patrimoine logistique et maintenance
-  "catherine-lecart": >
+  "catherine-lecart": >-
     Service Formation continue
-  "anais-mendibil": >
+  "anais-mendibil": >-
     Scolarité
-  "hmonneriesor": >
+  "hmonneriesor": >-
     Scolarité
-  "pauline-morisset": >
+  "pauline-morisset": >-
     Centre de Ressources Montaigne
-  "julien-muzard": >
+  "julien-muzard": >-
     Service Informatique
-  "herve-panhaleux": >
+  "herve-panhaleux": >-
     Service Informatique
-  "justin-puyo": >
+  "justin-puyo": >-
     Service Informatique
-  "michele-quellier": >
+  "michele-quellier": >-
     Gestion administrative et financière
-  "weiwei-reynet": >
+  "weiwei-reynet": >-
     Gestion administrative et financière
-  "apolline-satta": >
+  "apolline-satta": >-
     Centre de Ressources Montaigne
-  "camille-seguin": >
+  "camille-seguin": >-
     Secrétariat Information - Communication
-  "laurianne-seran": >
+  "laurianne-seran": >-
     Gestion administrative et financière
-  "louise-elodie-seran": >
+  "louise-elodie-seran": >-
     Secrétariat Carrières sociales
-  "gaelle-suchestow": >
+  "gaelle-suchestow": >-
     Centre de Ressources Montaigne
-  "theodore-tangoulis": >
+  "theodore-tangoulis": >-
     Service Patrimoine logistique et maintenance
-  "corine-videau": >
+  "corine-videau": >-
     Secrétariat Information - Communication
-  "mzaquithorea": >
+  "mzaquithorea": >-
     Centre de Ressources Montaigne
 roles:
-  - title: >
+  - title: >-
       Accueil
     persons:
       - "sylvie-armagnac"
-  - title: >
+  - title: >-
       Gestion administrative et financière
     persons:
       - "helene-ertle"
       - "michele-quellier"
       - "weiwei-reynet"
       - "laurianne-seran"
-  - title: >
+  - title: >-
       Scolarité
     persons:
       - "hmonneriesor"
       - "anais-mendibil"
-  - title: >
+  - title: >-
       Secrétariat Carrières sociales
     persons:
       - "melisse-debes"
       - "louise-elodie-seran"
-  - title: >
+  - title: >-
       Secrétariat PUB - MMI
     persons:
       - "quentin-bessiere"
-  - title: >
+  - title: >-
       Secrétariat Information - Communication
     persons:
       - "camille-seguin"
       - "nassima-choltus"
       - "corine-videau"
       - "assad-abderemane"
-  - title: >
+  - title: >-
       Service Formation continue
     persons:
       - "catherine-lecart"
-  - title: >
+  - title: >-
       Service PAO
     persons:
       - "marina-esteves"
-  - title: >
+  - title: >-
       Service Informatique
     persons:
       - "justin-puyo"
       - "stephane-colnay"
       - "herve-panhaleux"
       - "julien-muzard"
-  - title: >
+  - title: >-
       Service Patrimoine logistique et maintenance
     persons:
       - "aurelien-cornille"
@@ -167,7 +167,7 @@ roles:
       - "theodore-tangoulis"
       - "victoria-belloc"
       - "elisabeth-benazza"
-  - title: >
+  - title: >-
       Centre de Ressources Montaigne
     persons:
       - "aurelie-doumbo"
