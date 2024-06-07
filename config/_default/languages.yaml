@@ -19,9 +19,9 @@ fr:
     programs: /formation/offre-de-formation/:slug/
     publications: /notre-institut/recherche/publications/:year-:slug/
     organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /notre-institut/ressources/equipe/:slug/
-    persons_categories: /notre-institut/ressources/equipe/:slug/
+    persons_categories: /notre-institut/ressources/equipe/categories/:slug/
     administrators: /notre-institut/ressources/equipe/:slug/roles/
     authors: /notre-institut/ressources/equipe/:slug/actualites/
     researchers: /notre-institut/ressources/equipe/:slug/publications/
