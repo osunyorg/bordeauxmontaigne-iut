@@ -18,6 +18,6 @@ allowed_domains:
   - "www.google.com"
   - "static.genial.ly"
   - "view.genial.ly"
+  - "www.calameo.com"
   - "fr.calameo.com"
   - "pallas.iut.u-bordeaux-montaigne.fr"
-  - "www.calameo.com"
