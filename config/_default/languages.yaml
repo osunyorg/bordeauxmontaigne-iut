@@ -8,6 +8,14 @@ fr:
   languageName: Français
   params:
     social:
+      linkedin: >-
+        https://www.linkedin.com/school/iut-bordeaux-montaigne
+      youtube: >-
+        https://www.youtube.com/@iutbordeauxmontaigne
+      instagram: >-
+        https://www.instagram.com/iutmontaigne/
+      facebook: >-
+        https://www.facebook.com/iutmontaigne
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
