@@ -1,20 +1,4 @@
 ---
 title: Social
-items:
-- title: LinkedIn
-  target: https://www.linkedin.com/school/iut-bordeaux-montaigne
-  kind: url
-  children: []
-- title: Facebook
-  target: https://www.facebook.com/iutmontaigne
-  kind: url
-  children: []
-- title: Instagram
-  target: https://www.instagram.com/iutmontaigne/
-  kind: url
-  children: []
-- title: Youtube
-  target: https://www.youtube.com/@iutbordeauxmontaigne
-  kind: url
-  children: []
+items: []
 
