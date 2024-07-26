@@ -49,7 +49,7 @@ header_cta:
     
   target: ""
 contents_reading_time:
-  seconds: 2
+  seconds: 4
   text: >-
     moins d'une minute
 contents:
@@ -301,12 +301,90 @@ contents:
   - kind: block
     template: timeline
     title: >-
-      
+      Titre frise chronologique
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
       layout: vertical
       events:
+        - title: >-
+            Le premier
+
+          text: >-
+            
+
+        - title: >-
+            Le deuxième
+
+          text: >-
+            
+
+
+
+  - kind: block
+    template: pages
+    title: >-
+      Titre pages
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page: 
+        path: "/notre-institut/"
+        slug: "notre-institut"
+        file: "pages/notre-institut/_index.html"
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - path: "/notre-institut/presentation-de-liut/"
+          slug: "presentation-de-liut"
+          file: "pages/notre-institut/presentation-de-liut/_index.html"
+          external: false
+        - path: "/notre-institut/ressources/"
+          slug: "ressources"
+          file: "pages/notre-institut/ressources/_index.html"
+          external: false
+        - path: "/notre-institut/informations-pratiques/"
+          slug: "informations-pratiques"
+          file: "pages/notre-institut/informations-pratiques/_index.html"
+          external: false
+
+
+  - kind: block
+    template: posts
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      mode: all
+      hide_image: false
+      hide_summary: false
+      hide_category: false
+      hide_author: false
+      hide_date: false
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        summary: true
+
+      posts:
+        - "2024/2024-07-08-l-ete-des-bibliotheques-2024"
+        - "2024/2024-06-17-inscriptions-administratives"
+        - "2024/2024-06-13-decouvrez-les-aides-de-la-caf-pour-les-etudiants"
 
 
 
