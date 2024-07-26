@@ -361,10 +361,10 @@ contents:
   - kind: block
     template: posts
     title: >-
-      
+      Titre actualités
     ranks:
-      self: false
-      children: 2
+      self: 2
+      children: 3
     data:
       mode: all
       hide_image: false
@@ -372,6 +372,7 @@ contents:
       hide_category: false
       hide_author: false
       hide_date: false
+      all: true
       layout: grid
       options:
         author: false
@@ -385,6 +386,51 @@ contents:
         - "2024/2024-07-08-l-ete-des-bibliotheques-2024"
         - "2024/2024-06-17-inscriptions-administratives"
         - "2024/2024-06-13-decouvrez-les-aides-de-la-caf-pour-les-etudiants"
+
+
+  - kind: block
+    template: persons
+    title: >-
+      Titre personnes
+    ranks:
+      self: 2
+      children: 3
+    data:
+      description: >-
+        
+
+      with_link: false
+      with_photo: false
+      options:
+        image: true
+        summary: true
+        link: true
+
+      persons:
+        - slug: "justin-puyo-1"
+          role: >-
+            Le chef
+
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      with_link: false
+      options:
+        link: true
+        logo: true
+        summary: false
+
+      organizations:
 
 
 
