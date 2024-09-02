@@ -129,16 +129,16 @@ items:
       target: "/vie-etudiante/services-numeriques/outils-pedagogiques/"
       kind: page
       children: []
-    - title: Espace étudiant
-      target: https://etu.u-bordeaux-montaigne.fr
+    - title: Emploi du temps
+      target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       children: []
     - title: Carbonio
       target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       children: []
-    - title: Emploi du temps
-      target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
+    - title: Espace étudiant
+      target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
   - title: L'IUT au quotidien
