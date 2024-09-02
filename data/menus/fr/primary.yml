@@ -133,7 +133,7 @@ items:
       target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       children: []
-    - title: Carbonio
+    - title: Carbonio (Mail)
       target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       children: []
