@@ -133,8 +133,8 @@ items:
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
-    - title: Bureau Virtuel
-      target: https://bv.u-bordeaux-montaigne.fr/
+    - title: Carbonio
+      target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       children: []
   - title: L'IUT au quotidien
