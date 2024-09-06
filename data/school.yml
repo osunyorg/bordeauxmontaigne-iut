@@ -8,7 +8,7 @@ country: "France"
 phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
-  - "sylvie-armagnac"
+  - "jeanne-baloup"
   - "elisabeth-benazza"
   - "quentin-bessiere"
   - "laurine-bremaud"
@@ -41,7 +41,7 @@ administrators:
 administrators_description:
   "assad-abderemane": >-
     Secrétariat Information - Communication
-  "sylvie-armagnac": >-
+  "jeanne-baloup": >-
     Accueil
   "elisabeth-benazza": >-
     Service Patrimoine logistique et maintenance
@@ -98,14 +98,14 @@ administrators_description:
   "theodore-tangoulis": >-
     Service Patrimoine logistique et maintenance
   "corine-videau": >-
-    Secrétariat Information - Communication
+    Scolarité
   "mzaquithorea": >-
     Centre de Ressources Montaigne
 roles:
   - title: >-
       Accueil
     persons:
-      - "sylvie-armagnac"
+      - "jeanne-baloup"
   - title: >-
       Gestion administrative et financière
     persons:
@@ -117,6 +117,7 @@ roles:
       Scolarité
     persons:
       - "hmonneriesor"
+      - "corine-videau"
   - title: >-
       Secrétariat Carrières sociales
     persons:
@@ -131,7 +132,6 @@ roles:
     persons:
       - "camille-seguin"
       - "nassima-choltus"
-      - "corine-videau"
       - "assad-abderemane"
   - title: >-
       Service Formation continue
