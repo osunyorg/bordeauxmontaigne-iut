@@ -11,6 +11,7 @@ administrators:
   - "jeanne-baloup"
   - "elisabeth-benazza"
   - "quentin-bessiere"
+  - "camille-boivin"
   - "laurine-bremaud"
   - "nassima-choltus"
   - "stephane-colnay"
@@ -20,9 +21,11 @@ administrators:
   - "helene-ertle"
   - "marina-esteves"
   - "johanna-hourregue"
+  - "hugo-kabansky"
   - "david-lachaud"
   - "eric-lamothe"
   - "catherine-lecart"
+  - "salima-mahtout"
   - "hmonneriesor"
   - "pauline-morisset"
   - "julien-muzard"
@@ -47,6 +50,8 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "quentin-bessiere": >-
     Secrétariat PUB - MMI
+  "camille-boivin": >-
+    Centre de Ressources Montaigne
   "laurine-bremaud": >-
     Centre de Ressources Montaigne
   "nassima-choltus": >-
@@ -65,12 +70,16 @@ administrators_description:
     Service PAO
   "johanna-hourregue": >-
     Centre de Ressources Montaigne
+  "hugo-kabansky": >-
+    Service Informatique
   "david-lachaud": >-
     Service Patrimoine logistique et maintenance
   "eric-lamothe": >-
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >-
     Service Formation continue
+  "salima-mahtout": >-
+    Service Patrimoine logistique et maintenance
   "hmonneriesor": >-
     Scolarité
   "pauline-morisset": >-
@@ -144,10 +153,11 @@ roles:
   - title: >-
       Service Informatique
     persons:
-      - "justin-puyo"
       - "stephane-colnay"
+      - "justin-puyo"
       - "herve-panhaleux"
       - "julien-muzard"
+      - "hugo-kabansky"
   - title: >-
       Service Patrimoine logistique et maintenance
     persons:
@@ -156,6 +166,7 @@ roles:
       - "david-lachaud"
       - "theodore-tangoulis"
       - "elisabeth-benazza"
+      - "salima-mahtout"
   - title: >-
       Centre de Ressources Montaigne
     persons:
@@ -166,4 +177,5 @@ roles:
       - "laurine-bremaud"
       - "pauline-morisset"
       - "apolline-satta"
+      - "camille-boivin"
 ---
