@@ -9,13 +9,11 @@ phone: "+33 5 57 12 20 44"
 administrators:
   - "assad-abderemane"
   - "sylvie-armagnac"
-  - "victoria-belloc"
   - "elisabeth-benazza"
   - "quentin-bessiere"
   - "laurine-bremaud"
   - "nassima-choltus"
   - "stephane-colnay"
-  - "lucas-corbiat"
   - "aurelien-cornille"
   - "melisse-debes"
   - "aurelie-doumbo"
@@ -25,7 +23,6 @@ administrators:
   - "david-lachaud"
   - "eric-lamothe"
   - "catherine-lecart"
-  - "anais-mendibil"
   - "hmonneriesor"
   - "pauline-morisset"
   - "julien-muzard"
@@ -46,8 +43,6 @@ administrators_description:
     Secrétariat Information - Communication
   "sylvie-armagnac": >-
     Accueil
-  "victoria-belloc": >-
-    Service Patrimoine logistique et maintenance
   "elisabeth-benazza": >-
     Service Patrimoine logistique et maintenance
   "quentin-bessiere": >-
@@ -58,8 +53,6 @@ administrators_description:
     Secrétariat Information - Communication
   "stephane-colnay": >-
     Service Informatique
-  "lucas-corbiat": >-
-    Centre de Ressources Montaigne
   "aurelien-cornille": >-
     Service Patrimoine logistique et maintenance
   "melisse-debes": >-
@@ -78,8 +71,6 @@ administrators_description:
     Service Patrimoine logistique et maintenance
   "catherine-lecart": >-
     Service Formation continue
-  "anais-mendibil": >-
-    Scolarité
   "hmonneriesor": >-
     Scolarité
   "pauline-morisset": >-
@@ -126,7 +117,6 @@ roles:
       Scolarité
     persons:
       - "hmonneriesor"
-      - "anais-mendibil"
   - title: >-
       Secrétariat Carrières sociales
     persons:
@@ -165,7 +155,6 @@ roles:
       - "eric-lamothe"
       - "david-lachaud"
       - "theodore-tangoulis"
-      - "victoria-belloc"
       - "elisabeth-benazza"
   - title: >-
       Centre de Ressources Montaigne
@@ -175,7 +164,6 @@ roles:
       - "mzaquithorea"
       - "johanna-hourregue"
       - "laurine-bremaud"
-      - "lucas-corbiat"
       - "pauline-morisset"
       - "apolline-satta"
 ---
