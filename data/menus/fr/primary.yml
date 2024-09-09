@@ -137,6 +137,10 @@ items:
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
+    - title: Activation des comptes informatiques
+      target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
+      kind: page
+      children: []
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
