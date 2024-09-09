@@ -125,6 +125,10 @@ items:
     target: "/vie-etudiante/services-numeriques/"
     kind: page
     children:
+    - title: Activation des comptes informatiques
+      target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
+      kind: page
+      children: []
     - title: Emploi du temps
       target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
@@ -136,10 +140,6 @@ items:
     - title: Espace étudiant
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
-      children: []
-    - title: Activation des comptes informatiques
-      target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
-      kind: page
       children: []
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
