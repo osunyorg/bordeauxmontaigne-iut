@@ -141,6 +141,10 @@ items:
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
+    - title: WiFi universitaire
+      target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
+      kind: page
+      children: []
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
