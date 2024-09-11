@@ -129,12 +129,12 @@ items:
       target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
       kind: page
       children: []
-    - title: Activation des comptes informatiques
-      target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
-      kind: page
-      children: []
     - title: Service d'impressions
       target: "/vie-etudiante/services-numeriques/service-dimpressions/"
+      kind: page
+      children: []
+    - title: Activation des comptes informatiques
+      target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
       kind: page
       children: []
     - title: Emploi du temps
