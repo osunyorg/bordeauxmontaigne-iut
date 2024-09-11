@@ -145,6 +145,10 @@ items:
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       children: []
+    - title: Service d'impressions
+      target: "/vie-etudiante/services-numeriques/service-dimpressions/"
+      kind: page
+      children: []
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
