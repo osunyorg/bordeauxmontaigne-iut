@@ -145,10 +145,6 @@ items:
       target: https://etu.u-bordeaux-montaigne.fr/fr/aide/aide-numerique/ma-messagerie.html
       kind: url
       children: []
-    - title: Carbonio (Mail)
-      target: https://carbonio.u-bordeaux-montaigne.fr/
-      kind: url
-      children: []
     - title: Espace étudiant
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
