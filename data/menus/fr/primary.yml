@@ -141,8 +141,8 @@ items:
       target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       children: []
-    - title: Ma messagerie
-      target: https://etu.u-bordeaux-montaigne.fr/fr/aide/aide-numerique/ma-messagerie.html
+    - title: Ma messagerie (Carbonio)
+      target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       children: []
     - title: Espace étudiant
