@@ -1,4 +1,5 @@
 theme: osuny
+paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
@@ -9,7 +10,9 @@ params:
   summary:
     position: hero
   search:
-    active: truep
+    active: true
+  debug:
+    productionUrl: "https://www.iut.u-bordeaux-montaigne.fr"
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo.svg"
