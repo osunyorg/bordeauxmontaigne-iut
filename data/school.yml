@@ -7,6 +7,12 @@ city: "Bordeaux Cedex"
 country: "France"
 phone: "+33 5 57 12 20 44"
 url: ""
+contact_details:
+  phone:
+    label: >-
+      +33 5 57 12 20 44
+    value: >-
+      tel:+33557122044
 logo:
   id: "0e6055d6-b4ee-415b-90ac-df77cd1bd826"
 administrators:
