@@ -16,6 +16,6 @@ allowed_domains:
   - "www.instagram.com"
   - "www.w3.org"
   - "plan.u-bordeaux-montaigne.fr"
-  - "www.calameo.com"
   - "fr.calameo.com"
   - "pallas.iut.u-bordeaux-montaigne.fr"
+  - "www.calameo.com"
