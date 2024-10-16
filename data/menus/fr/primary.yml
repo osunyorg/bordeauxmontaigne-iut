@@ -49,6 +49,10 @@ items:
       target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
       kind: page
       children: []
+  - title: Recherche *
+    target: "/notre-institut/recherche/"
+    kind: page
+    children: []
 - title: Formation
   target: "/formation/offre-de-formation/"
   kind: page
