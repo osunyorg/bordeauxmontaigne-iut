@@ -60,19 +60,27 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       En détail
-    slug: "en-detail"
-    position: 1
-    rank: 2
+    slug: >-
+      en-detail
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Notre Institut
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/notre-institut/"
@@ -103,16 +111,23 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Actualités
-    slug: "actualites"
-    position: 2
-    rank: 2
+    slug: >-
+      actualites
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -144,6 +159,8 @@ contents:
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -165,7 +182,6 @@ contents:
         - "2024/2024-10-08-hommage-a-pierre-christin"
         - "2024/2024-07-24-plans-de-l-universite-bordeaux-montaigne-a-pessac-et-bordeaux"
         - "2024/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024"
-
 
 
 

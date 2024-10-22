@@ -60,19 +60,27 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       En détail
-    slug: "en-detail"
-    position: 1
-    rank: 2
+    slug: >-
+      en-detail
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Vie étudiante
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/vie-etudiante/"
@@ -107,6 +115,8 @@ contents:
     template: files
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -128,16 +138,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Actualités
-    slug: "actualites"
-    position: 2
-    rank: 2
+    slug: >-
+      actualites
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: agenda
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -169,6 +186,8 @@ contents:
     template: posts
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -190,7 +209,6 @@ contents:
         - "2024/2024-09-23-bordeaux-accueille-ses-etudiants-2024"
         - "2024/2024-09-05-yanis-jaillet-nouveau-vice-president-etudiant"
         - "2024/2024-09-02-votre-application-de-messagerie-et-d-agenda-change"
-
 
 
 

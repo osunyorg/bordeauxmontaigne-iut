@@ -28,8 +28,8 @@ design:
     present: true
     offcanvas: false
 
-position: 9
-weight: 9
+position: 10
+weight: 10
 translationKey: communication-website-page-a1fe1def-5a69-459c-9d58-8097a1677d67
 
 bodyclass: >-
@@ -55,15 +55,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Données personnelles
-    slug: "donnees-personnelles"
-    position: 1
-    rank: 2
+    slug: >-
+      donnees-personnelles
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -84,16 +92,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Mesure d'audience
-    slug: "mesure-d-audience"
-    position: 2
-    rank: 2
+    slug: >-
+      mesure-d-audience
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -111,7 +126,6 @@ contents:
 
       credit: >-
         
-
 
 
 
