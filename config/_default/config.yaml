@@ -16,3 +16,9 @@ params:
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo.svg"
+  organizations:
+    single:
+      backlinks: true
+  persons:
+    single:
+      backlinks: true
