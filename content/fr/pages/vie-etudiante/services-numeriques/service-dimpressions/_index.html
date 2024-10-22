@@ -59,19 +59,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 63
+  seconds: 64
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Le service d’impression
-    slug: "le-service-d-impression"
-    position: 1
-    rank: 2
+    slug: >-
+      le-service-d-impression
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -92,16 +100,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Le porte-monnaie électronique IZLY
-    slug: "le-porte-monnaie-electronique-izly"
-    position: 2
-    rank: 2
+    slug: >-
+      le-porte-monnaie-electronique-izly
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -126,6 +141,8 @@ contents:
     template: video
     title: >-
       Comment utiliser Izly ?
+    slug: >-
+      comment-utiliser-izly
     ranks:
       self: 3
     data:
@@ -162,6 +179,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -185,7 +204,6 @@ contents:
           slug: "wifi-universitaire"
           file: "pages/vie-etudiante/services-numeriques/wifi-universitaire/_index.html"
           external: false
-
 
 
 

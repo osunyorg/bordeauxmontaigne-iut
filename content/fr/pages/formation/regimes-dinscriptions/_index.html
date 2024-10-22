@@ -67,15 +67,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Quel régime d'inscription ?
-    slug: "quel-regime-d-inscription"
-    position: 1
-    rank: 2
+    slug: >-
+      quel-regime-d-inscription
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -100,6 +108,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -123,7 +133,6 @@ contents:
           slug: "codes-rncp"
           file: "pages/formation/regimes-dinscriptions/codes-rncp/_index.html"
           external: false
-
 
 
 

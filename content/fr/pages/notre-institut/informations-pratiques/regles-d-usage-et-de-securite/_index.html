@@ -62,7 +62,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 72
+  seconds: 73
   text: >-
     1 minute
 contents:
@@ -70,6 +70,8 @@ contents:
     template: call_to_action
     title: >-
       Contact
+    slug: >-
+      contact
     ranks:
       self: 2
     data:
@@ -87,15 +89,23 @@ contents:
       buttons:
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Dispositif Vigipirate
-    slug: "dispositif-vigipirate"
-    position: 1
-    rank: 2
+    slug: >-
+      dispositif-vigipirate
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -119,16 +129,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Sensibilisation
-    slug: "sensibilisation"
-    position: 2
-    rank: 2
+    slug: >-
+      sensibilisation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -166,6 +183,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -185,7 +204,6 @@ contents:
           slug: "plan-dacces-et-contact"
           file: "pages/notre-institut/informations-pratiques/plan-dacces-et-contact/_index.html"
           external: false
-
 
 
 

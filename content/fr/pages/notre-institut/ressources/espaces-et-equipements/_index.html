@@ -66,15 +66,23 @@ contents_reading_time:
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Ressources et équipements
-    slug: "ressources-et-equipements"
-    position: 1
-    rank: 2
+    slug: >-
+      ressources-et-equipements
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: key_figures
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -97,6 +105,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -116,16 +126,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Visite guidée
-    slug: "visite-guidee"
-    position: 2
-    rank: 2
+    slug: >-
+      visite-guidee
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: gallery
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -285,6 +302,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -308,7 +327,6 @@ contents:
           slug: "equipe-administrative"
           file: "administrators/_index.html"
           external: false
-
 
 
 

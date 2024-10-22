@@ -25,8 +25,8 @@ design:
     present: true
     offcanvas: false
 
-position: 16
-weight: 16
+position: 17
+weight: 17
 translationKey: communication-website-page-39234dc1-10b2-4708-99b5-8889672a3813
 
 bodyclass: >-
@@ -56,6 +56,8 @@ contents:
     template: organizations
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 2
@@ -74,15 +76,23 @@ contents:
         - slug: "agec-co"
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Liens
-    slug: "liens"
-    position: 0
-    rank: 2
+    slug: >-
+      liens
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: links
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -149,17 +159,24 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Projets
-    slug: "projets"
-    position: 1
-    rank: 2
+    slug: >-
+      projets
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: projects
     title: >-
       Couvre Jeux
+    slug: >-
+      couvre-jeux
     ranks:
       self: 3
       children: 4
@@ -183,7 +200,6 @@ contents:
           file: "projects/2022-n2-le-jeu-cooperatif.html"
         - slug: "numero-1"
           file: "projects/2021-numero-1.html"
-
 
 
 

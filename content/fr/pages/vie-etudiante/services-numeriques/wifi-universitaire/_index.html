@@ -61,19 +61,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 66
+  seconds: 68
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Le WiFi à l'IUT
-    slug: "le-wifi-a-l-iut"
-    position: 1
-    rank: 2
+    slug: >-
+      le-wifi-a-l-iut
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -94,16 +102,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Paramétrer son appareil
-    slug: "parametrer-son-appareil"
-    position: 2
-    rank: 2
+    slug: >-
+      parametrer-son-appareil
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -128,6 +143,8 @@ contents:
     template: chapter
     title: >-
       Sur Windows
+    slug: >-
+      sur-windows
     ranks:
       self: 3
     data:
@@ -151,6 +168,8 @@ contents:
     template: chapter
     title: >-
       Sur Mac
+    slug: >-
+      sur-mac
     ranks:
       self: 3
     data:
@@ -174,6 +193,8 @@ contents:
     template: chapter
     title: >-
       Sur mobiles
+    slug: >-
+      sur-mobiles
     ranks:
       self: 3
     data:
@@ -197,6 +218,8 @@ contents:
     template: video
     title: >-
       Tutoriel
+    slug: >-
+      tutoriel
     ranks:
       self: 3
     data:
@@ -233,6 +256,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 3
@@ -256,7 +281,6 @@ contents:
           slug: "activation-des-comptes-informatiques"
           file: "pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/_index.html"
           external: false
-
 
 
 

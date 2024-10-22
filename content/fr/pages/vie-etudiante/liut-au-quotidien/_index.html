@@ -64,20 +64,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 57
+  seconds: 60
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Études et bonnes pratiques
-    slug: "etudes-et-bonnes-pratiques"
-    position: 1
-    rank: 2
+    slug: >-
+      etudes-et-bonnes-pratiques
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: links
     title: >-
       Mes outils numériques
+    slug: >-
+      mes-outils-numeriques
     ranks:
       self: 3
     data:
@@ -161,6 +169,8 @@ contents:
     template: files
     title: >-
       Règlements
+    slug: >-
+      reglements
     ranks:
       self: 3
     data:
@@ -179,6 +189,8 @@ contents:
   - kind: block
     template: files
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -205,6 +217,8 @@ contents:
     template: files
     title: >-
       Informations pratiques
+    slug: >-
+      informations-pratiques
     ranks:
       self: 3
     data:
@@ -230,6 +244,8 @@ contents:
     template: chapter
     title: >-
       Attention au plagiat
+    slug: >-
+      attention-au-plagiat
     ranks:
       self: 3
     data:
@@ -249,16 +265,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Actualités
-    slug: "actualites"
-    position: 2
-    rank: 2
+    slug: >-
+      actualites
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: posts
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -285,6 +308,8 @@ contents:
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -313,7 +338,6 @@ contents:
           slug: "sport"
           file: "pages/vie-etudiante/liut-au-quotidien/sport/_index.html"
           external: false
-
 
 
 
