@@ -1,38 +1,3 @@
-// colors
-.posts__section,
-.posts__page,
-.posts_categories__taxonomy,
-.posts_categories__term
-.events_categories__taxonomy,
-.events_categories__term
-    @include page-color($post-color)
-
-.diplomas__taxonomy,
-.diplomas__term,
-.programs__section
-    @include page-color($program-color)
-
-.pages__section,
-.pages__page,
-.persons__section,
-.persons__page,
-.teachers__taxonomy,
-.administrators__taxonomy,
-.authors__taxonomy,
-.researchers__taxonomy
-    @include page-color($institute-color)
-
-.page__home,
-.authors__term
-    @include page-color($site-color)
-
-.publications__page,
-.publications__section,
-.researchers__taxonomy,
-.researchers__term
-    @include page-color($research-color)
-
-// Programs
 ol.programs,
 ul.categories
     > li 
@@ -94,8 +59,3 @@ ul.categories
                 @include h6
             h3
                 @include h4
-
-// Posts
-.post
-    [itemprop="headline"]
-        @include h4
