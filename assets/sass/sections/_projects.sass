@@ -1,0 +1,19 @@
+.project 
+    .project-content 
+        .project-title
+            @include h4
+.projects__section, 
+.projects_categories__term
+    .projects--grid
+        @include media-breakpoint-up(desktop)
+            grid-template-columns: repeat(3, 1fr)
+.projects__page 
+    .hero 
+        .content
+            .project-infos
+                --color-text: white
+            @include media-breakpoint-up(desktop)
+                .hero-text
+                    width: columns(8)
+                figure
+                    width: columns(4)

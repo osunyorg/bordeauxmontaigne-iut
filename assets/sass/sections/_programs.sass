@@ -1,0 +1,61 @@
+ol.programs,
+ul.categories
+    > li 
+        > .title
+            font-size: pxToRem(28)
+            @include media-breakpoint-up(md)
+                @include h3
+
+.diplomas__taxonomy
+    .diplomas
+        > li 
+            > a
+                @include h3
+            .programs
+                > li > a
+                    @include h5
+.diplomas__term
+    ol.programs
+        li .title
+            @include h4
+
+.diplomas__term,
+.programs__section
+    .hero
+        @include media-breakpoint-down(desktop)
+            padding-bottom: 0
+        .essential-container
+            .buttons
+                .dropdown-share
+                    --btn-background: #{$program-color}
+                    --btn-border: 1px solid #{$hero-color}
+                    --btn-color: #{$hero-color}
+        .essential
+            dt
+                color: transparentize($hero-color, .2)
+        .container + div
+            position: relative
+            @include media-breakpoint-down(desktop)
+                background-color: darken($program-color, 3)
+                padding-bottom: $spacing-3
+                padding-top: $spacing-2
+            @include media-breakpoint-up(desktop)
+                border-top: 1px solid hsla(0,0%,100%,.3)
+                padding-top: $spacing-4
+            .diplomas-select 
+                .dropdown-menu 
+                    a:hover
+                        background-color: $program-color
+.programs__section
+    .block-key_figures
+        ul
+            @include media-breakpoint-up(md)
+                @include grid(4)
+                padding-bottom: $spacing-6
+                padding-top: $spacing-5
+    .document-content
+        .content
+            > h2
+                @include h6
+            h3
+                @include h4
