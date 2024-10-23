@@ -1,7 +1,8 @@
 theme: osuny
-paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
+pagination:
+  pagerSize: 30
 params:
   plausible: iut.u-bordeaux-montaigne.fr
   pages:
