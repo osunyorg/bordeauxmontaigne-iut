@@ -8,6 +8,29 @@ country: "France"
 phone: "+33 5 57 12 20 44"
 url: ""
 contact_details:
+  postal_address:
+    data:
+      address: >-
+        1 rue Jacques Ellul
+      address_additional: >-
+        
+      zipcode: >-
+        33080
+      city: >-
+        Bordeaux Cedex
+      country: >-
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+      country: >-
+        France
+    text: >-
+      1 rue Jacques Ellul 33080 Bordeaux Cedex FRANCE
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">1 rue Jacques Ellul</span> <span itemprop="postalCode">33080</span> <span itemprop="addressLocality">Bordeaux Cedex</span> <span itemprop="addressCountry">FRANCE</span></address>
   phone:
     label: >-
       +33 5 57 12 20 44
