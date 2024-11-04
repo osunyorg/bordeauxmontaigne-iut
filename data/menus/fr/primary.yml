@@ -193,4 +193,8 @@ items:
   target: "/intranet/"
   kind: page
   children: []
+- title: Alumni
+  target: "/alumni/"
+  kind: page
+  children: []
 
