@@ -189,12 +189,12 @@ items:
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       children: []
-- title: Intranet
-  target: "/intranet/"
-  kind: page
-  children: []
 - title: Alumni
   target: "/alumni/"
+  kind: page
+  children: []
+- title: Intranet
+  target: "/intranet/"
   kind: page
   children: []
 
