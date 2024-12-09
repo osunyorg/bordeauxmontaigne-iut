@@ -13,8 +13,8 @@ lastmod: 2024-09-29T11:17:05+02:00
 meta:
   hugo:
     permalink: "/notre-institut/"
+    path: "/pages/notre-institut"
     file: "content/fr/pages/notre-institut/_index.html"
-    path: "notre-institut"
     slug: "notre-institut"
   dates:
     created_at: 2021-11-23T09:52:22+01:00
@@ -89,9 +89,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/notre-institut/"
+        permalink: "/notre-institut/"
+        path: "/pages/notre-institut"
         slug: "notre-institut"
-        file: "pages/notre-institut/_index.html"
+        file: "content/fr/pages/notre-institut/_index.html"
       options:
         image: false
         main_summary: false
@@ -99,22 +100,23 @@ contents:
 
       layout: list
       pages:
-        - path: "/notre-institut/presentation-de-liut/"
+        - permalink: "/notre-institut/presentation-de-liut/"
+          path: "/pages/notre-institut/presentation-de-liut"
           slug: "presentation-de-liut"
-          file: "pages/notre-institut/presentation-de-liut/_index.html"
-          external: false
-        - path: "/notre-institut/ressources/"
+          file: "content/fr/pages/notre-institut/presentation-de-liut/_index.html"
+        - permalink: "/notre-institut/ressources/"
+          path: "/pages/notre-institut/ressources"
           slug: "ressources"
-          file: "pages/notre-institut/ressources/_index.html"
-          external: false
-        - path: "/notre-institut/informations-pratiques/"
+          file: "content/fr/pages/notre-institut/ressources/_index.html"
+        - permalink: "/notre-institut/informations-pratiques/"
+          path: "/pages/notre-institut/informations-pratiques"
           slug: "informations-pratiques"
-          file: "pages/notre-institut/informations-pratiques/_index.html"
-          external: false
-        - path: "/notre-institut/recherche/"
+          file: "content/fr/pages/notre-institut/informations-pratiques/_index.html"
+        - permalink: "/notre-institut/recherche/"
+          path: "/pages/notre-institut/recherche"
           slug: "recherche"
-          file: "pages/notre-institut/recherche/_index.html"
-          external: false
+          file: "content/fr/pages/notre-institut/recherche/_index.html"
+
 
 
   - kind: block
@@ -157,12 +159,19 @@ contents:
 
       title_link: "/agenda/"
       events:
-        - path: "/agenda/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024/"
-          file: "events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024.html"
-        - path: "/agenda/2024-12-12-stage-mode-demploi/"
-          file: "events/2024-12-12-stage-mode-demploi.html"
-        - path: "/agenda/2025-01-10-salon-de-letudiant-2025/"
-          file: "events/2025-01-10-salon-de-letudiant-2025.html"
+        - permalink: "/agenda/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024/"
+          path: "/events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024"
+          slug: "metiers-de-la-conception-et-de-la-mediation-culturelle-2024"
+          file: "content/fr/events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024.html"
+        - permalink: "/agenda/2024-12-12-stage-mode-demploi/"
+          path: "/events/2024-12-12-stage-mode-demploi"
+          slug: "stage-mode-demploi"
+          file: "content/fr/events/2024-12-12-stage-mode-demploi.html"
+        - permalink: "/agenda/2025-01-10-salon-de-letudiant-2025/"
+          path: "/events/2025-01-10-salon-de-letudiant-2025"
+          slug: "salon-de-letudiant-2025"
+          file: "content/fr/events/2025-01-10-salon-de-letudiant-2025.html"
+
 
 
   - kind: block
@@ -176,7 +185,7 @@ contents:
       children: 3
     data:
       mode: category
-      category: "/iut/"
+      category: "iut"
       layout: list
       options:
         author: true
@@ -188,10 +197,23 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-12-02-fermeture-hivernale-de-luniversite"
-        - "2024/2024-11-20-des-violentometres-geants-poses-au-sol-pour-sensibiliser-aux-violences-sexistes-et-sexuelles"
-        - "2024/2024-10-11-elections-des-representants-des-personnels-au-conseil-de-liut-bordeaux-montaigne"
-        - "2024/2024-10-08-hommage-a-pierre-christin"
+        - permalink: "/actualites/2024-12-02-fermeture-hivernale-de-luniversite/"
+          path: "/posts/2024/2024-12-02-fermeture-hivernale-de-luniversite"
+          slug: "fermeture-hivernale-de-luniversite"
+          file: "content/fr/posts/2024/2024-12-02-fermeture-hivernale-de-luniversite.html"
+        - permalink: "/actualites/2024-11-20-des-violentometres-geants-poses-au-sol-pour-sensibiliser-aux-violences-sexistes-et-sexuelles/"
+          path: "/posts/2024/2024-11-20-des-violentometres-geants-poses-au-sol-pour-sensibiliser-aux-violences-sexistes-et-sexuelles"
+          slug: "des-violentometres-geants-poses-au-sol-pour-sensibiliser-aux-violences-sexistes-et-sexuelles"
+          file: "content/fr/posts/2024/2024-11-20-des-violentometres-geants-poses-au-sol-pour-sensibiliser-aux-violences-sexistes-et-sexuelles.html"
+        - permalink: "/actualites/2024-10-11-elections-des-representants-des-personnels-au-conseil-de-liut-bordeaux-montaigne/"
+          path: "/posts/2024/2024-10-11-elections-des-representants-des-personnels-au-conseil-de-liut-bordeaux-montaigne"
+          slug: "elections-des-representants-des-personnels-au-conseil-de-liut-bordeaux-montaigne"
+          file: "content/fr/posts/2024/2024-10-11-elections-des-representants-des-personnels-au-conseil-de-liut-bordeaux-montaigne.html"
+        - permalink: "/actualites/2024-10-08-hommage-a-pierre-christin/"
+          path: "/posts/2024/2024-10-08-hommage-a-pierre-christin"
+          slug: "hommage-a-pierre-christin"
+          file: "content/fr/posts/2024/2024-10-08-hommage-a-pierre-christin.html"
+
 
 
 

@@ -13,8 +13,8 @@ lastmod: 2024-09-29T12:15:56+02:00
 meta:
   hugo:
     permalink: "/formation/"
+    path: "/pages/formation"
     file: "content/fr/pages/formation/_index.html"
-    path: "formation"
     slug: "formation"
   dates:
     created_at: 2022-04-07T11:47:54+02:00
@@ -89,9 +89,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/formation/"
+        permalink: "/formation/"
+        path: "/pages/formation"
         slug: "formation"
-        file: "pages/formation/_index.html"
+        file: "content/fr/pages/formation/_index.html"
       options:
         image: false
         main_summary: false
@@ -99,22 +100,23 @@ contents:
 
       layout: list
       pages:
-        - path: "/formation/offre-de-formation/"
+        - permalink: "/formation/offre-de-formation/"
+          path: "/programs"
           slug: "offre-de-formation"
-          file: "programs/_index.html"
-          external: false
-        - path: "/formation/regimes-dinscriptions/"
+          file: "content/fr/programs/_index.html"
+        - permalink: "/formation/regimes-dinscriptions/"
+          path: "/pages/formation/regimes-dinscriptions"
           slug: "regimes-dinscriptions"
-          file: "pages/formation/regimes-dinscriptions/_index.html"
-          external: false
-        - path: "/formation/scolarite/"
+          file: "content/fr/pages/formation/regimes-dinscriptions/_index.html"
+        - permalink: "/formation/scolarite/"
+          path: "/pages/formation/scolarite"
           slug: "scolarite"
-          file: "pages/formation/scolarite/_index.html"
-          external: false
-        - path: "/formation/international/"
+          file: "content/fr/pages/formation/scolarite/_index.html"
+        - permalink: "/formation/international/"
+          path: "/pages/formation/international"
           slug: "international"
-          file: "pages/formation/international/_index.html"
-          external: false
+          file: "content/fr/pages/formation/international/_index.html"
+
 
 
   - kind: block
@@ -157,12 +159,19 @@ contents:
 
       title_link: "/agenda/"
       events:
-        - path: "/agenda/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024/"
-          file: "events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024.html"
-        - path: "/agenda/2024-12-12-stage-mode-demploi/"
-          file: "events/2024-12-12-stage-mode-demploi.html"
-        - path: "/agenda/2025-01-10-salon-de-letudiant-2025/"
-          file: "events/2025-01-10-salon-de-letudiant-2025.html"
+        - permalink: "/agenda/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024/"
+          path: "/events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024"
+          slug: "metiers-de-la-conception-et-de-la-mediation-culturelle-2024"
+          file: "content/fr/events/2024-12-10-metiers-de-la-conception-et-de-la-mediation-culturelle-2024.html"
+        - permalink: "/agenda/2024-12-12-stage-mode-demploi/"
+          path: "/events/2024-12-12-stage-mode-demploi"
+          slug: "stage-mode-demploi"
+          file: "content/fr/events/2024-12-12-stage-mode-demploi.html"
+        - permalink: "/agenda/2025-01-10-salon-de-letudiant-2025/"
+          path: "/events/2025-01-10-salon-de-letudiant-2025"
+          slug: "salon-de-letudiant-2025"
+          file: "content/fr/events/2025-01-10-salon-de-letudiant-2025.html"
+
 
 
   - kind: block
@@ -176,7 +185,7 @@ contents:
       children: 3
     data:
       mode: category
-      category: "/formations/"
+      category: "formations"
       layout: list
       options:
         author: true
@@ -188,10 +197,23 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024"
-        - "2024/2024-02-02-challenge-des-metiers-du-livre-liut-bordeaux-montaigne-confirme-son-titre"
-        - "2023/2023-11-29-seminaire-sur-les-metiers-de-la-conception-et-de-la-mediation-culturelle-2023"
-        - "2023/2023-10-11-comment-oeuvrer-ensemble-tout-en-restant-chacun-singulier"
+        - permalink: "/actualites/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024/"
+          path: "/posts/2024/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024"
+          slug: "bordeaux-montaigne-aux-escales-du-livre-2024"
+          file: "content/fr/posts/2024/2024-03-25-bordeaux-montaigne-aux-escales-du-livre-2024.html"
+        - permalink: "/actualites/2024-02-02-challenge-des-metiers-du-livre-liut-bordeaux-montaigne-confirme-son-titre/"
+          path: "/posts/2024/2024-02-02-challenge-des-metiers-du-livre-liut-bordeaux-montaigne-confirme-son-titre"
+          slug: "challenge-des-metiers-du-livre-liut-bordeaux-montaigne-confirme-son-titre"
+          file: "content/fr/posts/2024/2024-02-02-challenge-des-metiers-du-livre-liut-bordeaux-montaigne-confirme-son-titre.html"
+        - permalink: "/actualites/2023-11-29-seminaire-sur-les-metiers-de-la-conception-et-de-la-mediation-culturelle-2023/"
+          path: "/posts/2023/2023-11-29-seminaire-sur-les-metiers-de-la-conception-et-de-la-mediation-culturelle-2023"
+          slug: "seminaire-sur-les-metiers-de-la-conception-et-de-la-mediation-culturelle-2023"
+          file: "content/fr/posts/2023/2023-11-29-seminaire-sur-les-metiers-de-la-conception-et-de-la-mediation-culturelle-2023.html"
+        - permalink: "/actualites/2023-10-11-comment-oeuvrer-ensemble-tout-en-restant-chacun-singulier/"
+          path: "/posts/2023/2023-10-11-comment-oeuvrer-ensemble-tout-en-restant-chacun-singulier"
+          slug: "comment-oeuvrer-ensemble-tout-en-restant-chacun-singulier"
+          file: "content/fr/posts/2023/2023-10-11-comment-oeuvrer-ensemble-tout-en-restant-chacun-singulier.html"
+
 
 
 
