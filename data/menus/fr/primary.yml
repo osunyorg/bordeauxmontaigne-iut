@@ -4,32 +4,38 @@ items:
 - title: Actualités
   target: "/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Notre institut
   target: "/notre-institut/"
   kind: page
+  new_tab: false
   children:
   - title: Présentation de l'IUT
     target: "/notre-institut/presentation-de-liut/"
     kind: page
+    new_tab: false
     children:
     - title: Histoire et héritage
       target: "/notre-institut/presentation-de-liut/histoire-et-heritage/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/presentation-de-liut/histoire-et-heritage"
       file: content/fr/pages/notre-institut/presentation-de-liut/histoire-et-heritage/_index.html
     - title: Atouts des IUT
       target: "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/presentation-de-liut/les-atouts-des-iut"
       file: content/fr/pages/notre-institut/presentation-de-liut/les-atouts-des-iut/_index.html
     - title: Relations avec les entreprises
       target: "/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises"
       file: content/fr/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises/_index.html
@@ -38,16 +44,19 @@ items:
   - title: Ressources
     target: "/notre-institut/ressources/"
     kind: page
+    new_tab: false
     children:
     - title: Équipe
       target: "/notre-institut/ressources/equipe/"
       kind: page
+      new_tab: false
       children: []
       path: "/persons"
       file: content/fr/persons/_index.html
     - title: Espaces et équipements
       target: "/notre-institut/ressources/espaces-et-equipements/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/ressources/espaces-et-equipements"
       file: content/fr/pages/notre-institut/ressources/espaces-et-equipements/_index.html
@@ -56,16 +65,19 @@ items:
   - title: Informations pratiques
     target: "/notre-institut/informations-pratiques/"
     kind: page
+    new_tab: false
     children:
     - title: Règles d'usage et de sécurité
       target: "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/informations-pratiques/regles-d-usage-et-de-securite"
       file: content/fr/pages/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/_index.html
     - title: Plan d’accès et contact
       target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/notre-institut/informations-pratiques/plan-dacces-et-contact"
       file: content/fr/pages/notre-institut/informations-pratiques/plan-dacces-et-contact/_index.html
@@ -74,6 +86,7 @@ items:
   - title: Recherche
     target: "/notre-institut/recherche/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/notre-institut/recherche"
     file: content/fr/pages/notre-institut/recherche/_index.html
@@ -82,32 +95,38 @@ items:
 - title: Formation
   target: "/formation/offre-de-formation/"
   kind: page
+  new_tab: false
   children:
   - title: Offre de formation
     target: "/formation/offre-de-formation/diplomes/"
     kind: page
+    new_tab: false
     children:
     - title: Bachelor Universitaire de Technologie
       target: "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
       kind: diploma
+      new_tab: false
       children: []
       path: "/diplomas/bachelor-universitaire-de-technologie"
       file: content/fr/diplomas/bachelor-universitaire-de-technologie/_index.html
     - title: Licence professionnelle
       target: "/formation/offre-de-formation/diplomes/licence-professionnelle/"
       kind: diploma
+      new_tab: false
       children: []
       path: "/diplomas/licence-professionnelle"
       file: content/fr/diplomas/licence-professionnelle/_index.html
     - title: Diplôme d'Université
       target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
       kind: diploma
+      new_tab: false
       children: []
       path: "/diplomas/diplome-d-universite"
       file: content/fr/diplomas/diplome-d-universite/_index.html
     - title: Master professionnel
       target: "/formation/offre-de-formation/diplomes/master-professionnel/"
       kind: diploma
+      new_tab: false
       children: []
       path: "/diplomas/master-professionnel"
       file: content/fr/diplomas/master-professionnel/_index.html
@@ -116,16 +135,19 @@ items:
   - title: Régimes d'inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
+    new_tab: false
     children:
     - title: Formation continue
       target: "/formation/regimes-dinscriptions/formation-continue/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/formation/regimes-dinscriptions/formation-continue"
       file: content/fr/pages/formation/regimes-dinscriptions/formation-continue/_index.html
     - title: Apprentissage
       target: "/formation/regimes-dinscriptions/apprentissage/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/formation/regimes-dinscriptions/apprentissage"
       file: content/fr/pages/formation/regimes-dinscriptions/apprentissage/_index.html
@@ -134,22 +156,26 @@ items:
   - title: Scolarité
     target: "/formation/scolarite/"
     kind: page
+    new_tab: false
     children:
     - title: Candidater
       target: "/formation/scolarite/candidater/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/formation/scolarite/candidater"
       file: content/fr/pages/formation/scolarite/candidater/_index.html
     - title: Inscription administrative
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/formation/scolarite/inscription-administrative"
       file: content/fr/pages/formation/scolarite/inscription-administrative/_index.html
     - title: La rentrée universitaire
       target: "/formation/scolarite/la-rentree-universitaire/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/formation/scolarite/la-rentree-universitaire"
       file: content/fr/pages/formation/scolarite/la-rentree-universitaire/_index.html
@@ -158,6 +184,7 @@ items:
   - title: International
     target: "/formation/international/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/formation/international"
     file: content/fr/pages/formation/international/_index.html
@@ -166,82 +193,98 @@ items:
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
+  new_tab: false
   children:
   - title: Centre de ressources Montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
+    new_tab: false
     children:
     - title: Trouver un document
       target: https://scd.u-bordeaux-montaigne.fr/contenus/tout
       kind: url
+      new_tab: true
       children: []
     - title: Les autres bibliothèques
       target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html
       kind: url
+      new_tab: true
       children: []
     path: "/pages/vie-etudiante/centre-de-ressources-montaigne"
     file: content/fr/pages/vie-etudiante/centre-de-ressources-montaigne/_index.html
   - title: Services numériques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
+    new_tab: false
     children:
     - title: WiFi universitaire
       target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/services-numeriques/wifi-universitaire"
       file: content/fr/pages/vie-etudiante/services-numeriques/wifi-universitaire/_index.html
     - title: Service d'impressions
       target: "/vie-etudiante/services-numeriques/service-dimpressions/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/services-numeriques/service-dimpressions"
       file: content/fr/pages/vie-etudiante/services-numeriques/service-dimpressions/_index.html
     - title: Activation des comptes informatiques
       target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques"
       file: content/fr/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/_index.html
     - title: Emploi du temps
       target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
+      new_tab: true
       children: []
     - title: Ma messagerie (Carbonio)
       target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
+      new_tab: true
       children: []
     - title: Espace étudiant
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
+      new_tab: true
       children: []
     path: "/pages/vie-etudiante/services-numeriques"
     file: content/fr/pages/vie-etudiante/services-numeriques/_index.html
   - title: L'IUT au quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
+    new_tab: false
     children:
     - title: Citoyenneté étudiante
       target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/liut-au-quotidien/citoyennete-etudiante"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/_index.html
     - title: Vie associative
       target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/liut-au-quotidien/vie-associative"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/vie-associative/_index.html
     - title: Culture
       target: "/vie-etudiante/liut-au-quotidien/culture/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/liut-au-quotidien/culture"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/culture/_index.html
     - title: Sport
       target: "/vie-etudiante/liut-au-quotidien/sport/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/liut-au-quotidien/sport"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/sport/_index.html
@@ -250,22 +293,26 @@ items:
   - title: Aide & entraide
     target: "/vie-etudiante/aide-entraide/"
     kind: page
+    new_tab: false
     children:
     - title: Aides sociales
       target: "/vie-etudiante/aide-entraide/aides-sociales/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/aide-entraide/aides-sociales"
       file: content/fr/pages/vie-etudiante/aide-entraide/aides-sociales/_index.html
     - title: Santé et prévention
       target: "/vie-etudiante/aide-entraide/sante-et-prevention/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/aide-entraide/sante-et-prevention"
       file: content/fr/pages/vie-etudiante/aide-entraide/sante-et-prevention/_index.html
     - title: Contacter un médiateur
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/vie-etudiante/aide-entraide/contacter-un-mediateur"
       file: content/fr/pages/vie-etudiante/aide-entraide/contacter-un-mediateur/_index.html
@@ -276,12 +323,14 @@ items:
 - title: Alumni
   target: "/alumni/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/alumni"
   file: content/fr/pages/alumni/_index.html
 - title: Intranet
   target: "/intranet/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/intranet"
   file: content/fr/pages/intranet/_index.html
