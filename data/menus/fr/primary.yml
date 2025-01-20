@@ -39,6 +39,13 @@ items:
       children: []
       path: "/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises"
       file: content/fr/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises/_index.html
+    - title: Rapports et chiffres clés
+      target: "/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/notre-institut/presentation-de-liut/rapports-et-chiffres-cles"
+      file: content/fr/pages/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/_index.html
     path: "/pages/notre-institut/presentation-de-liut"
     file: content/fr/pages/notre-institut/presentation-de-liut/_index.html
   - title: Ressources
