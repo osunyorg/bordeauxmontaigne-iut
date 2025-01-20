@@ -186,6 +186,13 @@ items:
       children: []
       path: "/pages/formation/scolarite/la-rentree-universitaire"
       file: content/fr/pages/formation/scolarite/la-rentree-universitaire/_index.html
+    - title: Carte AquiPass et Izly
+      target: "/formation/scolarite/carte-aquipass-et-izly/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/formation/scolarite/carte-aquipass-et-izly"
+      file: content/fr/pages/formation/scolarite/carte-aquipass-et-izly/_index.html
     path: "/pages/formation/scolarite"
     file: content/fr/pages/formation/scolarite/_index.html
   - title: International
