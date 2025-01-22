@@ -186,6 +186,13 @@ items:
       children: []
       path: "/pages/formation/scolarite/la-rentree-universitaire"
       file: content/fr/pages/formation/scolarite/la-rentree-universitaire/_index.html
+    - title: Retrait de diplômes
+      target: "/formation/scolarite/retrait-de-diplomes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/formation/scolarite/retrait-de-diplomes"
+      file: content/fr/pages/formation/scolarite/retrait-de-diplomes/_index.html
     - title: Carte AquiPass et Izly
       target: "/formation/scolarite/carte-aquipass-et-izly/"
       kind: page
