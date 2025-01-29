@@ -39,6 +39,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /formation/offre-de-formation/diplomes/:slug/
+    programs_categories: /formation/offre-de-formation/categories/:slug/
     programs: /formation/offre-de-formation/:slug/
     publications: /notre-institut/recherche/publications/:year-:slug/
     organizations: /organisations/:slug/
@@ -59,6 +60,7 @@ fr:
     pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
+    programs_category: programs_categories
     projects_category: projects_categories
     researcher: researchers
     teacher: teachers
