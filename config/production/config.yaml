@@ -2,6 +2,11 @@
 
 baseURL: https://www.iut.u-bordeaux-montaigne.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 7cfe43ca-55cf-4b9f-af73-4186075a5034
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
