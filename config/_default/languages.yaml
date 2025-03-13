@@ -6,6 +6,7 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  buildFuture: true
   params:
     contact_details:
       social_networks:
@@ -31,7 +32,8 @@ fr:
             https://www.youtube.com/@iutbordeauxmontaigne
 
   permalinks:
-    events: /agenda/:year-:month-:day-:slug/
+    events: /agenda/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     projects: /projets/:year-:slug/
