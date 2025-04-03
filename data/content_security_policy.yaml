@@ -15,6 +15,8 @@ allowed_domains:
   - "vimeo.com"
   - "player.vimeo.com"
   - "vumbnail.com"
+  - "w.soundcloud.com"
+  - "soundcloud.com"
   - "plan.u-bordeaux-montaigne.fr"
   - "www.instagram.com"
   - "www.w3.org"
