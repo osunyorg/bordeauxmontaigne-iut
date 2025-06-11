@@ -31,27 +31,6 @@ fr:
           value: >-
             https://www.youtube.com/@iutbordeauxmontaigne
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    diplomas: /formation/offre-de-formation/diplomes/:slug/
-    programs_categories: /formation/offre-de-formation/categories/:slug/
-    programs: /formation/offre-de-formation/:slug/
-    publications: /notre-institut/recherche/publications/:year-:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /notre-institut/ressources/equipe/:slug/
-    persons_categories: /notre-institut/ressources/equipe/categories/:slug/
-    administrators: /notre-institut/ressources/equipe/:slug/roles/
-    authors: /notre-institut/ressources/equipe/:slug/actualites/
-    researchers: /notre-institut/ressources/equipe/:slug/publications/
-    teachers: /notre-institut/ressources/equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
