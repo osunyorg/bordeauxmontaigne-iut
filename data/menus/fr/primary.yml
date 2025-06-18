@@ -352,7 +352,34 @@ items:
   target: "/intranet/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Intranet du personnel
+    target: "/intranet/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Carbonio - Mails et agenda
+      target: https://carbonio.u-bordeaux-montaigne.fr/
+      kind: url
+      new_tab: true
+      children: []
+    - title: ADE - Emplois du temps
+      target: https://edt.iut.u-bordeaux-montaigne.fr/portal
+      kind: url
+      new_tab: true
+      children: []
+    - title: ENTP de l'université
+      target: https://entp.u-bordeaux-montaigne.fr/
+      kind: url
+      new_tab: true
+      children: []
+    - title: Annuaire de l'université
+      target: https://intranet.u-bordeaux-montaigne.fr/annuaire/
+      kind: url
+      new_tab: true
+      children: []
+    path: "/pages/intranet"
+    file: content/fr/pages/intranet/_index.html
   path: "/pages/intranet"
   file: content/fr/pages/intranet/_index.html
 
