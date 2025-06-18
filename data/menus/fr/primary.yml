@@ -442,6 +442,13 @@ items:
       kind: url
       new_tab: true
       children: []
+    - title: Voir toutes les infos...
+      target: "/intranet/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/intranet"
+      file: content/fr/pages/intranet/_index.html
     path: "/pages/intranet"
     file: content/fr/pages/intranet/_index.html
   path: "/pages/intranet"
