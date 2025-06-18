@@ -363,7 +363,7 @@ items:
     kind: url
     new_tab: false
     children: []
-  - title: Applications et procédures administratives
+  - title: Applications administratives
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
     kind: url
     new_tab: false
