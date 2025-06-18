@@ -402,6 +402,11 @@ items:
       kind: url
       new_tab: true
       children: []
+    - title: Enseigner avec le numérique
+      target: https://ealn.u-bordeaux-montaigne.fr/fr/index.html
+      kind: url
+      new_tab: true
+      children: []
     - title: Voir tous les outils...
       target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
       kind: url
