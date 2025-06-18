@@ -357,17 +357,66 @@ items:
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
     kind: url
     new_tab: false
-    children: []
+    children:
+    - title: Webmail Carbonio
+      target: https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/communiquer/webmail-carbonio.html
+      kind: url
+      new_tab: true
+      children: []
+    - title: Calendrier Carbonio
+      target: https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/planifier/calendrier-carbonio.html
+      kind: url
+      new_tab: true
+      children: []
+    - title: WiFi universitaire
+      target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/vie-etudiante/services-numeriques/wifi-universitaire"
+      file: content/fr/pages/vie-etudiante/services-numeriques/wifi-universitaire/_index.html
+    - title: Service d'impressions
+      target: "/vie-etudiante/services-numeriques/service-dimpressions/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/vie-etudiante/services-numeriques/service-dimpressions"
+      file: content/fr/pages/vie-etudiante/services-numeriques/service-dimpressions/_index.html
   - title: Outils pédagogiques
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
     kind: url
     new_tab: false
-    children: []
+    children:
+    - title: e-Campus - Moodle
+      target: https://e-campus.u-bordeaux-montaigne.fr/
+      kind: url
+      new_tab: true
+      children: []
+    - title: Zoom - Visio
+      target: http://u-bordeaux-montaigne-fr.zoom.us/
+      kind: url
+      new_tab: true
+      children: []
   - title: Applications administratives
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
     kind: url
     new_tab: false
-    children: []
+    children:
+    - title: GLPI - Demandes et incidents
+      target: https://service-info.iut.u-bordeaux-montaigne.fr/
+      kind: url
+      new_tab: true
+      children: []
+    - title: Gestion ADE
+      target: https://edt.iut.u-bordeaux-montaigne.fr/
+      kind: url
+      new_tab: true
+      children: []
+    - title: Hamac - Congés
+      target: https://cocktailubm-public.u-bordeaux.fr/cgi-bin/WebObjects/HamacB3P.woa
+      kind: url
+      new_tab: true
+      children: []
   - title: Intranet du personnel
     target: "/intranet/"
     kind: page
