@@ -353,6 +353,21 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Aides et didacticiels
+    target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
+    kind: url
+    new_tab: false
+    children: []
+  - title: Outils pédagogiques
+    target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
+    kind: url
+    new_tab: false
+    children: []
+  - title: Applications et procédures administratives
+    target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
+    kind: url
+    new_tab: false
+    children: []
   - title: Intranet du personnel
     target: "/intranet/"
     kind: page
