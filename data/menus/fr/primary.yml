@@ -382,6 +382,11 @@ items:
       children: []
       path: "/pages/vie-etudiante/services-numeriques/service-dimpressions"
       file: content/fr/pages/vie-etudiante/services-numeriques/service-dimpressions/_index.html
+    - title: Voir toutes les aides...
+      target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
+      kind: url
+      new_tab: false
+      children: []
   - title: Outils pédagogiques
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
     kind: url
@@ -396,6 +401,11 @@ items:
       target: http://u-bordeaux-montaigne-fr.zoom.us/
       kind: url
       new_tab: true
+      children: []
+    - title: Voir tous les outils...
+      target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
+      kind: url
+      new_tab: false
       children: []
   - title: Applications administratives
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
@@ -414,6 +424,11 @@ items:
       children: []
     - title: Hamac - Congés
       target: https://cocktailubm-public.u-bordeaux.fr/cgi-bin/WebObjects/HamacB3P.woa
+      kind: url
+      new_tab: true
+      children: []
+    - title: Voir toutes les applications...
+      target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
       kind: url
       new_tab: true
       children: []
