@@ -56,7 +56,6 @@ administrators:
   - "melisse-debes"
   - "aurelie-doumbo"
   - "helene-ertle"
-  - "marina-esteves"
   - "johanna-hourregue"
   - "hugo-kabansky"
   - "david-lachaud"
@@ -103,8 +102,6 @@ administrators_description:
     Centre de Ressources Montaigne
   "helene-ertle": >-
     Gestion administrative et financière
-  "marina-esteves": >-
-    Service PAO
   "johanna-hourregue": >-
     Centre de Ressources Montaigne
   "hugo-kabansky": >-
@@ -228,10 +225,6 @@ roles:
   - title: >-
       Service PAO
     persons:
-      - permalink: "/notre-institut/ressources/equipe/marina-esteves/"
-        path: "/persons/marina-esteves"
-        slug: "marina-esteves"
-        file: "content/fr/persons/marina-esteves.html"
   - title: >-
       Service Informatique
     persons:
