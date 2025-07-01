@@ -281,6 +281,13 @@ items:
     kind: page
     new_tab: false
     children:
+    - title: Études et bonnes pratiques
+      target: "/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques"
+      file: content/fr/pages/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/_index.html
     - title: Citoyenneté étudiante
       target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
