@@ -260,7 +260,7 @@ items:
       path: "/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques"
       file: content/fr/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/_index.html
     - title: Emploi du temps
-      target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
+      target: http://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       new_tab: true
       children: []
@@ -430,7 +430,7 @@ items:
       new_tab: true
       children: []
     - title: Gestion ADE
-      target: https://edt.iut.u-bordeaux-montaigne.fr/
+      target: http://edt.iut.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
@@ -455,7 +455,7 @@ items:
       new_tab: true
       children: []
     - title: ADE - Emplois du temps
-      target: https://edt.iut.u-bordeaux-montaigne.fr/portal
+      target: http://edt.iut.u-bordeaux-montaigne.fr/portal
       kind: url
       new_tab: true
       children: []
