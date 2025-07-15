@@ -260,7 +260,7 @@ items:
       path: "/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques"
       file: content/fr/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/_index.html
     - title: Emploi du temps
-      target: http://edt.iut.u-bordeaux-montaigne.fr/portal/
+      target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       new_tab: true
       children: []
