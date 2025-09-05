@@ -6,7 +6,7 @@ zipcode: "33080"
 city: "Bordeaux Cedex"
 country: "France"
 phone: "+33 5 57 12 20 44"
-url: ""
+url: "accueil-iut@iut.u-bordeaux-montaigne.fr"
 contact_details:
   postal_address:
     data:
@@ -40,6 +40,12 @@ contact_details:
         +33 5 57 12 20 44
       value: >-
         tel:+33557122044
+  websites:
+    website:
+      label: >-
+        accueil-iut@iut.u-bordeaux-montaigne.fr
+      value: >-
+        https://accueil-iut@iut.u-bordeaux-montaigne.fr
 
 logo:
   id: "0e6055d6-b4ee-415b-90ac-df77cd1bd826"
