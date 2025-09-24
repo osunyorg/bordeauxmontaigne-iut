@@ -1,7 +1,7 @@
 ---
 title: >-
   Wifi eduroam
-level: warning
+level: info
 content: >-
   <p>Un changement de certificat peut perturber votre connexion au réseau Wi-Fi Eduroam.</p>
 button:
