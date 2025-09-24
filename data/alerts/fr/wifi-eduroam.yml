@@ -1,0 +1,13 @@
+---
+title: >-
+  Wifi eduroam
+level: warning
+content: >-
+  <p>Un changement de certificat peut perturber votre connexion au réseau Wi-Fi Eduroam.</p>
+button:
+  title: >-
+    Plus d'informations...
+  url: >-
+    https://www.iut.u-bordeaux-montaigne.fr/vie-etudiante/services-numeriques/wifi-universitaire/
+  target_blank: false
+---
