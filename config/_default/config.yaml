@@ -14,13 +14,22 @@ params:
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo.svg"
+  events:
+    single:
+      summary:
+        position: hero
   organizations:
     single:
       backlinks: true
   persons:
     single:
       backlinks: true
-  events:
-    single:
-      summary:
-        position: hero
+  programs:
+    related_events:
+      layout: list
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
