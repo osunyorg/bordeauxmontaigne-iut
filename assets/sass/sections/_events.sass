@@ -6,3 +6,11 @@
         .taxonomies-single
             a
                 @include link(rgba(255, 255, 255, 0.7))
+
+.events__section
+    .events--agenda
+        .events-date:first-child
+            .events-date-title:not(.is-down) span
+                padding-top: 0
+        .events-date-title.is-down span
+            padding-top: $spacing-3
