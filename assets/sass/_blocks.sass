@@ -19,14 +19,14 @@
                     @include h4
 
 .block-pages
-    .cards
+    &--cards
         .page-title
             @include h4
     &--grid
         .top
             .block-title
                 @include h6
-        .grid article
+        article
             .page-title
                 @include h5
     &--list
@@ -40,15 +40,30 @@
             @include in-page-without-sidebar
                 .top .description
                     @include h3
+
 .block-posts
     &--highlight
         .highlight-post
             .post-title, .post-subtitle
                 @include h3
+    
     .pages__section &
         .post
             .post-title, .post-subtitle
                 @include h4
+
+.posts--list
+    .post-content
+        display: flex
+        flex-direction: column
+        hgroup, 
+        > .post-title
+            order: -2
+        .post-categories
+            order: -1
+            @include media-breakpoint-up(md)
+                margin-bottom: 0
+
 .block-chapter
     @include in-page-with-or-without-sidebar
         .block-title
