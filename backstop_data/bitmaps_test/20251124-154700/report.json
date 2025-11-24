@@ -1,10 +1,10 @@
-report({
+{
   "testSuite": "BackstopJS",
   "tests": [
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Osuny_test___0_document_0_phone.png",
-        "test": "../bitmaps_test/20251124-162225/backstop_default_Osuny_test___0_document_0_phone.png",
+        "test": "../bitmaps_test/20251124-154700/backstop_default_Osuny_test___0_document_0_phone.png",
         "selector": "document",
         "fileName": "backstop_default_Osuny_test___0_document_0_phone.png",
         "label": "Osuny test : ",
@@ -20,9 +20,9 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.03473413379073756,
-          "misMatchPercentage": "0.03",
-          "analysisTime": 36
+          "rawMisMatchPercentage": 0.002840909090909091,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 25
         }
       },
       "status": "pass"
@@ -30,7 +30,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Osuny_test___0_document_1_tablet.png",
-        "test": "../bitmaps_test/20251124-162225/backstop_default_Osuny_test___0_document_1_tablet.png",
+        "test": "../bitmaps_test/20251124-154700/backstop_default_Osuny_test___0_document_1_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Osuny_test___0_document_1_tablet.png",
         "label": "Osuny test : ",
@@ -46,13 +46,13 @@ report({
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.02637812230835487,
-          "misMatchPercentage": "0.03",
-          "analysisTime": 100
+          "rawMisMatchPercentage": 0.0015497350768668599,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 97
         }
       },
       "status": "pass"
     }
   ],
   "id": "backstop_default"
-});
+}
