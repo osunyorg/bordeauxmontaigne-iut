@@ -33,3 +33,6 @@ params:
         image: true
         subtitle: true
         summary: true
+  schools:
+    sitemap:
+      ignore: true
