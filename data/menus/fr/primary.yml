@@ -2,482 +2,750 @@
 title: Menu principal
 items:
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Notre institut
+  slug: notre-institut
   target: "/notre-institut/"
   kind: page
   new_tab: false
   children:
   - title: Présentation de l'IUT
+    slug: presentation-de-l-iut
     target: "/notre-institut/presentation-de-liut/"
     kind: page
     new_tab: false
     children:
     - title: Histoire et héritage
+      slug: histoire-et-heritage
       target: "/notre-institut/presentation-de-liut/histoire-et-heritage/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/presentation-de-liut/histoire-et-heritage"
       file: content/fr/pages/notre-institut/presentation-de-liut/histoire-et-heritage/_index.html
     - title: Atouts des IUT
+      slug: atouts-des-iut
       target: "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/presentation-de-liut/les-atouts-des-iut"
       file: content/fr/pages/notre-institut/presentation-de-liut/les-atouts-des-iut/_index.html
     - title: Relations avec les entreprises
+      slug: relations-avec-les-entreprises
       target: "/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises"
       file: content/fr/pages/notre-institut/presentation-de-liut/relations-avec-les-entreprises/_index.html
     - title: Rapports et chiffres clés
+      slug: rapports-et-chiffres-cles
       target: "/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/presentation-de-liut/rapports-et-chiffres-cles"
       file: content/fr/pages/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/_index.html
+    descendants_targets:
+    - "/notre-institut/presentation-de-liut/histoire-et-heritage/"
+    - "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
+    - "/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/"
+    - "/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
     path: "/pages/notre-institut/presentation-de-liut"
     file: content/fr/pages/notre-institut/presentation-de-liut/_index.html
   - title: Ressources
+    slug: ressources
     target: "/notre-institut/ressources/"
     kind: page
     new_tab: false
     children:
     - title: Équipe
+      slug: equipe
       target: "/notre-institut/ressources/equipe/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/persons"
       file: content/fr/persons/_index.html
     - title: Espaces et équipements
+      slug: espaces-et-equipements
       target: "/notre-institut/ressources/espaces-et-equipements/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/ressources/espaces-et-equipements"
       file: content/fr/pages/notre-institut/ressources/espaces-et-equipements/_index.html
+    descendants_targets:
+    - "/notre-institut/ressources/equipe/"
+    - "/notre-institut/ressources/espaces-et-equipements/"
     path: "/pages/notre-institut/ressources"
     file: content/fr/pages/notre-institut/ressources/_index.html
   - title: Informations pratiques
+    slug: informations-pratiques
     target: "/notre-institut/informations-pratiques/"
     kind: page
     new_tab: false
     children:
     - title: Règles d'usage et de sécurité
+      slug: regles-d-usage-et-de-securite
       target: "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/informations-pratiques/regles-d-usage-et-de-securite"
       file: content/fr/pages/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/_index.html
     - title: Plan d’accès et contact
+      slug: plan-d-acces-et-contact
       target: "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/notre-institut/informations-pratiques/plan-dacces-et-contact"
       file: content/fr/pages/notre-institut/informations-pratiques/plan-dacces-et-contact/_index.html
+    descendants_targets:
+    - "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
+    - "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
     path: "/pages/notre-institut/informations-pratiques"
     file: content/fr/pages/notre-institut/informations-pratiques/_index.html
   - title: Recherche
+    slug: recherche
     target: "/notre-institut/recherche/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/notre-institut/recherche"
     file: content/fr/pages/notre-institut/recherche/_index.html
+  descendants_targets:
+  - "/notre-institut/informations-pratiques/"
+  - "/notre-institut/informations-pratiques/plan-dacces-et-contact/"
+  - "/notre-institut/informations-pratiques/regles-d-usage-et-de-securite/"
+  - "/notre-institut/presentation-de-liut/"
+  - "/notre-institut/presentation-de-liut/histoire-et-heritage/"
+  - "/notre-institut/presentation-de-liut/les-atouts-des-iut/"
+  - "/notre-institut/presentation-de-liut/rapports-et-chiffres-cles/"
+  - "/notre-institut/presentation-de-liut/relations-avec-les-entreprises/"
+  - "/notre-institut/recherche/"
+  - "/notre-institut/ressources/"
+  - "/notre-institut/ressources/equipe/"
+  - "/notre-institut/ressources/espaces-et-equipements/"
   path: "/pages/notre-institut"
   file: content/fr/pages/notre-institut/_index.html
 - title: Formation
+  slug: formation
   target: "/formation/offre-de-formation/"
   kind: page
   new_tab: false
   children:
   - title: Offre de formation
+    slug: offre-de-formation
     target: "/formation/offre-de-formation/diplomes/"
     kind: page
     new_tab: false
     children:
     - title: Bachelor Universitaire de Technologie
+      slug: bachelor-universitaire-de-technologie
       target: "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
       kind: diploma
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/diplomas/bachelor-universitaire-de-technologie"
       file: content/fr/diplomas/bachelor-universitaire-de-technologie/_index.html
     - title: Licence professionnelle
+      slug: licence-professionnelle
       target: "/formation/offre-de-formation/diplomes/licence-professionnelle/"
       kind: diploma
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/diplomas/licence-professionnelle"
       file: content/fr/diplomas/licence-professionnelle/_index.html
     - title: Diplôme d'Université
+      slug: diplome-d-universite
       target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
       kind: diploma
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/diplomas/diplome-d-universite"
       file: content/fr/diplomas/diplome-d-universite/_index.html
     - title: Master professionnel
+      slug: master-professionnel
       target: "/formation/offre-de-formation/diplomes/master-professionnel/"
       kind: diploma
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/diplomas/master-professionnel"
       file: content/fr/diplomas/master-professionnel/_index.html
+    descendants_targets:
+    - "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
+    - "/formation/offre-de-formation/diplomes/diplome-d-universite/"
+    - "/formation/offre-de-formation/diplomes/licence-professionnelle/"
+    - "/formation/offre-de-formation/diplomes/master-professionnel/"
     path: "/diplomas"
     file: content/fr/diplomas/_index.html
   - title: Régimes d'inscriptions
+    slug: regimes-d-inscriptions
     target: "/formation/regimes-dinscriptions/"
     kind: page
     new_tab: false
     children:
     - title: Formation continue
+      slug: formation-continue
       target: "/formation/regimes-dinscriptions/formation-continue/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/regimes-dinscriptions/formation-continue"
       file: content/fr/pages/formation/regimes-dinscriptions/formation-continue/_index.html
     - title: Apprentissage
+      slug: apprentissage
       target: "/formation/regimes-dinscriptions/apprentissage/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/regimes-dinscriptions/apprentissage"
       file: content/fr/pages/formation/regimes-dinscriptions/apprentissage/_index.html
+    descendants_targets:
+    - "/formation/regimes-dinscriptions/apprentissage/"
+    - "/formation/regimes-dinscriptions/formation-continue/"
     path: "/pages/formation/regimes-dinscriptions"
     file: content/fr/pages/formation/regimes-dinscriptions/_index.html
   - title: Scolarité
+    slug: scolarite
     target: "/formation/scolarite/"
     kind: page
     new_tab: false
     children:
     - title: Candidater
+      slug: candidater
       target: "/formation/scolarite/candidater/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/scolarite/candidater"
       file: content/fr/pages/formation/scolarite/candidater/_index.html
     - title: Inscription administrative
+      slug: inscription-administrative
       target: "/formation/scolarite/inscription-administrative/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/scolarite/inscription-administrative"
       file: content/fr/pages/formation/scolarite/inscription-administrative/_index.html
     - title: La rentrée universitaire
+      slug: la-rentree-universitaire
       target: "/formation/scolarite/la-rentree-universitaire/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/scolarite/la-rentree-universitaire"
       file: content/fr/pages/formation/scolarite/la-rentree-universitaire/_index.html
     - title: Retrait de diplômes
+      slug: retrait-de-diplomes
       target: "/formation/scolarite/retrait-de-diplomes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/scolarite/retrait-de-diplomes"
       file: content/fr/pages/formation/scolarite/retrait-de-diplomes/_index.html
     - title: Carte AquiPass et Izly
+      slug: carte-aquipass-et-izly
       target: "/formation/scolarite/carte-aquipass-et-izly/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formation/scolarite/carte-aquipass-et-izly"
       file: content/fr/pages/formation/scolarite/carte-aquipass-et-izly/_index.html
+    descendants_targets:
+    - "/formation/scolarite/candidater/"
+    - "/formation/scolarite/carte-aquipass-et-izly/"
+    - "/formation/scolarite/inscription-administrative/"
+    - "/formation/scolarite/la-rentree-universitaire/"
+    - "/formation/scolarite/retrait-de-diplomes/"
     path: "/pages/formation/scolarite"
     file: content/fr/pages/formation/scolarite/_index.html
   - title: International
+    slug: international
     target: "/formation/international/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formation/international"
     file: content/fr/pages/formation/international/_index.html
+  descendants_targets:
+  - "/formation/international/"
+  - "/formation/offre-de-formation/diplomes/"
+  - "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
+  - "/formation/offre-de-formation/diplomes/diplome-d-universite/"
+  - "/formation/offre-de-formation/diplomes/licence-professionnelle/"
+  - "/formation/offre-de-formation/diplomes/master-professionnel/"
+  - "/formation/regimes-dinscriptions/"
+  - "/formation/regimes-dinscriptions/apprentissage/"
+  - "/formation/regimes-dinscriptions/formation-continue/"
+  - "/formation/scolarite/"
+  - "/formation/scolarite/candidater/"
+  - "/formation/scolarite/carte-aquipass-et-izly/"
+  - "/formation/scolarite/inscription-administrative/"
+  - "/formation/scolarite/la-rentree-universitaire/"
+  - "/formation/scolarite/retrait-de-diplomes/"
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
+  slug: vie-etudiante
   target: "/vie-etudiante/"
   kind: page
   new_tab: false
   children:
   - title: Centre de ressources Montaigne
+    slug: centre-de-ressources-montaigne
     target: "/vie-etudiante/centre-de-ressources-montaigne/"
     kind: page
     new_tab: false
     children:
     - title: Trouver un document
+      slug: trouver-un-document
       target: https://scd.u-bordeaux-montaigne.fr/contenus/tout
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Les autres bibliothèques
+      slug: les-autres-bibliotheques
       target: https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - https://scd.u-bordeaux-montaigne.fr/contenus/tout
+    - https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html
     path: "/pages/vie-etudiante/centre-de-ressources-montaigne"
     file: content/fr/pages/vie-etudiante/centre-de-ressources-montaigne/_index.html
   - title: Services numériques
+    slug: services-numeriques
     target: "/vie-etudiante/services-numeriques/"
     kind: page
     new_tab: false
     children:
     - title: WiFi universitaire
+      slug: wifi-universitaire
       target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/services-numeriques/wifi-universitaire"
       file: content/fr/pages/vie-etudiante/services-numeriques/wifi-universitaire/_index.html
     - title: Service d'impressions
+      slug: service-d-impressions
       target: "/vie-etudiante/services-numeriques/service-dimpressions/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/services-numeriques/service-dimpressions"
       file: content/fr/pages/vie-etudiante/services-numeriques/service-dimpressions/_index.html
     - title: Activation des comptes informatiques
+      slug: activation-des-comptes-informatiques
       target: "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques"
       file: content/fr/pages/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/_index.html
     - title: Emploi du temps
+      slug: emploi-du-temps
       target: https://edt.iut.u-bordeaux-montaigne.fr/portal/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Ma messagerie (Carbonio)
+      slug: ma-messagerie-carbonio
       target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Espace étudiant
+      slug: espace-etudiant
       target: https://etu.u-bordeaux-montaigne.fr
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
+    - "/vie-etudiante/services-numeriques/service-dimpressions/"
+    - "/vie-etudiante/services-numeriques/wifi-universitaire/"
+    - https://carbonio.u-bordeaux-montaigne.fr/
+    - https://edt.iut.u-bordeaux-montaigne.fr/portal/
+    - https://etu.u-bordeaux-montaigne.fr
     path: "/pages/vie-etudiante/services-numeriques"
     file: content/fr/pages/vie-etudiante/services-numeriques/_index.html
   - title: L'IUT au quotidien
+    slug: l-iut-au-quotidien
     target: "/vie-etudiante/liut-au-quotidien/"
     kind: page
     new_tab: false
     children:
     - title: Études et bonnes pratiques
+      slug: etudes-et-bonnes-pratiques
       target: "/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/_index.html
     - title: Citoyenneté étudiante
+      slug: citoyennete-etudiante
       target: "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/liut-au-quotidien/citoyennete-etudiante"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/_index.html
     - title: Vie associative
+      slug: vie-associative
       target: "/vie-etudiante/liut-au-quotidien/vie-associative/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/liut-au-quotidien/vie-associative"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/vie-associative/_index.html
     - title: Culture
+      slug: culture
       target: "/vie-etudiante/liut-au-quotidien/culture/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/liut-au-quotidien/culture"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/culture/_index.html
     - title: Sport
+      slug: sport
       target: "/vie-etudiante/liut-au-quotidien/sport/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/liut-au-quotidien/sport"
       file: content/fr/pages/vie-etudiante/liut-au-quotidien/sport/_index.html
+    descendants_targets:
+    - "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
+    - "/vie-etudiante/liut-au-quotidien/culture/"
+    - "/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/"
+    - "/vie-etudiante/liut-au-quotidien/sport/"
+    - "/vie-etudiante/liut-au-quotidien/vie-associative/"
     path: "/pages/vie-etudiante/liut-au-quotidien"
     file: content/fr/pages/vie-etudiante/liut-au-quotidien/_index.html
   - title: Aide & entraide
+    slug: aide-entraide
     target: "/vie-etudiante/aide-entraide/"
     kind: page
     new_tab: false
     children:
     - title: Aides sociales
+      slug: aides-sociales
       target: "/vie-etudiante/aide-entraide/aides-sociales/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/aide-entraide/aides-sociales"
       file: content/fr/pages/vie-etudiante/aide-entraide/aides-sociales/_index.html
     - title: Santé et prévention
+      slug: sante-et-prevention
       target: "/vie-etudiante/aide-entraide/sante-et-prevention/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/aide-entraide/sante-et-prevention"
       file: content/fr/pages/vie-etudiante/aide-entraide/sante-et-prevention/_index.html
     - title: Contacter un médiateur
+      slug: contacter-un-mediateur
       target: "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/aide-entraide/contacter-un-mediateur"
       file: content/fr/pages/vie-etudiante/aide-entraide/contacter-un-mediateur/_index.html
+    descendants_targets:
+    - "/vie-etudiante/aide-entraide/aides-sociales/"
+    - "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
+    - "/vie-etudiante/aide-entraide/sante-et-prevention/"
     path: "/pages/vie-etudiante/aide-entraide"
     file: content/fr/pages/vie-etudiante/aide-entraide/_index.html
+  descendants_targets:
+  - "/vie-etudiante/aide-entraide/"
+  - "/vie-etudiante/aide-entraide/aides-sociales/"
+  - "/vie-etudiante/aide-entraide/contacter-un-mediateur/"
+  - "/vie-etudiante/aide-entraide/sante-et-prevention/"
+  - "/vie-etudiante/centre-de-ressources-montaigne/"
+  - "/vie-etudiante/liut-au-quotidien/"
+  - "/vie-etudiante/liut-au-quotidien/citoyennete-etudiante/"
+  - "/vie-etudiante/liut-au-quotidien/culture/"
+  - "/vie-etudiante/liut-au-quotidien/etudes-et-bonnes-pratiques/"
+  - "/vie-etudiante/liut-au-quotidien/sport/"
+  - "/vie-etudiante/liut-au-quotidien/vie-associative/"
+  - "/vie-etudiante/services-numeriques/"
+  - "/vie-etudiante/services-numeriques/activation-des-comptes-informatiques/"
+  - "/vie-etudiante/services-numeriques/service-dimpressions/"
+  - "/vie-etudiante/services-numeriques/wifi-universitaire/"
+  - https://carbonio.u-bordeaux-montaigne.fr/
+  - https://edt.iut.u-bordeaux-montaigne.fr/portal/
+  - https://etu.u-bordeaux-montaigne.fr
+  - https://scd.u-bordeaux-montaigne.fr/contenus/tout
+  - https://www.u-bordeaux-montaigne.fr/fr/documentation/vos-bibliotheques.html
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Alumni
+  slug: alumni
   target: "/alumni/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/alumni"
   file: content/fr/pages/alumni/_index.html
 - title: Intranet
+  slug: intranet
   target: "/intranet/"
   kind: page
   new_tab: false
   children:
   - title: Aides et didacticiels
+    slug: aides-et-didacticiels
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
     kind: url
     new_tab: false
     children:
     - title: Webmail Carbonio
+      slug: webmail-carbonio
       target: https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/communiquer/webmail-carbonio.html
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Calendrier Carbonio
+      slug: calendrier-carbonio
       target: https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/planifier/calendrier-carbonio.html
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: WiFi universitaire
+      slug: wifi-universitaire
       target: "/vie-etudiante/services-numeriques/wifi-universitaire/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/services-numeriques/wifi-universitaire"
       file: content/fr/pages/vie-etudiante/services-numeriques/wifi-universitaire/_index.html
     - title: Service d'impressions
+      slug: service-d-impressions
       target: "/vie-etudiante/services-numeriques/service-dimpressions/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/services-numeriques/service-dimpressions"
       file: content/fr/pages/vie-etudiante/services-numeriques/service-dimpressions/_index.html
     - title: Voir toutes les aides...
+      slug: voir-toutes-les-aides
       target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/vie-etudiante/services-numeriques/service-dimpressions/"
+    - "/vie-etudiante/services-numeriques/wifi-universitaire/"
+    - https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/communiquer/webmail-carbonio.html
+    - https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/planifier/calendrier-carbonio.html
+    - https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
   - title: Outils pédagogiques
+    slug: outils-pedagogiques
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
     kind: url
     new_tab: false
     children:
     - title: e-Campus - Moodle
+      slug: e-campus-moodle
       target: https://e-campus.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Zoom - Visio
+      slug: zoom-visio
       target: http://u-bordeaux-montaigne-fr.zoom.us/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Enseigner avec le numérique
+      slug: enseigner-avec-le-numerique
       target: https://ealn.u-bordeaux-montaigne.fr/fr/index.html
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Voir tous les outils...
+      slug: voir-tous-les-outils
       target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - http://u-bordeaux-montaigne-fr.zoom.us/
+    - https://e-campus.u-bordeaux-montaigne.fr/
+    - https://ealn.u-bordeaux-montaigne.fr/fr/index.html
+    - https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
   - title: Applications administratives
+    slug: applications-administratives
     target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
     kind: url
     new_tab: false
     children:
     - title: GLPI - Demandes et incidents
+      slug: glpi-demandes-et-incidents
       target: https://service-info.iut.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Gestion ADE
+      slug: gestion-ade
       target: http://edt.iut.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Hamac - Congés
+      slug: hamac-conges
       target: https://cocktailubm-public.u-bordeaux.fr/cgi-bin/WebObjects/HamacB3P.woa
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Voir toutes les applications...
+      slug: voir-toutes-les-applications
       target: https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - http://edt.iut.u-bordeaux-montaigne.fr/
+    - https://cocktailubm-public.u-bordeaux.fr/cgi-bin/WebObjects/HamacB3P.woa
+    - https://service-info.iut.u-bordeaux-montaigne.fr/
+    - https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
   - title: Intranet du personnel
+    slug: intranet-du-personnel
     target: "/intranet/"
     kind: page
     new_tab: false
     children:
     - title: Carbonio - Mails et agenda
+      slug: carbonio-mails-et-agenda
       target: https://carbonio.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: ADE - Emplois du temps
+      slug: ade-emplois-du-temps
       target: http://edt.iut.u-bordeaux-montaigne.fr/portal
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: ENTP de l'université
+      slug: entp-de-l-universite
       target: https://entp.u-bordeaux-montaigne.fr/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Annuaire de l'université
+      slug: annuaire-de-l-universite
       target: https://intranet.u-bordeaux-montaigne.fr/annuaire/
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Voir toutes les infos...
+      slug: voir-toutes-les-infos
       target: "/intranet/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/intranet"
       file: content/fr/pages/intranet/_index.html
+    descendants_targets:
+    - "/intranet/"
+    - http://edt.iut.u-bordeaux-montaigne.fr/portal
+    - https://carbonio.u-bordeaux-montaigne.fr/
+    - https://entp.u-bordeaux-montaigne.fr/
+    - https://intranet.u-bordeaux-montaigne.fr/annuaire/
     path: "/pages/intranet"
     file: content/fr/pages/intranet/_index.html
+  descendants_targets:
+  - "/intranet/"
+  - "/vie-etudiante/services-numeriques/service-dimpressions/"
+  - "/vie-etudiante/services-numeriques/wifi-universitaire/"
+  - http://edt.iut.u-bordeaux-montaigne.fr/
+  - http://edt.iut.u-bordeaux-montaigne.fr/portal
+  - http://u-bordeaux-montaigne-fr.zoom.us/
+  - https://carbonio.u-bordeaux-montaigne.fr/
+  - https://cocktailubm-public.u-bordeaux.fr/cgi-bin/WebObjects/HamacB3P.woa
+  - https://e-campus.u-bordeaux-montaigne.fr/
+  - https://ealn.u-bordeaux-montaigne.fr/fr/index.html
+  - https://entp.u-bordeaux-montaigne.fr/
+  - https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/communiquer/webmail-carbonio.html
+  - https://entp.u-bordeaux-montaigne.fr/fr/aide-et-didacticiels/numerique-1/planifier/calendrier-carbonio.html
+  - https://intranet.u-bordeaux-montaigne.fr/annuaire/
+  - https://service-info.iut.u-bordeaux-montaigne.fr/
+  - https://www.iut.u-bordeaux-montaigne.fr/intranet/#aides-et-didacticiels
+  - https://www.iut.u-bordeaux-montaigne.fr/intranet/#applications-administratives
+  - https://www.iut.u-bordeaux-montaigne.fr/intranet/#outils-pedagogiques-en-ligne
   path: "/pages/intranet"
   file: content/fr/pages/intranet/_index.html
 
