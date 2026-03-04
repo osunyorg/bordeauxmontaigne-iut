@@ -26,6 +26,6 @@ allowed_domains:
   - "t.co"
   - "twitter.com"
   - "platform.twitter.com"
-  - "embed.radiofrance.fr"
-  - "www.canva.com"
   - "view.genially.com"
+  - "www.canva.com"
+  - "embed.radiofrance.fr"
