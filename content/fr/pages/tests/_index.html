@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/tests/"
 slug: "tests"
 date: 2023-12-12T16:22:06+01:00
-lastmod: 2026-03-25T15:55:40+01:00
+lastmod: 2026-03-25T17:24:37+01:00
 meta:
   hugo:
     permalink: "/tests/"
@@ -18,7 +18,7 @@ meta:
     slug: "tests"
   dates:
     created_at: 2023-01-03T11:14:49+01:00
-    updated_at: 2026-03-25T15:55:40+01:00
+    updated_at: 2026-03-25T17:24:37+01:00
     published_at: 2023-12-12T16:22:06+01:00
 search:
   id: "df27c062-f6ca-4cf2-8fe7-792c9ab9544f"
@@ -30,7 +30,7 @@ search:
     Tests
 
   body: >-
-    <p>Tests CTA  <br> CTA - forte mise en avant  <br>Test</p>  <p>Test <br>#test</p>  <p> CTA - simple  <br>Test</p>  <p>Test <br>#test</p>
+    <p>Tests bloc chapitre  <br> Bloc chapitre - simple  <br>Test bloc chapitre avec mise en page "Simple".</p>  <p> Bloc chapitre - légère  <br>Test bloc chapitre avec mise en page "Légère mise en avant".</p>  <p> Bloc chapitre - forte  <br>Test bloc chapitre avec mise en page "Forte mise en avant".</p>
 
 breadcrumbs:
   - title: >-
@@ -59,16 +59,16 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 4
+  seconds: 12
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: title
     title: >-
-      Tests CTA
+      Tests bloc chapitre
     slug: >-
-      tests-cta
+      tests-bloc-chapitre
     ranks:
       base: 2
       self: 2
@@ -76,7 +76,7 @@ contents:
       active: true
       title: 
         value: >-
-          Tests CTA
+          Tests bloc chapitre
         heading: 2
 
     data:
@@ -84,11 +84,11 @@ contents:
 
 
   - kind: block
-    template: call_to_action
+    template: chapter
     title: >-
-      CTA - forte mise en avant
+      Bloc chapitre - simple
     slug: >-
-      cta-forte-mise-en-avant
+      bloc-chapitre-simple
     ranks:
       base: 3
       self: 3
@@ -96,53 +96,69 @@ contents:
       active: true
       title: 
         value: >-
-          CTA - forte mise en avant
+          Bloc chapitre - simple
         heading: 3
-      description: >-
-        <p>Test</p>
-    data:
-      layout: accent_background
-      text: >-
-        <p>Test</p>
 
-      buttons:
-        - 
-          title: >-
-            Test
-          url: >-
-            #test
-          target_blank: false
-
-
-  - kind: block
-    template: call_to_action
-    title: >-
-      CTA - simple
-    slug: >-
-      cta-simple
-    ranks:
-      base: 3
-      self: 3
-    top:
-      active: true
-      title: 
-        value: >-
-          CTA - simple
-        heading: 3
-      description: >-
-        <p>Test</p>
     data:
       layout: no_background
       text: >-
-        <p>Test</p>
+        <p>Test bloc chapitre avec mise en page "Simple".</p>
 
-      buttons:
-        - 
-          title: >-
-            Test
-          url: >-
-            #test
-          target_blank: false
+
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Bloc chapitre - légère
+    slug: >-
+      bloc-chapitre-legere
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Bloc chapitre - légère
+        heading: 3
+
+    data:
+      layout: alt_background
+      text: >-
+        <p>Test bloc chapitre avec mise en page "Légère mise en avant".</p>
+
+
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Bloc chapitre - forte
+    slug: >-
+      bloc-chapitre-forte
+    ranks:
+      base: 3
+      self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Bloc chapitre - forte
+        heading: 3
+
+    data:
+      layout: accent_background
+      text: >-
+        <p>Test bloc chapitre avec mise en page "Forte mise en avant".</p>
+
+
+
+
 
 
 
