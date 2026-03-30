@@ -68,6 +68,12 @@
     @include in-page-with-or-without-sidebar
         .block-title
             @include h4
+    body:where(:not(.full-width)) &
+        &--accent_background,
+        &--alt_background
+            + .block-chapter--accent_background,
+            + .block-chapter--alt_background
+                margin-top: var(--block-space-y)
 
 .block-call_to_action
     .call_to_action
