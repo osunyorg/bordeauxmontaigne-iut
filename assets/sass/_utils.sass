@@ -19,8 +19,6 @@
             background-color: $color
     .block-chapter
         &--accent_background
-            @include in-page-with-sidebar
-                background-color: $color
             .chapter
                 background-color: $color !important
     ul.diplomas > li,
@@ -38,4 +36,8 @@
         ul
             li:hover
                 background-color: $color
+
+    &.full-width
+        .block-chapter--accent_background
+            background-color: $color
 
