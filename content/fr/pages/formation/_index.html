@@ -12,7 +12,7 @@ aliases:
   - /../fr/formation/
   - /../fr/accueil/formation/
 date: 2023-07-20T15:36:45+02:00
-lastmod: 2025-11-05T16:39:13+01:00
+lastmod: 2026-04-02T16:43:49+02:00
 meta:
   hugo:
     permalink: "/formation/"
@@ -21,7 +21,7 @@ meta:
     slug: "formation"
   dates:
     created_at: 2022-04-07T11:47:54+02:00
-    updated_at: 2025-11-05T16:39:13+01:00
+    updated_at: 2026-04-02T16:43:49+02:00
     published_at: 2023-07-20T15:36:45+02:00
 search:
   id: "1e63dfc8-f71b-4ec5-a2b0-597169e7f50a"
@@ -34,7 +34,7 @@ search:
   summary: >-
     <p>Découvrez notre offre de formation en détails et consultez les procédures pour rejoindre notre établissement.</p>
   body: >-
-    <p>En détail  <br> Actualités  </p>
+    <p>Actualités  </p>
 
 breadcrumbs:
   - title: >-
@@ -44,10 +44,10 @@ breadcrumbs:
       Formation
 
 design:
-  full_width: false
+  full_width: true
   toc:
-    present: true
-    offcanvas: false
+    present: false
+    offcanvas: true
 
 
 position: 5
@@ -91,38 +91,18 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: title
-    title: >-
-      En détail
-    slug: >-
-      en-detail
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          En détail
-        heading: 2
-
-    data:
-      layout: classic
-
-
-  - kind: block
     template: pages
 
 
     ranks:
-      base: 3
-      children: 3
+      base: 2
+      children: 2
     top:
       active: true
       title: 
         value: >-
           Formation
-        heading: 3
+        heading: 2
         link: "/formation/"
 
     data:
@@ -132,12 +112,12 @@ contents:
         slug: "formation"
         file: "content/fr/pages/formation/_index.html"
       options:
-        image: false
+        image: true
         categories: false
         main_summary: false
-        summary: false
+        summary: true
 
-      layout: list
+      layout: alternate
       pages:
         - permalink: "/formation/offre-de-formation/"
           path: "/programs"
