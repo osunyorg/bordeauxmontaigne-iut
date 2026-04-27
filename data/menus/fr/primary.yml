@@ -219,16 +219,16 @@ items:
       file: content/fr/pages/formation/regimes-dinscriptions/formation-continue/_index.html
     - title: Apprentissage
       slug: apprentissage
-      target: "/formation/regimes-dinscriptions/apprentissage/"
-      kind: page
-      new_tab: false
+      target: https://www.u-bordeaux-montaigne.fr/fr/formations/formation-en-alternance.html
+      kind: url
+      new_tab: true
       children: []
       descendants_targets: []
-      path: "/pages/formation/regimes-dinscriptions/apprentissage"
-      file: content/fr/pages/formation/regimes-dinscriptions/apprentissage/_index.html
+      path:
+      file:
     descendants_targets:
-    - "/formation/regimes-dinscriptions/apprentissage/"
     - "/formation/regimes-dinscriptions/formation-continue/"
+    - https://www.u-bordeaux-montaigne.fr/fr/formations/formation-en-alternance.html
     path: "/pages/formation/regimes-dinscriptions"
     file: content/fr/pages/formation/regimes-dinscriptions/_index.html
   - title: Scolarité
@@ -307,7 +307,6 @@ items:
   - "/formation/offre-de-formation/diplomes/licence-professionnelle/"
   - "/formation/offre-de-formation/diplomes/master-professionnel/"
   - "/formation/regimes-dinscriptions/"
-  - "/formation/regimes-dinscriptions/apprentissage/"
   - "/formation/regimes-dinscriptions/formation-continue/"
   - "/formation/scolarite/"
   - "/formation/scolarite/candidater/"
@@ -315,6 +314,7 @@ items:
   - "/formation/scolarite/inscription-administrative/"
   - "/formation/scolarite/la-rentree-universitaire/"
   - "/formation/scolarite/retrait-de-diplomes/"
+  - https://www.u-bordeaux-montaigne.fr/fr/formations/formation-en-alternance.html
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
