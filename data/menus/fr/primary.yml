@@ -226,8 +226,28 @@ items:
       descendants_targets: []
       path:
       file:
+    - title: Modes de financement
+      slug: modes-de-financement
+      target: "/formation/regimes-dinscriptions/modes-de-financement/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/regimes-dinscriptions/modes-de-financement"
+      file: content/fr/pages/formation/regimes-dinscriptions/modes-de-financement/_index.html
+    - title: Codes RNCP
+      slug: codes-rncp
+      target: "/formation/regimes-dinscriptions/codes-rncp/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/formation/regimes-dinscriptions/codes-rncp"
+      file: content/fr/pages/formation/regimes-dinscriptions/codes-rncp/_index.html
     descendants_targets:
+    - "/formation/regimes-dinscriptions/codes-rncp/"
     - "/formation/regimes-dinscriptions/formation-continue/"
+    - "/formation/regimes-dinscriptions/modes-de-financement/"
     - https://www.u-bordeaux-montaigne.fr/fr/formations/formation-en-alternance.html
     path: "/pages/formation/regimes-dinscriptions"
     file: content/fr/pages/formation/regimes-dinscriptions/_index.html
@@ -307,7 +327,9 @@ items:
   - "/formation/offre-de-formation/diplomes/licence-professionnelle/"
   - "/formation/offre-de-formation/diplomes/master-professionnel/"
   - "/formation/regimes-dinscriptions/"
+  - "/formation/regimes-dinscriptions/codes-rncp/"
   - "/formation/regimes-dinscriptions/formation-continue/"
+  - "/formation/regimes-dinscriptions/modes-de-financement/"
   - "/formation/scolarite/"
   - "/formation/scolarite/candidater/"
   - "/formation/scolarite/carte-aquipass-et-izly/"
