@@ -10,7 +10,7 @@ bodyclass: >-
 url: "/notre-institut/recherche/"
 slug: "recherche"
 date: 2024-10-16T09:38:30+02:00
-lastmod: 2024-10-16T10:03:17+02:00
+lastmod: 2026-05-06T17:02:05+02:00
 meta:
   hugo:
     permalink: "/notre-institut/recherche/"
@@ -19,7 +19,7 @@ meta:
     slug: "recherche"
   dates:
     created_at: 2022-06-09T17:01:18+02:00
-    updated_at: 2024-10-16T10:03:17+02:00
+    updated_at: 2026-05-06T17:02:05+02:00
     published_at: 2024-10-16T09:38:30+02:00
 search:
   id: "30faf274-2635-42d1-ab8f-5be946a37241"
@@ -78,5 +78,78 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      mode: category
+      category: "recherche"
+      layout: large
+      options:
+        author: false
+        categories: false
+        date: true
+        image: true
+        reading_time: true
+        subtitle: true
+        summary: true
+
+      posts:
+
+      quantity: 0
+
+
+  - kind: block
+    template: pages
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Recherche
+        heading: 2
+        link: "/notre-institut/recherche/"
+
+    data:
+      page:
+        permalink: "/notre-institut/recherche/"
+        path: "/pages/notre-institut/recherche"
+        slug: "recherche"
+        file: "content/fr/pages/notre-institut/recherche/_index.html"
+      options:
+        image: true
+        subtitle: true
+        categories: false
+        main_summary: true
+        summary: true
+
+      layout: large
+      pages:
+        - permalink: "/notre-institut/recherche/equipe-de-recherche/"
+          path: "/researchers"
+          slug: "equipe-de-recherche"
+          file: "content/fr/researchers/_index.html"
+          name: >-
+            Équipe de recherche
+        - permalink: "/notre-institut/recherche/publications/"
+          path: "/publications"
+          slug: "publications"
+          file: "content/fr/publications/_index.html"
+          name: >-
+            Publications HAL
+
+      quantity: 2
+
+
 
 ---
