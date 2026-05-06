@@ -89,9 +89,29 @@ items:
       descendants_targets: []
       path: "/pages/notre-institut/ressources/espaces-et-equipements"
       file: content/fr/pages/notre-institut/ressources/espaces-et-equipements/_index.html
+    - title: Le Centre de Ressources Montaigne
+      slug: le-centre-de-ressources-montaigne
+      target: "/vie-etudiante/centre-de-ressources-montaigne/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/vie-etudiante/centre-de-ressources-montaigne"
+      file: content/fr/pages/vie-etudiante/centre-de-ressources-montaigne/_index.html
+    - title: Services numériques
+      slug: services-numeriques
+      target: "/vie-etudiante/services-numeriques/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/vie-etudiante/services-numeriques"
+      file: content/fr/pages/vie-etudiante/services-numeriques/_index.html
     descendants_targets:
     - "/notre-institut/ressources/equipe/"
     - "/notre-institut/ressources/espaces-et-equipements/"
+    - "/vie-etudiante/centre-de-ressources-montaigne/"
+    - "/vie-etudiante/services-numeriques/"
     path: "/pages/notre-institut/ressources"
     file: content/fr/pages/notre-institut/ressources/_index.html
   - title: Informations pratiques
@@ -145,6 +165,8 @@ items:
   - "/notre-institut/ressources/"
   - "/notre-institut/ressources/equipe/"
   - "/notre-institut/ressources/espaces-et-equipements/"
+  - "/vie-etudiante/centre-de-ressources-montaigne/"
+  - "/vie-etudiante/services-numeriques/"
   path: "/pages/notre-institut"
   file: content/fr/pages/notre-institut/_index.html
 - title: Formation
