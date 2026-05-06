@@ -94,7 +94,7 @@ section_taxonomies:
         file: "content/fr/posts_categories/vie-etudiante/_index.html"
         name: >-
           Vie étudiante
-        count: 32
+        count: 33
         children:
           - permalink: "/actualites/vie-etudiante/culture/"
             path: "/posts_categories/vie-etudiante/culture"
@@ -102,7 +102,7 @@ section_taxonomies:
             file: "content/fr/posts_categories/vie-etudiante/culture/_index.html"
             name: >-
               Culture
-            count: 7
+            count: 8
 
       - permalink: "/actualites/actualite-de-l-universite/"
         path: "/posts_categories/actualite-de-l-universite"
@@ -221,6 +221,43 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/rencontre-avec-charlotte-stephan-boesse/"
+          path: "/events/2026/05/26-rencontre-avec-charlotte-stephan-boesse"
+          slug: "rencontre-avec-charlotte-stephan-boesse"
+          file: "content/fr/events/2026/05/26-rencontre-avec-charlotte-stephan-boesse.html"
+          name: >-
+            Rencontre avec Charlotte Stéphan Boëssé
+
+      quantity: 1
 
 
   - kind: block
