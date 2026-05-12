@@ -28,4 +28,5 @@ allowed_domains:
   - "platform.twitter.com"
   - "view.genially.com"
   - "www.canva.com"
+  - "outreachdashboard.wmflabs.org"
   - "embed.radiofrance.fr"
