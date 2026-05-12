@@ -15,6 +15,7 @@ allowed_domains:
   - "vimeo.com"
   - "player.vimeo.com"
   - "vumbnail.com"
+  - "upload.wikimedia.org"
   - "arte.tv"
   - "www.arte.tv"
   - "api-cdn.arte.tv"
