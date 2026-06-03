@@ -106,6 +106,14 @@ footer#document-footer
         border-color: white
         --btn-color: white
         --btn-hover-color: black
+
+    .hero-meta
+        li > span
+            color: $hero-color
+            opacity: 0.7
+        a
+            @include link($hero-color)
+
     @include media-breakpoint-up(desktop)
         .content
             figure

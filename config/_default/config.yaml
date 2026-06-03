@@ -33,6 +33,14 @@ params:
         image: true
         subtitle: true
         summary: true
+  projects:
+    single:
+      meta:
+        position: hero
+        options:
+          reading_time: false
+          share: false
+          with_labels: true
   schools:
     sitemap:
       ignore: true
