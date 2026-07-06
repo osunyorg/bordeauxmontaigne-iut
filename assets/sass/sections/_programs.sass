@@ -6,7 +6,8 @@ ul.categories
             @include media-breakpoint-up(md)
                 @include h3
 
-.diplomas__taxonomy
+.diplomas__taxonomy,
+.diplomas__section
     .diplomas
         > li 
             > a
@@ -14,12 +15,14 @@ ul.categories
             .programs
                 > li > a
                     @include h5
-.diplomas__term
+.diplomas__term,
+.diplomas__page
     ol.programs
         li .title
             @include h4
 
 .diplomas__term,
+.diplomas__page,
 .programs__section
     .hero
         @include media-breakpoint-down(desktop)
