@@ -189,7 +189,7 @@ items:
       children: []
       descendants_targets: []
       path: "/diplomas/bachelor-universitaire-de-technologie"
-      file: content/fr/diplomas/bachelor-universitaire-de-technologie/_index.html
+      file: content/fr/diplomas/bachelor-universitaire-de-technologie.html
     - title: Licence professionnelle
       slug: licence-professionnelle
       target: "/formation/offre-de-formation/diplomes/licence-professionnelle/"
@@ -198,7 +198,7 @@ items:
       children: []
       descendants_targets: []
       path: "/diplomas/licence-professionnelle"
-      file: content/fr/diplomas/licence-professionnelle/_index.html
+      file: content/fr/diplomas/licence-professionnelle.html
     - title: Diplôme d'Université
       slug: diplome-d-universite
       target: "/formation/offre-de-formation/diplomes/diplome-d-universite/"
@@ -207,7 +207,7 @@ items:
       children: []
       descendants_targets: []
       path: "/diplomas/diplome-d-universite"
-      file: content/fr/diplomas/diplome-d-universite/_index.html
+      file: content/fr/diplomas/diplome-d-universite.html
     - title: Master professionnel
       slug: master-professionnel
       target: "/formation/offre-de-formation/diplomes/master-professionnel/"
@@ -216,7 +216,7 @@ items:
       children: []
       descendants_targets: []
       path: "/diplomas/master-professionnel"
-      file: content/fr/diplomas/master-professionnel/_index.html
+      file: content/fr/diplomas/master-professionnel.html
     descendants_targets:
     - "/formation/offre-de-formation/diplomes/bachelor-universitaire-de-technologie/"
     - "/formation/offre-de-formation/diplomes/diplome-d-universite/"
