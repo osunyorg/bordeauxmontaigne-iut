@@ -29,5 +29,7 @@ allowed_domains:
   - "platform.twitter.com"
   - "view.genially.com"
   - "www.canva.com"
+  - "www.calameo.com"
   - "outreachdashboard.wmflabs.org"
   - "embed.radiofrance.fr"
+  - "bordeauxmontaigne.osuny.org"
