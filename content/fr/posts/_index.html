@@ -12,7 +12,7 @@ aliases:
   - /../fr/accueil/actualites/
   - /../fr/actualites/
 date: 2023-12-18T10:14:26+01:00
-lastmod: 2026-05-05T15:44:04+02:00
+lastmod: 2026-09-22T10:47:06+02:00
 meta:
   hugo:
     permalink: "/actualites/"
@@ -21,7 +21,7 @@ meta:
     slug: "actualites"
   dates:
     created_at: 2022-04-08T11:43:58+02:00
-    updated_at: 2026-05-05T15:44:04+02:00
+    updated_at: 2026-09-22T10:47:06+02:00
     published_at: 2023-12-18T10:14:26+01:00
 search:
   id: "3264a6d6-d4fa-4ed3-86ca-df6bc647b763"
@@ -33,7 +33,7 @@ search:
     Actualités
 
   body: >-
-    <p>Actualités  </p>
+    <p>En ce moment...  </p>
 
 breadcrumbs:
   - title: >-
@@ -229,12 +229,32 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
+    template: title
+    title: >-
+      En ce moment...
+    slug: >-
+      en-ce-moment
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          En ce moment...
+        heading: 2
+
+    data:
+      layout: classic
+
+
+  - kind: block
     template: agenda
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
@@ -271,8 +291,8 @@ contents:
 
 
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
 
@@ -286,7 +306,7 @@ contents:
         summary: true
         status: false
 
-      layout: list
+      layout: grid
 
 
       title_link: "/expositions/"
@@ -299,26 +319,6 @@ contents:
             Dune, entre fiction et géographie
 
       quantity: 1
-
-  - kind: block
-    template: title
-    title: >-
-      Actualités
-    slug: >-
-      actualites
-    ranks:
-      base: 2
-      self: 2
-    top:
-      active: true
-      title: 
-        value: >-
-          Actualités
-        heading: 2
-
-    data:
-      layout: classic
-
 
 
 ---
