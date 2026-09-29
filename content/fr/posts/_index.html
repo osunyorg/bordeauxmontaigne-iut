@@ -80,14 +80,14 @@ section_taxonomies:
         file: "content/fr/posts_categories/actualite-de-l-universite/_index.html"
         name: >-
           Actualité de l'université
-        count: 32
+        count: 33
       - permalink: "/actualites/ressources/"
         path: "/posts_categories/ressources"
         slug: "ressources"
         file: "content/fr/posts_categories/ressources/_index.html"
         name: >-
           Centre de Ressources
-        count: 28
+        count: 29
       - permalink: "/actualites/recherche/"
         path: "/posts_categories/recherche"
         slug: "recherche"
@@ -108,7 +108,7 @@ section_taxonomies:
         file: "content/fr/posts_categories/vie-etudiante/_index.html"
         name: >-
           Vie étudiante
-        count: 42
+        count: 43
         children:
           - permalink: "/actualites/vie-etudiante/culture/"
             path: "/posts_categories/vie-etudiante/culture"
@@ -249,6 +249,39 @@ contents:
 
 
 
+  - kind: block
+    template: exhibitions
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: all
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: "/expositions/"
+      exhibitions:
+        - permalink: "/expositions/2026-10-23-fierte/"
+          path: "/exhibitions/2026-10-23-fierte"
+          slug: "fierte"
+          file: "content/fr/exhibitions/2026-10-23-fierte.html"
+          name: >-
+            "Fierté"
+
+      quantity: 1
 
 
 ---
