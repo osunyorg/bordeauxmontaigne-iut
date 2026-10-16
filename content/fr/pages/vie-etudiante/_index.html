@@ -12,7 +12,7 @@ aliases:
   - /../fr/vie-etudiante/
   - /../fr/accueil/vie-etudiante/
 date: 2023-07-20T15:36:50+02:00
-lastmod: 2026-03-31T14:27:44+02:00
+lastmod: 2026-07-24T11:47:46+02:00
 meta:
   hugo:
     permalink: "/vie-etudiante/"
@@ -21,7 +21,7 @@ meta:
     slug: "vie-etudiante"
   dates:
     created_at: 2021-10-21T10:58:11+02:00
-    updated_at: 2026-03-31T14:27:44+02:00
+    updated_at: 2026-07-24T11:47:46+02:00
     published_at: 2023-07-20T15:36:50+02:00
 search:
   id: "d8b1608d-94a1-43d9-89c0-fb4173be485f"
@@ -162,22 +162,18 @@ contents:
       description: >-
         <p>Vous pouvez consulter les documents suivants afin de retrouver toutes les informations essentielles à votre vie d'étudiant·e à l'IUT et à l'Université Bordeaux Montaigne.</p>
       files:
-        -
-          id: "07e2dfe9-0ecc-4a38-8a0d-1560a3b95f45"
-          title: >-
+        - permalink: "/fichiers/2026/livret-accueil-iut-2026-2027-v3-webpdf/"
+          path: "/files/2026/livret-accueil-iut-2026-2027-v3-webpdf"
+          slug: "livret-accueil-iut-2026-2027-v3-webpdf"
+          file: "content/fr/files/2026/livret-accueil-iut-2026-2027-v3-webpdf.html"
+          name: >-
             Livret d'accueil de l'étudiant
-          file:
-            id: "07e2dfe9-0ecc-4a38-8a0d-1560a3b95f45"
-          image:
-            id: "25c271ea-6f3f-4cb2-a4d4-5d4712b662ee"
-        -
-          id: "1b4fb578-37a5-4239-a1b8-544deaa2f0a8"
-          title: >-
+        - permalink: "/fichiers/2026/guide-etudiant-2025pdf/"
+          path: "/files/2026/guide-etudiant-2025pdf"
+          slug: "guide-etudiant-2025pdf"
+          file: "content/fr/files/2026/guide-etudiant-2025pdf.html"
+          name: >-
             Guide de ma vie étudiante
-          file:
-            id: "1b4fb578-37a5-4239-a1b8-544deaa2f0a8"
-          image:
-            id: "ddfaaacf-572c-40d8-900d-51157ae0b397"
 
 
   - kind: block
@@ -200,6 +196,55 @@ contents:
       layout: classic
 
 
+  - kind: block
+    template: agenda
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: list
+
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2026/octobre-rose-a-liut-2026/"
+          path: "/events/2026/10/20-11-00-octobre-rose-a-liut-2026"
+          slug: "octobre-rose-a-liut-2026"
+          file: "content/fr/events/2026/10/20-11-00-octobre-rose-a-liut-2026.html"
+          name: >-
+            Octobre Rose à l'IUT
+        - permalink: "/agenda/2026/reparationreemploi-grace-au-bricovan/"
+          path: "/events/2026/11/27-10-00-reparationreemploi-grace-au-bricovan"
+          slug: "reparationreemploi-grace-au-bricovan"
+          file: "content/fr/events/2026/11/27-10-00-reparationreemploi-grace-au-bricovan.html"
+          name: >-
+            Réparation/réemploi grâce au Bricovan
+        - permalink: "/agenda/2027/salon-de-letudiant-2027/"
+          path: "/events/2027/01/08-09-00-salon-de-letudiant-2027"
+          slug: "salon-de-letudiant-2027"
+          file: "content/fr/events/2027/01/08-09-00-salon-de-letudiant-2027.html"
+          name: >-
+            Salon de l'étudiant
+
+      quantity: 3
 
   - kind: block
     template: posts
@@ -225,28 +270,28 @@ contents:
         summary: true
 
       posts:
-        - permalink: "/actualites/2026-07-16-les-campulsations-19e-edition-du-festival-de-rentree-du-crous/"
-          path: "/posts/2026/2026-07-16-les-campulsations-19e-edition-du-festival-de-rentree-du-crous"
-          slug: "les-campulsations-19e-edition-du-festival-de-rentree-du-crous"
-          file: "content/fr/posts/2026/2026-07-16-les-campulsations-19e-edition-du-festival-de-rentree-du-crous.html"
+        - permalink: "/actualites/2026-09-28-conge-menstruel-jusqu-a-15-jours-d-absence-par-an-pour-les-etudiant-es/"
+          path: "/posts/2026/2026-09-28-conge-menstruel-jusqu-a-15-jours-d-absence-par-an-pour-les-etudiant-es"
+          slug: "conge-menstruel-jusqu-a-15-jours-d-absence-par-an-pour-les-etudiant-es"
+          file: "content/fr/posts/2026/2026-09-28-conge-menstruel-jusqu-a-15-jours-d-absence-par-an-pour-les-etudiant-es.html"
           name: >-
-            Les Campulsations : 19e édition du festival de rentrée du Crous
-        - permalink: "/actualites/2026-07-15-rentree-culturelle-2026-2027/"
-          path: "/posts/2026/2026-07-15-rentree-culturelle-2026-2027"
-          slug: "rentree-culturelle-2026-2027"
-          file: "content/fr/posts/2026/2026-07-15-rentree-culturelle-2026-2027.html"
+            Congé menstruel : jusqu'à 15 jours d'absence par an pour les étudiant·es
+        - permalink: "/actualites/2026-09-22-permanences-du-point-justice-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne/"
+          path: "/posts/2026/2026-09-22-permanences-du-point-justice-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne"
+          slug: "permanences-du-point-justice-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne"
+          file: "content/fr/posts/2026/2026-09-22-permanences-du-point-justice-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne.html"
           name: >-
-            Rentrée culturelle 2026-2027
-        - permalink: "/actualites/2026-07-13-trouvez-votre-prochain-logement-etudiant/"
-          path: "/posts/2026/2026-07-13-trouvez-votre-prochain-logement-etudiant"
-          slug: "trouvez-votre-prochain-logement-etudiant"
-          file: "content/fr/posts/2026/2026-07-13-trouvez-votre-prochain-logement-etudiant.html"
+            Permanences du Point Justice à l'Université Bordeaux Montaigne
+        - permalink: "/actualites/2026-09-18-le-festival-du-film-social-vient-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne/"
+          path: "/posts/2026/2026-09-18-le-festival-du-film-social-vient-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne"
+          slug: "le-festival-du-film-social-vient-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne"
+          file: "content/fr/posts/2026/2026-09-18-le-festival-du-film-social-vient-a-l-universite-bordeaux-montaigne-universite-bordeaux-montaigne.html"
           name: >-
-            Trouvez votre prochain logement étudiant
-        - permalink: "/actualites/2026-07-03-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens/"
-          path: "/posts/2026/2026-07-03-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens"
+            Le festival du film social vient à l’université Bordeaux Montaigne
+        - permalink: "/actualites/2026-09-11-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens/"
+          path: "/posts/2026/2026-09-11-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens"
           slug: "etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens"
-          file: "content/fr/posts/2026/2026-07-03-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens.html"
+          file: "content/fr/posts/2026/2026-09-11-etudiant-es-en-situation-de-handicap-besoin-d-amenagements-pour-vos-etudes-ou-vos-examens.html"
           name: >-
             Etudiant·es en situation de handicap : besoin d'aménagements pour vos études ou vos examens ?
 

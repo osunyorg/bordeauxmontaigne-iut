@@ -9,12 +9,13 @@ fr:
   buildFuture: true
   params:
     contact_details:
-      social_networks:
-        facebook:
+      emails:
+        email:
           label: >-
-            iutmontaigne
+            accueil-iut@iut.u-bordeaux-montaigne.fr
           value: >-
-            https://www.facebook.com/iutmontaigne
+            mailto:accueil-iut@iut.u-bordeaux-montaigne.fr
+      social_networks:
         instagram:
           label: >-
             iutmontaigne
