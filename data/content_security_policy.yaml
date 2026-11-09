@@ -21,7 +21,6 @@ allowed_domains:
   - "api-cdn.arte.tv"
   - "w.soundcloud.com"
   - "soundcloud.com"
-  - "plan.u-bordeaux-montaigne.fr"
   - "www.instagram.com"
   - "www.w3.org"
   - "t.co"
