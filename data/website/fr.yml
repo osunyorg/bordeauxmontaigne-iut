@@ -2,8 +2,24 @@ about:
   label: IUT Bordeaux Montaigne
 default:
 contents_reading_time:
-  seconds: 0
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: chapter
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      layout: no_background
+      text: >-
+        <p>L'IUT Bordeaux Montaigne est une composante de l'Université Bordeaux Montaigne.</p>
+
+
+
 
